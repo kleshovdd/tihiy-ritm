@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 2,
+  "locale": "ru-RU",
+  "contentStatus": "reviewed-wellness-content-not-medical-advice",
+  "globalSafety": {
+    "preSessionNoticeKey": "safety.pre_session",
+    "stopNoticeKey": "safety.stop_if_unwell",
+    "allowImmediateStop": true,
+    "copy": "Дышите мягко и без усилия. Если появятся головокружение, боль, выраженная одышка, тревога или сильный дискомфорт, остановите практику и вернитесь к обычному дыханию. Приложение не заменяет медицинскую помощь."
+  },
+  "defaults": {
+    "voiceMode": "balanced",
+    "ambientId": "gentle-ripples",
+    "breathCueThemeId": "soft-breathing-texture",
+    "finishCurrentCycle": true,
+    "countdownSeconds": 3
+  },
+  "practices": [
+    {
+      "id": "quick-4-6",
+      "title": "Тихая минута",
+      "subtitle": "Короткая пауза с более длинным выдохом",
+      "intent": "quick",
+      "purpose": "Быстро переключить внимание на спокойный, предсказуемый ритм.",
+      "claim": "Короткая wellness-пауза без обещаний лечебного эффекта.",
+      "difficulty": "beginner",
+      "whenToUse": ["между задачами", "после напряжённого разговора", "когда мало времени"],
+      "instructions": [
+        "Вдохните носом на четыре счёта.",
+        "Выдыхайте носом или ртом на шесть счётов.",
+        "Сохраняйте комфортный объём дыхания."
+      ],
+      "cautions": ["Если шестисекундный выдох неудобен, вернитесь к обычному дыханию."],
+      "sourceRefs": ["bentley-2023-systematic-review", "nccih-relaxation-safety"],
+      "durationOptionsSeconds": [60, 120],
+      "defaultDurationSeconds": 120,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["gentle-ripples", "luminous-tranquility", "drifting-dreams"],
+      "recommendedPaletteId": "blue-mint",
+      "voiceModeOverride": "balanced",
+      "script": {
+        "introduction": ["practice.quick.intro"],
+        "preparation": ["common.arrive", "practice.quick.route"],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 4,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.no_rush"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale_gently", "cue.inhale_slow", "cue.inhale"],
+          "exhale": ["cue.exhale_slow", "cue.exhale_easy", "cue.exhale_release"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.release_effort"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 4000 },
+        { "phase": "exhale", "durationMs": 6000 }
+      ]
+    },
+    {
+      "id": "calm-4-6",
+      "title": "Спокойствие",
+      "subtitle": "Мягкий вдох и более длинный выдох",
+      "intent": "calm",
+      "purpose": "Снизить общий темп и дать вниманию простую опору.",
+      "claim": "Медленное дыхание с удлинённым выдохом может субъективно ощущаться успокаивающим.",
+      "difficulty": "beginner",
+      "whenToUse": ["при общем напряжении", "после насыщенного дня", "перед спокойным отдыхом"],
+      "instructions": [
+        "Вдохните носом на четыре счёта.",
+        "Выдыхайте на шесть счётов без усилия.",
+        "Не стремитесь вдыхать максимально глубоко."
+      ],
+      "cautions": ["Уменьшите объём вдоха, если появляется чувство нехватки воздуха."],
+      "sourceRefs": [
+        "bentley-2023-systematic-review",
+        "zaccaro-2018-slow-breathing-review",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [180, 300, 600],
+      "defaultDurationSeconds": 300,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["serene-reverie", "luminous-tranquility", "mystic-waters"],
+      "recommendedPaletteId": "sage-sunset",
+      "script": {
+        "introduction": ["practice.calm.intro"],
+        "preparation": ["common.comfortable_position", "common.no_force", "practice.calm.route"],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 4,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.no_rush", "coach.find_rhythm"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale", "cue.inhale_gently", "cue.inhale_slow", "cue.inhale_fill"],
+          "exhale": [
+            "cue.exhale_slow",
+            "cue.exhale_release",
+            "cue.exhale_easy",
+            "cue.exhale_longer"
+          ]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.release_effort"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 4000 },
+        { "phase": "exhale", "durationMs": 6000 }
+      ]
+    },
+    {
+      "id": "coherent-5-5",
+      "title": "Ровный ритм",
+      "subtitle": "Одинаковые вдох и выдох, около шести циклов в минуту",
+      "intent": "balance",
+      "purpose": "Поддерживать ровное внимание на симметричном ритме без задержек.",
+      "claim": "Пять секунд на вдох и пять на выдох — распространённый вариант медленного paced breathing; это не уникальное лечение.",
+      "difficulty": "beginner",
+      "whenToUse": [
+        "для ежедневной практики",
+        "для спокойной концентрации",
+        "для более длинной медитации"
+      ],
+      "instructions": [
+        "Вдыхайте пять секунд.",
+        "Выдыхайте пять секунд.",
+        "Дышите тихо и по возможности носом."
+      ],
+      "cautions": ["Если темп кажется слишком медленным, остановитесь и выберите «Мягкое утро»."],
+      "sourceRefs": [
+        "fincham-2023-coherent-breathing-rct",
+        "zaccaro-2018-slow-breathing-review",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [300, 600, 1200],
+      "defaultDurationSeconds": 600,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["ice-meditation", "celestial-whispers", "luminous-tranquility"],
+      "recommendedPaletteId": "blue-mint",
+      "script": {
+        "introduction": ["practice.coherent.intro"],
+        "preparation": [
+          "common.comfortable_position",
+          "common.no_force",
+          "practice.coherent.route"
+        ],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 5,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.find_rhythm", "coach.no_rush"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale", "cue.inhale_gently", "cue.inhale_slow"],
+          "exhale": ["cue.exhale", "cue.exhale_easy", "cue.exhale_release"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.follow_rhythm"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 2,
+            "phase": "inhale",
+            "phraseKey": "final.two_cycles"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 5000 },
+        { "phase": "exhale", "durationMs": 5000 }
+      ]
+    },
+    {
+      "id": "box-4-4-4-4",
+      "title": "Квадрат",
+      "subtitle": "Четыре равные фазы с мягкими задержками",
+      "intent": "focus",
+      "purpose": "Собрать внимание на чёткой четырёхчастной последовательности.",
+      "claim": "Box Breathing широко используется как структурированное упражнение на внимание и расслабление.",
+      "difficulty": "intermediate",
+      "whenToUse": [
+        "перед задачей, требующей внимания",
+        "когда нужен чёткий ритм",
+        "если задержки дыхания комфортны"
+      ],
+      "instructions": [
+        "Вдохните на четыре счёта.",
+        "Мягко задержите дыхание на четыре.",
+        "Выдохните на четыре и сделайте паузу на четыре."
+      ],
+      "cautions": [
+        "Не выполняйте задержки через дискомфорт.",
+        "Выберите практику без задержек при беременности, заболеваниях сердца или лёгких без предварительного совета врача."
+      ],
+      "sourceRefs": [
+        "balban-2023-cell-reports-medicine",
+        "va-box-breathing",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [180, 300, 600],
+      "defaultDurationSeconds": 300,
+      "paceAdjustable": false,
+      "hasBreathHolds": true,
+      "recommendedAmbientIds": ["celestial-whispers", "ice-meditation", "mystic-waters"],
+      "recommendedPaletteId": "indigo-cyan",
+      "script": {
+        "introduction": ["practice.box.intro", "practice.box.pattern"],
+        "preparation": [
+          "common.comfortable_position",
+          "common.no_force",
+          "practice.box.hold_option"
+        ],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 3,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.keep_going", "coach.no_rush"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale", "cue.inhale_gently"],
+          "holdIn": ["cue.hold_gently", "cue.hold_still", "cue.hold_shoulders"],
+          "exhale": ["cue.exhale", "cue.exhale_easy"],
+          "holdOut": ["cue.pause_gently", "cue.pause_stay", "cue.pause_no_rush"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.keep_soft"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 4000 },
+        { "phase": "holdIn", "durationMs": 4000 },
+        { "phase": "exhale", "durationMs": 4000 },
+        { "phase": "holdOut", "durationMs": 4000 }
+      ]
+    },
+    {
+      "id": "cyclic-sigh",
+      "title": "После напряжения",
+      "subtitle": "Два вдоха и длинный мягкий выдох",
+      "intent": "reset",
+      "purpose": "Переключиться после отдельной стрессовой ситуации через повторяемый exhale-focused паттерн.",
+      "claim": "Пятиминутный cyclic sighing изучался в рандомизированном исследовании как wellness-практика; короткие варианты здесь служат знакомством с паттерном.",
+      "difficulty": "beginner",
+      "whenToUse": [
+        "после стрессового эпизода",
+        "когда хочется сменить ритм",
+        "как короткую практику на одну–пять минут"
+      ],
+      "instructions": [
+        "Сделайте обычный вдох носом.",
+        "Добавьте небольшой второй вдох.",
+        "Мягко и долго выдохните через рот."
+      ],
+      "cautions": [
+        "Второй вдох должен быть небольшим, без форсирования.",
+        "Остановитесь, если повторные вздохи вызывают головокружение."
+      ],
+      "sourceRefs": ["balban-2023-cell-reports-medicine", "nccih-relaxation-safety"],
+      "durationOptionsSeconds": [60, 180, 300],
+      "defaultDurationSeconds": 180,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["mystic-waters", "gentle-ripples", "drifting-dreams"],
+      "recommendedPaletteId": "aqua-amber",
+      "script": {
+        "introduction": ["practice.sigh.intro", "practice.sigh.pattern"],
+        "preparation": ["common.comfortable_position", "common.no_force", "practice.sigh.route"],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 3,
+        "reminderPhase": "exhale",
+        "reminderPhraseKeys": ["coach.no_rush", "middle.keep_soft"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale_nose", "cue.inhale_gently"],
+          "inhaleTopup": ["cue.inhale_topup"],
+          "exhale": ["cue.exhale_long", "cue.exhale_release", "cue.exhale_easy"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.keep_soft"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 2200 },
+        { "phase": "inhaleTopup", "durationMs": 1000 },
+        { "phase": "exhale", "durationMs": 6000 },
+        { "phase": "rest", "durationMs": 800 }
+      ]
+    },
+    {
+      "id": "morning-4-4",
+      "title": "Мягкое утро",
+      "subtitle": "Лёгкий равномерный ритм без задержек",
+      "intent": "morning",
+      "purpose": "Начать день с простой внимательной последовательности без стимулирующих техник.",
+      "claim": "Спокойная утренняя практика для настройки внимания, без обещаний «заряда энергии».",
+      "difficulty": "beginner",
+      "whenToUse": [
+        "после пробуждения",
+        "перед началом рабочего дня",
+        "когда медленный ритм пять на пять пока неудобен"
+      ],
+      "instructions": [
+        "Вдыхайте четыре секунды.",
+        "Выдыхайте четыре секунды.",
+        "Оставляйте дыхание лёгким, не максимальным."
+      ],
+      "cautions": [
+        "Не используйте практику, чтобы подавить выраженную сонливость, требующую отдыха."
+      ],
+      "sourceRefs": ["zaccaro-2018-slow-breathing-review", "nccih-relaxation-safety"],
+      "durationOptionsSeconds": [120, 300, 600],
+      "defaultDurationSeconds": 300,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["luminous-tranquility", "drifting-dreams", "gentle-ripples"],
+      "recommendedPaletteId": "sage-sunset",
+      "script": {
+        "introduction": ["practice.morning.intro"],
+        "preparation": ["common.comfortable_position", "practice.morning.route", "common.no_force"],
+        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
+        "afterSession": ["outro.complete"]
+      },
+      "guidance": {
+        "openingCycles": 2,
+        "reminderEveryCycles": 5,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.find_rhythm", "coach.no_rush"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale_soft", "cue.inhale_gently", "cue.inhale"],
+          "exhale": ["cue.exhale_easy", "cue.exhale_release", "cue.exhale"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.follow_rhythm"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 4000 },
+        { "phase": "exhale", "durationMs": 4000 }
+      ]
+    },
+    {
+      "id": "bedtime-4-6",
+      "title": "Перед сном",
+      "subtitle": "Тихий ритм без задержек и лишних слов",
+      "intent": "sleep",
+      "purpose": "Создать спокойный переход от дневной активности к отдыху.",
+      "claim": "Это ритуал расслабления, а не лечение бессонницы и не гарантия засыпания.",
+      "difficulty": "beginner",
+      "whenToUse": [
+        "перед сном",
+        "после выключения экранов",
+        "когда хочется завершить день без спешки"
+      ],
+      "instructions": [
+        "Устройтесь так, чтобы тело не приходилось поддерживать усилием.",
+        "Вдыхайте четыре секунды.",
+        "Тихо выдыхайте шесть секунд."
+      ],
+      "cautions": [
+        "При стойких проблемах со сном приложение не заменяет консультацию специалиста."
+      ],
+      "sourceRefs": ["bentley-2023-systematic-review", "nccih-relaxation-safety"],
+      "durationOptionsSeconds": [300, 600, 900],
+      "defaultDurationSeconds": 600,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": ["serene-reverie", "celestial-whispers", "mystic-waters"],
+      "recommendedPaletteId": "midnight-violet",
+      "voiceModeOverride": "balanced",
+      "script": {
+        "introduction": ["practice.bedtime.intro"],
+        "preparation": [
+          "practice.bedtime.position",
+          "common.release_shoulders",
+          "common.no_force",
+          "practice.bedtime.route"
+        ],
+        "transition": ["common.follow_sound", "common.begin"],
+        "completion": ["outro.natural_breath", "outro.rest"],
+        "afterSession": ["outro.complete_soft"]
+      },
+      "guidance": {
+        "openingCycles": 1,
+        "reminderEveryCycles": 6,
+        "reminderPhase": "inhale",
+        "reminderPhraseKeys": ["coach.no_rush"],
+        "phasePhraseKeys": {
+          "inhale": ["cue.inhale_soft", "cue.inhale_gently"],
+          "exhale": ["cue.exhale_slow", "cue.exhale_easy"]
+        },
+        "milestones": [
+          {
+            "trigger": "progress",
+            "threshold": 0.5,
+            "phase": "exhale",
+            "phraseKey": "middle.release_effort"
+          },
+          {
+            "trigger": "cyclesRemaining",
+            "cyclesRemaining": 1,
+            "phase": "inhale",
+            "phraseKey": "common.last_cycle"
+          }
+        ]
+      },
+      "cycle": [
+        { "phase": "inhale", "durationMs": 4000 },
+        { "phase": "exhale", "durationMs": 6000 }
+      ]
+    }
+  ]
+}

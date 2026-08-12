@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "locale": "ru-RU",
+  "provider": "Yandex SpeechKit TTS v3",
+  "recommendedVoiceAB": [
+    { "voice": "marina", "role": "friendly", "speed": 0.92 },
+    { "voice": "lera", "role": "friendly", "speed": 0.92 }
+  ],
+  "defaultCandidate": { "voice": "marina", "role": "friendly", "speed": 0.92 },
+  "outputDirectoryTemplate": "apps/web/public/audio/voice/ru-RU/{voice}-{role}",
+  "assetDirectory": "speechkit",
+  "fileFormats": ["m4a", "ogg"],
+  "masterFormat": "mp3-48kHz-mono-owner-source",
+  "targetIntegratedLufs": -18,
+  "namingRule": "Use the exact fileBase below. Add only the selected extension. Do not put text or voice names into the filename; the voice profile is represented by the parent directory.",
+  "deliveryRules": [
+    "Generate every phrase as a separate file.",
+    "Audition every generated file for stress, clipped consonants, unintended emotion and excessive end silence.",
+    "Keep the text field as UI/transcript copy and send ttsMarkup to SpeechKit.",
+    "Do not synthesize at session runtime; ship pregenerated assets.",
+    "Never hard-cut a phrase to fit a phase. Reject and rewrite or resynthesize it.",
+    "Keep original WAV masters; create AAC/M4A and Opus/Ogg delivery copies."
+  ],
+  "phrases": [
+    {
+      "key": "safety.pre_session",
+      "fileBase": "safety-pre-session",
+      "text": "Дышите мягко и без усилия. Вы можете остановиться в любой момент.",
+      "ttsMarkup": "Дышите мягко и без усилия. sil<[350]> Вы можете остановиться в любой момент.",
+      "usage": "Shown and optionally played before the first session and before practices with holds.",
+      "priority": "required"
+    },
+    {
+      "key": "safety.stop_if_unwell",
+      "fileBase": "safety-stop-if-unwell",
+      "text": "Если появятся головокружение, боль, выраженная одышка или сильный дискомфорт, остановитесь и вернитесь к обычному дыханию.",
+      "ttsMarkup": "Если появятся головокружение, боль, выраженная одышка или сильный дискомфорт, sil<[300]> остановитесь и вернитесь к обычному дыханию.",
+      "usage": "Safety sheet and help; not repeated in every short session after acknowledgement.",
+      "priority": "required"
+    },
+    {
+      "key": "safety.not_medical_care",
+      "fileBase": "safety-not-medical-care",
+      "text": "Эта практика не заменяет медицинскую помощь.",
+      "ttsMarkup": "Эта практика не заменяет медицинскую помощь.",
+      "usage": "Optional safety audio; always present as text.",
+      "priority": "optional"
+    },
+    {
+      "key": "common.comfortable_position",
+      "fileBase": "common-comfortable-position",
+      "text": "Устройтесь удобно. Спина может оставаться естественно прямой.",
+      "ttsMarkup": "Устройтесь удобно. sil<[300]> Спина может оставаться естественно прямой.",
+      "usage": "Shared introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "common.release_shoulders",
+      "fileBase": "common-release-shoulders",
+      "text": "Позвольте плечам опуститься, а лицу расслабиться.",
+      "ttsMarkup": "Позвольте плечам опуститься, sil<[250]> а лицу расслабиться.",
+      "usage": "Shared introduction, especially bedtime.",
+      "priority": "required"
+    },
+    {
+      "key": "common.no_force",
+      "fileBase": "common-no-force",
+      "text": "Не старайтесь вдохнуть как можно глубже. Пусть дыхание остается комфортным.",
+      "ttsMarkup": "Не старайтесь вдохнуть как можно глубже. sil<[350]> Пусть дыхание остается комфортным.",
+      "usage": "Shared introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "common.follow_sound",
+      "fileBase": "common-follow-sound",
+      "text": "Можно закрыть глаза и следовать за звуком.",
+      "ttsMarkup": "Можно закрыть глаза и следовать за звуком.",
+      "usage": "TRANSITION. Shared before-session line when breathing cues are enabled.",
+      "priority": "required"
+    },
+    {
+      "key": "common.begin",
+      "fileBase": "common-begin",
+      "text": "Начнем.",
+      "ttsMarkup": "Начнем.",
+      "usage": "Transition from introduction to countdown.",
+      "priority": "required"
+    },
+    {
+      "key": "common.halfway",
+      "fileBase": "common-halfway",
+      "text": "Половина практики позади.",
+      "ttsMarkup": "Половина практики позади.",
+      "usage": "Optional midpoint cue for sessions ten minutes or longer.",
+      "priority": "optional"
+    },
+    {
+      "key": "common.last_cycle",
+      "fileBase": "common-last-cycle",
+      "text": "Последний цикл.",
+      "ttsMarkup": "Последний цикл.",
+      "usage": "Played before the final complete cycle.",
+      "priority": "required"
+    },
+    {
+      "key": "common.arrive",
+      "fileBase": "common-arrive",
+      "text": "Оставьте на минуту всё, что не требует вашего внимания.",
+      "ttsMarkup": "Оставьте на минуту всё, sil<[250]> что не требует вашего внимания.",
+      "usage": "PREPARATION. Shared settling line for short daytime sessions.",
+      "priority": "required"
+    },
+    {
+      "key": "common.first_cycles_together",
+      "fileBase": "common-first-cycles-together",
+      "text": "Первые два цикла пройдём вместе. Затем будет больше тишины.",
+      "ttsMarkup": "Первые два цикла пройдём вместе. sil<[350]> Затем будет больше тишины.",
+      "usage": "TRANSITION. Explains the default balanced guidance cadence.",
+      "priority": "required"
+    },
+    {
+      "key": "middle.keep_soft",
+      "fileBase": "middle-keep-soft",
+      "text": "Дышите мягко, без усилия.",
+      "ttsMarkup": "Дышите мягко, sil<[160]> без усилия.",
+      "usage": "MIDDLE_SESSION. Mid-session comfort reminder shared across slow practices.",
+      "priority": "required"
+    },
+    {
+      "key": "middle.follow_rhythm",
+      "fileBase": "middle-follow-rhythm",
+      "text": "Теперь можно просто следовать за ритмом.",
+      "ttsMarkup": "Теперь можно просто следовать за ритмом.",
+      "usage": "MIDDLE_SESSION. Occasional prompt before several quiet cycles.",
+      "priority": "required"
+    },
+    {
+      "key": "middle.release_effort",
+      "fileBase": "middle-release-effort",
+      "text": "Пусть следующий выдох пройдёт без усилия.",
+      "ttsMarkup": "Пусть следующий выдох пройдёт без усилия.",
+      "usage": "MIDDLE_SESSION. Extended-exhale comfort reminder.",
+      "priority": "required"
+    },
+    {
+      "key": "final.two_cycles",
+      "fileBase": "final-two-cycles",
+      "text": "Осталось два спокойных цикла.",
+      "ttsMarkup": "Осталось два спокойных цикла.",
+      "usage": "FINAL_CYCLES. Used on longer practices before the last complete cycle.",
+      "priority": "required"
+    },
+    {
+      "key": "after.pause",
+      "fileBase": "after-pause",
+      "text": "Побудьте несколько секунд без счёта.",
+      "ttsMarkup": "Побудьте несколько секунд без счёта.",
+      "usage": "AFTER_SESSION. Short unpaced pause before returning to the completion screen.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale",
+      "fileBase": "cue-inhale",
+      "text": "Вдох.",
+      "ttsMarkup": "Вдох.",
+      "usage": "Generic inhale phase cue.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_slow",
+      "fileBase": "cue-inhale-slow",
+      "text": "Медленно вдохните.",
+      "ttsMarkup": "Медленно вдохните.",
+      "usage": "Conversational inhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_gently",
+      "fileBase": "cue-inhale-gently",
+      "text": "Сделайте мягкий вдох.",
+      "ttsMarkup": "Сделайте мягкий вдох.",
+      "usage": "Conversational inhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_fill",
+      "fileBase": "cue-inhale-fill",
+      "text": "Спокойно наполняем лёгкие.",
+      "ttsMarkup": "Спокойно наполняем лёгкие.",
+      "usage": "Conversational inhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_soft",
+      "fileBase": "cue-inhale-soft",
+      "text": "Мягкий вдох.",
+      "ttsMarkup": "Мягкий вдох.",
+      "usage": "Bedtime inhale cue.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_nose",
+      "fileBase": "cue-inhale-nose",
+      "text": "Вдох носом.",
+      "ttsMarkup": "Вдох носом.",
+      "usage": "Cyclic sigh first inhale.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.inhale_topup",
+      "fileBase": "cue-inhale-topup",
+      "text": "Еще вдох.",
+      "ttsMarkup": "Еще вдох.",
+      "usage": "Short second inhale in cyclic sigh. Must be shorter than 800 ms or the phase timing must be extended.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale",
+      "fileBase": "cue-exhale",
+      "text": "Выдох.",
+      "ttsMarkup": "Выдох.",
+      "usage": "Generic exhale phase cue.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale_release",
+      "fileBase": "cue-exhale-release",
+      "text": "Мягко отпустите дыхание.",
+      "ttsMarkup": "Мягко отпустите дыхание.",
+      "usage": "Conversational exhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale_easy",
+      "fileBase": "cue-exhale-easy",
+      "text": "Выдыхайте без усилия.",
+      "ttsMarkup": "Выдыхайте без усилия.",
+      "usage": "Conversational exhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale_longer",
+      "fileBase": "cue-exhale-longer",
+      "text": "Позвольте выдоху стать длиннее.",
+      "ttsMarkup": "Позвольте выдоху стать длиннее.",
+      "usage": "Conversational extended-exhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale_slow",
+      "fileBase": "cue-exhale-slow",
+      "text": "Медленный выдох.",
+      "ttsMarkup": "Медленный выдох.",
+      "usage": "Extended-exhale cue.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.exhale_long",
+      "fileBase": "cue-exhale-long",
+      "text": "Длинный мягкий выдох.",
+      "ttsMarkup": "Длинный мягкий выдох.",
+      "usage": "Cyclic sigh exhale cue.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.hold_gently",
+      "fileBase": "cue-hold-gently",
+      "text": "Мягкая задержка.",
+      "ttsMarkup": "Мягкая задержка.",
+      "usage": "Hold after inhale.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.hold_still",
+      "fileBase": "cue-hold-still",
+      "text": "Спокойно удерживаем дыхание.",
+      "ttsMarkup": "Спокойно удерживаем дыхание.",
+      "usage": "Conversational hold-after-inhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.hold_shoulders",
+      "fileBase": "cue-hold-shoulders",
+      "text": "Задержите дыхание, расслабьте плечи.",
+      "ttsMarkup": "Задержите дыхание, sil<[120]> расслабьте плечи.",
+      "usage": "Conversational hold-after-inhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.hold_heartbeat",
+      "fileBase": "cue-hold-heartbeat",
+      "text": "Заметьте биение сердца.",
+      "ttsMarkup": "Заметьте биение сердца.",
+      "usage": "Optional attention prompt during a comfortable hold.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.pause_gently",
+      "fileBase": "cue-pause-gently",
+      "text": "Спокойная пауза.",
+      "ttsMarkup": "Спокойная пауза.",
+      "usage": "Hold after exhale.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.pause_stay",
+      "fileBase": "cue-pause-stay",
+      "text": "Останьтесь в этой паузе.",
+      "ttsMarkup": "Останьтесь в этой паузе.",
+      "usage": "Conversational hold-after-exhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.pause_no_rush",
+      "fileBase": "cue-pause-no-rush",
+      "text": "Не спешите со следующим вдохом.",
+      "ttsMarkup": "Не спешите со следующим вдохом.",
+      "usage": "Conversational hold-after-exhale variation.",
+      "priority": "required"
+    },
+    {
+      "key": "coach.keep_going",
+      "fileBase": "coach-keep-going",
+      "text": "Продолжайте в комфортном ритме.",
+      "ttsMarkup": "Продолжайте в комфортном ритме.",
+      "usage": "MOTIVATION. Occasional neutral reminder between quiet cycles.",
+      "priority": "required"
+    },
+    {
+      "key": "coach.find_rhythm",
+      "fileBase": "coach-find-rhythm",
+      "text": "Ритм уже знаком. Можно меньше следить за счётом.",
+      "ttsMarkup": "Ритм уже знаком. sil<[280]> Можно меньше следить за счётом.",
+      "usage": "MOTIVATION. Occasional transition into quieter cycles.",
+      "priority": "required"
+    },
+    {
+      "key": "coach.no_rush",
+      "fileBase": "coach-no-rush",
+      "text": "Без спешки. Продолжайте в своём ритме.",
+      "ttsMarkup": "Без спешки. sil<[250]> Продолжайте в своём ритме.",
+      "usage": "MOTIVATION. Occasional comfort reminder between quiet cycles.",
+      "priority": "required"
+    },
+    {
+      "key": "cue.release",
+      "fileBase": "cue-release",
+      "text": "Отпустите дыхание.",
+      "ttsMarkup": "Отпустите дыхание.",
+      "usage": "Release from an optional hold.",
+      "priority": "optional"
+    },
+    {
+      "key": "cue.natural",
+      "fileBase": "cue-natural",
+      "text": "Дышите естественно.",
+      "ttsMarkup": "Дышите естественно.",
+      "usage": "Natural breathing segment.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.calm.intro",
+      "fileBase": "practice-calm-intro",
+      "text": "Эта практика предлагает мягкий ритм с более длинным выдохом.",
+      "ttsMarkup": "Эта практика предлагает мягкий ритм с более длинным выдохом.",
+      "usage": "Calm practice introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.quick.intro",
+      "fileBase": "practice-quick-intro",
+      "text": "Это короткая пауза с мягким вдохом и более длинным выдохом.",
+      "ttsMarkup": "Это короткая пауза sil<[180]> с мягким вдохом и более длинным выдохом.",
+      "usage": "INTRO. Opening for the one-to-two-minute quick practice.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.quick.route",
+      "fileBase": "practice-quick-route",
+      "text": "Дышите в комфортном объёме. Не старайтесь успеть любой ценой.",
+      "ttsMarkup": "Дышите в комфортном объёме. sil<[300]> Не старайтесь успеть любой ценой.",
+      "usage": "PREPARATION. Pace instruction for the quick practice.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.calm.route",
+      "fileBase": "practice-calm-route",
+      "text": "Вдыхайте носом, а выдыхайте носом или ртом — как комфортнее.",
+      "ttsMarkup": "Вдыхайте носом, sil<[180]> а выдыхайте носом или ртом — как комфортнее.",
+      "usage": "Calm practice route instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.coherent.intro",
+      "fileBase": "practice-coherent-intro",
+      "text": "Сейчас вдох и выдох будут одинаковой длины.",
+      "ttsMarkup": "Сейчас вдох и выдох будут одинаковой длины.",
+      "usage": "Coherent practice introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.coherent.route",
+      "fileBase": "practice-coherent-route",
+      "text": "По возможности дышите носом и сохраняйте комфортный объем дыхания.",
+      "ttsMarkup": "По возможности дышите носом sil<[180]> и сохраняйте комфортный объем дыхания.",
+      "usage": "Coherent practice route instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.box.intro",
+      "fileBase": "practice-box-intro",
+      "text": "В этой практике четыре равные фазы.",
+      "ttsMarkup": "В этой практике четыре равные фазы.",
+      "usage": "Box practice introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.box.pattern",
+      "fileBase": "practice-box-pattern",
+      "text": "Вдох, задержка, выдох и спокойная пауза.",
+      "ttsMarkup": "Вдох, sil<[200]> задержка, sil<[200]> выдох sil<[200]> и спокойная пауза.",
+      "usage": "Explains box pattern before starting.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.box.hold_option",
+      "fileBase": "practice-box-hold-option",
+      "text": "Если задержка неприятна, остановите практику или выберите дыхание без задержек.",
+      "ttsMarkup": "Если задержка неприятна, sil<[250]> остановите практику или выберите дыхание без задержек.",
+      "usage": "Box practice safety instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.sigh.intro",
+      "fileBase": "practice-sigh-intro",
+      "text": "Сделаем несколько мягких циклических вздохов.",
+      "ttsMarkup": "Сделаем несколько мягких циклических вздохов.",
+      "usage": "Cyclic sigh introduction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.sigh.pattern",
+      "fileBase": "practice-sigh-pattern",
+      "text": "Сначала обычный вдох. Затем еще один небольшой вдох и длинный спокойный выдох.",
+      "ttsMarkup": "Сначала обычный вдох. sil<[300]> Затем еще один небольшой вдох sil<[200]> и длинный спокойный выдох.",
+      "usage": "Cyclic sigh pattern explanation.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.sigh.route",
+      "fileBase": "practice-sigh-route",
+      "text": "Вдыхайте носом. Выдыхайте мягко через рот.",
+      "ttsMarkup": "Вдыхайте носом. sil<[300]> Выдыхайте мягко через рот.",
+      "usage": "Cyclic sigh route instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.bedtime.intro",
+      "fileBase": "practice-bedtime-intro",
+      "text": "Эта тихая практика — мягкий переход от дневной активности к отдыху.",
+      "ttsMarkup": "Эта тихая практика — sil<[180]> мягкий переход от дневной активности к отдыху.",
+      "usage": "Bedtime practice introduction; intentionally avoids a sleep-treatment claim.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.morning.intro",
+      "fileBase": "practice-morning-intro",
+      "text": "Начнём утро с ровного спокойного дыхания.",
+      "ttsMarkup": "Начнём утро sil<[180]> с ровного спокойного дыхания.",
+      "usage": "INTRO. Opening for the gentle morning practice without stimulation claims.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.morning.route",
+      "fileBase": "practice-morning-route",
+      "text": "Сохраняйте вдох и выдох одинаково лёгкими.",
+      "ttsMarkup": "Сохраняйте вдох и выдох одинаково лёгкими.",
+      "usage": "PREPARATION. Route instruction for the gentle morning practice.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.bedtime.position",
+      "fileBase": "practice-bedtime-position",
+      "text": "Устройтесь так, чтобы вам не пришлось поддерживать тело усилием.",
+      "ttsMarkup": "Устройтесь так, sil<[200]> чтобы вам не пришлось поддерживать тело усилием.",
+      "usage": "Bedtime posture instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "practice.bedtime.route",
+      "fileBase": "practice-bedtime-route",
+      "text": "Дышите тихо, по возможности носом.",
+      "ttsMarkup": "Дышите тихо, sil<[150]> по возможности носом.",
+      "usage": "Bedtime route instruction.",
+      "priority": "required"
+    },
+    {
+      "key": "outro.natural_breath",
+      "fileBase": "outro-natural-breath",
+      "text": "Вернитесь к естественному дыханию.",
+      "ttsMarkup": "Вернитесь к естественному дыханию.",
+      "usage": "First outro phrase.",
+      "priority": "required"
+    },
+    {
+      "key": "outro.notice_state",
+      "fileBase": "outro-notice-state",
+      "text": "Заметьте, изменилось ли что-нибудь в теле, внимании или настроении.",
+      "ttsMarkup": "Заметьте, sil<[180]> изменилось ли что-нибудь в теле, внимании или настроении.",
+      "usage": "Neutral self-check without promising an effect.",
+      "priority": "required"
+    },
+    {
+      "key": "outro.complete",
+      "fileBase": "outro-complete",
+      "text": "Практика завершена. Возвращайтесь к своим делам без спешки.",
+      "ttsMarkup": "Практика завершена. sil<[400]> Возвращайтесь к своим делам без спешки.",
+      "usage": "Standard completion.",
+      "priority": "required"
+    },
+    {
+      "key": "outro.rest",
+      "fileBase": "outro-rest",
+      "text": "Ничего больше не нужно делать. Просто отдыхайте.",
+      "ttsMarkup": "Ничего больше не нужно делать. sil<[450]> Просто отдыхайте.",
+      "usage": "Bedtime completion lead-in.",
+      "priority": "required"
+    },
+    {
+      "key": "outro.complete_soft",
+      "fileBase": "outro-complete-soft",
+      "text": "Практика завершена.",
+      "ttsMarkup": "Практика завершена.",
+      "usage": "Quiet bedtime completion.",
+      "priority": "required"
+    },
+    {
+      "key": "session.paused",
+      "fileBase": "session-paused",
+      "text": "Пауза.",
+      "ttsMarkup": "Пауза.",
+      "usage": "Optional accessibility confirmation.",
+      "priority": "optional"
+    },
+    {
+      "key": "session.resumed",
+      "fileBase": "session-resumed",
+      "text": "Продолжаем.",
+      "ttsMarkup": "Продолжаем.",
+      "usage": "Optional accessibility confirmation.",
+      "priority": "optional"
+    },
+    {
+      "key": "session.stopped",
+      "fileBase": "session-stopped",
+      "text": "Практика остановлена. Дышите естественно.",
+      "ttsMarkup": "Практика остановлена. sil<[300]> Дышите естественно.",
+      "usage": "Graceful early-stop confirmation.",
+      "priority": "required"
+    },
+    {
+      "key": "settings.voice_preview",
+      "fileBase": "settings-voice-preview",
+      "text": "Я буду мягко подсказывать ритм дыхания.",
+      "ttsMarkup": "Я буду мягко подсказывать ритм дыхания.",
+      "usage": "Voice picker preview.",
+      "priority": "required"
+    },
+    {
+      "key": "error.audio_unavailable",
+      "fileBase": "error-audio-unavailable",
+      "text": "Звук сейчас недоступен. Можно продолжить по визуальному ритму.",
+      "ttsMarkup": "Звук сейчас недоступен. sil<[300]> Можно продолжить по визуальному ритму.",
+      "usage": "ERROR / INTERRUPTION. Reserved fallback copy; displayed as text if audio cannot play.",
+      "priority": "optional"
+    },
+    {
+      "key": "intro.benefit",
+      "fileBase": "intro-benefit",
+      "text": "Эта техника поможет проснуться и зарядиться энергией.",
+      "ttsMarkup": "Эта техника поможет проснуться и зарядиться энергией.",
+      "usage": "Legacy wake-up demo phrase retained for compatibility. Do not expose it without a reviewed practice definition.",
+      "priority": "legacy"
+    },
+    {
+      "key": "intro.posture",
+      "fileBase": "intro-posture",
+      "text": "Сядьте удобно. Держите спину прямо.",
+      "ttsMarkup": "Сядьте удобно. sil<[250]> Держите спину прямо.",
+      "usage": "Legacy wake-up demo phrase retained for compatibility.",
+      "priority": "legacy"
+    },
+    {
+      "key": "intro.route",
+      "fileBase": "intro-route",
+      "text": "Дышите носом или ртом — как вам удобнее.",
+      "ttsMarkup": "Дышите носом или ртом — как вам удобнее.",
+      "usage": "Legacy wake-up demo phrase retained for compatibility.",
+      "priority": "legacy"
+    },
+    {
+      "key": "intro.arrive",
+      "fileBase": "intro-arrive",
+      "text": "Начнем с трех спокойных дыханий.",
+      "ttsMarkup": "Начнем с трех спокойных дыханий.",
+      "usage": "Legacy wake-up demo phrase retained for compatibility.",
+      "priority": "legacy"
+    }
+  ]
+}

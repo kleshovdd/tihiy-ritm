@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "locale": "ru-RU",
+  "assetPolicy": {
+    "status": "project-owned-original-procedural-assets",
+    "allowed": [
+      "original",
+      "commissioned",
+      "CC0",
+      "CC-BY-with-attribution",
+      "commercial-stock-with-app-distribution-rights"
+    ],
+    "forbidden": [
+      "unknown-license",
+      "CC-BY-NC-for-commercial-release",
+      "ripped-stream",
+      "BBC-sound-effects-without-commercial-license"
+    ],
+    "licenseManifestRequired": true,
+    "masterFormat": "wav-48kHz-24bit-stereo",
+    "deliveryFormats": ["m4a-aac", "ogg-opus"],
+    "seamlessLoopRequired": true,
+    "loudTransientCheckRequired": true
+  },
+  "mix": {
+    "voiceGainDb": 0,
+    "breathCueGainDb": -6,
+    "ambientGainDb": -8,
+    "ambientDuckingUnderVoiceDb": -9,
+    "breathCueDuckingUnderVoiceDb": -5,
+    "duckAttackMs": 140,
+    "duckReleaseMs": 520,
+    "fadeInMs": 1600,
+    "fadeOutMs": 1400,
+    "separateUserVolumeControls": true
+  },
+  "ambientRule": "Keep one user-selected ambience for the entire session. User-provided source tracks are normalized for comfortable background playback.",
+  "ambiences": [
+    {
+      "id": "celestial-whispers",
+      "title": "Шёпот звёзд",
+      "fileBase": "ambience-celestial-whispers",
+      "targetLoopSeconds": 120,
+      "character": "Воздушное и чуть загадочное пространство для спокойного внимания.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "midnight-violet",
+      "recommendedFor": ["balance", "focus", "sleep"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "drifting-dreams",
+      "title": "Плывущие мечты",
+      "fileBase": "ambience-drifting-dreams",
+      "targetLoopSeconds": 120,
+      "character": "Мягкий текучий фон, который не забирает внимание на себя.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "sage-sunset",
+      "recommendedFor": ["quick", "calm", "morning"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "gentle-ripples",
+      "title": "Тихий плеск",
+      "fileBase": "ambience-gentle-ripples",
+      "targetLoopSeconds": 120,
+      "character": "Лёгкое движение воды и спокойный светлый ритм.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "blue-mint",
+      "recommendedFor": ["quick", "calm", "reset"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "ice-meditation",
+      "title": "Ледяная медитация",
+      "fileBase": "ambience-ice-meditation",
+      "targetLoopSeconds": 145,
+      "character": "Прохладное прозрачное звучание для собранности и ровного темпа.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "indigo-cyan",
+      "recommendedFor": ["balance", "focus"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "luminous-tranquility",
+      "title": "Тихий свет",
+      "fileBase": "ambience-luminous-tranquility",
+      "targetLoopSeconds": 120,
+      "character": "Тёплая светлая атмосфера для мягкого начала и восстановления.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "aqua-amber",
+      "recommendedFor": ["quick", "calm", "morning"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "mystic-waters",
+      "title": "Загадочные воды",
+      "fileBase": "ambience-mystic-waters",
+      "targetLoopSeconds": 120,
+      "character": "Глубокая водная атмосфера для переключения и вечерней практики.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "ember-plum",
+      "recommendedFor": ["calm", "reset", "sleep"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    },
+    {
+      "id": "serene-reverie",
+      "title": "Мечты в покое",
+      "fileBase": "ambience-serene-reverie",
+      "targetLoopSeconds": 120,
+      "character": "Спокойная мечтательная подложка для отдыха и подготовки ко сну.",
+      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "paletteId": "sage-sunset",
+      "recommendedFor": ["calm", "sleep"],
+      "source": "User-provided MP3; title read from embedded metadata",
+      "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
+      "attributionRequired": false,
+      "targetIntegratedLufs": -24
+    }
+  ],
+  "breathCueTheme": {
+    "id": "soft-breathing-texture",
+    "title": "Мягкое дыхательное движение",
+    "files": {
+      "inhale": "breath-inhale-master",
+      "inhaleTopup": "cue-air-inhale-topup",
+      "holdIn": "cue-air-hold-in",
+      "exhale": "breath-exhale-master",
+      "holdOut": "cue-air-hold-out",
+      "rest": "cue-air-hold-out",
+      "transition": "cue-air-transition"
+    },
+    "behavior": "Inhale and exhale are separate phase waves: each starts with a fast click-safe onset, then smoothly decays to silence by the phase end. Inhale is brighter; exhale is warmer and darker. Hold cues are quieter air textures stretched across the full hold and faded to silence before the next phase. Breathing masters loop at natural speed when needed; transition cues remain short one-shots.",
+    "source": "breathing-audio-prototypes/variant-b revision 6; softened original pitchless silk-flow synthesis informed by the five user references; generated by scripts/build-breathing-audio-prototypes.py",
+    "license": "Project-owned original procedural synthesis; contains no samples from the reference recordings.",
+    "attributionRequired": false
+  }
+}
