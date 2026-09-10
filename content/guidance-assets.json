@@ -1,0 +1,895 @@
+{
+  "version": 1,
+  "assets": {
+    "preparation.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-01.m4a",
+      "durationMs": 4080,
+      "text": "Найдите положение, в котором удобно оставаться несколько минут."
+    },
+    "preparation.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-02.m4a",
+      "durationMs": 2160,
+      "text": "Можно сесть с опорой для спины."
+    },
+    "preparation.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-03.m4a",
+      "durationMs": 3200,
+      "text": "Если удобнее лежать, устройтесь лёжа."
+    },
+    "preparation.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-04.m4a",
+      "durationMs": 3280,
+      "text": "Положите руки так, чтобы плечам было легко."
+    },
+    "preparation.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-05.m4a",
+      "durationMs": 2320,
+      "text": "Почувствуйте опору под телом."
+    },
+    "preparation.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-06.m4a",
+      "durationMs": 2480,
+      "text": "Проверьте, удобно ли стоят стопы."
+    },
+    "preparation.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-07.m4a",
+      "durationMs": 2800,
+      "text": "Позвольте челюсти немного расслабиться."
+    },
+    "preparation.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-08.m4a",
+      "durationMs": 2000,
+      "text": "Лицо можно оставить мягким."
+    },
+    "preparation.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-09.m4a",
+      "durationMs": 2160,
+      "text": "Не нужно держать спину с усилием."
+    },
+    "preparation.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-10.m4a",
+      "durationMs": 2880,
+      "text": "Поправьте положение тела, если это нужно."
+    },
+    "preparation.11": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-11.m4a",
+      "durationMs": 2000,
+      "text": "Глаза можно не закрывать."
+    },
+    "preparation.12": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-12.m4a",
+      "durationMs": 2720,
+      "text": "Выберите неподвижную точку перед собой."
+    },
+    "preparation.13": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-13.m4a",
+      "durationMs": 2880,
+      "text": "Пока просто замечайте, как вы дышите."
+    },
+    "preparation.14": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-14.m4a",
+      "durationMs": 2720,
+      "text": "Обратите внимание на движение грудной клетки."
+    },
+    "preparation.15": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-15.m4a",
+      "durationMs": 3040,
+      "text": "Почувствуйте, как тело касается опоры."
+    },
+    "preparation.16": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-16.m4a",
+      "durationMs": 3200,
+      "text": "На время практики можно отложить текущие дела."
+    },
+    "preparation.17": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-17.m4a",
+      "durationMs": 3360,
+      "text": "Вам не нужно специально освобождаться от мыслей."
+    },
+    "preparation.18": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-18.m4a",
+      "durationMs": 2560,
+      "text": "Дайте себе немного времени устроиться."
+    },
+    "preparation.19": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-19.m4a",
+      "durationMs": 2640,
+      "text": "Проверьте, не сжимаете ли вы ладони."
+    },
+    "preparation.20": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-20.m4a",
+      "durationMs": 2400,
+      "text": "Оставьте шею в удобном положении."
+    },
+    "preparation.21": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-21.m4a",
+      "durationMs": 2400,
+      "text": "Пусть живот движется без напряжения."
+    },
+    "preparation.22": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-22.m4a",
+      "durationMs": 2400,
+      "text": "Не стремитесь набрать больше воздуха."
+    },
+    "preparation.23": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-23.m4a",
+      "durationMs": 3520,
+      "text": "Сейчас достаточно дышать в удобном объёме."
+    },
+    "preparation.24": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/preparation-24.m4a",
+      "durationMs": 3200,
+      "text": "Можно немного изменить позу и затем начать."
+    },
+    "explanation.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-01.m4a",
+      "durationMs": 6240,
+      "text": "Вдох длится четыре секунды, выдох — шесть. Задержек не будет."
+    },
+    "explanation.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-02.m4a",
+      "durationMs": 4800,
+      "text": "Сделаем вдох на четыре и выдох на шесть секунд."
+    },
+    "explanation.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-03.m4a",
+      "durationMs": 3680,
+      "text": "Здесь вдох и выдох длятся по пять секунд."
+    },
+    "explanation.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-04.m4a",
+      "durationMs": 4720,
+      "text": "Пять секунд вдыхаем, пять секунд выдыхаем, без задержек."
+    },
+    "explanation.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-05.m4a",
+      "durationMs": 4720,
+      "text": "В этом ритме вдох и выдох длятся по четыре секунды."
+    },
+    "explanation.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-06.m4a",
+      "durationMs": 4080,
+      "text": "Четыре секунды на вдох и столько же на выдох."
+    },
+    "explanation.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-07.m4a",
+      "durationMs": 9120,
+      "text": "Чередуем вдох, задержку, выдох и задержку. Каждая фаза — четыре секунды."
+    },
+    "explanation.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-08.m4a",
+      "durationMs": 6240,
+      "text": "После вдоха и после выдоха будет короткая задержка, по четыре секунды."
+    },
+    "explanation.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-09.m4a",
+      "durationMs": 6560,
+      "text": "Сначала вдох, затем ещё один небольшой вдох и плавный выдох."
+    },
+    "explanation.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-10.m4a",
+      "durationMs": 6880,
+      "text": "Добавьте к первому вдоху ещё один небольшой вдох. Затем выдохните."
+    },
+    "explanation.11": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-11.m4a",
+      "durationMs": 2800,
+      "text": "Здесь не нужно менять дыхание или считать."
+    },
+    "explanation.12": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-12.m4a",
+      "durationMs": 4160,
+      "text": "Будем наблюдать за привычным дыханием, не задавая темп."
+    },
+    "explanation.13": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-13.m4a",
+      "durationMs": 3600,
+      "text": "Для вдоха можно использовать нос, если так удобно."
+    },
+    "explanation.14": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-14.m4a",
+      "durationMs": 3200,
+      "text": "Выдыхайте носом или ртом, без усилия."
+    },
+    "explanation.15": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-15.m4a",
+      "durationMs": 4640,
+      "text": "Для двойного вдоха используйте нос, для выдоха — рот."
+    },
+    "explanation.16": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-16.m4a",
+      "durationMs": 4720,
+      "text": "Если этот способ дыхания неудобен, выберите практику без счёта."
+    },
+    "explanation.17": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-17.m4a",
+      "durationMs": 5520,
+      "text": "Сначала я обозначу фазы голосом. Дальше слов станет меньше."
+    },
+    "explanation.18": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-18.m4a",
+      "durationMs": 4160,
+      "text": "Звук будет отмечать каждый вдох и каждый выдох."
+    },
+    "explanation.19": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-19.m4a",
+      "durationMs": 4160,
+      "text": "В вечерней практике можно остаться отдыхать после окончания."
+    },
+    "explanation.20": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/explanation-20.m4a",
+      "durationMs": 3760,
+      "text": "Это короткая пауза. Начнём с простого ритма."
+    },
+    "session_start.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-01.m4a",
+      "durationMs": 2080,
+      "text": "Сейчас перейдём к первому циклу."
+    },
+    "session_start.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-02.m4a",
+      "durationMs": 2640,
+      "text": "Приготовьтесь следовать за ритмом."
+    },
+    "session_start.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-03.m4a",
+      "durationMs": 3280,
+      "text": "Через мгновение начнётся первый вдох."
+    },
+    "session_start.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-04.m4a",
+      "durationMs": 2240,
+      "text": "Переходим к дыхательной части."
+    },
+    "session_start.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-05.m4a",
+      "durationMs": 2480,
+      "text": "Начинайте вместе с первым сигналом."
+    },
+    "session_start.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-06.m4a",
+      "durationMs": 2320,
+      "text": "Теперь можно перейти к упражнению."
+    },
+    "session_start.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-07.m4a",
+      "durationMs": 2640,
+      "text": "Первый цикл пройдём с голосовыми подсказками."
+    },
+    "session_start.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/session-start-08.m4a",
+      "durationMs": 2560,
+      "text": "Устроившись удобно, начнём практику."
+    },
+    "inhale.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-01.m4a",
+      "durationMs": 1520,
+      "text": "Вдыхайте мягко."
+    },
+    "inhale.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-02.m4a",
+      "durationMs": 1520,
+      "text": "Спокойно вдохните."
+    },
+    "inhale.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-03.m4a",
+      "durationMs": 1120,
+      "text": "Начните вдох."
+    },
+    "inhale.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-04.m4a",
+      "durationMs": 1680,
+      "text": "Лёгкий вдох."
+    },
+    "inhale.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-05.m4a",
+      "durationMs": 1360,
+      "text": "Плавно вдыхайте."
+    },
+    "inhale.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-06.m4a",
+      "durationMs": 1200,
+      "text": "Тихо вдохните."
+    },
+    "inhale.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-07.m4a",
+      "durationMs": 1760,
+      "text": "Вдох без усилия."
+    },
+    "inhale.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/inhale-08.m4a",
+      "durationMs": 2000,
+      "text": "Сделайте спокойный вдох."
+    },
+    "exhale.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-01.m4a",
+      "durationMs": 1360,
+      "text": "Плавно выдыхайте."
+    },
+    "exhale.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-02.m4a",
+      "durationMs": 1760,
+      "text": "Начните выдох."
+    },
+    "exhale.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-03.m4a",
+      "durationMs": 1360,
+      "text": "Тихо выдохните."
+    },
+    "exhale.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-04.m4a",
+      "durationMs": 1840,
+      "text": "Спокойно выдыхайте."
+    },
+    "exhale.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-05.m4a",
+      "durationMs": 1920,
+      "text": "Выдох без напряжения."
+    },
+    "exhale.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-06.m4a",
+      "durationMs": 1360,
+      "text": "Мягко выдыхайте."
+    },
+    "exhale.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-07.m4a",
+      "durationMs": 2000,
+      "text": "Постепенно выдохните."
+    },
+    "exhale.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/exhale-08.m4a",
+      "durationMs": 1200,
+      "text": "Лёгкий выдох."
+    },
+    "hold_after_inhale.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-inhale-01.m4a",
+      "durationMs": 2000,
+      "text": "Задержка после вдоха."
+    },
+    "hold_after_inhale.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-inhale-02.m4a",
+      "durationMs": 2320,
+      "text": "Короткая задержка на вдохе."
+    },
+    "hold_after_inhale.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-inhale-03.m4a",
+      "durationMs": 2240,
+      "text": "Теперь задержка после вдоха."
+    },
+    "hold_after_inhale.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-inhale-04.m4a",
+      "durationMs": 2320,
+      "text": "Можно ненадолго задержать дыхание."
+    },
+    "hold_after_exhale.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-exhale-01.m4a",
+      "durationMs": 2240,
+      "text": "Задержка после выдоха."
+    },
+    "hold_after_exhale.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-exhale-02.m4a",
+      "durationMs": 2400,
+      "text": "Короткая задержка на выдохе."
+    },
+    "hold_after_exhale.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-exhale-03.m4a",
+      "durationMs": 2400,
+      "text": "Теперь задержка после выдоха."
+    },
+    "hold_after_exhale.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/hold-after-exhale-04.m4a",
+      "durationMs": 2720,
+      "text": "Небольшая пауза после выдоха."
+    },
+    "transition.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-01.m4a",
+      "durationMs": 3440,
+      "text": "Ритм останется прежним, а подсказок станет меньше."
+    },
+    "transition.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-02.m4a",
+      "durationMs": 2960,
+      "text": "Дальше несколько циклов пройдут без слов."
+    },
+    "transition.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-03.m4a",
+      "durationMs": 1600,
+      "text": "Продолжим в том же темпе."
+    },
+    "transition.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-04.m4a",
+      "durationMs": 3040,
+      "text": "Теперь можно ориентироваться на дыхательный звук."
+    },
+    "transition.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-05.m4a",
+      "durationMs": 3280,
+      "text": "После этого цикла перейдём к обычному дыханию."
+    },
+    "transition.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-06.m4a",
+      "durationMs": 3600,
+      "text": "Сейчас закончим счёт и понаблюдаем за дыханием."
+    },
+    "transition.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-07.m4a",
+      "durationMs": 2400,
+      "text": "Переходим к спокойному завершению."
+    },
+    "transition.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-08.m4a",
+      "durationMs": 2480,
+      "text": "Следующий участок пройдёт без счёта."
+    },
+    "transition.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-09.m4a",
+      "durationMs": 5280,
+      "text": "Сначала немного подышите как обычно. Затем начнём заново."
+    },
+    "transition.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/transition-10.m4a",
+      "durationMs": 1920,
+      "text": "Мы вернулись к началу цикла."
+    },
+    "support.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-01.m4a",
+      "durationMs": 2160,
+      "text": "Проверьте, свободны ли плечи."
+    },
+    "support.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-02.m4a",
+      "durationMs": 2160,
+      "text": "Вспомните об опоре под телом."
+    },
+    "support.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-03.m4a",
+      "durationMs": 1760,
+      "text": "Ладони можно расслабить."
+    },
+    "support.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-04.m4a",
+      "durationMs": 1520,
+      "text": "Не добавляйте усилия."
+    },
+    "support.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-05.m4a",
+      "durationMs": 1920,
+      "text": "Пусть лицо остаётся мягким."
+    },
+    "support.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-06.m4a",
+      "durationMs": 2080,
+      "text": "Почувствуйте опору под стопами."
+    },
+    "support.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-07.m4a",
+      "durationMs": 1920,
+      "text": "Оставьте челюсть свободной."
+    },
+    "support.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-08.m4a",
+      "durationMs": 2960,
+      "text": "Не нужно добиваться особого ощущения."
+    },
+    "support.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-09.m4a",
+      "durationMs": 1840,
+      "text": "Можно немного поправить позу."
+    },
+    "support.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-10.m4a",
+      "durationMs": 1520,
+      "text": "Ритм остаётся прежним."
+    },
+    "support.11": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-11.m4a",
+      "durationMs": 2560,
+      "text": "Заметьте движение грудной клетки."
+    },
+    "support.12": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-12.m4a",
+      "durationMs": 1760,
+      "text": "Шею не нужно напрягать."
+    },
+    "support.13": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-13.m4a",
+      "durationMs": 2560,
+      "text": "Достаточно удобного объёма дыхания."
+    },
+    "support.14": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-14.m4a",
+      "durationMs": 1840,
+      "text": "Не оценивайте каждый вдох."
+    },
+    "support.15": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-15.m4a",
+      "durationMs": 3600,
+      "text": "Если отвлеклись, верните внимание к звуку."
+    },
+    "support.16": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-16.m4a",
+      "durationMs": 2240,
+      "text": "Ощутите, как лежат руки."
+    },
+    "natural_breathing.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-01.m4a",
+      "durationMs": 2800,
+      "text": "Дайте дыханию идти своим ходом."
+    },
+    "natural_breathing.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-02.m4a",
+      "durationMs": 1840,
+      "text": "Больше не нужно следовать счёту."
+    },
+    "natural_breathing.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-03.m4a",
+      "durationMs": 2960,
+      "text": "Наблюдайте за дыханием, ничего не меняя."
+    },
+    "natural_breathing.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-04.m4a",
+      "durationMs": 3280,
+      "text": "Позвольте дыханию найти привычный темп."
+    },
+    "natural_breathing.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-05.m4a",
+      "durationMs": 4880,
+      "text": "Замечайте вдох и выдох такими, какие они есть."
+    },
+    "natural_breathing.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-06.m4a",
+      "durationMs": 2400,
+      "text": "Можно просто побыть без задания."
+    },
+    "natural_breathing.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-07.m4a",
+      "durationMs": 2720,
+      "text": "Не нужно специально удлинять выдох."
+    },
+    "natural_breathing.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-08.m4a",
+      "durationMs": 2560,
+      "text": "Оставьте дыхание без контроля."
+    },
+    "natural_breathing.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-09.m4a",
+      "durationMs": 2400,
+      "text": "Побудьте с ощущением опоры."
+    },
+    "natural_breathing.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-10.m4a",
+      "durationMs": 3360,
+      "text": "Если отвлеклись, спокойно вернитесь к наблюдению."
+    },
+    "natural_breathing.11": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-11.m4a",
+      "durationMs": 2160,
+      "text": "Можно заметить звуки рядом с вами."
+    },
+    "natural_breathing.12": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/natural-breathing-12.m4a",
+      "durationMs": 4160,
+      "text": "Дыхание может меняться, и его не нужно выравнивать."
+    },
+    "closing.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-01.m4a",
+      "durationMs": 2160,
+      "text": "Дыхательная часть закончилась."
+    },
+    "closing.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-02.m4a",
+      "durationMs": 2080,
+      "text": "На этом закончим упражнение."
+    },
+    "closing.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-03.m4a",
+      "durationMs": 2560,
+      "text": "Теперь можно немного побыть в тишине."
+    },
+    "closing.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-04.m4a",
+      "durationMs": 2640,
+      "text": "Оставьте себе несколько спокойных мгновений."
+    },
+    "closing.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-05.m4a",
+      "durationMs": 2800,
+      "text": "Не нужно сразу переходить к следующему делу."
+    },
+    "closing.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-06.m4a",
+      "durationMs": 3280,
+      "text": "Заметьте, как вы чувствуете себя сейчас."
+    },
+    "closing.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-07.m4a",
+      "durationMs": 3360,
+      "text": "Любое ощущение можно просто отметить."
+    },
+    "closing.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-08.m4a",
+      "durationMs": 2160,
+      "text": "Можно оставаться в удобном положении."
+    },
+    "closing.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-09.m4a",
+      "durationMs": 2640,
+      "text": "Пусть окончание практики будет неспешным."
+    },
+    "closing.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/closing-10.m4a",
+      "durationMs": 2880,
+      "text": "Дальше можно продолжить отдых без подсказок."
+    },
+    "return.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-01.m4a",
+      "durationMs": 2720,
+      "text": "Почувствуйте положение рук и ног."
+    },
+    "return.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-02.m4a",
+      "durationMs": 2800,
+      "text": "Обратите внимание на звуки вокруг."
+    },
+    "return.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-03.m4a",
+      "durationMs": 2080,
+      "text": "Заметьте пространство перед собой."
+    },
+    "return.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-04.m4a",
+      "durationMs": 2160,
+      "text": "Можно слегка пошевелить пальцами."
+    },
+    "return.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-05.m4a",
+      "durationMs": 3360,
+      "text": "Если глаза закрыты, откройте их, когда удобно."
+    },
+    "return.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-06.m4a",
+      "durationMs": 2160,
+      "text": "Переведите взгляд на предмет рядом."
+    },
+    "return.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-07.m4a",
+      "durationMs": 2960,
+      "text": "Не спеша верните внимание к комнате."
+    },
+    "return.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-08.m4a",
+      "durationMs": 3200,
+      "text": "Перед движением ещё раз почувствуйте опору."
+    },
+    "return.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-09.m4a",
+      "durationMs": 3040,
+      "text": "Возвращайтесь к делам в удобном темпе."
+    },
+    "return.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/return-10.m4a",
+      "durationMs": 2400,
+      "text": "Дайте себе время, прежде чем встать."
+    },
+    "functional.01": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-01.m4a",
+      "durationMs": 1440,
+      "text": "Вдох."
+    },
+    "functional.02": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-02.m4a",
+      "durationMs": 1520,
+      "text": "Выдох."
+    },
+    "functional.03": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-03.m4a",
+      "durationMs": 1040,
+      "text": "Ещё вдох."
+    },
+    "functional.04": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-04.m4a",
+      "durationMs": 1520,
+      "text": "Задержка."
+    },
+    "functional.05": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-05.m4a",
+      "durationMs": 1600,
+      "text": "Без счёта."
+    },
+    "functional.06": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-06.m4a",
+      "durationMs": 1280,
+      "text": "Обычное дыхание."
+    },
+    "functional.07": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-07.m4a",
+      "durationMs": 1200,
+      "text": "Начинаем."
+    },
+    "functional.08": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-08.m4a",
+      "durationMs": 1280,
+      "text": "Практика остановлена."
+    },
+    "functional.09": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-09.m4a",
+      "durationMs": 1440,
+      "text": "Сессия на паузе."
+    },
+    "functional.10": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/functional-10.m4a",
+      "durationMs": 1760,
+      "text": "Продолжим с начала цикла."
+    },
+    "support.17": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-17.m4a",
+      "durationMs": 2080,
+      "text": "Хорошо. Продолжим вместе."
+    },
+    "support.18": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-18.m4a",
+      "durationMs": 1840,
+      "text": "Вы уделяете время себе."
+    },
+    "support.19": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-19.m4a",
+      "durationMs": 1920,
+      "text": "Спасибо за ваше внимание."
+    },
+    "support.20": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-20.m4a",
+      "durationMs": 2080,
+      "text": "Побудьте здесь, с собой."
+    },
+    "support.21": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-21.m4a",
+      "durationMs": 1760,
+      "text": "Можно никуда не спешить."
+    },
+    "support.22": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-22.m4a",
+      "durationMs": 1760,
+      "text": "Этот момент — для вас."
+    },
+    "support.23": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-23.m4a",
+      "durationMs": 1680,
+      "text": "Дайте себе немного тепла."
+    },
+    "support.24": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-24.m4a",
+      "durationMs": 2720,
+      "text": "Хорошо. Оставайтесь с дыханием."
+    },
+    "support.25": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-25.m4a",
+      "durationMs": 1680,
+      "text": "Можно просто быть собой."
+    },
+    "support.26": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-26.m4a",
+      "durationMs": 2160,
+      "text": "Пусть это будет время заботы."
+    },
+    "support.27": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-27.m4a",
+      "durationMs": 2640,
+      "text": "Возвращайтесь к себе мягко."
+    },
+    "support.28": {
+      "path": "audio/voice/ru-RU/ru-female-calm-v1/support-28.m4a",
+      "durationMs": 1920,
+      "text": "Мы продолжим без спешки."
+    },
+    "common.comfortable_position": {
+      "path": "audio/voice/ru-RU/speechkit/common-comfortable-position.m4a",
+      "durationMs": 3390,
+      "text": "Устройтесь удобно. Спина может оставаться естественно прямой."
+    },
+    "common.release_shoulders": {
+      "path": "audio/voice/ru-RU/speechkit/common-release-shoulders.m4a",
+      "durationMs": 2780,
+      "text": "Позвольте плечам опуститься, а лицу расслабиться."
+    },
+    "common.no_force": {
+      "path": "audio/voice/ru-RU/speechkit/common-no-force.m4a",
+      "durationMs": 4122,
+      "text": "Не старайтесь вдохнуть как можно глубже. Пусть дыхание остается комфортным."
+    },
+    "common.begin": {
+      "path": "audio/voice/ru-RU/speechkit/common-begin.m4a",
+      "durationMs": 631,
+      "text": "Начнем."
+    },
+    "middle.follow_rhythm": {
+      "path": "audio/voice/ru-RU/speechkit/middle-follow-rhythm.m4a",
+      "durationMs": 1917,
+      "text": "Теперь можно просто следовать за ритмом."
+    },
+    "middle.release_effort": {
+      "path": "audio/voice/ru-RU/speechkit/middle-release-effort.m4a",
+      "durationMs": 2533,
+      "text": "Пусть следующий выдох пройдёт без усилия."
+    },
+    "cue.inhale": {
+      "path": "audio/voice/ru-RU/speechkit/cue-inhale.m4a",
+      "durationMs": 532,
+      "text": "Вдох."
+    },
+    "cue.exhale": {
+      "path": "audio/voice/ru-RU/speechkit/cue-exhale.m4a",
+      "durationMs": 562,
+      "text": "Выдох."
+    },
+    "cue.hold_gently": {
+      "path": "audio/voice/ru-RU/speechkit/cue-hold-gently.m4a",
+      "durationMs": 1143,
+      "text": "Мягкая задержка."
+    },
+    "cue.natural": {
+      "path": "audio/voice/ru-RU/speechkit/cue-natural.m4a",
+      "durationMs": 1299,
+      "text": "Дышите естественно."
+    },
+    "practice.calm.intro": {
+      "path": "audio/voice/ru-RU/speechkit/practice-calm-intro.m4a",
+      "durationMs": 3687,
+      "text": "Эта практика предлагает мягкий ритм с более длинным выдохом."
+    },
+    "practice.quick.intro": {
+      "path": "audio/voice/ru-RU/speechkit/practice-quick-intro.m4a",
+      "durationMs": 3920,
+      "text": "Это короткая пауза с мягким вдохом и более длинным выдохом."
+    },
+    "practice.coherent.intro": {
+      "path": "audio/voice/ru-RU/speechkit/practice-coherent-intro.m4a",
+      "durationMs": 2779,
+      "text": "Сейчас вдох и выдох будут одинаковой длины."
+    },
+    "practice.box.pattern": {
+      "path": "audio/voice/ru-RU/speechkit/practice-box-pattern.m4a",
+      "durationMs": 3350,
+      "text": "Вдох, задержка, выдох и спокойная пауза."
+    },
+    "practice.morning.route": {
+      "path": "audio/voice/ru-RU/speechkit/practice-morning-route.m4a",
+      "durationMs": 2971,
+      "text": "Сохраняйте вдох и выдох одинаково лёгкими."
+    },
+    "outro.natural_breath": {
+      "path": "audio/voice/ru-RU/speechkit/outro-natural-breath.m4a",
+      "durationMs": 1915,
+      "text": "Вернитесь к естественному дыханию."
+    },
+    "outro.notice_state": {
+      "path": "audio/voice/ru-RU/speechkit/outro-notice-state.m4a",
+      "durationMs": 4198,
+      "text": "Заметьте, изменилось ли что-нибудь в теле, внимании или настроении."
+    },
+    "outro.complete": {
+      "path": "audio/voice/ru-RU/speechkit/outro-complete.m4a",
+      "durationMs": 3490,
+      "text": "Практика завершена. Возвращайтесь к своим делам без спешки."
+    },
+    "outro.rest": {
+      "path": "audio/voice/ru-RU/speechkit/outro-rest.m4a",
+      "durationMs": 2745,
+      "text": "Ничего больше не нужно делать. Просто отдыхайте."
+    },
+    "outro.complete_soft": {
+      "path": "audio/voice/ru-RU/speechkit/outro-complete-soft.m4a",
+      "durationMs": 1179,
+      "text": "Практика завершена."
+    },
+    "session.paused": {
+      "path": "audio/voice/ru-RU/speechkit/session-paused.m4a",
+      "durationMs": 2745,
+      "text": "Пауза."
+    },
+    "session.stopped": {
+      "path": "audio/voice/ru-RU/speechkit/session-stopped.m4a",
+      "durationMs": 2547,
+      "text": "Практика остановлена. Дышите естественно."
+    }
+  }
+}

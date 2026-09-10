@@ -3,13 +3,28 @@
   "locale": "ru-RU",
   "provider": "Yandex SpeechKit TTS v3",
   "recommendedVoiceAB": [
-    { "voice": "marina", "role": "friendly", "speed": 0.92 },
-    { "voice": "lera", "role": "friendly", "speed": 0.92 }
+    {
+      "voice": "marina",
+      "role": "friendly",
+      "speed": 0.92
+    },
+    {
+      "voice": "lera",
+      "role": "friendly",
+      "speed": 0.92
+    }
   ],
-  "defaultCandidate": { "voice": "marina", "role": "friendly", "speed": 0.92 },
+  "defaultCandidate": {
+    "voice": "marina",
+    "role": "friendly",
+    "speed": 0.92
+  },
   "outputDirectoryTemplate": "apps/web/public/audio/voice/ru-RU/{voice}-{role}",
   "assetDirectory": "speechkit",
-  "fileFormats": ["m4a", "ogg"],
+  "fileFormats": [
+    "m4a",
+    "ogg"
+  ],
   "masterFormat": "mp3-48kHz-mono-owner-source",
   "targetIntegratedLufs": -18,
   "namingRule": "Use the exact fileBase below. Add only the selected extension. Do not put text or voice names into the filename; the voice profile is represented by the parent directory.",
@@ -22,30 +37,6 @@
     "Keep original WAV masters; create AAC/M4A and Opus/Ogg delivery copies."
   ],
   "phrases": [
-    {
-      "key": "safety.pre_session",
-      "fileBase": "safety-pre-session",
-      "text": "Дышите мягко и без усилия. Вы можете остановиться в любой момент.",
-      "ttsMarkup": "Дышите мягко и без усилия. sil<[350]> Вы можете остановиться в любой момент.",
-      "usage": "Shown and optionally played before the first session and before practices with holds.",
-      "priority": "required"
-    },
-    {
-      "key": "safety.stop_if_unwell",
-      "fileBase": "safety-stop-if-unwell",
-      "text": "Если появятся головокружение, боль, выраженная одышка или сильный дискомфорт, остановитесь и вернитесь к обычному дыханию.",
-      "ttsMarkup": "Если появятся головокружение, боль, выраженная одышка или сильный дискомфорт, sil<[300]> остановитесь и вернитесь к обычному дыханию.",
-      "usage": "Safety sheet and help; not repeated in every short session after acknowledgement.",
-      "priority": "required"
-    },
-    {
-      "key": "safety.not_medical_care",
-      "fileBase": "safety-not-medical-care",
-      "text": "Эта практика не заменяет медицинскую помощь.",
-      "ttsMarkup": "Эта практика не заменяет медицинскую помощь.",
-      "usage": "Optional safety audio; always present as text.",
-      "priority": "optional"
-    },
     {
       "key": "common.comfortable_position",
       "fileBase": "common-comfortable-position",

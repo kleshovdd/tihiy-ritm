@@ -1,0 +1,1447 @@
+{
+  "schemaVersion": 3,
+  "locale": "ru-RU",
+  "practices": [
+    {
+      "id": "present-moment",
+      "revision": 1,
+      "title": "Вернуться в настоящий момент",
+      "subtitle": "Пауза среди дел и возвращение к ощущениям",
+      "intent": "quick",
+      "durationMs": 300000,
+      "voice": {
+        "id": "rQOBu7YxCDxGiFdTm28w",
+        "name": "Артём",
+        "libraryName": "Artem Lebedev - Captivating and Engaging"
+      },
+      "voiceSlots": [
+        {
+          "id": "purpose",
+          "atMs": 3000,
+          "windowEndMs": 17000,
+          "meaning": "Объяснить короткую практику и возможность дышать естественно",
+          "variants": [
+            {
+              "id": "a",
+              "text": "На несколько минут отложи дела. Мы немного подышим вместе и обратим внимание на ощущения. Если ритм неудобен, можно дышать в своём темпе.",
+              "assetId": "present-moment.purpose.a"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "atMs": 23000,
+          "windowEndMs": 31000,
+          "meaning": "Заметить контакт с опорой",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй опору под телом. Пусть поза будет удобной.",
+              "assetId": "present-moment.contact.a"
+            },
+            {
+              "id": "b",
+              "text": "Заметь, где тело касается опоры. Устройся без лишнего усилия.",
+              "assetId": "present-moment.contact.b"
+            },
+            {
+              "id": "c",
+              "text": "Найди удобное положение и почувствуй поверхность под собой.",
+              "assetId": "present-moment.contact.c"
+            }
+          ]
+        },
+        {
+          "id": "technique",
+          "atMs": 34000,
+          "windowEndMs": 45000,
+          "meaning": "Объяснить мягкий двойной вдох и отпускание выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Спокойно вдохни носом, добавь маленький вдох. Затем мягко выпусти воздух через рот. Без усилия.",
+              "assetId": "present-moment.technique.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-0",
+          "atMs": 45000,
+          "windowEndMs": 49900,
+          "meaning": "Демонстрация двойного вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Спокойный вдох. И ещё немного.",
+              "assetId": "present-moment.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-0",
+          "atMs": 50000,
+          "windowEndMs": 54500,
+          "meaning": "Демонстрация длинного выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Мягко выдохни. Отпусти воздух.",
+              "assetId": "present-moment.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-1",
+          "atMs": 60000,
+          "windowEndMs": 64900,
+          "meaning": "Демонстрация двойного вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Спокойный вдох. И ещё немного.",
+              "assetId": "present-moment.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-1",
+          "atMs": 65000,
+          "windowEndMs": 69500,
+          "meaning": "Демонстрация длинного выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Мягко выдохни. Отпусти воздух.",
+              "assetId": "present-moment.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "continue",
+          "atMs": 95000,
+          "windowEndMs": 100000,
+          "meaning": "Продолжать тот же режим без усиления",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Продолжай мягко, без лишнего усилия.",
+              "assetId": "present-moment.continue.a"
+            },
+            {
+              "id": "b",
+              "text": "Сохраняй удобную глубину дыхания.",
+              "assetId": "present-moment.continue.b"
+            },
+            {
+              "id": "c",
+              "text": "Пусть дыхание остаётся свободным.",
+              "assetId": "present-moment.continue.c"
+            }
+          ]
+        },
+        {
+          "id": "last",
+          "atMs": 105000,
+          "windowEndMs": 108000,
+          "meaning": "Объявить последнее повторение",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Ещё одно повторение.",
+              "assetId": "present-moment.last.a"
+            }
+          ]
+        },
+        {
+          "id": "natural",
+          "atMs": 120000,
+          "windowEndMs": 130000,
+          "meaning": "Отменить ритм, перейти к естественному дыханию",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь оставь этот ритм. Дыши как обычно. Несколько мгновений просто замечай ощущения.",
+              "assetId": "present-moment.natural.a"
+            }
+          ]
+        },
+        {
+          "id": "body-contact",
+          "atMs": 150000,
+          "windowEndMs": 160000,
+          "meaning": "Заметить контакт тела без изменения дыхания",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй места, где тело касается опоры. Не нужно ничего менять.",
+              "assetId": "present-moment.body-contact.a"
+            },
+            {
+              "id": "b",
+              "text": "Обрати внимание на прикосновение опоры к телу. Просто замечай его.",
+              "assetId": "present-moment.body-contact.b"
+            },
+            {
+              "id": "c",
+              "text": "Заметь контакт тела с поверхностью. Позволь ощущениям быть такими, какие они есть.",
+              "assetId": "present-moment.body-contact.c"
+            }
+          ]
+        },
+        {
+          "id": "open-attention",
+          "atMs": 200000,
+          "windowEndMs": 213000,
+          "meaning": "Расширить внимание на текущие ощущения и звуки",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь замечай и тело, и звуки вокруг. Не нужно выбирать что-то одно. Пусть внимание остаётся открытым.",
+              "assetId": "present-moment.open-attention.a"
+            }
+          ]
+        },
+        {
+          "id": "notice-state",
+          "atMs": 250000,
+          "windowEndMs": 258000,
+          "meaning": "Заметить состояние без требования улучшения",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Заметь, как ты сейчас себя чувствуешь. Любой ответ подходит.",
+              "assetId": "present-moment.notice-state.a"
+            },
+            {
+              "id": "b",
+              "text": "Посмотри, какое состояние сейчас. Его не нужно оценивать.",
+              "assetId": "present-moment.notice-state.b"
+            },
+            {
+              "id": "c",
+              "text": "Обрати внимание на своё состояние, не требуя от себя перемен.",
+              "assetId": "present-moment.notice-state.c"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "atMs": 275000,
+          "windowEndMs": 287000,
+          "meaning": "Вернуть внимание к комнате",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Снова почувствуй комнату вокруг. Если глаза были закрыты, открой их, когда будет удобно.",
+              "assetId": "present-moment.return.a"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "atMs": 292000,
+          "windowEndMs": 297000,
+          "meaning": "Спокойно закончить",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Практика закончена. Можно возвращаться к делам.",
+              "assetId": "present-moment.finish.a"
+            }
+          ]
+        }
+      ],
+      "breaths": [
+        {
+          "atMs": 45000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 48400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 50000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 60000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 63400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 65000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 75000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 78400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 80000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 90000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 93400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 95000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 105000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 108400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 110000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        }
+      ],
+      "background": [
+        {
+          "assetId": "background.soft",
+          "atMs": 0,
+          "endMs": 135000,
+          "fadeInMs": 4000,
+          "fadeOutMs": 15000
+        }
+      ],
+      "endBehavior": "daytime",
+      "resumeCheckpointsMs": [
+        0,
+        34000,
+        45000,
+        75000,
+        120000,
+        150000,
+        200000,
+        275000
+      ]
+    },
+    {
+      "id": "clear-space",
+      "revision": 1,
+      "title": "Пространство для ясности",
+      "subtitle": "Дыхание, открытое внимание и пространство тишины",
+      "intent": "focus",
+      "durationMs": 540000,
+      "voice": {
+        "id": "HcaxAsrhw4ByUo4CBCBN",
+        "name": "Максим",
+        "libraryName": "Maxim - Calm & Neutral"
+      },
+      "voiceSlots": [
+        {
+          "id": "purpose",
+          "atMs": 4000,
+          "windowEndMs": 27000,
+          "meaning": "Наблюдать мыслительный шум, не решая задачу",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Иногда мысли продолжают звучать, даже когда дело уже отложено. В этой практике мы не будем искать решение. Сначала немного подышим вместе, а затем заметим, что происходит без нашего вмешательства.",
+              "assetId": "clear-space.purpose.a"
+            }
+          ]
+        },
+        {
+          "id": "orientation",
+          "atMs": 33000,
+          "windowEndMs": 42000,
+          "meaning": "Пояснить последовательность сессии",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Не нужно добиваться пустоты в голове. Достаточно дать себе немного времени.",
+              "assetId": "clear-space.orientation.a"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "atMs": 45000,
+          "windowEndMs": 54000,
+          "meaning": "Заметить опору",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй опору под собой. Позволь плечам занять удобное положение.",
+              "assetId": "clear-space.contact.a"
+            },
+            {
+              "id": "b",
+              "text": "Заметь контакт тела с поверхностью. Устройся так, чтобы было удобно.",
+              "assetId": "clear-space.contact.b"
+            },
+            {
+              "id": "c",
+              "text": "Найди устойчивую, удобную позу. Почувствуй, на что опирается тело.",
+              "assetId": "clear-space.contact.c"
+            }
+          ]
+        },
+        {
+          "id": "technique",
+          "atMs": 58000,
+          "windowEndMs": 75000,
+          "meaning": "Объяснить мягкое двойное дыхание и свободную альтернативу",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Сделаем спокойный вдох через нос и добавим ещё немного воздуха. Затем мягко выдохнем через рот. Если такой способ неудобен, оставайся на обычном дыхании.",
+              "assetId": "clear-space.technique.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-0",
+          "atMs": 75000,
+          "windowEndMs": 79900,
+          "meaning": "Демонстрация двойного вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Спокойный вдох. И ещё немного.",
+              "assetId": "clear-space.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-0",
+          "atMs": 80000,
+          "windowEndMs": 84500,
+          "meaning": "Демонстрация длинного выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Мягко выдохни. Отпусти воздух.",
+              "assetId": "clear-space.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-1",
+          "atMs": 90000,
+          "windowEndMs": 94900,
+          "meaning": "Демонстрация двойного вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Спокойный вдох. И ещё немного.",
+              "assetId": "clear-space.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-1",
+          "atMs": 95000,
+          "windowEndMs": 99500,
+          "meaning": "Демонстрация длинного выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Мягко выдохни. Отпусти воздух.",
+              "assetId": "clear-space.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "continue",
+          "atMs": 140000,
+          "windowEndMs": 145000,
+          "meaning": "Продолжать освоенное действие",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Продолжай в том же спокойном ритме.",
+              "assetId": "clear-space.continue.a"
+            },
+            {
+              "id": "b",
+              "text": "Сохраняй мягкость каждого движения дыхания.",
+              "assetId": "clear-space.continue.b"
+            },
+            {
+              "id": "c",
+              "text": "Дыши без усилия, следуя знакомому звуку.",
+              "assetId": "clear-space.continue.c"
+            }
+          ]
+        },
+        {
+          "id": "last",
+          "atMs": 165000,
+          "windowEndMs": 168000,
+          "meaning": "Последнее повторение",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Последнее повторение.",
+              "assetId": "clear-space.last.a"
+            }
+          ]
+        },
+        {
+          "id": "natural",
+          "atMs": 180000,
+          "windowEndMs": 192000,
+          "meaning": "Прекратить управление дыханием",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь отпусти заданный ритм. Пусть дыхание происходит само. Больше не нужно делать его глубже или длиннее.",
+              "assetId": "clear-space.natural.a"
+            }
+          ]
+        },
+        {
+          "id": "observe",
+          "atMs": 220000,
+          "windowEndMs": 238000,
+          "meaning": "Объяснить открытое внимание",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Можно перестать следить за каждым вдохом. Замечай то, что само появляется в поле внимания: ощущение в теле, звук, мысль. Не нужно удерживать что-то одно.",
+              "assetId": "clear-space.observe.a"
+            }
+          ]
+        },
+        {
+          "id": "notice-contact",
+          "atMs": 255000,
+          "windowEndMs": 267000,
+          "meaning": "Заметить контакт тела с опорой, не менять дыхание",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй, как тело соприкасается с опорой. Дыхание при этом может оставаться обычным.",
+              "assetId": "clear-space.notice-contact.a"
+            },
+            {
+              "id": "b",
+              "text": "Заметь места контакта тела с поверхностью. Позволь дыханию идти своим чередом.",
+              "assetId": "clear-space.notice-contact.b"
+            },
+            {
+              "id": "c",
+              "text": "Обрати внимание на прикосновение опоры к телу. Не меняй ради этого дыхание.",
+              "assetId": "clear-space.notice-contact.c"
+            }
+          ]
+        },
+        {
+          "id": "thoughts",
+          "atMs": 315000,
+          "windowEndMs": 331000,
+          "meaning": "Заметить мысль, не продолжая внутренний диалог",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Если появляется мысль, можно просто заметить её. Не обязательно продолжать внутренний разговор или отталкивать его. Посмотри, что возникает следом.",
+              "assetId": "clear-space.thoughts.a"
+            }
+          ]
+        },
+        {
+          "id": "widen",
+          "atMs": 375000,
+          "windowEndMs": 386000,
+          "meaning": "Расширить внимание без поиска правильного объекта",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Позволь вниманию стать чуть шире. Не нужно искать единственное правильное ощущение.",
+              "assetId": "clear-space.widen.a"
+            },
+            {
+              "id": "b",
+              "text": "Замечай происходящее целиком, насколько получается. Здесь нет одного правильного объекта внимания.",
+              "assetId": "clear-space.widen.b"
+            },
+            {
+              "id": "c",
+              "text": "Можно замечать сразу несколько ощущений. Не старайся выбрать среди них самое важное.",
+              "assetId": "clear-space.widen.c"
+            }
+          ]
+        },
+        {
+          "id": "allow",
+          "atMs": 435000,
+          "windowEndMs": 443000,
+          "meaning": "Дать ощущениям и мыслям сменяться",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Пусть мысли и ощущения сменяют друг друга. Просто замечай это движение.",
+              "assetId": "clear-space.allow.a"
+            },
+            {
+              "id": "b",
+              "text": "Замечай, как одно ощущение уступает место другому. Не нужно вмешиваться.",
+              "assetId": "clear-space.allow.b"
+            },
+            {
+              "id": "c",
+              "text": "Позволь происходящему меняться. Оставайся внимательным к тому, что есть сейчас.",
+              "assetId": "clear-space.allow.c"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "atMs": 495000,
+          "windowEndMs": 509000,
+          "meaning": "Вернуться к комнате",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй опору ещё раз. Заметь пространство вокруг и звуки комнаты. Если глаза закрыты, можно спокойно открыть их.",
+              "assetId": "clear-space.return.a"
+            }
+          ]
+        },
+        {
+          "id": "meaning",
+          "atMs": 522000,
+          "windowEndMs": 531000,
+          "meaning": "Завершить с возможностью спокойно выбрать следующее действие",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Следующее действие можно выбрать без спешки. Для этого не обязательно разобраться со всеми мыслями.",
+              "assetId": "clear-space.meaning.a"
+            },
+            {
+              "id": "b",
+              "text": "Можно перейти к одному следующему делу, оставив остальные мысли пока без ответа.",
+              "assetId": "clear-space.meaning.b"
+            },
+            {
+              "id": "c",
+              "text": "Дай себе время выбрать следующий шаг. Не каждую мысль нужно превращать в действие.",
+              "assetId": "clear-space.meaning.c"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "atMs": 535000,
+          "windowEndMs": 538000,
+          "meaning": "Окончание",
+          "variants": [
+            {
+              "id": "a",
+              "text": "На этом закончим.",
+              "assetId": "clear-space.finish.a"
+            }
+          ]
+        }
+      ],
+      "breaths": [
+        {
+          "atMs": 75000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 78400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 80000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 90000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 93400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 95000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 105000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 108400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 110000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 120000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 123400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 125000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 135000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 138400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 140000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 150000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 153400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 155000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 165000,
+          "durationMs": 3200,
+          "assetId": "breath.inhale"
+        },
+        {
+          "atMs": 168400,
+          "durationMs": 1200,
+          "assetId": "breath.topup"
+        },
+        {
+          "atMs": 170000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        }
+      ],
+      "background": [],
+      "endBehavior": "daytime",
+      "resumeCheckpointsMs": [
+        0,
+        45000,
+        75000,
+        105000,
+        180000,
+        220000,
+        255000,
+        315000,
+        375000,
+        435000,
+        495000
+      ]
+    },
+    {
+      "id": "release-day",
+      "revision": 1,
+      "title": "Отпустить день",
+      "subtitle": "Спокойное дыхание и отдых перед сном",
+      "intent": "sleep",
+      "durationMs": 840000,
+      "voice": {
+        "id": "tOo2BJ74frmnPadsDNIi",
+        "name": "Кейт",
+        "libraryName": "Kate - Calm, Friendly and Clear"
+      },
+      "voiceSlots": [
+        {
+          "id": "position",
+          "atMs": 5000,
+          "windowEndMs": 23000,
+          "meaning": "Устроиться лёжа",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Устройся лёжа. Найди удобное положение для головы и рук. Если хочется что-то поправить, сделай это сейчас, не торопясь.",
+              "assetId": "release-day.position.a"
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "atMs": 32000,
+          "windowEndMs": 44000,
+          "meaning": "Почувствовать опору",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй поверхность под спиной. Позволь телу опираться на неё чуть полнее.",
+              "assetId": "release-day.support.a"
+            },
+            {
+              "id": "b",
+              "text": "Заметь, как спина соприкасается с постелью. Почувствуй эту спокойную опору.",
+              "assetId": "release-day.support.b"
+            },
+            {
+              "id": "c",
+              "text": "Обрати внимание на вес тела и поверхность под ним. Можно устроиться немного свободнее.",
+              "assetId": "release-day.support.c"
+            }
+          ]
+        },
+        {
+          "id": "day",
+          "atMs": 54000,
+          "windowEndMs": 69000,
+          "meaning": "Отложить незаконченные дела",
+          "variants": [
+            {
+              "id": "a",
+              "text": "На сегодня можно оставить незаконченные дела. Сейчас не нужно искать для них решение. Это время для отдыха.",
+              "assetId": "release-day.day.a"
+            },
+            {
+              "id": "b",
+              "text": "Всё, что ещё требует внимания, может немного подождать. Сейчас можно отложить решения и побыть в покое.",
+              "assetId": "release-day.day.b"
+            },
+            {
+              "id": "c",
+              "text": "Не обязательно заканчивать день с ответами на все вопросы. Позволь делам пока остаться за пределами этой практики.",
+              "assetId": "release-day.day.c"
+            }
+          ]
+        },
+        {
+          "id": "orientation",
+          "atMs": 78000,
+          "windowEndMs": 87000,
+          "meaning": "Объяснить предстоящую последовательность",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Сначала мы немного подышим вместе, а затем спокойно пройдём вниманием по телу.",
+              "assetId": "release-day.orientation.a"
+            }
+          ]
+        },
+        {
+          "id": "observe",
+          "atMs": 90000,
+          "windowEndMs": 108000,
+          "meaning": "Наблюдать дыхание",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Обрати внимание на дыхание. Заметь, где его движение ощущается яснее всего. Ничего не меняй, просто побудь с этим ощущением.",
+              "assetId": "release-day.observe.a"
+            }
+          ]
+        },
+        {
+          "id": "technique",
+          "atMs": 117000,
+          "windowEndMs": 140000,
+          "meaning": "Объяснить счёт 4/8 и возможность обычного дыхания",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Попробуем вдох на четыре счёта и более длинный выдох на восемь. Не нужно набирать много воздуха или тянуть выдох через усилие. Если неудобно, дыши как обычно. Я покажу ритм.",
+              "assetId": "release-day.technique.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-0",
+          "atMs": 150000,
+          "windowEndMs": 155000,
+          "meaning": "Счёт вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Вдох. Два. Три. Четыре.",
+              "assetId": "release-day.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-0",
+          "atMs": 155000,
+          "windowEndMs": 165000,
+          "meaning": "Счёт выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Выдох. Два. Три. Четыре. Пять. Шесть. Семь. Восемь.",
+              "assetId": "release-day.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-in-1",
+          "atMs": 165000,
+          "windowEndMs": 170000,
+          "meaning": "Счёт вдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Вдох. Два. Три. Четыре.",
+              "assetId": "release-day.demo-in.a"
+            }
+          ]
+        },
+        {
+          "id": "demo-out-1",
+          "atMs": 170000,
+          "windowEndMs": 180000,
+          "meaning": "Счёт выдоха",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Выдох. Два. Три. Четыре. Пять. Шесть. Семь. Восемь.",
+              "assetId": "release-day.demo-out.a"
+            }
+          ]
+        },
+        {
+          "id": "handover",
+          "atMs": 190000,
+          "windowEndMs": 196000,
+          "meaning": "Продолжать по звуку",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь продолжай по звуку, без усилия.",
+              "assetId": "release-day.handover.a"
+            }
+          ]
+        },
+        {
+          "id": "ease",
+          "atMs": 230000,
+          "windowEndMs": 237000,
+          "meaning": "Сохранять мягкость без нового действия",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Пусть дыхание остаётся мягким и удобным.",
+              "assetId": "release-day.ease.a"
+            },
+            {
+              "id": "b",
+              "text": "Сохраняй комфортную глубину каждого вдоха.",
+              "assetId": "release-day.ease.b"
+            },
+            {
+              "id": "c",
+              "text": "Дыши свободно, не стараясь набрать больше воздуха.",
+              "assetId": "release-day.ease.c"
+            }
+          ]
+        },
+        {
+          "id": "steady",
+          "atMs": 280000,
+          "windowEndMs": 287000,
+          "meaning": "Продолжать тот же режим",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Можно просто следовать знакомому ритму.",
+              "assetId": "release-day.steady.a"
+            },
+            {
+              "id": "b",
+              "text": "Продолжай спокойно, в том же удобном ритме.",
+              "assetId": "release-day.steady.b"
+            },
+            {
+              "id": "c",
+              "text": "Оставайся с этим мягким движением дыхания.",
+              "assetId": "release-day.steady.c"
+            }
+          ]
+        },
+        {
+          "id": "two-left",
+          "atMs": 300000,
+          "windowEndMs": 304000,
+          "meaning": "Осталось два повторения",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Ещё два повторения.",
+              "assetId": "release-day.two-left.a"
+            }
+          ]
+        },
+        {
+          "id": "one-left",
+          "atMs": 315000,
+          "windowEndMs": 318000,
+          "meaning": "Последнее повторение",
+          "variants": [
+            {
+              "id": "a",
+              "text": "И последнее.",
+              "assetId": "release-day.one-left.a"
+            }
+          ]
+        },
+        {
+          "id": "natural",
+          "atMs": 330000,
+          "windowEndMs": 342000,
+          "meaning": "Вернуться к обычному дыханию",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь вернись к обычному дыханию. Больше не нужно следовать счёту или звуку. Пусть тело дышит само.",
+              "assetId": "release-day.natural.a"
+            }
+          ]
+        },
+        {
+          "id": "body-explain",
+          "atMs": 370000,
+          "windowEndMs": 390000,
+          "meaning": "Объяснить наблюдение тела без движений",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Дальше мы будем замечать ощущения в разных частях тела. Двигаться не нужно. Если в какой-то области ничего не чувствуется, это тоже нормально. Просто следуй за голосом.",
+              "assetId": "release-day.body-explain.a"
+            }
+          ]
+        },
+        {
+          "id": "back",
+          "atMs": 405000,
+          "windowEndMs": 423000,
+          "meaning": "Контакт спины и затылка с поверхностью",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй спину там, где она касается поверхности. Заметь вес затылка. Не нужно усиливать эти ощущения. Достаточно обратить на них внимание.",
+              "assetId": "release-day.back.a"
+            }
+          ]
+        },
+        {
+          "id": "face",
+          "atMs": 433000,
+          "windowEndMs": 449000,
+          "meaning": "Ощущения лица",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Переведи внимание к лицу. Лоб, область вокруг глаз, щёки. Заметь положение челюсти. Пусть лицо остаётся таким, каким ему удобно быть.",
+              "assetId": "release-day.face.a"
+            }
+          ]
+        },
+        {
+          "id": "neck",
+          "atMs": 460000,
+          "windowEndMs": 474000,
+          "meaning": "Ощущения шеи",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь область шеи. Передняя поверхность, боковые стороны, место, где шея переходит в плечи. Просто замечай доступные ощущения.",
+              "assetId": "release-day.neck.a"
+            }
+          ]
+        },
+        {
+          "id": "shoulders",
+          "atMs": 480000,
+          "windowEndMs": 497000,
+          "meaning": "Ощущения плеч",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Почувствуй оба плеча. Есть ли здесь тепло, тяжесть, напряжение или что-то другое? Не нужно искать особое ощущение.",
+              "assetId": "release-day.shoulders.a"
+            }
+          ]
+        },
+        {
+          "id": "arms",
+          "atMs": 507000,
+          "windowEndMs": 524000,
+          "meaning": "Обе руки",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Перенеси внимание в руки. Верхняя часть рук, локти, предплечья. Заметь, как они лежат. Можно ничего не поправлять.",
+              "assetId": "release-day.arms.a"
+            }
+          ]
+        },
+        {
+          "id": "hands",
+          "atMs": 534000,
+          "windowEndMs": 549000,
+          "meaning": "Ладони",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь обе ладони и пальцы. Почувствуй их положение, прикосновение ткани или воздуха. Позволь вниманию немного задержаться здесь.",
+              "assetId": "release-day.hands.a"
+            }
+          ]
+        },
+        {
+          "id": "chest",
+          "atMs": 555000,
+          "windowEndMs": 572000,
+          "meaning": "Грудная клетка",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Обрати внимание на грудную клетку. Возможно, здесь заметно небольшое движение дыхания. Достаточно замечать это движение, не меняя дыхание.",
+              "assetId": "release-day.chest.a"
+            }
+          ]
+        },
+        {
+          "id": "torso",
+          "atMs": 583000,
+          "windowEndMs": 600000,
+          "meaning": "Спина и живот",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь средняя часть спины и живот. Замечай опору, прикосновения, движение. Не нужно придавать этим ощущениям какой-то смысл.",
+              "assetId": "release-day.torso.a"
+            }
+          ]
+        },
+        {
+          "id": "autonomous-breath",
+          "atMs": 612000,
+          "windowEndMs": 623000,
+          "meaning": "Заметить дыхание без управления",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Дыхание продолжается само. Можно замечать его, ничего не регулируя.",
+              "assetId": "release-day.autonomous-breath.a"
+            },
+            {
+              "id": "b",
+              "text": "Не нужно помогать дыханию. Позволь ему идти своим чередом.",
+              "assetId": "release-day.autonomous-breath.b"
+            },
+            {
+              "id": "c",
+              "text": "Тело дышит без дополнительных усилий. Просто замечай это, если хочется.",
+              "assetId": "release-day.autonomous-breath.c"
+            }
+          ]
+        },
+        {
+          "id": "pelvis",
+          "atMs": 630000,
+          "windowEndMs": 648000,
+          "meaning": "Таз",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Переведи внимание к нижней части живота и области таза. Почувствуй вес тела в этом месте и поверхность под ним.",
+              "assetId": "release-day.pelvis.a"
+            }
+          ]
+        },
+        {
+          "id": "legs",
+          "atMs": 658000,
+          "windowEndMs": 676000,
+          "meaning": "Ноги",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь обе ноги. Бёдра, колени, голени. Замечай ощущения по мере того, как внимание проходит вниз. Здесь тоже ничего не нужно менять.",
+              "assetId": "release-day.legs.a"
+            }
+          ]
+        },
+        {
+          "id": "feet",
+          "atMs": 687000,
+          "windowEndMs": 701000,
+          "meaning": "Стопы",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь почувствуй пятки и пальцы ног. Заметь, чего они касаются. Позволь ногам оставаться в удобном положении.",
+              "assetId": "release-day.feet.a"
+            }
+          ]
+        },
+        {
+          "id": "whole",
+          "atMs": 705000,
+          "windowEndMs": 723000,
+          "meaning": "Ощущать тело целиком",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Теперь почувствуй тело целиком. От головы до стоп. Все эти ощущения могут быть здесь одновременно. Не нужно удерживать каждое из них.",
+              "assetId": "release-day.whole.a"
+            }
+          ]
+        },
+        {
+          "id": "release-effort",
+          "atMs": 737000,
+          "windowEndMs": 749000,
+          "meaning": "Отпустить попытку делать практику правильно",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Можно отпустить даже старание следовать практике. Пусть внимание отдыхает вместе с телом.",
+              "assetId": "release-day.release-effort.a"
+            },
+            {
+              "id": "b",
+              "text": "Больше не нужно стараться делать что-то правильно. Позволь и телу, и вниманию отдохнуть.",
+              "assetId": "release-day.release-effort.b"
+            },
+            {
+              "id": "c",
+              "text": "Если внимание становится рассеянным, не нужно его собирать. Можно просто оставаться в покое.",
+              "assetId": "release-day.release-effort.c"
+            }
+          ]
+        },
+        {
+          "id": "remain",
+          "atMs": 760000,
+          "windowEndMs": 773000,
+          "meaning": "Остаться в покое",
+          "variants": [
+            {
+              "id": "a",
+              "text": "Дальше можно никуда не направлять внимание. Пусть дыхание продолжается, а тело отдыхает так, как ему удобно.",
+              "assetId": "release-day.remain.a"
+            }
+          ]
+        },
+        {
+          "id": "end",
+          "atMs": 785000,
+          "windowEndMs": 792000,
+          "meaning": "Тихое завершение без пробуждения",
+          "variants": [
+            {
+              "id": "a",
+              "text": "На этом я закончу. Оставайся в покое.",
+              "assetId": "release-day.end.a"
+            }
+          ]
+        }
+      ],
+      "breaths": [
+        {
+          "atMs": 150000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 155000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 165000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 170000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 180000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 185000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 195000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 200000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 210000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 215000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 225000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 230000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 240000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 245000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 255000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 260000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 270000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 275000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 285000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 290000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 300000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 305000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        },
+        {
+          "atMs": 315000,
+          "durationMs": 5000,
+          "assetId": "breath.inhale-long"
+        },
+        {
+          "atMs": 320000,
+          "durationMs": 10000,
+          "assetId": "breath.exhale"
+        }
+      ],
+      "background": [
+        {
+          "assetId": "background.soft",
+          "atMs": 0,
+          "endMs": 840000,
+          "fadeInMs": 4000,
+          "fadeOutMs": 12000
+        }
+      ],
+      "endBehavior": "quiet",
+      "resumeCheckpointsMs": [
+        0,
+        90000,
+        150000,
+        190000,
+        330000,
+        370000,
+        405000,
+        480000,
+        555000,
+        630000,
+        705000,
+        760000
+      ]
+    }
+  ]
+}

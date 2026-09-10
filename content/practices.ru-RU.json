@@ -3,8 +3,6 @@
   "locale": "ru-RU",
   "contentStatus": "reviewed-wellness-content-not-medical-advice",
   "globalSafety": {
-    "preSessionNoticeKey": "safety.pre_session",
-    "stopNoticeKey": "safety.stop_if_unwell",
     "allowImmediateStop": true,
     "copy": "Дышите мягко и без усилия. Если появятся головокружение, боль, выраженная одышка, тревога или сильный дискомфорт, остановите практику и вернитесь к обычному дыханию. Приложение не заменяет медицинскую помощь."
   },
@@ -19,41 +17,81 @@
     {
       "id": "quick-4-6",
       "title": "Тихая минута",
-      "subtitle": "Короткая пауза с более длинным выдохом",
+      "subtitle": "Вдох на четыре, выдох на шесть — мягко и без задержек",
       "intent": "quick",
       "purpose": "Быстро переключить внимание на спокойный, предсказуемый ритм.",
       "claim": "Короткая wellness-пауза без обещаний лечебного эффекта.",
       "difficulty": "beginner",
-      "whenToUse": ["между задачами", "после напряжённого разговора", "когда мало времени"],
+      "whenToUse": [
+        "между задачами",
+        "после напряжённого разговора",
+        "когда мало времени"
+      ],
       "instructions": [
         "Вдохните носом на четыре счёта.",
         "Выдыхайте носом или ртом на шесть счётов.",
         "Сохраняйте комфортный объём дыхания."
       ],
-      "cautions": ["Если шестисекундный выдох неудобен, вернитесь к обычному дыханию."],
-      "sourceRefs": ["bentley-2023-systematic-review", "nccih-relaxation-safety"],
-      "durationOptionsSeconds": [60, 120],
-      "defaultDurationSeconds": 120,
+      "cautions": [
+        "Если шестисекундный выдох неудобен, вернитесь к обычному дыханию."
+      ],
+      "sourceRefs": [
+        "bentley-2023-systematic-review",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [
+        60,
+        120
+      ],
+      "defaultDurationSeconds": 60,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["gentle-ripples", "luminous-tranquility", "drifting-dreams"],
+      "recommendedAmbientIds": [
+        "gentle-ripples",
+        "luminous-tranquility",
+        "drifting-dreams"
+      ],
       "recommendedPaletteId": "blue-mint",
       "voiceModeOverride": "balanced",
       "script": {
-        "introduction": ["practice.quick.intro"],
-        "preparation": ["common.arrive", "practice.quick.route"],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause"],
-        "afterSession": ["outro.complete"]
+        "introduction": [
+          "practice.quick.intro"
+        ],
+        "preparation": [
+          "common.arrive",
+          "practice.quick.route"
+        ],
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 4,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.no_rush"],
+        "reminderPhraseKeys": [
+          "coach.no_rush"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale_gently", "cue.inhale_slow", "cue.inhale"],
-          "exhale": ["cue.exhale_slow", "cue.exhale_easy", "cue.exhale_release"]
+          "inhale": [
+            "cue.inhale_gently",
+            "cue.inhale_slow",
+            "cue.inhale"
+          ],
+          "exhale": [
+            "cue.exhale_slow",
+            "cue.exhale_easy",
+            "cue.exhale_release"
+          ]
         },
         "milestones": [
           {
@@ -71,50 +109,223 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 4000 },
-        { "phase": "exhale", "durationMs": 6000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 6000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "slow-4-6",
+        "explanationIds": [
+          "explanation.01",
+          "explanation.02"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 1,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "calm-4-6",
       "title": "Спокойствие",
-      "subtitle": "Мягкий вдох и более длинный выдох",
+      "subtitle": "Спокойное дыхание с удлинённым выдохом — без усилия и спешки",
       "intent": "calm",
       "purpose": "Снизить общий темп и дать вниманию простую опору.",
       "claim": "Медленное дыхание с удлинённым выдохом может субъективно ощущаться успокаивающим.",
       "difficulty": "beginner",
-      "whenToUse": ["при общем напряжении", "после насыщенного дня", "перед спокойным отдыхом"],
+      "whenToUse": [
+        "при общем напряжении",
+        "после насыщенного дня",
+        "перед спокойным отдыхом"
+      ],
       "instructions": [
         "Вдохните носом на четыре счёта.",
         "Выдыхайте на шесть счётов без усилия.",
         "Не стремитесь вдыхать максимально глубоко."
       ],
-      "cautions": ["Уменьшите объём вдоха, если появляется чувство нехватки воздуха."],
+      "cautions": [
+        "Если ритм неудобен или не хватает воздуха, прекратите упражнение и дышите как обычно."
+      ],
       "sourceRefs": [
         "bentley-2023-systematic-review",
         "zaccaro-2018-slow-breathing-review",
         "nccih-relaxation-safety"
       ],
-      "durationOptionsSeconds": [180, 300, 600],
+      "durationOptionsSeconds": [
+        180,
+        300,
+        600
+      ],
       "defaultDurationSeconds": 300,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["serene-reverie", "luminous-tranquility", "mystic-waters"],
+      "recommendedAmbientIds": [
+        "serene-reverie",
+        "luminous-tranquility",
+        "mystic-waters"
+      ],
       "recommendedPaletteId": "sage-sunset",
       "script": {
-        "introduction": ["practice.calm.intro"],
-        "preparation": ["common.comfortable_position", "common.no_force", "practice.calm.route"],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
-        "afterSession": ["outro.complete"]
+        "introduction": [
+          "practice.calm.intro"
+        ],
+        "preparation": [
+          "common.comfortable_position",
+          "common.no_force",
+          "practice.calm.route"
+        ],
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause",
+          "outro.notice_state"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 4,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.no_rush", "coach.find_rhythm"],
+        "reminderPhraseKeys": [
+          "coach.no_rush",
+          "coach.find_rhythm"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale", "cue.inhale_gently", "cue.inhale_slow", "cue.inhale_fill"],
+          "inhale": [
+            "cue.inhale",
+            "cue.inhale_gently",
+            "cue.inhale_slow",
+            "cue.inhale_fill"
+          ],
           "exhale": [
             "cue.exhale_slow",
             "cue.exhale_release",
@@ -138,14 +349,149 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 4000 },
-        { "phase": "exhale", "durationMs": 6000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 6000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "slow-4-6",
+        "explanationIds": [
+          "explanation.01",
+          "explanation.02"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 2,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "coherent-5-5",
       "title": "Ровный ритм",
-      "subtitle": "Одинаковые вдох и выдох, около шести циклов в минуту",
+      "subtitle": "Вдох и выдох одной длины — около шести циклов в минуту",
       "intent": "balance",
       "purpose": "Поддерживать ровное внимание на симметричном ритме без задержек.",
       "claim": "Пять секунд на вдох и пять на выдох — распространённый вариант медленного paced breathing; это не уникальное лечение.",
@@ -160,37 +506,70 @@
         "Выдыхайте пять секунд.",
         "Дышите тихо и по возможности носом."
       ],
-      "cautions": ["Если темп кажется слишком медленным, остановитесь и выберите «Мягкое утро»."],
+      "cautions": [
+        "Если темп кажется слишком медленным, остановитесь и выберите «Мягкое утро»."
+      ],
       "sourceRefs": [
         "fincham-2023-coherent-breathing-rct",
         "zaccaro-2018-slow-breathing-review",
         "nccih-relaxation-safety"
       ],
-      "durationOptionsSeconds": [300, 600, 1200],
+      "durationOptionsSeconds": [
+        300,
+        600,
+        1200
+      ],
       "defaultDurationSeconds": 600,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["ice-meditation", "celestial-whispers", "luminous-tranquility"],
+      "recommendedAmbientIds": [
+        "ice-meditation",
+        "celestial-whispers",
+        "luminous-tranquility"
+      ],
       "recommendedPaletteId": "blue-mint",
       "script": {
-        "introduction": ["practice.coherent.intro"],
+        "introduction": [
+          "practice.coherent.intro"
+        ],
         "preparation": [
           "common.comfortable_position",
           "common.no_force",
           "practice.coherent.route"
         ],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
-        "afterSession": ["outro.complete"]
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause",
+          "outro.notice_state"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 5,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.find_rhythm", "coach.no_rush"],
+        "reminderPhraseKeys": [
+          "coach.find_rhythm",
+          "coach.no_rush"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale", "cue.inhale_gently", "cue.inhale_slow"],
-          "exhale": ["cue.exhale", "cue.exhale_easy", "cue.exhale_release"]
+          "inhale": [
+            "cue.inhale",
+            "cue.inhale_gently",
+            "cue.inhale_slow"
+          ],
+          "exhale": [
+            "cue.exhale",
+            "cue.exhale_easy",
+            "cue.exhale_release"
+          ]
         },
         "milestones": [
           {
@@ -214,14 +593,149 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 5000 },
-        { "phase": "exhale", "durationMs": 5000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 5000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 5000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "coherent-5-5",
+        "explanationIds": [
+          "explanation.03",
+          "explanation.04"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 2,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "box-4-4-4-4",
       "title": "Квадрат",
-      "subtitle": "Четыре равные фазы с мягкими задержками",
+      "subtitle": "Четыре равные фазы: вдох, пауза, выдох и пауза",
       "intent": "focus",
       "purpose": "Собрать внимание на чёткой четырёхчастной последовательности.",
       "claim": "Box Breathing широко используется как структурированное упражнение на внимание и расслабление.",
@@ -245,33 +759,71 @@
         "va-box-breathing",
         "nccih-relaxation-safety"
       ],
-      "durationOptionsSeconds": [180, 300, 600],
+      "durationOptionsSeconds": [
+        180,
+        300,
+        600
+      ],
       "defaultDurationSeconds": 300,
       "paceAdjustable": false,
       "hasBreathHolds": true,
-      "recommendedAmbientIds": ["celestial-whispers", "ice-meditation", "mystic-waters"],
+      "recommendedAmbientIds": [
+        "celestial-whispers",
+        "ice-meditation",
+        "mystic-waters"
+      ],
       "recommendedPaletteId": "indigo-cyan",
       "script": {
-        "introduction": ["practice.box.intro", "practice.box.pattern"],
+        "introduction": [
+          "practice.box.intro",
+          "practice.box.pattern"
+        ],
         "preparation": [
           "common.comfortable_position",
           "common.no_force",
           "practice.box.hold_option"
         ],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
-        "afterSession": ["outro.complete"]
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause",
+          "outro.notice_state"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 3,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.keep_going", "coach.no_rush"],
+        "reminderPhraseKeys": [
+          "coach.keep_going",
+          "coach.no_rush"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale", "cue.inhale_gently"],
-          "holdIn": ["cue.hold_gently", "cue.hold_still", "cue.hold_shoulders"],
-          "exhale": ["cue.exhale", "cue.exhale_easy"],
-          "holdOut": ["cue.pause_gently", "cue.pause_stay", "cue.pause_no_rush"]
+          "inhale": [
+            "cue.inhale",
+            "cue.inhale_gently"
+          ],
+          "holdIn": [
+            "cue.hold_gently",
+            "cue.hold_still",
+            "cue.hold_shoulders"
+          ],
+          "exhale": [
+            "cue.exhale",
+            "cue.exhale_easy"
+          ],
+          "holdOut": [
+            "cue.pause_gently",
+            "cue.pause_stay",
+            "cue.pause_no_rush"
+          ]
         },
         "milestones": [
           {
@@ -289,11 +841,158 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 4000 },
-        { "phase": "holdIn", "durationMs": 4000 },
-        { "phase": "exhale", "durationMs": 4000 },
-        { "phase": "holdOut", "durationMs": 4000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "holdIn",
+          "durationMs": 4000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "holdOut",
+          "durationMs": 4000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "box-4-4-4-4",
+        "explanationIds": [
+          "explanation.07",
+          "explanation.08"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "holdIn": [
+            "functional.04"
+          ],
+          "exhale": [
+            "functional.02"
+          ],
+          "holdOut": [
+            "functional.04"
+          ]
+        },
+        "openingCycles": 2,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "cyclic-sigh",
@@ -302,7 +1001,7 @@
       "intent": "reset",
       "purpose": "Переключиться после отдельной стрессовой ситуации через повторяемый exhale-focused паттерн.",
       "claim": "Пятиминутный cyclic sighing изучался в рандомизированном исследовании как wellness-практика; короткие варианты здесь служат знакомством с паттерном.",
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "whenToUse": [
         "после стрессового эпизода",
         "когда хочется сменить ритм",
@@ -317,29 +1016,69 @@
         "Второй вдох должен быть небольшим, без форсирования.",
         "Остановитесь, если повторные вздохи вызывают головокружение."
       ],
-      "sourceRefs": ["balban-2023-cell-reports-medicine", "nccih-relaxation-safety"],
-      "durationOptionsSeconds": [60, 180, 300],
-      "defaultDurationSeconds": 180,
+      "sourceRefs": [
+        "balban-2023-cell-reports-medicine",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [
+        60,
+        180,
+        300
+      ],
+      "defaultDurationSeconds": 60,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["mystic-waters", "gentle-ripples", "drifting-dreams"],
+      "recommendedAmbientIds": [
+        "mystic-waters",
+        "gentle-ripples",
+        "drifting-dreams"
+      ],
       "recommendedPaletteId": "aqua-amber",
       "script": {
-        "introduction": ["practice.sigh.intro", "practice.sigh.pattern"],
-        "preparation": ["common.comfortable_position", "common.no_force", "practice.sigh.route"],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
-        "afterSession": ["outro.complete"]
+        "introduction": [
+          "practice.sigh.intro",
+          "practice.sigh.pattern"
+        ],
+        "preparation": [
+          "common.comfortable_position",
+          "common.no_force",
+          "practice.sigh.route"
+        ],
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause",
+          "outro.notice_state"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 3,
         "reminderPhase": "exhale",
-        "reminderPhraseKeys": ["coach.no_rush", "middle.keep_soft"],
+        "reminderPhraseKeys": [
+          "coach.no_rush",
+          "middle.keep_soft"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale_nose", "cue.inhale_gently"],
-          "inhaleTopup": ["cue.inhale_topup"],
-          "exhale": ["cue.exhale_long", "cue.exhale_release", "cue.exhale_easy"]
+          "inhale": [
+            "cue.inhale_nose",
+            "cue.inhale_gently"
+          ],
+          "inhaleTopup": [
+            "cue.inhale_topup"
+          ],
+          "exhale": [
+            "cue.exhale_long",
+            "cue.exhale_release",
+            "cue.exhale_easy"
+          ]
         },
         "milestones": [
           {
@@ -357,11 +1096,151 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 2200 },
-        { "phase": "inhaleTopup", "durationMs": 1000 },
-        { "phase": "exhale", "durationMs": 6000 },
-        { "phase": "rest", "durationMs": 800 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 2200
+        },
+        {
+          "phase": "inhaleTopup",
+          "durationMs": 1000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 6800
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "cyclic-sigh",
+        "explanationIds": [
+          "explanation.09",
+          "explanation.10"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "inhaleTopup": [
+            "functional.03"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 2,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "morning-4-4",
@@ -384,28 +1263,66 @@
       "cautions": [
         "Не используйте практику, чтобы подавить выраженную сонливость, требующую отдыха."
       ],
-      "sourceRefs": ["zaccaro-2018-slow-breathing-review", "nccih-relaxation-safety"],
-      "durationOptionsSeconds": [120, 300, 600],
+      "sourceRefs": [
+        "zaccaro-2018-slow-breathing-review",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [
+        120,
+        300,
+        600
+      ],
       "defaultDurationSeconds": 300,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["luminous-tranquility", "drifting-dreams", "gentle-ripples"],
+      "recommendedAmbientIds": [
+        "luminous-tranquility",
+        "drifting-dreams",
+        "gentle-ripples"
+      ],
       "recommendedPaletteId": "sage-sunset",
       "script": {
-        "introduction": ["practice.morning.intro"],
-        "preparation": ["common.comfortable_position", "practice.morning.route", "common.no_force"],
-        "transition": ["common.first_cycles_together", "common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "after.pause", "outro.notice_state"],
-        "afterSession": ["outro.complete"]
+        "introduction": [
+          "practice.morning.intro"
+        ],
+        "preparation": [
+          "common.comfortable_position",
+          "practice.morning.route",
+          "common.no_force"
+        ],
+        "transition": [
+          "common.first_cycles_together",
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "after.pause",
+          "outro.notice_state"
+        ],
+        "afterSession": [
+          "outro.complete"
+        ]
       },
       "guidance": {
         "openingCycles": 2,
         "reminderEveryCycles": 5,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.find_rhythm", "coach.no_rush"],
+        "reminderPhraseKeys": [
+          "coach.find_rhythm",
+          "coach.no_rush"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale_soft", "cue.inhale_gently", "cue.inhale"],
-          "exhale": ["cue.exhale_easy", "cue.exhale_release", "cue.exhale"]
+          "inhale": [
+            "cue.inhale_soft",
+            "cue.inhale_gently",
+            "cue.inhale"
+          ],
+          "exhale": [
+            "cue.exhale_easy",
+            "cue.exhale_release",
+            "cue.exhale"
+          ]
         },
         "milestones": [
           {
@@ -423,9 +1340,144 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 4000 },
-        { "phase": "exhale", "durationMs": 4000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 4000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "morning-4-4",
+        "explanationIds": [
+          "explanation.05",
+          "explanation.06"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 2,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     },
     {
       "id": "bedtime-4-6",
@@ -448,34 +1500,63 @@
       "cautions": [
         "При стойких проблемах со сном приложение не заменяет консультацию специалиста."
       ],
-      "sourceRefs": ["bentley-2023-systematic-review", "nccih-relaxation-safety"],
-      "durationOptionsSeconds": [300, 600, 900],
+      "sourceRefs": [
+        "bentley-2023-systematic-review",
+        "nccih-relaxation-safety"
+      ],
+      "durationOptionsSeconds": [
+        300,
+        600,
+        900
+      ],
       "defaultDurationSeconds": 600,
       "paceAdjustable": false,
       "hasBreathHolds": false,
-      "recommendedAmbientIds": ["serene-reverie", "celestial-whispers", "mystic-waters"],
+      "recommendedAmbientIds": [
+        "serene-reverie",
+        "celestial-whispers",
+        "mystic-waters"
+      ],
       "recommendedPaletteId": "midnight-violet",
       "voiceModeOverride": "balanced",
       "script": {
-        "introduction": ["practice.bedtime.intro"],
+        "introduction": [
+          "practice.bedtime.intro"
+        ],
         "preparation": [
           "practice.bedtime.position",
           "common.release_shoulders",
           "common.no_force",
           "practice.bedtime.route"
         ],
-        "transition": ["common.follow_sound", "common.begin"],
-        "completion": ["outro.natural_breath", "outro.rest"],
-        "afterSession": ["outro.complete_soft"]
+        "transition": [
+          "common.follow_sound",
+          "common.begin"
+        ],
+        "completion": [
+          "outro.natural_breath",
+          "outro.rest"
+        ],
+        "afterSession": [
+          "outro.complete_soft"
+        ]
       },
       "guidance": {
         "openingCycles": 1,
         "reminderEveryCycles": 6,
         "reminderPhase": "inhale",
-        "reminderPhraseKeys": ["coach.no_rush"],
+        "reminderPhraseKeys": [
+          "coach.no_rush"
+        ],
         "phasePhraseKeys": {
-          "inhale": ["cue.inhale_soft", "cue.inhale_gently"],
-          "exhale": ["cue.exhale_slow", "cue.exhale_easy"]
+          "inhale": [
+            "cue.inhale_soft",
+            "cue.inhale_gently"
+          ],
+          "exhale": [
+            "cue.exhale_slow",
+            "cue.exhale_easy"
+          ]
         },
         "milestones": [
           {
@@ -493,9 +1574,317 @@
         ]
       },
       "cycle": [
-        { "phase": "inhale", "durationMs": 4000 },
-        { "phase": "exhale", "durationMs": 6000 }
-      ]
+        {
+          "phase": "inhale",
+          "durationMs": 4000
+        },
+        {
+          "phase": "exhale",
+          "durationMs": 6000
+        }
+      ],
+      "session": {
+        "type": "paced",
+        "protocol": "slow-4-6",
+        "explanationIds": [
+          "explanation.01",
+          "explanation.02"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "session_start.01",
+          "session_start.03",
+          "session_start.04"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "closing.10"
+        ],
+        "supportIds": [
+          "support.01",
+          "support.03",
+          "support.04",
+          "support.05",
+          "support.07",
+          "support.08",
+          "support.09",
+          "support.10",
+          "support.11",
+          "support.12",
+          "support.13",
+          "support.14",
+          "support.16",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {
+          "inhale": [
+            "functional.01"
+          ],
+          "exhale": [
+            "functional.02"
+          ]
+        },
+        "openingCycles": 1,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
+    },
+    {
+      "id": "natural-awareness",
+      "title": "Без счёта",
+      "subtitle": "Наблюдение за привычным дыханием без заданного темпа",
+      "intent": "balance",
+      "purpose": "Спокойно наблюдать за дыханием и ощущением опоры.",
+      "claim": "Практика внимания без необходимости менять дыхание.",
+      "difficulty": "beginner",
+      "whenToUse": [
+        "когда не хочется считать",
+        "если заданный ритм неудобен"
+      ],
+      "instructions": [
+        "Дышите как обычно.",
+        "Наблюдайте за дыханием, не меняя его."
+      ],
+      "cautions": [
+        "Если наблюдать дыхание неприятно, обратите внимание на опору или окружающие звуки."
+      ],
+      "sourceRefs": [
+        "nccih-mindfulness"
+      ],
+      "durationOptionsSeconds": [
+        120,
+        300,
+        600
+      ],
+      "defaultDurationSeconds": 120,
+      "paceAdjustable": false,
+      "hasBreathHolds": false,
+      "recommendedAmbientIds": [
+        "ice-meditation",
+        "celestial-whispers",
+        "luminous-tranquility"
+      ],
+      "recommendedPaletteId": "blue-mint",
+      "script": {
+        "introduction": [],
+        "preparation": [],
+        "transition": [],
+        "completion": [],
+        "afterSession": []
+      },
+      "guidance": {
+        "openingCycles": 0,
+        "reminderEveryCycles": 6,
+        "reminderPhase": "rest",
+        "reminderPhraseKeys": [
+          "cue.natural"
+        ],
+        "phasePhraseKeys": {},
+        "milestones": []
+      },
+      "cycle": [
+        {
+          "phase": "rest",
+          "durationMs": 120000
+        }
+      ],
+      "session": {
+        "type": "natural",
+        "protocol": "natural-awareness",
+        "explanationIds": [
+          "explanation.11",
+          "explanation.12"
+        ],
+        "preparationIds": [
+          "preparation.01",
+          "preparation.05",
+          "preparation.07",
+          "preparation.13",
+          "preparation.15"
+        ],
+        "startIds": [
+          "functional.07"
+        ],
+        "closingIds": [
+          "natural_breathing.01",
+          "natural_breathing.04",
+          "functional.06"
+        ],
+        "returnIds": [
+          "return.01",
+          "return.02",
+          "return.09",
+          "closing.06"
+        ],
+        "supportIds": [
+          "natural_breathing.03",
+          "natural_breathing.05",
+          "natural_breathing.06",
+          "natural_breathing.07",
+          "natural_breathing.08",
+          "natural_breathing.09",
+          "natural_breathing.10",
+          "natural_breathing.11",
+          "natural_breathing.12",
+          "support.17",
+          "support.18",
+          "support.19",
+          "support.20",
+          "support.21",
+          "support.22",
+          "support.23",
+          "support.24",
+          "support.25",
+          "support.26",
+          "support.27",
+          "support.28",
+          "support.29",
+          "support.30",
+          "support.31",
+          "support.32",
+          "support.33",
+          "support.34",
+          "support.35",
+          "support.36",
+          "support.37",
+          "support.38",
+          "support.39",
+          "support.40",
+          "support.41",
+          "support.42",
+          "support.43",
+          "support.44",
+          "support.45",
+          "support.46",
+          "support.47",
+          "support.48",
+          "support.49",
+          "support.50",
+          "support.51",
+          "support.52",
+          "support.53",
+          "support.54",
+          "support.55",
+          "support.56",
+          "support.57",
+          "support.58",
+          "support.59",
+          "support.60",
+          "support.61",
+          "support.62",
+          "support.63",
+          "support.64",
+          "support.65",
+          "support.66",
+          "support.67",
+          "support.68",
+          "support.69",
+          "support.70",
+          "support.71",
+          "support.72",
+          "support.73",
+          "support.74",
+          "support.75",
+          "support.76",
+          "support.77",
+          "support.78",
+          "support.79",
+          "support.80",
+          "support.81",
+          "support.82",
+          "support.83",
+          "support.84",
+          "support.85",
+          "support.86",
+          "support.87",
+          "support.88"
+        ],
+        "phaseVoiceIds": {},
+        "openingCycles": 0,
+        "stopImmediately": true,
+        "restartCycleAfterPause": true
+      }
     }
   ]
 }

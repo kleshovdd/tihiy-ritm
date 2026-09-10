@@ -1,0 +1,926 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "breath.inhale": {
+      "path": "audio/guided/sound/breath.inhale.wav",
+      "durationMs": 3200,
+      "hash": "031fa487b9067de020c7ec1a8ae43c0ef7e3e56bc3356bc83ac4bfa6eed84177",
+      "kind": "breath",
+      "normalizationGain": 1.0280162981264733
+    },
+    "breath.inhale-long": {
+      "path": "audio/guided/sound/breath.inhale-long.wav",
+      "durationMs": 5000,
+      "hash": "578be1c5be1393460446deaa09b76df98e4cce9b0433a8fe8c1a2a4b5a192383",
+      "kind": "breath",
+      "normalizationGain": 1.1614486138403428
+    },
+    "breath.topup": {
+      "path": "audio/guided/sound/breath.topup.wav",
+      "durationMs": 1200,
+      "hash": "6079a21af19242528445aee605da3f451687ff91069f7d5c484f2ecda302c28c",
+      "kind": "breath",
+      "normalizationGain": 0.9649393118055822
+    },
+    "breath.exhale": {
+      "path": "audio/guided/sound/breath.exhale.wav",
+      "durationMs": 10000,
+      "hash": "bf27ec1e12a7550c76a3f7e44faace69791bced415595df791c82764abe1bc4f",
+      "kind": "breath",
+      "normalizationGain": 1.1246049739669264
+    },
+    "background.soft": {
+      "path": "audio/guided/sound/background.soft.wav",
+      "durationMs": 60000,
+      "hash": "0c3146eb9f628895ce5d72613c33467967c6265690ddaacc0a39ca5ab03d9883",
+      "kind": "background",
+      "normalizationGain": 2.97851642942919
+    },
+    "ambience.ambience-celestial-whispers": {
+      "path": "audio/ambience/ambience-celestial-whispers.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "7924aa90c1f506de58904e10be1f3dfb8bf4c0a4fd0ac4f7cb16c0ba6086bbe2",
+      "normalizationGain": 1.0011519555381692
+    },
+    "ambience.ambience-drifting-dreams": {
+      "path": "audio/ambience/ambience-drifting-dreams.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "2d3c6de4f7b189727bb1bcfe7594ef30da2c5b6af4396dba2ec33608bd0e26e3",
+      "normalizationGain": 1.0034598491478393
+    },
+    "ambience.ambience-gentle-ripples": {
+      "path": "audio/ambience/ambience-gentle-ripples.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "bffe91c7e11a24e87b15078df1e6c37badca9eee73a30d5bc20b3778a7868ce4",
+      "normalizationGain": 1.0023052380778996
+    },
+    "ambience.ambience-ice-meditation": {
+      "path": "audio/ambience/ambience-ice-meditation.m4a",
+      "durationMs": 144999,
+      "kind": "background",
+      "hash": "0f35b5ff613cefe2080c87e417ee3884809599113a342928e96e4b25ea668a1c",
+      "normalizationGain": 1.0221155606000725
+    },
+    "ambience.ambience-luminous-tranquility": {
+      "path": "audio/ambience/ambience-luminous-tranquility.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "06fae368496d00f2f88c9848895ebdd787b3335681c2d70646f283f3e4f183eb",
+      "normalizationGain": 1.0
+    },
+    "ambience.ambience-mystic-waters": {
+      "path": "audio/ambience/ambience-mystic-waters.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "d8774863022691f7117709b3c0c1c10015d57ee75d23fd10a80d85f4a95677f6",
+      "normalizationGain": 1.0092528860766843
+    },
+    "ambience.ambience-serene-reverie": {
+      "path": "audio/ambience/ambience-serene-reverie.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "64c009c2268612ec8202c999d733c39f7f5aebf9faab3eae0bc15c51f5de88ce",
+      "normalizationGain": 1.0115794542598986
+    },
+    "present-moment.purpose.a": {
+      "path": "audio/guided/voice/present-moment.purpose.a.m4a",
+      "durationMs": 12028,
+      "hash": "a6fdba6a494c01a6250566f91e84b1137ba15da2306e4d18f212a3bb3212bd5c",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "На несколько минут отложи дела. Мы немного подышим вместе и обратим внимание на ощущения. Если ритм неудобен, можно дышать в своём темпе.",
+      "kind": "voice",
+      "normalizationGain": 0.9257633851208253
+    },
+    "present-moment.contact.a": {
+      "path": "audio/guided/voice/present-moment.contact.a.m4a",
+      "durationMs": 4412,
+      "hash": "8ead8298e31fd103d6b00cb73b9ea09bb788be8d8bd6df70bae98f9634992963",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Почувствуй опору под телом. Пусть поза будет удобной.",
+      "kind": "voice",
+      "normalizationGain": 1.1521260598258072
+    },
+    "present-moment.contact.b": {
+      "path": "audio/guided/voice/present-moment.contact.b.m4a",
+      "durationMs": 5387,
+      "hash": "4bd586001f30ac0b07bf57a5e93d7a0d94fe2addc3d0fd5f2f953423b63b71bf",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Заметь, где тело касается опоры. Устройся без лишнего усилия.",
+      "kind": "voice",
+      "normalizationGain": 1.0327614057613974
+    },
+    "present-moment.contact.c": {
+      "path": "audio/guided/voice/present-moment.contact.c.m4a",
+      "durationMs": 4458,
+      "hash": "4ba1f81115d90ebeaa05574515715d7a735030ac7308ceaad9c4b235c5aa1992",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Найди удобное положение и почувствуй поверхность под собой.",
+      "kind": "voice",
+      "normalizationGain": 1.2274392311584073
+    },
+    "present-moment.technique.a": {
+      "path": "audio/guided/voice/present-moment.technique.a.m4a",
+      "durationMs": 8499,
+      "hash": "e80407078d23f7186424b9fce1be34673f45db3e1b2dcf32abce90315cf5ccf0",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Спокойно вдохни носом, добавь маленький вдох. Затем мягко выпусти воздух через рот. Без усилия.",
+      "kind": "voice",
+      "normalizationGain": 0.9484184633008972
+    },
+    "present-moment.demo-in.a": {
+      "path": "audio/guided/voice/present-moment.demo-in.a.m4a",
+      "durationMs": 4412,
+      "hash": "ab546aa9d60076ce8c05c7af647283fb68e25b12637f0e75ec7d634ee0bea6db",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Спокойный вдох. И ещё немного.",
+      "kind": "voice",
+      "normalizationGain": 1.0092528860766845
+    },
+    "present-moment.demo-out.a": {
+      "path": "audio/guided/voice/present-moment.demo-out.a.m4a",
+      "durationMs": 3297,
+      "hash": "39df52c2a94042e65114282d05fbd3856f483afd452a40ed4da98a09cad96114",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Мягко выдохни. Отпусти воздух.",
+      "kind": "voice",
+      "normalizationGain": 0.9616122783836647
+    },
+    "present-moment.continue.a": {
+      "path": "audio/guided/voice/present-moment.continue.a.m4a",
+      "durationMs": 2787,
+      "hash": "526224b4ffd78c8d06462102c3d557251001de9e4545f75fc05be0bd82b0e5a6",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Продолжай мягко, без лишнего усилия.",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "present-moment.continue.b": {
+      "path": "audio/guided/voice/present-moment.continue.b.m4a",
+      "durationMs": 2740,
+      "hash": "f7ff3327685d58fd3d2865b8acdced3c49f9bef0c26597cabf903bdfbde26c54",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Сохраняй удобную глубину дыхания.",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "present-moment.continue.c": {
+      "path": "audio/guided/voice/present-moment.continue.c.m4a",
+      "durationMs": 2647,
+      "hash": "bf195a1a38769318dc8237f05ccdb5177758e2929a752e1d6c61c35013bdc43f",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Пусть дыхание остаётся свободным.",
+      "kind": "voice",
+      "normalizationGain": 0.9321804703416082
+    },
+    "present-moment.last.a": {
+      "path": "audio/guided/voice/present-moment.last.a.m4a",
+      "durationMs": 1626,
+      "hash": "072f124f0b37141229946e10ab023d1162b2ea59edc0858a688ccf5facb5efcc",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Ещё одно повторение.",
+      "kind": "voice",
+      "normalizationGain": 1.0653688636675633
+    },
+    "present-moment.natural.a": {
+      "path": "audio/guided/voice/present-moment.natural.a.m4a",
+      "durationMs": 6966,
+      "hash": "79c18379de0c9fe4f868b4fab3e3e603d37eb9094835f8ddc6365e0cb40892dd",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Теперь оставь этот ритм. Дыши как обычно. Несколько мгновений просто замечай ощущения.",
+      "kind": "voice",
+      "normalizationGain": 1.1721953655481305
+    },
+    "present-moment.body-contact.a": {
+      "path": "audio/guided/voice/present-moment.body-contact.a.m4a",
+      "durationMs": 5062,
+      "hash": "0d179d8f1f2909bbd48ed55b1585c8e55fdfe7cab34c3de1dec178cfa2977ca0",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Почувствуй места, где тело касается опоры. Не нужно ничего менять.",
+      "kind": "voice",
+      "normalizationGain": 1.1363182976673103
+    },
+    "present-moment.body-contact.b": {
+      "path": "audio/guided/voice/present-moment.body-contact.b.m4a",
+      "durationMs": 5109,
+      "hash": "00f8297ee9c04d4856c052eaebded06bc1c22f89f8e3bc9de3b6cc1b3e6769e8",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Обрати внимание на прикосновение опоры к телу. Просто замечай его.",
+      "kind": "voice",
+      "normalizationGain": 0.9761127824302128
+    },
+    "present-moment.body-contact.c": {
+      "path": "audio/guided/voice/present-moment.body-contact.c.m4a",
+      "durationMs": 6734,
+      "hash": "dd67cb4e7e9cfc7b4179996a85ec4352259d48dcf2c0d7a684ab5759434aef1e",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Заметь контакт тела с поверхностью. Позволь ощущениям быть такими, какие они есть.",
+      "kind": "voice",
+      "normalizationGain": 0.9036494737223014
+    },
+    "present-moment.open-attention.a": {
+      "path": "audio/guided/voice/present-moment.open-attention.a.m4a",
+      "durationMs": 8777,
+      "hash": "9f384c9a9c0cfe3ef8544fe5665cb0fe597204b8002b2d86baf162e7beb29503",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Теперь замечай и тело, и звуки вокруг. Не нужно выбирать что-то одно. Пусть внимание остаётся открытым.",
+      "kind": "voice",
+      "normalizationGain": 1.2618275345906707
+    },
+    "present-moment.notice-state.a": {
+      "path": "audio/guided/voice/present-moment.notice-state.a.m4a",
+      "durationMs": 4040,
+      "hash": "6b28c06257dabfd9777256a2c6739f3997a24137cc8e3d8deb487ae6fe113733",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Заметь, как ты сейчас себя чувствуешь. Любой ответ подходит.",
+      "kind": "voice",
+      "normalizationGain": 1.0185913880541169
+    },
+    "present-moment.notice-state.b": {
+      "path": "audio/guided/voice/present-moment.notice-state.b.m4a",
+      "durationMs": 4366,
+      "hash": "5b056d1a5b31822cbf1c8a782d18d28185135281596e62dac2338116f0333397",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Посмотри, какое состояние сейчас. Его не нужно оценивать.",
+      "kind": "voice",
+      "normalizationGain": 1.1259004688949399
+    },
+    "present-moment.notice-state.c": {
+      "path": "audio/guided/voice/present-moment.notice-state.c.m4a",
+      "durationMs": 4273,
+      "hash": "86412b50df8d30b1c4305f0c0a6f47b8097a3e5c4f7174f4f5e15b80b4a34680",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Обрати внимание на своё состояние, не требуя от себя перемен.",
+      "kind": "voice",
+      "normalizationGain": 1.0939563662720937
+    },
+    "present-moment.return.a": {
+      "path": "audio/guided/voice/present-moment.return.a.m4a",
+      "durationMs": 7198,
+      "hash": "d9a5330faef444ce1b4b60b89fe6d35a7df3d17b40b1cc9c2b9e61a7097aa5d7",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Снова почувствуй комнату вокруг. Если глаза были закрыты, открой их, когда будет удобно.",
+      "kind": "voice",
+      "normalizationGain": 1.0739894123412448
+    },
+    "present-moment.finish.a": {
+      "path": "audio/guided/voice/present-moment.finish.a.m4a",
+      "durationMs": 3948,
+      "hash": "f2c27844c7fe871dd40226e4bb039694318f79c3d498693da3c0c0a695dc9cdb",
+      "voiceId": "rQOBu7YxCDxGiFdTm28w",
+      "text": "Практика закончена. Можно возвращаться к делам.",
+      "kind": "voice",
+      "normalizationGain": 1.1614486138403428
+    },
+    "clear-space.purpose.a": {
+      "path": "audio/guided/voice/clear-space.purpose.a.m4a",
+      "durationMs": 14629,
+      "hash": "690a8df54e215e4ff5bf8d21f50f883d7bd57a07742776f2eac350e98abb326e",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Иногда мысли продолжают звучать, даже когда дело уже отложено. В этой практике мы не будем искать решение. Сначала немного подышим вместе, а затем заметим, что происходит без нашего вмешательства.",
+      "kind": "voice",
+      "normalizationGain": 1.0069316688518042
+    },
+    "clear-space.orientation.a": {
+      "path": "audio/guided/voice/clear-space.orientation.a.m4a",
+      "durationMs": 5294,
+      "hash": "3e9db4a56991a06459ec7baee614613b80388ef67ee02fd5adfce2d1b7e7d3ba",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Не нужно добиваться пустоты в голове. Достаточно дать себе немного времени.",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "clear-space.contact.a": {
+      "path": "audio/guided/voice/clear-space.contact.a.m4a",
+      "durationMs": 5201,
+      "hash": "ef6416b69ee5a78d5d258e6f4cd2895cb0543bb542551108a30d8ce7a5443169",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Почувствуй опору под собой. Позволь плечам занять удобное положение.",
+      "kind": "voice",
+      "normalizationGain": 0.9783629547845955
+    },
+    "clear-space.contact.b": {
+      "path": "audio/guided/voice/clear-space.contact.b.m4a",
+      "durationMs": 5294,
+      "hash": "f58fe0b1e7e8c7b20e2d497a4d435b50d616143d12af2c0e2b85764a0cf913ed",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Заметь контакт тела с поверхностью. Устройся так, чтобы было удобно.",
+      "kind": "voice",
+      "normalizationGain": 0.9236341884196304
+    },
+    "clear-space.contact.c": {
+      "path": "audio/guided/voice/clear-space.contact.c.m4a",
+      "durationMs": 5619,
+      "hash": "5f52bd9f6c2b3631291e60f477675c58c1901d0731dd2afd095dee84271e5c04",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Найди устойчивую, удобную позу. Почувствуй, на что опирается тело.",
+      "kind": "voice",
+      "normalizationGain": 1.1885022274370185
+    },
+    "clear-space.technique.a": {
+      "path": "audio/guided/voice/clear-space.technique.a.m4a",
+      "durationMs": 12075,
+      "hash": "92508b859bbaf23d8258fe6e2abd9bb98b20ed0558498d08096149caf16f5858",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Сделаем спокойный вдох через нос и добавим ещё немного воздуха. Затем мягко выдохнем через рот. Если такой способ неудобен, оставайся на обычном дыхании.",
+      "kind": "voice",
+      "normalizationGain": 0.9257633851208253
+    },
+    "clear-space.demo-in.a": {
+      "path": "audio/guided/voice/clear-space.demo-in.a.m4a",
+      "durationMs": 4737,
+      "hash": "3e598f109550cf46955deccbfe5e2775d84a0a1b4af622e29a5205dd1d264877",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Спокойный вдох. И ещё немного.",
+      "kind": "voice",
+      "normalizationGain": 0.9931160484209338
+    },
+    "clear-space.demo-out.a": {
+      "path": "audio/guided/voice/clear-space.demo-out.a.m4a",
+      "durationMs": 2647,
+      "hash": "346b06716d139d97b223fed4c7105696b01b76931c019aa3f6416d4da86b9e2e",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Мягко выдохни. Отпусти воздух.",
+      "kind": "voice",
+      "normalizationGain": 1.0185913880541169
+    },
+    "clear-space.continue.a": {
+      "path": "audio/guided/voice/clear-space.continue.a.m4a",
+      "durationMs": 2694,
+      "hash": "0ddd67a8adee417ea3e8f7a137496a8afb9f46c14abbac2cdbfe28275416c784",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Продолжай в том же спокойном ритме.",
+      "kind": "voice",
+      "normalizationGain": 1.2387965865303692
+    },
+    "clear-space.continue.b": {
+      "path": "audio/guided/voice/clear-space.continue.b.m4a",
+      "durationMs": 3158,
+      "hash": "dbf40bb93a80c97037605fdbdaa384cea76be1ab3e21b76fd1a3356e29566694",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Сохраняй мягкость каждого движения дыхания.",
+      "kind": "voice",
+      "normalizationGain": 1.2274392311584073
+    },
+    "clear-space.continue.c": {
+      "path": "audio/guided/voice/clear-space.continue.c.m4a",
+      "durationMs": 3158,
+      "hash": "a0ae70980f9e3903dae119fd076b4dfcf2e507e344479551f412b3c5fbc7b24a",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Дыши без усилия, следуя знакомому звуку.",
+      "kind": "voice",
+      "normalizationGain": 1.0023052380778996
+    },
+    "clear-space.last.a": {
+      "path": "audio/guided/voice/clear-space.last.a.m4a",
+      "durationMs": 1718,
+      "hash": "7346637af35a1ced6000646371e84b47226b423c842c99e9e98728316b1db7d3",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Последнее повторение.",
+      "kind": "voice",
+      "normalizationGain": 1.1994993031493788
+    },
+    "clear-space.natural.a": {
+      "path": "audio/guided/voice/clear-space.natural.a.m4a",
+      "durationMs": 7616,
+      "hash": "f9ea50ae1492ce7a0766a2e24ff98433b5e412ff90686e695e9f37c1813a4b41",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Теперь отпусти заданный ритм. Пусть дыхание происходит само. Больше не нужно делать его глубже или длиннее.",
+      "kind": "voice",
+      "normalizationGain": 1.1547819846894583
+    },
+    "clear-space.observe.a": {
+      "path": "audio/guided/voice/clear-space.observe.a.m4a",
+      "durationMs": 11935,
+      "hash": "ae27ad13dc1d07f9410d89d183a7881fd6bac6ba8b36be38fe6435a3703a9ab1",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Можно перестать следить за каждым вдохом. Замечай то, что само появляется в поле внимания: ощущение в теле, звук, мысль. Не нужно удерживать что-то одно.",
+      "kind": "voice",
+      "normalizationGain": 0.84527884516029
+    },
+    "clear-space.notice-contact.a": {
+      "path": "audio/guided/voice/clear-space.notice-contact.a.m4a",
+      "durationMs": 6548,
+      "hash": "b9bad58fa02e33fc4498c3c8cb292a927139bf0c020eb55c10c47dde873763c0",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Почувствуй, как тело соприкасается с опорой. Дыхание при этом может оставаться обычным.",
+      "kind": "voice",
+      "normalizationGain": 0.9806183143219713
+    },
+    "clear-space.notice-contact.b": {
+      "path": "audio/guided/voice/clear-space.notice-contact.b.m4a",
+      "durationMs": 6270,
+      "hash": "ec553dab236aa9978151deff95cdae1158ef881116eca497bef786f1dabb08eb",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Заметь места контакта тела с поверхностью. Позволь дыханию идти своим чередом.",
+      "kind": "voice",
+      "normalizationGain": 1.1762509846847233
+    },
+    "clear-space.notice-contact.c": {
+      "path": "audio/guided/voice/clear-space.notice-contact.c.m4a",
+      "durationMs": 5898,
+      "hash": "ab743d06c2160a5fb0398e812fc0e88291b7a30e2e9318f344ccb8362966cb3a",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Обрати внимание на прикосновение опоры к телу. Не меняй ради этого дыхание.",
+      "kind": "voice",
+      "normalizationGain": 1.1803206356517297
+    },
+    "clear-space.thoughts.a": {
+      "path": "audio/guided/voice/clear-space.thoughts.a.m4a",
+      "durationMs": 10588,
+      "hash": "31c94fcd5b6b933a6c3d052375e44a77e7da6738af2f3e9face565f807ee6e5b",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Если появляется мысль, можно просто заметить её. Не обязательно продолжать внутренний разговор или отталкивать его. Посмотри, что возникает следом.",
+      "kind": "voice",
+      "normalizationGain": 0.9931160484209338
+    },
+    "clear-space.widen.a": {
+      "path": "audio/guided/voice/clear-space.widen.a.m4a",
+      "durationMs": 5991,
+      "hash": "cd6e21eff08d3bd6f2a1991defb40af7a063878f8264f56021bf835443641539",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Позволь вниманию стать чуть шире. Не нужно искать единственное правильное ощущение.",
+      "kind": "voice",
+      "normalizationGain": 1.0739894123412448
+    },
+    "clear-space.widen.b": {
+      "path": "audio/guided/voice/clear-space.widen.b.m4a",
+      "durationMs": 7105,
+      "hash": "564003d473140edb3fbf617380d56119c46b247e7d062929cf6fab54e94264fa",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Замечай происходящее целиком, насколько получается. Здесь нет одного правильного объекта внимания.",
+      "kind": "voice",
+      "normalizationGain": 1.1130123928017914
+    },
+    "clear-space.widen.c": {
+      "path": "audio/guided/voice/clear-space.widen.c.m4a",
+      "durationMs": 6037,
+      "hash": "477262ce540beb29a93308e0ad06efdf5130ef88bfe9fcc71ad3d25ea431666b",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Можно замечать сразу несколько ощущений. Не старайся выбрать среди них самое важное.",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "clear-space.allow.a": {
+      "path": "audio/guided/voice/clear-space.allow.a.m4a",
+      "durationMs": 5759,
+      "hash": "91ec93fbf183f4e9f006349d79a39b40638a46c0ac374072466fa4b6c145921e",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Пусть мысли и ощущения сменяют друг друга. Просто замечай это движение.",
+      "kind": "voice",
+      "normalizationGain": 0.9896918638691029
+    },
+    "clear-space.allow.b": {
+      "path": "audio/guided/voice/clear-space.allow.b.m4a",
+      "durationMs": 5666,
+      "hash": "26ababd837dd52c6f48e183d6b97c5cfd6157b59188281f5ab517a76e2a9fa14",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Замечай, как одно ощущение уступает место другому. Не нужно вмешиваться.",
+      "kind": "voice",
+      "normalizationGain": 1.1284959375277617
+    },
+    "clear-space.allow.c": {
+      "path": "audio/guided/voice/clear-space.allow.c.m4a",
+      "durationMs": 6270,
+      "hash": "e230a55de8008763acca8778a882853ccfb3e822209de0322f9b705b81924d81",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Позволь происходящему меняться. Оставайся внимательным к тому, что есть сейчас.",
+      "kind": "voice",
+      "normalizationGain": 0.9268298233793493
+    },
+    "clear-space.return.a": {
+      "path": "audio/guided/voice/clear-space.return.a.m4a",
+      "durationMs": 8777,
+      "hash": "e26b1e967a937413652ff98f57a89a7ca4c9ca57b3193e03d45c98eec7f00c01",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Почувствуй опору ещё раз. Заметь пространство вокруг и звуки комнаты. Если глаза закрыты, можно спокойно открыть их.",
+      "kind": "voice",
+      "normalizationGain": 0.9451483924407295
+    },
+    "clear-space.meaning.a": {
+      "path": "audio/guided/voice/clear-space.meaning.a.m4a",
+      "durationMs": 6780,
+      "hash": "a6e666f9b82bc45bfee8fc6242aa284baf6fda0f629e73635490edc9f030703b",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Следующее действие можно выбрать без спешки. Для этого не обязательно разобраться со всеми мыслями.",
+      "kind": "voice",
+      "normalizationGain": 1.1389377818757072
+    },
+    "clear-space.meaning.b": {
+      "path": "audio/guided/voice/clear-space.meaning.b.m4a",
+      "durationMs": 5666,
+      "hash": "f6b94cb97912f105aecee9ffb32b3c0cb3b8cf4b38f0d2e11ddf09ffd3fce13f",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Можно перейти к одному следующему делу, оставив остальные мысли пока без ответа.",
+      "kind": "voice",
+      "normalizationGain": 0.793414256777125
+    },
+    "clear-space.meaning.c": {
+      "path": "audio/guided/voice/clear-space.meaning.c.m4a",
+      "durationMs": 5666,
+      "hash": "d583fe226f55d577739821f5774fb80cb100323a701d64e3f19b70d7f992c36a",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "Дай себе время выбрать следующий шаг. Не каждую мысль нужно превращать в действие.",
+      "kind": "voice",
+      "normalizationGain": 1.132400363235557
+    },
+    "clear-space.finish.a": {
+      "path": "audio/guided/voice/clear-space.finish.a.m4a",
+      "durationMs": 1718,
+      "hash": "ea94fe758d745c8ab25e2cf16e80142678dd990c3e0292cd1c25b96a95072515",
+      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
+      "text": "На этом закончим.",
+      "kind": "voice",
+      "normalizationGain": 1.2589254117941673
+    },
+    "release-day.position.a": {
+      "path": "audio/guided/voice/release-day.position.a.m4a",
+      "durationMs": 8081,
+      "hash": "6c63adc338b8b900ab4b1c50cedc3c7c4241bed18f3d7ac2f421438fa91fd0c2",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Устройся лёжа. Найди удобное положение для головы и рук. Если хочется что-то поправить, сделай это сейчас, не торопясь.",
+      "kind": "voice",
+      "normalizationGain": 1.0174193661806048
+    },
+    "release-day.support.a": {
+      "path": "audio/guided/voice/release-day.support.a.m4a",
+      "durationMs": 4923,
+      "hash": "a26ed7f38b103c7d8297b8b89b19a796ccf07ac0e699c83ba5bbd13afc21d4d8",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Почувствуй поверхность под спиной. Позволь телу опираться на неё чуть полнее.",
+      "kind": "voice",
+      "normalizationGain": 1.1376272858234309
+    },
+    "release-day.support.b": {
+      "path": "audio/guided/voice/release-day.support.b.m4a",
+      "durationMs": 5294,
+      "hash": "b5023e8526dd7c446707343bfc75d95934bb964ad15af692697ab5e6ab1327ce",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Заметь, как спина соприкасается с постелью. Почувствуй эту спокойную опору.",
+      "kind": "voice",
+      "normalizationGain": 0.9772372209558107
+    },
+    "release-day.support.c": {
+      "path": "audio/guided/voice/release-day.support.c.m4a",
+      "durationMs": 5480,
+      "hash": "0dd5176bf347b44c86d39d11afdf314849d1c0475f47453c5707fc6909727175",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Обрати внимание на вес тела и поверхность под ним. Можно устроиться немного свободнее.",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "release-day.day.a": {
+      "path": "audio/guided/voice/release-day.day.a.m4a",
+      "durationMs": 7105,
+      "hash": "64fad08e016d9f9443574aa5188591da185f7299df43174a4f189b889a7bddff",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "На сегодня можно оставить незаконченные дела. Сейчас не нужно искать для них решение. Это время для отдыха.",
+      "kind": "voice",
+      "normalizationGain": 1.0889300933334334
+    },
+    "release-day.day.b": {
+      "path": "audio/guided/voice/release-day.day.b.m4a",
+      "durationMs": 7059,
+      "hash": "474bc9d0114378189f4fd23a4cc11cd227435bb934ea13572a6e4922c6195d8b",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Всё, что ещё требует внимания, может немного подождать. Сейчас можно отложить решения и побыть в покое.",
+      "kind": "voice",
+      "normalizationGain": 1.0339511009823714
+    },
+    "release-day.day.c": {
+      "path": "audio/guided/voice/release-day.day.c.m4a",
+      "durationMs": 7523,
+      "hash": "ad82c6268884175be23c4db3685bb1da2d6d8062cc9e6b8352ab3643e1c0e79f",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Не обязательно заканчивать день с ответами на все вопросы. Позволь делам пока остаться за пределами этой практики.",
+      "kind": "voice",
+      "normalizationGain": 1.0826797151272995
+    },
+    "release-day.orientation.a": {
+      "path": "audio/guided/voice/release-day.orientation.a.m4a",
+      "durationMs": 5201,
+      "hash": "856c7672e67c5dd50f10ef5e9384ed180119675aad710a6064ac911a549bcec1",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Сначала мы немного подышим вместе, а затем спокойно пройдём вниманием по телу.",
+      "kind": "voice",
+      "normalizationGain": 1.1117317272815912
+    },
+    "release-day.observe.a": {
+      "path": "audio/guided/voice/release-day.observe.a.m4a",
+      "durationMs": 7895,
+      "hash": "6cc195915083df61d667a958bb3c99d9cccafb21eb2ad0731e94c7c1af804c65",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Обрати внимание на дыхание. Заметь, где его движение ощущается яснее всего. Ничего не меняй, просто побудь с этим ощущением.",
+      "kind": "voice",
+      "normalizationGain": 1.0889300933334334
+    },
+    "release-day.technique.a": {
+      "path": "audio/guided/voice/release-day.technique.a.m4a",
+      "durationMs": 12214,
+      "hash": "f204fecdc321ff40fce6521f70fc0c7bdecf6f0f662fd8e6aefbfeb8321d0723",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Попробуем вдох на четыре счёта и более длинный выдох на восемь. Не нужно набирать много воздуха или тянуть выдох через усилие. Если неудобно, дыши как обычно. Я покажу ритм.",
+      "kind": "voice",
+      "normalizationGain": 0.8600030668888559
+    },
+    "release-day.demo-in.a": {
+      "path": "audio/guided/voice/release-day.demo-in.a.m4a",
+      "durationMs": 4598,
+      "hash": "8d9be3aeccc665d55d5113fcd3fae46f170bb375442718864a5547d8eb8ff4da",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Вдох. Два. Три. Четыре.",
+      "kind": "voice",
+      "normalizationGain": 0.8053784411990667
+    },
+    "release-day.demo-out.a": {
+      "path": "audio/guided/voice/release-day.demo-out.a.m4a",
+      "durationMs": 9009,
+      "hash": "ed463c2bc0bbd3edb7a1f6b00a01390215d3d5a0eea9c1c1975541ad0c871f21",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Выдох. Два. Три. Четыре. Пять. Шесть. Семь. Восемь.",
+      "kind": "voice",
+      "normalizationGain": 0.8269895085679319
+    },
+    "release-day.handover.a": {
+      "path": "audio/guided/voice/release-day.handover.a.m4a",
+      "durationMs": 2554,
+      "hash": "f1d2b7870608fe5f62b18fadabcb51a82a3b5695ad6d4b3079a901cc4c27c436",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь продолжай по звуку, без усилия.",
+      "kind": "voice",
+      "normalizationGain": 0.9783629547845955
+    },
+    "release-day.ease.a": {
+      "path": "audio/guided/voice/release-day.ease.a.m4a",
+      "durationMs": 2787,
+      "hash": "0469aeaedf1efb519fadd4a1079e1137ecf1bd88643edb109fb0c8fc360f0b1b",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Пусть дыхание остаётся мягким и удобным.",
+      "kind": "voice",
+      "normalizationGain": 1.109174815262401
+    },
+    "release-day.ease.b": {
+      "path": "audio/guided/voice/release-day.ease.b.m4a",
+      "durationMs": 2972,
+      "hash": "d3674b41a8d66c571f24a98cfc012fb873b9a268e6d47be93dcaea1bb600c792",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Сохраняй комфортную глубину каждого вдоха.",
+      "kind": "voice",
+      "normalizationGain": 1.1939881044642733
+    },
+    "release-day.ease.c": {
+      "path": "audio/guided/voice/release-day.ease.c.m4a",
+      "durationMs": 3437,
+      "hash": "8695f34751a400262bc35a3674c663f84e71479c186eca1a35212cfb58335fe8",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Дыши свободно, не стараясь набрать больше воздуха.",
+      "kind": "voice",
+      "normalizationGain": 1.2373711899353523
+    },
+    "release-day.steady.a": {
+      "path": "audio/guided/voice/release-day.steady.a.m4a",
+      "durationMs": 2554,
+      "hash": "8abc4a4e9158dfe81fdc1d6bd317069991711a29b66cd9b68c2b7b823e84fd47",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Можно просто следовать знакомому ритму.",
+      "kind": "voice",
+      "normalizationGain": 1.0363346044310422
+    },
+    "release-day.steady.b": {
+      "path": "audio/guided/voice/release-day.steady.b.m4a",
+      "durationMs": 2879,
+      "hash": "5a14ea1fbc42e5c4483399f9be1f84fd90ee850f2df0a8bd1f32d7057af75a85",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Продолжай спокойно, в том же удобном ритме.",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "release-day.steady.c": {
+      "path": "audio/guided/voice/release-day.steady.c.m4a",
+      "durationMs": 2740,
+      "hash": "85b146deb4807440960bb9bb48c83fd4c757d03ce9a548f43c7f0f043e4a88c7",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Оставайся с этим мягким движением дыхания.",
+      "kind": "voice",
+      "normalizationGain": 1.0339511009823714
+    },
+    "release-day.two-left.a": {
+      "path": "audio/guided/voice/release-day.two-left.a.m4a",
+      "durationMs": 1579,
+      "hash": "3237894ac412f11c1feb7689ae750564dbf5a54a91f1162df796bda2607f91b1",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Ещё два повторения.",
+      "kind": "voice",
+      "normalizationGain": 1.1181498245842192
+    },
+    "release-day.one-left.a": {
+      "path": "audio/guided/voice/release-day.one-left.a.m4a",
+      "durationMs": 1208,
+      "hash": "de197d62655bd57e43c92b1613bc260c84357cbe53016cbd1fdcbb1e829c3078",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "И последнее.",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "release-day.natural.a": {
+      "path": "audio/guided/voice/release-day.natural.a.m4a",
+      "durationMs": 6362,
+      "hash": "7ca854855957e2e245996d9dec239514891708c286b0e1208cf4c6eac228e509",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь вернись к обычному дыханию. Больше не нужно следовать счёту или звуку. Пусть тело дышит само.",
+      "kind": "voice",
+      "normalizationGain": 0.793414256777125
+    },
+    "release-day.body-explain.a": {
+      "path": "audio/guided/voice/release-day.body-explain.a.m4a",
+      "durationMs": 11331,
+      "hash": "d55c948494a5dbdf9625a356dd431a4fea5ad9c91438f16e613da768da5966d2",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Дальше мы будем замечать ощущения в разных частях тела. Двигаться не нужно. Если в какой-то области ничего не чувствуется, это тоже нормально. Просто следуй за голосом.",
+      "kind": "voice",
+      "normalizationGain": 0.8298507675144224
+    },
+    "release-day.back.a": {
+      "path": "audio/guided/voice/release-day.back.a.m4a",
+      "durationMs": 9288,
+      "hash": "b25a97db59eeccbe2592f74af4b8db9160ee783889c2482cf7baaee1e07d778d",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Почувствуй спину там, где она касается поверхности. Заметь вес затылка. Не нужно усиливать эти ощущения. Достаточно обратить на них внимание.",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "release-day.face.a": {
+      "path": "audio/guided/voice/release-day.face.a.m4a",
+      "durationMs": 9799,
+      "hash": "1dd7ea1624b119121714d3b5f57dc5af436363215a14443705070ad81d8a9295",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Переведи внимание к лицу. Лоб, область вокруг глаз, щёки. Заметь положение челюсти. Пусть лицо остаётся таким, каким ему удобно быть.",
+      "kind": "voice",
+      "normalizationGain": 0.9278974901273311
+    },
+    "release-day.neck.a": {
+      "path": "audio/guided/voice/release-day.neck.a.m4a",
+      "durationMs": 9102,
+      "hash": "22b0ec93eefce5d7574e88c04acc1fa61c33f0afc911161e2fa3511a1cf36789",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь область шеи. Передняя поверхность, боковые стороны, место, где шея переходит в плечи. Просто замечай доступные ощущения.",
+      "kind": "voice",
+      "normalizationGain": 0.9120108393559098
+    },
+    "release-day.shoulders.a": {
+      "path": "audio/guided/voice/release-day.shoulders.a.m4a",
+      "durationMs": 8081,
+      "hash": "9d498b1239b06045e9adc78f3053a603d696500d4910e6c15567ad1f7bf41e96",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Почувствуй оба плеча. Есть ли здесь тепло, тяжесть, напряжение или что-то другое? Не нужно искать особое ощущение.",
+      "kind": "voice",
+      "normalizationGain": 1.0727536478355297
+    },
+    "release-day.arms.a": {
+      "path": "audio/guided/voice/release-day.arms.a.m4a",
+      "durationMs": 8128,
+      "hash": "b31dd6d63dc86f48f7dc202694e51dfc08f6fb66b2c8293a8647b74a22e19a09",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Перенеси внимание в руки. Верхняя часть рук, локти, предплечья. Заметь, как они лежат. Можно ничего не поправлять.",
+      "kind": "voice",
+      "normalizationGain": 1.11045253533364
+    },
+    "release-day.hands.a": {
+      "path": "audio/guided/voice/release-day.hands.a.m4a",
+      "durationMs": 8963,
+      "hash": "d3b929211b715c65358f72a4eb3f5350c2b583be7ee79af67698154840d7ea0a",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь обе ладони и пальцы. Почувствуй их положение, прикосновение ткани или воздуха. Позволь вниманию немного задержаться здесь.",
+      "kind": "voice",
+      "normalizationGain": 0.8800351116873228
+    },
+    "release-day.chest.a": {
+      "path": "audio/guided/voice/release-day.chest.a.m4a",
+      "durationMs": 8824,
+      "hash": "a14ade658841370a1e1ee8f6d1e34cfbb3eb531916ce733e4ecbe2cc57be5896",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Обрати внимание на грудную клетку. Возможно, здесь заметно небольшое движение дыхания. Достаточно замечать это движение, не меняя дыхание.",
+      "kind": "voice",
+      "normalizationGain": 1.0115794542598986
+    },
+    "release-day.torso.a": {
+      "path": "audio/guided/voice/release-day.torso.a.m4a",
+      "durationMs": 9381,
+      "hash": "35240a50de37d813222718a8bc70d71a288cb9b9b9ca3af417e0e65a0e3ec670",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь средняя часть спины и живот. Замечай опору, прикосновения, движение. Не нужно придавать этим ощущениям какой-то смысл.",
+      "kind": "voice",
+      "normalizationGain": 0.81752303794365
+    },
+    "release-day.autonomous-breath.a": {
+      "path": "audio/guided/voice/release-day.autonomous-breath.a.m4a",
+      "durationMs": 4691,
+      "hash": "b6ecb38df2ea83a004e2443848aa199a61232408b9a2b7a23698f1ae6df5dc7e",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Дыхание продолжается само. Можно замечать его, ничего не регулируя.",
+      "kind": "voice",
+      "normalizationGain": 0.8128305161640993
+    },
+    "release-day.autonomous-breath.b": {
+      "path": "audio/guided/voice/release-day.autonomous-breath.b.m4a",
+      "durationMs": 3715,
+      "hash": "af4257c11e518ef13491bdcf08ba9c2e618ce644e12bf0eb847395bfeb8b311a",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Не нужно помогать дыханию. Позволь ему идти своим чередом.",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "release-day.autonomous-breath.c": {
+      "path": "audio/guided/voice/release-day.autonomous-breath.c.m4a",
+      "durationMs": 4923,
+      "hash": "2706d336b1143a321bcbce31ffea55e0fe28354d7f4be8d5000f243473c19b01",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Тело дышит без дополнительных усилий. Просто замечай это, если хочется.",
+      "kind": "voice",
+      "normalizationGain": 0.9828788730000322
+    },
+    "release-day.pelvis.a": {
+      "path": "audio/guided/voice/release-day.pelvis.a.m4a",
+      "durationMs": 7895,
+      "hash": "fd6ecc6f59a5c9fceb17d668eef78e2552deca8d42ada96429189e4805e8d72a",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Переведи внимание к нижней части живота и области таза. Почувствуй вес тела в этом месте и поверхность под ним.",
+      "kind": "voice",
+      "normalizationGain": 1.030386120441616
+    },
+    "release-day.legs.a": {
+      "path": "audio/guided/voice/release-day.legs.a.m4a",
+      "durationMs": 8917,
+      "hash": "bdab43625f6212ad666721862e11d0225ba97d08bd964e903d1483cbad880f04",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь обе ноги. Бёдра, колени, голени. Замечай ощущения по мере того, как внимание проходит вниз. Здесь тоже ничего не нужно менять.",
+      "kind": "voice",
+      "normalizationGain": 0.9783629547845955
+    },
+    "release-day.feet.a": {
+      "path": "audio/guided/voice/release-day.feet.a.m4a",
+      "durationMs": 7105,
+      "hash": "eef110b484ac0f9f3166cd5a4ce3d45015103cb34869cdec00c6caa16a4dbf7a",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь почувствуй пятки и пальцы ног. Заметь, чего они касаются. Позволь ногам оставаться в удобном положении.",
+      "kind": "voice",
+      "normalizationGain": 0.8830799004185628
+    },
+    "release-day.whole.a": {
+      "path": "audio/guided/voice/release-day.whole.a.m4a",
+      "durationMs": 8870,
+      "hash": "88c5d2956481155320f295e8d0a80314b4a5abfc2c1d28a46475f17e1ebc2dd0",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Теперь почувствуй тело целиком. От головы до стоп. Все эти ощущения могут быть здесь одновременно. Не нужно удерживать каждое из них.",
+      "kind": "voice",
+      "normalizationGain": 1.0256519262514077
+    },
+    "release-day.release-effort.a": {
+      "path": "audio/guided/voice/release-day.release-effort.a.m4a",
+      "durationMs": 5434,
+      "hash": "305b79314a4b8e20caff4f47245745fccdd440d3ab7bb3b1dc8e5bdc243c53bf",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Можно отпустить даже старание следовать практике. Пусть внимание отдыхает вместе с телом.",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "release-day.release-effort.b": {
+      "path": "audio/guided/voice/release-day.release-effort.b.m4a",
+      "durationMs": 5434,
+      "hash": "e30562fd2f7c82b46c0c711b4e991298cf359bf6560df211d745d429ed4f4f78",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Больше не нужно стараться делать что-то правильно. Позволь и телу, и вниманию отдохнуть.",
+      "kind": "voice",
+      "normalizationGain": 0.7998342550070284
+    },
+    "release-day.release-effort.c": {
+      "path": "audio/guided/voice/release-day.release-effort.c.m4a",
+      "durationMs": 6595,
+      "hash": "b1fb184cb982fd595c9a8fcbbb5ec377e0f7c74c23733e8b86bf599b0fbf4038",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Если внимание становится рассеянным, не нужно его собирать. Можно просто оставаться в покое.",
+      "kind": "voice",
+      "normalizationGain": 0.793414256777125
+    },
+    "release-day.remain.a": {
+      "path": "audio/guided/voice/release-day.remain.a.m4a",
+      "durationMs": 6687,
+      "hash": "1db1642d945deb83c1c54c427114a6944c3b44cbe36066754682fccfd9de1025",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "Дальше можно никуда не направлять внимание. Пусть дыхание продолжается, а тело отдыхает так, как ему удобно.",
+      "kind": "voice",
+      "normalizationGain": 0.8053784411990667
+    },
+    "release-day.end.a": {
+      "path": "audio/guided/voice/release-day.end.a.m4a",
+      "durationMs": 2554,
+      "hash": "4aa06d5fa2b921c0a7587ffcc733cdac3b2c29d3ca40b7a08c465628a9be5fa6",
+      "voiceId": "tOo2BJ74frmnPadsDNIi",
+      "text": "На этом я закончу. Оставайся в покое.",
+      "kind": "voice",
+      "normalizationGain": 1.1708466023202415
+    }
+  }
+}

@@ -18,20 +18,23 @@
     ],
     "licenseManifestRequired": true,
     "masterFormat": "wav-48kHz-24bit-stereo",
-    "deliveryFormats": ["m4a-aac", "ogg-opus"],
+    "deliveryFormats": [
+      "m4a-aac",
+      "ogg-opus"
+    ],
     "seamlessLoopRequired": true,
     "loudTransientCheckRequired": true
   },
   "mix": {
     "voiceGainDb": 0,
-    "breathCueGainDb": -6,
-    "ambientGainDb": -8,
-    "ambientDuckingUnderVoiceDb": -9,
-    "breathCueDuckingUnderVoiceDb": -5,
-    "duckAttackMs": 140,
-    "duckReleaseMs": 520,
-    "fadeInMs": 1600,
-    "fadeOutMs": 1400,
+    "breathCueGainDb": -2,
+    "ambientGainDb": 0,
+    "ambientDuckingUnderVoiceDb": -8,
+    "breathCueDuckingUnderVoiceDb": -2,
+    "duckAttackMs": 80,
+    "duckReleaseMs": 600,
+    "fadeInMs": 2000,
+    "fadeOutMs": 3000,
     "separateUserVolumeControls": true
   },
   "ambientRule": "Keep one user-selected ambience for the entire session. User-provided source tracks are normalized for comfortable background playback.",
@@ -42,13 +45,20 @@
       "fileBase": "ambience-celestial-whispers",
       "targetLoopSeconds": 120,
       "character": "Воздушное и чуть загадочное пространство для спокойного внимания.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "midnight-violet",
-      "recommendedFor": ["balance", "focus", "sleep"],
+      "recommendedFor": [
+        "balance",
+        "focus",
+        "sleep"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "drifting-dreams",
@@ -56,13 +66,20 @@
       "fileBase": "ambience-drifting-dreams",
       "targetLoopSeconds": 120,
       "character": "Мягкий текучий фон, который не забирает внимание на себя.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "sage-sunset",
-      "recommendedFor": ["quick", "calm", "morning"],
+      "recommendedFor": [
+        "quick",
+        "calm",
+        "morning"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "gentle-ripples",
@@ -70,13 +87,20 @@
       "fileBase": "ambience-gentle-ripples",
       "targetLoopSeconds": 120,
       "character": "Лёгкое движение воды и спокойный светлый ритм.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "blue-mint",
-      "recommendedFor": ["quick", "calm", "reset"],
+      "recommendedFor": [
+        "quick",
+        "calm",
+        "reset"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "ice-meditation",
@@ -84,13 +108,19 @@
       "fileBase": "ambience-ice-meditation",
       "targetLoopSeconds": 145,
       "character": "Прохладное прозрачное звучание для собранности и ровного темпа.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "indigo-cyan",
-      "recommendedFor": ["balance", "focus"],
+      "recommendedFor": [
+        "balance",
+        "focus"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "luminous-tranquility",
@@ -98,13 +128,20 @@
       "fileBase": "ambience-luminous-tranquility",
       "targetLoopSeconds": 120,
       "character": "Тёплая светлая атмосфера для мягкого начала и восстановления.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "aqua-amber",
-      "recommendedFor": ["quick", "calm", "morning"],
+      "recommendedFor": [
+        "quick",
+        "calm",
+        "morning"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "mystic-waters",
@@ -112,13 +149,20 @@
       "fileBase": "ambience-mystic-waters",
       "targetLoopSeconds": 120,
       "character": "Глубокая водная атмосфера для переключения и вечерней практики.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "ember-plum",
-      "recommendedFor": ["calm", "reset", "sleep"],
+      "recommendedFor": [
+        "calm",
+        "reset",
+        "sleep"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     },
     {
       "id": "serene-reverie",
@@ -126,13 +170,19 @@
       "fileBase": "ambience-serene-reverie",
       "targetLoopSeconds": 120,
       "character": "Спокойная мечтательная подложка для отдыха и подготовки ко сну.",
-      "avoid": ["abrupt-start", "obvious-loop-point"],
+      "avoid": [
+        "abrupt-start",
+        "obvious-loop-point"
+      ],
       "paletteId": "sage-sunset",
-      "recommendedFor": ["calm", "sleep"],
+      "recommendedFor": [
+        "calm",
+        "sleep"
+      ],
       "source": "User-provided MP3; title read from embedded metadata",
       "license": "User-provided licensed asset; embedded artist: Zvukogram.com",
       "attributionRequired": false,
-      "targetIntegratedLufs": -24
+      "targetIntegratedLufs": -22
     }
   ],
   "breathCueTheme": {
@@ -144,11 +194,10 @@
       "holdIn": "cue-air-hold-in",
       "exhale": "breath-exhale-master",
       "holdOut": "cue-air-hold-out",
-      "rest": "cue-air-hold-out",
       "transition": "cue-air-transition"
     },
-    "behavior": "Inhale and exhale are separate phase waves: each starts with a fast click-safe onset, then smoothly decays to silence by the phase end. Inhale is brighter; exhale is warmer and darker. Hold cues are quieter air textures stretched across the full hold and faded to silence before the next phase. Breathing masters loop at natural speed when needed; transition cues remain short one-shots.",
-    "source": "breathing-audio-prototypes/variant-b revision 6; softened original pitchless silk-flow synthesis informed by the five user references; generated by scripts/build-breathing-audio-prototypes.py",
+    "behavior": "tidal-tone-v2: duration-matched procedural phase buffers, without looping or playback-rate changes. Brighter rising inhale and darker falling exhale use rounded attacks and decay to silence. Hold markers last 320/400ms; natural breathing is silent. Runtime source is procedural-cue.ts; delivered masters are previews.",
+    "source": "Project-owned deterministic additive tidal-tone-v2, seed 73129; apps/web/src/audio/procedural-cue.ts and scripts/export-procedural-cues.ts",
     "license": "Project-owned original procedural synthesis; contains no samples from the reference recordings.",
     "attributionRequired": false
   }
