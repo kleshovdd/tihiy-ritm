@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "assets": {
     "breath.inhale": {
       "path": "audio/guided/sound/breath.inhale.wav",
@@ -59,7 +59,7 @@
     },
     "ambience.ambience-ice-meditation": {
       "path": "audio/ambience/ambience-ice-meditation.m4a",
-      "durationMs": 144999,
+      "durationMs": 144977,
       "kind": "background",
       "hash": "0f35b5ff613cefe2080c87e417ee3884809599113a342928e96e4b25ea668a1c",
       "normalizationGain": 1.0221155606000725
@@ -69,7 +69,7 @@
       "durationMs": 120000,
       "kind": "background",
       "hash": "06fae368496d00f2f88c9848895ebdd787b3335681c2d70646f283f3e4f183eb",
-      "normalizationGain": 1.0
+      "normalizationGain": 1
     },
     "ambience.ambience-mystic-waters": {
       "path": "audio/ambience/ambience-mystic-waters.m4a",
@@ -85,842 +85,2894 @@
       "hash": "64c009c2268612ec8202c999d733c39f7f5aebf9faab3eae0bc15c51f5de88ce",
       "normalizationGain": 1.0115794542598986
     },
-    "present-moment.purpose.a": {
+    "artem:present-moment.purpose.a": {
       "path": "audio/guided/voice/present-moment.purpose.a.m4a",
       "durationMs": 12028,
       "hash": "a6fdba6a494c01a6250566f91e84b1137ba15da2306e4d18f212a3bb3212bd5c",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "На несколько минут отложи дела. Мы немного подышим вместе и обратим внимание на ощущения. Если ритм неудобен, можно дышать в своём темпе.",
+      "voiceId": "artem",
+      "cueId": "present-moment.purpose.a",
       "kind": "voice",
       "normalizationGain": 0.9257633851208253
     },
-    "present-moment.contact.a": {
+    "artem:present-moment.contact.a": {
       "path": "audio/guided/voice/present-moment.contact.a.m4a",
       "durationMs": 4412,
       "hash": "8ead8298e31fd103d6b00cb73b9ea09bb788be8d8bd6df70bae98f9634992963",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Почувствуй опору под телом. Пусть поза будет удобной.",
+      "voiceId": "artem",
+      "cueId": "present-moment.contact.a",
       "kind": "voice",
       "normalizationGain": 1.1521260598258072
     },
-    "present-moment.contact.b": {
+    "artem:present-moment.contact.b": {
       "path": "audio/guided/voice/present-moment.contact.b.m4a",
       "durationMs": 5387,
       "hash": "4bd586001f30ac0b07bf57a5e93d7a0d94fe2addc3d0fd5f2f953423b63b71bf",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Заметь, где тело касается опоры. Устройся без лишнего усилия.",
+      "voiceId": "artem",
+      "cueId": "present-moment.contact.b",
       "kind": "voice",
       "normalizationGain": 1.0327614057613974
     },
-    "present-moment.contact.c": {
+    "artem:present-moment.contact.c": {
       "path": "audio/guided/voice/present-moment.contact.c.m4a",
       "durationMs": 4458,
       "hash": "4ba1f81115d90ebeaa05574515715d7a735030ac7308ceaad9c4b235c5aa1992",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Найди удобное положение и почувствуй поверхность под собой.",
+      "voiceId": "artem",
+      "cueId": "present-moment.contact.c",
       "kind": "voice",
       "normalizationGain": 1.2274392311584073
     },
-    "present-moment.technique.a": {
+    "artem:present-moment.technique.a": {
       "path": "audio/guided/voice/present-moment.technique.a.m4a",
       "durationMs": 8499,
       "hash": "e80407078d23f7186424b9fce1be34673f45db3e1b2dcf32abce90315cf5ccf0",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Спокойно вдохни носом, добавь маленький вдох. Затем мягко выпусти воздух через рот. Без усилия.",
+      "voiceId": "artem",
+      "cueId": "present-moment.technique.a",
       "kind": "voice",
       "normalizationGain": 0.9484184633008972
     },
-    "present-moment.demo-in.a": {
+    "artem:present-moment.demo-in.a": {
       "path": "audio/guided/voice/present-moment.demo-in.a.m4a",
       "durationMs": 4412,
       "hash": "ab546aa9d60076ce8c05c7af647283fb68e25b12637f0e75ec7d634ee0bea6db",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Спокойный вдох. И ещё немного.",
+      "voiceId": "artem",
+      "cueId": "present-moment.demo-in.a",
       "kind": "voice",
       "normalizationGain": 1.0092528860766845
     },
-    "present-moment.demo-out.a": {
+    "artem:present-moment.demo-out.a": {
       "path": "audio/guided/voice/present-moment.demo-out.a.m4a",
       "durationMs": 3297,
       "hash": "39df52c2a94042e65114282d05fbd3856f483afd452a40ed4da98a09cad96114",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Мягко выдохни. Отпусти воздух.",
+      "voiceId": "artem",
+      "cueId": "present-moment.demo-out.a",
       "kind": "voice",
       "normalizationGain": 0.9616122783836647
     },
-    "present-moment.continue.a": {
+    "artem:present-moment.continue.a": {
       "path": "audio/guided/voice/present-moment.continue.a.m4a",
       "durationMs": 2787,
       "hash": "526224b4ffd78c8d06462102c3d557251001de9e4545f75fc05be0bd82b0e5a6",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Продолжай мягко, без лишнего усилия.",
+      "voiceId": "artem",
+      "cueId": "present-moment.continue.a",
       "kind": "voice",
       "normalizationGain": 1.2647363474711513
     },
-    "present-moment.continue.b": {
+    "artem:present-moment.continue.b": {
       "path": "audio/guided/voice/present-moment.continue.b.m4a",
       "durationMs": 2740,
       "hash": "f7ff3327685d58fd3d2865b8acdced3c49f9bef0c26597cabf903bdfbde26c54",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Сохраняй удобную глубину дыхания.",
+      "voiceId": "artem",
+      "cueId": "present-moment.continue.b",
       "kind": "voice",
       "normalizationGain": 1.2647363474711513
     },
-    "present-moment.continue.c": {
+    "artem:present-moment.continue.c": {
       "path": "audio/guided/voice/present-moment.continue.c.m4a",
       "durationMs": 2647,
       "hash": "bf195a1a38769318dc8237f05ccdb5177758e2929a752e1d6c61c35013bdc43f",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Пусть дыхание остаётся свободным.",
+      "voiceId": "artem",
+      "cueId": "present-moment.continue.c",
       "kind": "voice",
       "normalizationGain": 0.9321804703416082
     },
-    "present-moment.last.a": {
+    "artem:present-moment.last.a": {
       "path": "audio/guided/voice/present-moment.last.a.m4a",
       "durationMs": 1626,
       "hash": "072f124f0b37141229946e10ab023d1162b2ea59edc0858a688ccf5facb5efcc",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Ещё одно повторение.",
+      "voiceId": "artem",
+      "cueId": "present-moment.last.a",
       "kind": "voice",
       "normalizationGain": 1.0653688636675633
     },
-    "present-moment.natural.a": {
+    "artem:present-moment.natural.a": {
       "path": "audio/guided/voice/present-moment.natural.a.m4a",
       "durationMs": 6966,
       "hash": "79c18379de0c9fe4f868b4fab3e3e603d37eb9094835f8ddc6365e0cb40892dd",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Теперь оставь этот ритм. Дыши как обычно. Несколько мгновений просто замечай ощущения.",
+      "voiceId": "artem",
+      "cueId": "present-moment.natural.a",
       "kind": "voice",
       "normalizationGain": 1.1721953655481305
     },
-    "present-moment.body-contact.a": {
+    "artem:present-moment.body-contact.a": {
       "path": "audio/guided/voice/present-moment.body-contact.a.m4a",
       "durationMs": 5062,
       "hash": "0d179d8f1f2909bbd48ed55b1585c8e55fdfe7cab34c3de1dec178cfa2977ca0",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Почувствуй места, где тело касается опоры. Не нужно ничего менять.",
+      "voiceId": "artem",
+      "cueId": "present-moment.body-contact.a",
       "kind": "voice",
       "normalizationGain": 1.1363182976673103
     },
-    "present-moment.body-contact.b": {
+    "artem:present-moment.body-contact.b": {
       "path": "audio/guided/voice/present-moment.body-contact.b.m4a",
       "durationMs": 5109,
       "hash": "00f8297ee9c04d4856c052eaebded06bc1c22f89f8e3bc9de3b6cc1b3e6769e8",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Обрати внимание на прикосновение опоры к телу. Просто замечай его.",
+      "voiceId": "artem",
+      "cueId": "present-moment.body-contact.b",
       "kind": "voice",
       "normalizationGain": 0.9761127824302128
     },
-    "present-moment.body-contact.c": {
+    "artem:present-moment.body-contact.c": {
       "path": "audio/guided/voice/present-moment.body-contact.c.m4a",
       "durationMs": 6734,
       "hash": "dd67cb4e7e9cfc7b4179996a85ec4352259d48dcf2c0d7a684ab5759434aef1e",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Заметь контакт тела с поверхностью. Позволь ощущениям быть такими, какие они есть.",
+      "voiceId": "artem",
+      "cueId": "present-moment.body-contact.c",
       "kind": "voice",
       "normalizationGain": 0.9036494737223014
     },
-    "present-moment.open-attention.a": {
+    "artem:present-moment.open-attention.a": {
       "path": "audio/guided/voice/present-moment.open-attention.a.m4a",
       "durationMs": 8777,
       "hash": "9f384c9a9c0cfe3ef8544fe5665cb0fe597204b8002b2d86baf162e7beb29503",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Теперь замечай и тело, и звуки вокруг. Не нужно выбирать что-то одно. Пусть внимание остаётся открытым.",
+      "voiceId": "artem",
+      "cueId": "present-moment.open-attention.a",
       "kind": "voice",
       "normalizationGain": 1.2618275345906707
     },
-    "present-moment.notice-state.a": {
+    "artem:present-moment.notice-state.a": {
       "path": "audio/guided/voice/present-moment.notice-state.a.m4a",
       "durationMs": 4040,
       "hash": "6b28c06257dabfd9777256a2c6739f3997a24137cc8e3d8deb487ae6fe113733",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Заметь, как ты сейчас себя чувствуешь. Любой ответ подходит.",
+      "voiceId": "artem",
+      "cueId": "present-moment.notice-state.a",
       "kind": "voice",
       "normalizationGain": 1.0185913880541169
     },
-    "present-moment.notice-state.b": {
+    "artem:present-moment.notice-state.b": {
       "path": "audio/guided/voice/present-moment.notice-state.b.m4a",
       "durationMs": 4366,
       "hash": "5b056d1a5b31822cbf1c8a782d18d28185135281596e62dac2338116f0333397",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Посмотри, какое состояние сейчас. Его не нужно оценивать.",
+      "voiceId": "artem",
+      "cueId": "present-moment.notice-state.b",
       "kind": "voice",
       "normalizationGain": 1.1259004688949399
     },
-    "present-moment.notice-state.c": {
+    "artem:present-moment.notice-state.c": {
       "path": "audio/guided/voice/present-moment.notice-state.c.m4a",
       "durationMs": 4273,
       "hash": "86412b50df8d30b1c4305f0c0a6f47b8097a3e5c4f7174f4f5e15b80b4a34680",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Обрати внимание на своё состояние, не требуя от себя перемен.",
+      "voiceId": "artem",
+      "cueId": "present-moment.notice-state.c",
       "kind": "voice",
       "normalizationGain": 1.0939563662720937
     },
-    "present-moment.return.a": {
+    "artem:present-moment.return.a": {
       "path": "audio/guided/voice/present-moment.return.a.m4a",
       "durationMs": 7198,
       "hash": "d9a5330faef444ce1b4b60b89fe6d35a7df3d17b40b1cc9c2b9e61a7097aa5d7",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Снова почувствуй комнату вокруг. Если глаза были закрыты, открой их, когда будет удобно.",
+      "voiceId": "artem",
+      "cueId": "present-moment.return.a",
       "kind": "voice",
       "normalizationGain": 1.0739894123412448
     },
-    "present-moment.finish.a": {
+    "artem:present-moment.finish.a": {
       "path": "audio/guided/voice/present-moment.finish.a.m4a",
       "durationMs": 3948,
       "hash": "f2c27844c7fe871dd40226e4bb039694318f79c3d498693da3c0c0a695dc9cdb",
-      "voiceId": "rQOBu7YxCDxGiFdTm28w",
-      "text": "Практика закончена. Можно возвращаться к делам.",
+      "voiceId": "artem",
+      "cueId": "present-moment.finish.a",
       "kind": "voice",
       "normalizationGain": 1.1614486138403428
     },
-    "clear-space.purpose.a": {
+    "maxim:clear-space.purpose.a": {
       "path": "audio/guided/voice/clear-space.purpose.a.m4a",
       "durationMs": 14629,
       "hash": "690a8df54e215e4ff5bf8d21f50f883d7bd57a07742776f2eac350e98abb326e",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Иногда мысли продолжают звучать, даже когда дело уже отложено. В этой практике мы не будем искать решение. Сначала немного подышим вместе, а затем заметим, что происходит без нашего вмешательства.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.purpose.a",
       "kind": "voice",
       "normalizationGain": 1.0069316688518042
     },
-    "clear-space.orientation.a": {
+    "maxim:clear-space.orientation.a": {
       "path": "audio/guided/voice/clear-space.orientation.a.m4a",
       "durationMs": 5294,
       "hash": "3e9db4a56991a06459ec7baee614613b80388ef67ee02fd5adfce2d1b7e7d3ba",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Не нужно добиваться пустоты в голове. Достаточно дать себе немного времени.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.orientation.a",
       "kind": "voice",
       "normalizationGain": 0.7952432655333961
     },
-    "clear-space.contact.a": {
+    "maxim:clear-space.contact.a": {
       "path": "audio/guided/voice/clear-space.contact.a.m4a",
       "durationMs": 5201,
       "hash": "ef6416b69ee5a78d5d258e6f4cd2895cb0543bb542551108a30d8ce7a5443169",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Почувствуй опору под собой. Позволь плечам занять удобное положение.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.contact.a",
       "kind": "voice",
       "normalizationGain": 0.9783629547845955
     },
-    "clear-space.contact.b": {
+    "maxim:clear-space.contact.b": {
       "path": "audio/guided/voice/clear-space.contact.b.m4a",
       "durationMs": 5294,
       "hash": "f58fe0b1e7e8c7b20e2d497a4d435b50d616143d12af2c0e2b85764a0cf913ed",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Заметь контакт тела с поверхностью. Устройся так, чтобы было удобно.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.contact.b",
       "kind": "voice",
       "normalizationGain": 0.9236341884196304
     },
-    "clear-space.contact.c": {
+    "maxim:clear-space.contact.c": {
       "path": "audio/guided/voice/clear-space.contact.c.m4a",
       "durationMs": 5619,
       "hash": "5f52bd9f6c2b3631291e60f477675c58c1901d0731dd2afd095dee84271e5c04",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Найди устойчивую, удобную позу. Почувствуй, на что опирается тело.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.contact.c",
       "kind": "voice",
       "normalizationGain": 1.1885022274370185
     },
-    "clear-space.technique.a": {
+    "maxim:clear-space.technique.a": {
       "path": "audio/guided/voice/clear-space.technique.a.m4a",
       "durationMs": 12075,
       "hash": "92508b859bbaf23d8258fe6e2abd9bb98b20ed0558498d08096149caf16f5858",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Сделаем спокойный вдох через нос и добавим ещё немного воздуха. Затем мягко выдохнем через рот. Если такой способ неудобен, оставайся на обычном дыхании.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.technique.a",
       "kind": "voice",
       "normalizationGain": 0.9257633851208253
     },
-    "clear-space.demo-in.a": {
+    "maxim:present-moment.demo-in.a": {
       "path": "audio/guided/voice/clear-space.demo-in.a.m4a",
       "durationMs": 4737,
       "hash": "3e598f109550cf46955deccbfe5e2775d84a0a1b4af622e29a5205dd1d264877",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Спокойный вдох. И ещё немного.",
+      "voiceId": "maxim",
+      "cueId": "present-moment.demo-in.a",
       "kind": "voice",
       "normalizationGain": 0.9931160484209338
     },
-    "clear-space.demo-out.a": {
+    "maxim:present-moment.demo-out.a": {
       "path": "audio/guided/voice/clear-space.demo-out.a.m4a",
       "durationMs": 2647,
       "hash": "346b06716d139d97b223fed4c7105696b01b76931c019aa3f6416d4da86b9e2e",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Мягко выдохни. Отпусти воздух.",
+      "voiceId": "maxim",
+      "cueId": "present-moment.demo-out.a",
       "kind": "voice",
       "normalizationGain": 1.0185913880541169
     },
-    "clear-space.continue.a": {
+    "maxim:clear-space.continue.a": {
       "path": "audio/guided/voice/clear-space.continue.a.m4a",
       "durationMs": 2694,
       "hash": "0ddd67a8adee417ea3e8f7a137496a8afb9f46c14abbac2cdbfe28275416c784",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Продолжай в том же спокойном ритме.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.continue.a",
       "kind": "voice",
       "normalizationGain": 1.2387965865303692
     },
-    "clear-space.continue.b": {
+    "maxim:clear-space.continue.b": {
       "path": "audio/guided/voice/clear-space.continue.b.m4a",
       "durationMs": 3158,
       "hash": "dbf40bb93a80c97037605fdbdaa384cea76be1ab3e21b76fd1a3356e29566694",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Сохраняй мягкость каждого движения дыхания.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.continue.b",
       "kind": "voice",
       "normalizationGain": 1.2274392311584073
     },
-    "clear-space.continue.c": {
+    "maxim:clear-space.continue.c": {
       "path": "audio/guided/voice/clear-space.continue.c.m4a",
       "durationMs": 3158,
       "hash": "a0ae70980f9e3903dae119fd076b4dfcf2e507e344479551f412b3c5fbc7b24a",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Дыши без усилия, следуя знакомому звуку.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.continue.c",
       "kind": "voice",
       "normalizationGain": 1.0023052380778996
     },
-    "clear-space.last.a": {
+    "maxim:clear-space.last.a": {
       "path": "audio/guided/voice/clear-space.last.a.m4a",
       "durationMs": 1718,
       "hash": "7346637af35a1ced6000646371e84b47226b423c842c99e9e98728316b1db7d3",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Последнее повторение.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.last.a",
       "kind": "voice",
       "normalizationGain": 1.1994993031493788
     },
-    "clear-space.natural.a": {
+    "maxim:clear-space.natural.a": {
       "path": "audio/guided/voice/clear-space.natural.a.m4a",
       "durationMs": 7616,
       "hash": "f9ea50ae1492ce7a0766a2e24ff98433b5e412ff90686e695e9f37c1813a4b41",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Теперь отпусти заданный ритм. Пусть дыхание происходит само. Больше не нужно делать его глубже или длиннее.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.natural.a",
       "kind": "voice",
       "normalizationGain": 1.1547819846894583
     },
-    "clear-space.observe.a": {
+    "maxim:clear-space.observe.a": {
       "path": "audio/guided/voice/clear-space.observe.a.m4a",
       "durationMs": 11935,
       "hash": "ae27ad13dc1d07f9410d89d183a7881fd6bac6ba8b36be38fe6435a3703a9ab1",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Можно перестать следить за каждым вдохом. Замечай то, что само появляется в поле внимания: ощущение в теле, звук, мысль. Не нужно удерживать что-то одно.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.observe.a",
       "kind": "voice",
       "normalizationGain": 0.84527884516029
     },
-    "clear-space.notice-contact.a": {
+    "maxim:clear-space.notice-contact.a": {
       "path": "audio/guided/voice/clear-space.notice-contact.a.m4a",
       "durationMs": 6548,
       "hash": "b9bad58fa02e33fc4498c3c8cb292a927139bf0c020eb55c10c47dde873763c0",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Почувствуй, как тело соприкасается с опорой. Дыхание при этом может оставаться обычным.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.notice-contact.a",
       "kind": "voice",
       "normalizationGain": 0.9806183143219713
     },
-    "clear-space.notice-contact.b": {
+    "maxim:clear-space.notice-contact.b": {
       "path": "audio/guided/voice/clear-space.notice-contact.b.m4a",
       "durationMs": 6270,
       "hash": "ec553dab236aa9978151deff95cdae1158ef881116eca497bef786f1dabb08eb",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Заметь места контакта тела с поверхностью. Позволь дыханию идти своим чередом.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.notice-contact.b",
       "kind": "voice",
       "normalizationGain": 1.1762509846847233
     },
-    "clear-space.notice-contact.c": {
+    "maxim:clear-space.notice-contact.c": {
       "path": "audio/guided/voice/clear-space.notice-contact.c.m4a",
       "durationMs": 5898,
       "hash": "ab743d06c2160a5fb0398e812fc0e88291b7a30e2e9318f344ccb8362966cb3a",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Обрати внимание на прикосновение опоры к телу. Не меняй ради этого дыхание.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.notice-contact.c",
       "kind": "voice",
       "normalizationGain": 1.1803206356517297
     },
-    "clear-space.thoughts.a": {
+    "maxim:clear-space.thoughts.a": {
       "path": "audio/guided/voice/clear-space.thoughts.a.m4a",
       "durationMs": 10588,
       "hash": "31c94fcd5b6b933a6c3d052375e44a77e7da6738af2f3e9face565f807ee6e5b",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Если появляется мысль, можно просто заметить её. Не обязательно продолжать внутренний разговор или отталкивать его. Посмотри, что возникает следом.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.thoughts.a",
       "kind": "voice",
       "normalizationGain": 0.9931160484209338
     },
-    "clear-space.widen.a": {
+    "maxim:clear-space.widen.a": {
       "path": "audio/guided/voice/clear-space.widen.a.m4a",
       "durationMs": 5991,
       "hash": "cd6e21eff08d3bd6f2a1991defb40af7a063878f8264f56021bf835443641539",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Позволь вниманию стать чуть шире. Не нужно искать единственное правильное ощущение.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.widen.a",
       "kind": "voice",
       "normalizationGain": 1.0739894123412448
     },
-    "clear-space.widen.b": {
+    "maxim:clear-space.widen.b": {
       "path": "audio/guided/voice/clear-space.widen.b.m4a",
       "durationMs": 7105,
       "hash": "564003d473140edb3fbf617380d56119c46b247e7d062929cf6fab54e94264fa",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Замечай происходящее целиком, насколько получается. Здесь нет одного правильного объекта внимания.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.widen.b",
       "kind": "voice",
       "normalizationGain": 1.1130123928017914
     },
-    "clear-space.widen.c": {
+    "maxim:clear-space.widen.c": {
       "path": "audio/guided/voice/clear-space.widen.c.m4a",
       "durationMs": 6037,
       "hash": "477262ce540beb29a93308e0ad06efdf5130ef88bfe9fcc71ad3d25ea431666b",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Можно замечать сразу несколько ощущений. Не старайся выбрать среди них самое важное.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.widen.c",
       "kind": "voice",
       "normalizationGain": 0.7943282347242815
     },
-    "clear-space.allow.a": {
+    "maxim:clear-space.allow.a": {
       "path": "audio/guided/voice/clear-space.allow.a.m4a",
       "durationMs": 5759,
       "hash": "91ec93fbf183f4e9f006349d79a39b40638a46c0ac374072466fa4b6c145921e",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Пусть мысли и ощущения сменяют друг друга. Просто замечай это движение.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.allow.a",
       "kind": "voice",
       "normalizationGain": 0.9896918638691029
     },
-    "clear-space.allow.b": {
+    "maxim:clear-space.allow.b": {
       "path": "audio/guided/voice/clear-space.allow.b.m4a",
       "durationMs": 5666,
       "hash": "26ababd837dd52c6f48e183d6b97c5cfd6157b59188281f5ab517a76e2a9fa14",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Замечай, как одно ощущение уступает место другому. Не нужно вмешиваться.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.allow.b",
       "kind": "voice",
       "normalizationGain": 1.1284959375277617
     },
-    "clear-space.allow.c": {
+    "maxim:clear-space.allow.c": {
       "path": "audio/guided/voice/clear-space.allow.c.m4a",
       "durationMs": 6270,
       "hash": "e230a55de8008763acca8778a882853ccfb3e822209de0322f9b705b81924d81",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Позволь происходящему меняться. Оставайся внимательным к тому, что есть сейчас.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.allow.c",
       "kind": "voice",
       "normalizationGain": 0.9268298233793493
     },
-    "clear-space.return.a": {
+    "maxim:clear-space.return.a": {
       "path": "audio/guided/voice/clear-space.return.a.m4a",
       "durationMs": 8777,
       "hash": "e26b1e967a937413652ff98f57a89a7ca4c9ca57b3193e03d45c98eec7f00c01",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Почувствуй опору ещё раз. Заметь пространство вокруг и звуки комнаты. Если глаза закрыты, можно спокойно открыть их.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.return.a",
       "kind": "voice",
       "normalizationGain": 0.9451483924407295
     },
-    "clear-space.meaning.a": {
+    "maxim:clear-space.meaning.a": {
       "path": "audio/guided/voice/clear-space.meaning.a.m4a",
       "durationMs": 6780,
       "hash": "a6e666f9b82bc45bfee8fc6242aa284baf6fda0f629e73635490edc9f030703b",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Следующее действие можно выбрать без спешки. Для этого не обязательно разобраться со всеми мыслями.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.meaning.a",
       "kind": "voice",
       "normalizationGain": 1.1389377818757072
     },
-    "clear-space.meaning.b": {
+    "maxim:clear-space.meaning.b": {
       "path": "audio/guided/voice/clear-space.meaning.b.m4a",
       "durationMs": 5666,
       "hash": "f6b94cb97912f105aecee9ffb32b3c0cb3b8cf4b38f0d2e11ddf09ffd3fce13f",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Можно перейти к одному следующему делу, оставив остальные мысли пока без ответа.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.meaning.b",
       "kind": "voice",
       "normalizationGain": 0.793414256777125
     },
-    "clear-space.meaning.c": {
+    "maxim:clear-space.meaning.c": {
       "path": "audio/guided/voice/clear-space.meaning.c.m4a",
       "durationMs": 5666,
       "hash": "d583fe226f55d577739821f5774fb80cb100323a701d64e3f19b70d7f992c36a",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "Дай себе время выбрать следующий шаг. Не каждую мысль нужно превращать в действие.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.meaning.c",
       "kind": "voice",
       "normalizationGain": 1.132400363235557
     },
-    "clear-space.finish.a": {
+    "maxim:clear-space.finish.a": {
       "path": "audio/guided/voice/clear-space.finish.a.m4a",
       "durationMs": 1718,
       "hash": "ea94fe758d745c8ab25e2cf16e80142678dd990c3e0292cd1c25b96a95072515",
-      "voiceId": "HcaxAsrhw4ByUo4CBCBN",
-      "text": "На этом закончим.",
+      "voiceId": "maxim",
+      "cueId": "clear-space.finish.a",
       "kind": "voice",
       "normalizationGain": 1.2589254117941673
     },
-    "release-day.position.a": {
+    "kate:release-day.position.a": {
       "path": "audio/guided/voice/release-day.position.a.m4a",
       "durationMs": 8081,
       "hash": "6c63adc338b8b900ab4b1c50cedc3c7c4241bed18f3d7ac2f421438fa91fd0c2",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Устройся лёжа. Найди удобное положение для головы и рук. Если хочется что-то поправить, сделай это сейчас, не торопясь.",
+      "voiceId": "kate",
+      "cueId": "release-day.position.a",
       "kind": "voice",
       "normalizationGain": 1.0174193661806048
     },
-    "release-day.support.a": {
+    "kate:release-day.support.a": {
       "path": "audio/guided/voice/release-day.support.a.m4a",
       "durationMs": 4923,
       "hash": "a26ed7f38b103c7d8297b8b89b19a796ccf07ac0e699c83ba5bbd13afc21d4d8",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Почувствуй поверхность под спиной. Позволь телу опираться на неё чуть полнее.",
+      "voiceId": "kate",
+      "cueId": "release-day.support.a",
       "kind": "voice",
       "normalizationGain": 1.1376272858234309
     },
-    "release-day.support.b": {
+    "kate:release-day.support.b": {
       "path": "audio/guided/voice/release-day.support.b.m4a",
       "durationMs": 5294,
       "hash": "b5023e8526dd7c446707343bfc75d95934bb964ad15af692697ab5e6ab1327ce",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Заметь, как спина соприкасается с постелью. Почувствуй эту спокойную опору.",
+      "voiceId": "kate",
+      "cueId": "release-day.support.b",
       "kind": "voice",
       "normalizationGain": 0.9772372209558107
     },
-    "release-day.support.c": {
+    "kate:release-day.support.c": {
       "path": "audio/guided/voice/release-day.support.c.m4a",
       "durationMs": 5480,
       "hash": "0dd5176bf347b44c86d39d11afdf314849d1c0475f47453c5707fc6909727175",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Обрати внимание на вес тела и поверхность под ним. Можно устроиться немного свободнее.",
+      "voiceId": "kate",
+      "cueId": "release-day.support.c",
       "kind": "voice",
       "normalizationGain": 1.2632811038073566
     },
-    "release-day.day.a": {
+    "kate:release-day.day.a": {
       "path": "audio/guided/voice/release-day.day.a.m4a",
       "durationMs": 7105,
       "hash": "64fad08e016d9f9443574aa5188591da185f7299df43174a4f189b889a7bddff",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "На сегодня можно оставить незаконченные дела. Сейчас не нужно искать для них решение. Это время для отдыха.",
+      "voiceId": "kate",
+      "cueId": "release-day.day.a",
       "kind": "voice",
       "normalizationGain": 1.0889300933334334
     },
-    "release-day.day.b": {
+    "kate:release-day.day.b": {
       "path": "audio/guided/voice/release-day.day.b.m4a",
       "durationMs": 7059,
       "hash": "474bc9d0114378189f4fd23a4cc11cd227435bb934ea13572a6e4922c6195d8b",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Всё, что ещё требует внимания, может немного подождать. Сейчас можно отложить решения и побыть в покое.",
+      "voiceId": "kate",
+      "cueId": "release-day.day.b",
       "kind": "voice",
       "normalizationGain": 1.0339511009823714
     },
-    "release-day.day.c": {
+    "kate:release-day.day.c": {
       "path": "audio/guided/voice/release-day.day.c.m4a",
       "durationMs": 7523,
       "hash": "ad82c6268884175be23c4db3685bb1da2d6d8062cc9e6b8352ab3643e1c0e79f",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Не обязательно заканчивать день с ответами на все вопросы. Позволь делам пока остаться за пределами этой практики.",
+      "voiceId": "kate",
+      "cueId": "release-day.day.c",
       "kind": "voice",
       "normalizationGain": 1.0826797151272995
     },
-    "release-day.orientation.a": {
+    "kate:release-day.orientation.a": {
       "path": "audio/guided/voice/release-day.orientation.a.m4a",
       "durationMs": 5201,
       "hash": "856c7672e67c5dd50f10ef5e9384ed180119675aad710a6064ac911a549bcec1",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Сначала мы немного подышим вместе, а затем спокойно пройдём вниманием по телу.",
+      "voiceId": "kate",
+      "cueId": "release-day.orientation.a",
       "kind": "voice",
       "normalizationGain": 1.1117317272815912
     },
-    "release-day.observe.a": {
+    "kate:release-day.observe.a": {
       "path": "audio/guided/voice/release-day.observe.a.m4a",
       "durationMs": 7895,
       "hash": "6cc195915083df61d667a958bb3c99d9cccafb21eb2ad0731e94c7c1af804c65",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Обрати внимание на дыхание. Заметь, где его движение ощущается яснее всего. Ничего не меняй, просто побудь с этим ощущением.",
+      "voiceId": "kate",
+      "cueId": "release-day.observe.a",
       "kind": "voice",
       "normalizationGain": 1.0889300933334334
     },
-    "release-day.technique.a": {
+    "kate:release-day.technique.a": {
       "path": "audio/guided/voice/release-day.technique.a.m4a",
       "durationMs": 12214,
       "hash": "f204fecdc321ff40fce6521f70fc0c7bdecf6f0f662fd8e6aefbfeb8321d0723",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Попробуем вдох на четыре счёта и более длинный выдох на восемь. Не нужно набирать много воздуха или тянуть выдох через усилие. Если неудобно, дыши как обычно. Я покажу ритм.",
+      "voiceId": "kate",
+      "cueId": "release-day.technique.a",
       "kind": "voice",
       "normalizationGain": 0.8600030668888559
     },
-    "release-day.demo-in.a": {
+    "kate:release-day.demo-in.a": {
       "path": "audio/guided/voice/release-day.demo-in.a.m4a",
       "durationMs": 4598,
       "hash": "8d9be3aeccc665d55d5113fcd3fae46f170bb375442718864a5547d8eb8ff4da",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Вдох. Два. Три. Четыре.",
+      "voiceId": "kate",
+      "cueId": "release-day.demo-in.a",
       "kind": "voice",
       "normalizationGain": 0.8053784411990667
     },
-    "release-day.demo-out.a": {
+    "kate:release-day.demo-out.a": {
       "path": "audio/guided/voice/release-day.demo-out.a.m4a",
       "durationMs": 9009,
       "hash": "ed463c2bc0bbd3edb7a1f6b00a01390215d3d5a0eea9c1c1975541ad0c871f21",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Выдох. Два. Три. Четыре. Пять. Шесть. Семь. Восемь.",
+      "voiceId": "kate",
+      "cueId": "release-day.demo-out.a",
       "kind": "voice",
       "normalizationGain": 0.8269895085679319
     },
-    "release-day.handover.a": {
+    "kate:release-day.handover.a": {
       "path": "audio/guided/voice/release-day.handover.a.m4a",
       "durationMs": 2554,
       "hash": "f1d2b7870608fe5f62b18fadabcb51a82a3b5695ad6d4b3079a901cc4c27c436",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь продолжай по звуку, без усилия.",
+      "voiceId": "kate",
+      "cueId": "release-day.handover.a",
       "kind": "voice",
       "normalizationGain": 0.9783629547845955
     },
-    "release-day.ease.a": {
+    "kate:release-day.ease.a": {
       "path": "audio/guided/voice/release-day.ease.a.m4a",
       "durationMs": 2787,
       "hash": "0469aeaedf1efb519fadd4a1079e1137ecf1bd88643edb109fb0c8fc360f0b1b",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Пусть дыхание остаётся мягким и удобным.",
+      "voiceId": "kate",
+      "cueId": "release-day.ease.a",
       "kind": "voice",
       "normalizationGain": 1.109174815262401
     },
-    "release-day.ease.b": {
+    "kate:release-day.ease.b": {
       "path": "audio/guided/voice/release-day.ease.b.m4a",
       "durationMs": 2972,
       "hash": "d3674b41a8d66c571f24a98cfc012fb873b9a268e6d47be93dcaea1bb600c792",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Сохраняй комфортную глубину каждого вдоха.",
+      "voiceId": "kate",
+      "cueId": "release-day.ease.b",
       "kind": "voice",
       "normalizationGain": 1.1939881044642733
     },
-    "release-day.ease.c": {
+    "kate:release-day.ease.c": {
       "path": "audio/guided/voice/release-day.ease.c.m4a",
       "durationMs": 3437,
       "hash": "8695f34751a400262bc35a3674c663f84e71479c186eca1a35212cfb58335fe8",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Дыши свободно, не стараясь набрать больше воздуха.",
+      "voiceId": "kate",
+      "cueId": "release-day.ease.c",
       "kind": "voice",
       "normalizationGain": 1.2373711899353523
     },
-    "release-day.steady.a": {
+    "kate:release-day.steady.a": {
       "path": "audio/guided/voice/release-day.steady.a.m4a",
       "durationMs": 2554,
       "hash": "8abc4a4e9158dfe81fdc1d6bd317069991711a29b66cd9b68c2b7b823e84fd47",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Можно просто следовать знакомому ритму.",
+      "voiceId": "kate",
+      "cueId": "release-day.steady.a",
       "kind": "voice",
       "normalizationGain": 1.0363346044310422
     },
-    "release-day.steady.b": {
+    "kate:release-day.steady.b": {
       "path": "audio/guided/voice/release-day.steady.b.m4a",
       "durationMs": 2879,
       "hash": "5a14ea1fbc42e5c4483399f9be1f84fd90ee850f2df0a8bd1f32d7057af75a85",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Продолжай спокойно, в том же удобном ритме.",
+      "voiceId": "kate",
+      "cueId": "release-day.steady.b",
       "kind": "voice",
       "normalizationGain": 1.2603756378944253
     },
-    "release-day.steady.c": {
+    "kate:release-day.steady.c": {
       "path": "audio/guided/voice/release-day.steady.c.m4a",
       "durationMs": 2740,
       "hash": "85b146deb4807440960bb9bb48c83fd4c757d03ce9a548f43c7f0f043e4a88c7",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Оставайся с этим мягким движением дыхания.",
+      "voiceId": "kate",
+      "cueId": "release-day.steady.c",
       "kind": "voice",
       "normalizationGain": 1.0339511009823714
     },
-    "release-day.two-left.a": {
+    "kate:release-day.two-left.a": {
       "path": "audio/guided/voice/release-day.two-left.a.m4a",
       "durationMs": 1579,
       "hash": "3237894ac412f11c1feb7689ae750564dbf5a54a91f1162df796bda2607f91b1",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Ещё два повторения.",
+      "voiceId": "kate",
+      "cueId": "release-day.two-left.a",
       "kind": "voice",
       "normalizationGain": 1.1181498245842192
     },
-    "release-day.one-left.a": {
+    "kate:release-day.one-left.a": {
       "path": "audio/guided/voice/release-day.one-left.a.m4a",
       "durationMs": 1208,
       "hash": "de197d62655bd57e43c92b1613bc260c84357cbe53016cbd1fdcbb1e829c3078",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "И последнее.",
+      "voiceId": "kate",
+      "cueId": "release-day.one-left.a",
       "kind": "voice",
       "normalizationGain": 1.2603756378944253
     },
-    "release-day.natural.a": {
+    "kate:release-day.natural.a": {
       "path": "audio/guided/voice/release-day.natural.a.m4a",
       "durationMs": 6362,
       "hash": "7ca854855957e2e245996d9dec239514891708c286b0e1208cf4c6eac228e509",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь вернись к обычному дыханию. Больше не нужно следовать счёту или звуку. Пусть тело дышит само.",
+      "voiceId": "kate",
+      "cueId": "release-day.natural.a",
       "kind": "voice",
       "normalizationGain": 0.793414256777125
     },
-    "release-day.body-explain.a": {
+    "kate:release-day.body-explain.a": {
       "path": "audio/guided/voice/release-day.body-explain.a.m4a",
       "durationMs": 11331,
       "hash": "d55c948494a5dbdf9625a356dd431a4fea5ad9c91438f16e613da768da5966d2",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Дальше мы будем замечать ощущения в разных частях тела. Двигаться не нужно. Если в какой-то области ничего не чувствуется, это тоже нормально. Просто следуй за голосом.",
+      "voiceId": "kate",
+      "cueId": "release-day.body-explain.a",
       "kind": "voice",
       "normalizationGain": 0.8298507675144224
     },
-    "release-day.back.a": {
+    "kate:release-day.back.a": {
       "path": "audio/guided/voice/release-day.back.a.m4a",
       "durationMs": 9288,
       "hash": "b25a97db59eeccbe2592f74af4b8db9160ee783889c2482cf7baaee1e07d778d",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Почувствуй спину там, где она касается поверхности. Заметь вес затылка. Не нужно усиливать эти ощущения. Достаточно обратить на них внимание.",
+      "voiceId": "kate",
+      "cueId": "release-day.back.a",
       "kind": "voice",
       "normalizationGain": 1.2603756378944253
     },
-    "release-day.face.a": {
+    "kate:release-day.face.a": {
       "path": "audio/guided/voice/release-day.face.a.m4a",
       "durationMs": 9799,
       "hash": "1dd7ea1624b119121714d3b5f57dc5af436363215a14443705070ad81d8a9295",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Переведи внимание к лицу. Лоб, область вокруг глаз, щёки. Заметь положение челюсти. Пусть лицо остаётся таким, каким ему удобно быть.",
+      "voiceId": "kate",
+      "cueId": "release-day.face.a",
       "kind": "voice",
       "normalizationGain": 0.9278974901273311
     },
-    "release-day.neck.a": {
+    "kate:release-day.neck.a": {
       "path": "audio/guided/voice/release-day.neck.a.m4a",
       "durationMs": 9102,
       "hash": "22b0ec93eefce5d7574e88c04acc1fa61c33f0afc911161e2fa3511a1cf36789",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь область шеи. Передняя поверхность, боковые стороны, место, где шея переходит в плечи. Просто замечай доступные ощущения.",
+      "voiceId": "kate",
+      "cueId": "release-day.neck.a",
       "kind": "voice",
       "normalizationGain": 0.9120108393559098
     },
-    "release-day.shoulders.a": {
+    "kate:release-day.shoulders.a": {
       "path": "audio/guided/voice/release-day.shoulders.a.m4a",
       "durationMs": 8081,
       "hash": "9d498b1239b06045e9adc78f3053a603d696500d4910e6c15567ad1f7bf41e96",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Почувствуй оба плеча. Есть ли здесь тепло, тяжесть, напряжение или что-то другое? Не нужно искать особое ощущение.",
+      "voiceId": "kate",
+      "cueId": "release-day.shoulders.a",
       "kind": "voice",
       "normalizationGain": 1.0727536478355297
     },
-    "release-day.arms.a": {
+    "kate:release-day.arms.a": {
       "path": "audio/guided/voice/release-day.arms.a.m4a",
       "durationMs": 8128,
       "hash": "b31dd6d63dc86f48f7dc202694e51dfc08f6fb66b2c8293a8647b74a22e19a09",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Перенеси внимание в руки. Верхняя часть рук, локти, предплечья. Заметь, как они лежат. Можно ничего не поправлять.",
+      "voiceId": "kate",
+      "cueId": "release-day.arms.a",
       "kind": "voice",
       "normalizationGain": 1.11045253533364
     },
-    "release-day.hands.a": {
+    "kate:release-day.hands.a": {
       "path": "audio/guided/voice/release-day.hands.a.m4a",
       "durationMs": 8963,
       "hash": "d3b929211b715c65358f72a4eb3f5350c2b583be7ee79af67698154840d7ea0a",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь обе ладони и пальцы. Почувствуй их положение, прикосновение ткани или воздуха. Позволь вниманию немного задержаться здесь.",
+      "voiceId": "kate",
+      "cueId": "release-day.hands.a",
       "kind": "voice",
       "normalizationGain": 0.8800351116873228
     },
-    "release-day.chest.a": {
+    "kate:release-day.chest.a": {
       "path": "audio/guided/voice/release-day.chest.a.m4a",
       "durationMs": 8824,
       "hash": "a14ade658841370a1e1ee8f6d1e34cfbb3eb531916ce733e4ecbe2cc57be5896",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Обрати внимание на грудную клетку. Возможно, здесь заметно небольшое движение дыхания. Достаточно замечать это движение, не меняя дыхание.",
+      "voiceId": "kate",
+      "cueId": "release-day.chest.a",
       "kind": "voice",
       "normalizationGain": 1.0115794542598986
     },
-    "release-day.torso.a": {
+    "kate:release-day.torso.a": {
       "path": "audio/guided/voice/release-day.torso.a.m4a",
       "durationMs": 9381,
       "hash": "35240a50de37d813222718a8bc70d71a288cb9b9b9ca3af417e0e65a0e3ec670",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь средняя часть спины и живот. Замечай опору, прикосновения, движение. Не нужно придавать этим ощущениям какой-то смысл.",
+      "voiceId": "kate",
+      "cueId": "release-day.torso.a",
       "kind": "voice",
       "normalizationGain": 0.81752303794365
     },
-    "release-day.autonomous-breath.a": {
+    "kate:release-day.autonomous-breath.a": {
       "path": "audio/guided/voice/release-day.autonomous-breath.a.m4a",
       "durationMs": 4691,
       "hash": "b6ecb38df2ea83a004e2443848aa199a61232408b9a2b7a23698f1ae6df5dc7e",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Дыхание продолжается само. Можно замечать его, ничего не регулируя.",
+      "voiceId": "kate",
+      "cueId": "release-day.autonomous-breath.a",
       "kind": "voice",
       "normalizationGain": 0.8128305161640993
     },
-    "release-day.autonomous-breath.b": {
+    "kate:release-day.autonomous-breath.b": {
       "path": "audio/guided/voice/release-day.autonomous-breath.b.m4a",
       "durationMs": 3715,
       "hash": "af4257c11e518ef13491bdcf08ba9c2e618ce644e12bf0eb847395bfeb8b311a",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Не нужно помогать дыханию. Позволь ему идти своим чередом.",
+      "voiceId": "kate",
+      "cueId": "release-day.autonomous-breath.b",
       "kind": "voice",
       "normalizationGain": 1.2603756378944253
     },
-    "release-day.autonomous-breath.c": {
+    "kate:release-day.autonomous-breath.c": {
       "path": "audio/guided/voice/release-day.autonomous-breath.c.m4a",
       "durationMs": 4923,
       "hash": "2706d336b1143a321bcbce31ffea55e0fe28354d7f4be8d5000f243473c19b01",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Тело дышит без дополнительных усилий. Просто замечай это, если хочется.",
+      "voiceId": "kate",
+      "cueId": "release-day.autonomous-breath.c",
       "kind": "voice",
       "normalizationGain": 0.9828788730000322
     },
-    "release-day.pelvis.a": {
+    "kate:release-day.pelvis.a": {
       "path": "audio/guided/voice/release-day.pelvis.a.m4a",
       "durationMs": 7895,
       "hash": "fd6ecc6f59a5c9fceb17d668eef78e2552deca8d42ada96429189e4805e8d72a",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Переведи внимание к нижней части живота и области таза. Почувствуй вес тела в этом месте и поверхность под ним.",
+      "voiceId": "kate",
+      "cueId": "release-day.pelvis.a",
       "kind": "voice",
       "normalizationGain": 1.030386120441616
     },
-    "release-day.legs.a": {
+    "kate:release-day.legs.a": {
       "path": "audio/guided/voice/release-day.legs.a.m4a",
       "durationMs": 8917,
       "hash": "bdab43625f6212ad666721862e11d0225ba97d08bd964e903d1483cbad880f04",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь обе ноги. Бёдра, колени, голени. Замечай ощущения по мере того, как внимание проходит вниз. Здесь тоже ничего не нужно менять.",
+      "voiceId": "kate",
+      "cueId": "release-day.legs.a",
       "kind": "voice",
       "normalizationGain": 0.9783629547845955
     },
-    "release-day.feet.a": {
+    "kate:release-day.feet.a": {
       "path": "audio/guided/voice/release-day.feet.a.m4a",
       "durationMs": 7105,
       "hash": "eef110b484ac0f9f3166cd5a4ce3d45015103cb34869cdec00c6caa16a4dbf7a",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь почувствуй пятки и пальцы ног. Заметь, чего они касаются. Позволь ногам оставаться в удобном положении.",
+      "voiceId": "kate",
+      "cueId": "release-day.feet.a",
       "kind": "voice",
       "normalizationGain": 0.8830799004185628
     },
-    "release-day.whole.a": {
+    "kate:release-day.whole.a": {
       "path": "audio/guided/voice/release-day.whole.a.m4a",
       "durationMs": 8870,
       "hash": "88c5d2956481155320f295e8d0a80314b4a5abfc2c1d28a46475f17e1ebc2dd0",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Теперь почувствуй тело целиком. От головы до стоп. Все эти ощущения могут быть здесь одновременно. Не нужно удерживать каждое из них.",
+      "voiceId": "kate",
+      "cueId": "release-day.whole.a",
       "kind": "voice",
       "normalizationGain": 1.0256519262514077
     },
-    "release-day.release-effort.a": {
+    "kate:release-day.release-effort.a": {
       "path": "audio/guided/voice/release-day.release-effort.a.m4a",
       "durationMs": 5434,
       "hash": "305b79314a4b8e20caff4f47245745fccdd440d3ab7bb3b1dc8e5bdc243c53bf",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Можно отпустить даже старание следовать практике. Пусть внимание отдыхает вместе с телом.",
+      "voiceId": "kate",
+      "cueId": "release-day.release-effort.a",
       "kind": "voice",
       "normalizationGain": 0.7943282347242815
     },
-    "release-day.release-effort.b": {
+    "kate:release-day.release-effort.b": {
       "path": "audio/guided/voice/release-day.release-effort.b.m4a",
       "durationMs": 5434,
       "hash": "e30562fd2f7c82b46c0c711b4e991298cf359bf6560df211d745d429ed4f4f78",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Больше не нужно стараться делать что-то правильно. Позволь и телу, и вниманию отдохнуть.",
+      "voiceId": "kate",
+      "cueId": "release-day.release-effort.b",
       "kind": "voice",
       "normalizationGain": 0.7998342550070284
     },
-    "release-day.release-effort.c": {
+    "kate:release-day.release-effort.c": {
       "path": "audio/guided/voice/release-day.release-effort.c.m4a",
       "durationMs": 6595,
       "hash": "b1fb184cb982fd595c9a8fcbbb5ec377e0f7c74c23733e8b86bf599b0fbf4038",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Если внимание становится рассеянным, не нужно его собирать. Можно просто оставаться в покое.",
+      "voiceId": "kate",
+      "cueId": "release-day.release-effort.c",
       "kind": "voice",
       "normalizationGain": 0.793414256777125
     },
-    "release-day.remain.a": {
+    "kate:release-day.remain.a": {
       "path": "audio/guided/voice/release-day.remain.a.m4a",
       "durationMs": 6687,
       "hash": "1db1642d945deb83c1c54c427114a6944c3b44cbe36066754682fccfd9de1025",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "Дальше можно никуда не направлять внимание. Пусть дыхание продолжается, а тело отдыхает так, как ему удобно.",
+      "voiceId": "kate",
+      "cueId": "release-day.remain.a",
       "kind": "voice",
       "normalizationGain": 0.8053784411990667
     },
-    "release-day.end.a": {
+    "kate:release-day.end.a": {
       "path": "audio/guided/voice/release-day.end.a.m4a",
       "durationMs": 2554,
       "hash": "4aa06d5fa2b921c0a7587ffcc733cdac3b2c29d3ca40b7a08c465628a9be5fa6",
-      "voiceId": "tOo2BJ74frmnPadsDNIi",
-      "text": "На этом я закончу. Оставайся в покое.",
+      "voiceId": "kate",
+      "cueId": "release-day.end.a",
       "kind": "voice",
       "normalizationGain": 1.1708466023202415
+    },
+    "artem:clear-space.purpose.a": {
+      "path": "audio/guided/voice/artem/clear-space.purpose.a.m4a",
+      "durationMs": 15418,
+      "hash": "4845b63df24106ad1f6d2c70707d3f5ab92acc55bfb93ddef4cbe6814bb37b44",
+      "voiceId": "artem",
+      "cueId": "clear-space.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1.1246049739669264
+    },
+    "artem:clear-space.orientation.a": {
+      "path": "audio/guided/voice/artem/clear-space.orientation.a.m4a",
+      "durationMs": 5666,
+      "hash": "5e16c7e5da6b5322b2f7184815a64b4f172f4ade8b91bf78a3275204e31f415e",
+      "voiceId": "artem",
+      "cueId": "clear-space.orientation.a",
+      "kind": "voice",
+      "normalizationGain": 0.8241381150130023
+    },
+    "artem:clear-space.contact.a": {
+      "path": "audio/guided/voice/artem/clear-space.contact.a.m4a",
+      "durationMs": 5480,
+      "hash": "956579843d89eb7e36f14ab6056fad3ebf3a8b5efdb9fc52e4c664708f4872a2",
+      "voiceId": "artem",
+      "cueId": "clear-space.contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "artem:clear-space.contact.b": {
+      "path": "audio/guided/voice/artem/clear-space.contact.b.m4a",
+      "durationMs": 5527,
+      "hash": "a97db70c019f7c99d585a21d437ce470105f1f2a6554eb6a6d4157c0ac607743",
+      "voiceId": "artem",
+      "cueId": "clear-space.contact.b",
+      "kind": "voice",
+      "normalizationGain": 0.8669618757582166
+    },
+    "artem:clear-space.contact.c": {
+      "path": "audio/guided/voice/artem/clear-space.contact.c.m4a",
+      "durationMs": 6548,
+      "hash": "4bc4abd5474444a3bba88b3a7a1f7effdaa3d9be9390baf5501c14720d9fe964",
+      "voiceId": "artem",
+      "cueId": "clear-space.contact.c",
+      "kind": "voice",
+      "normalizationGain": 1.1654670508371974
+    },
+    "artem:clear-space.technique.a": {
+      "path": "audio/guided/voice/artem/clear-space.technique.a.m4a",
+      "durationMs": 14257,
+      "hash": "8c228e716955538c70b86dde27c2c918d93e2d76fb1746f291a9b9212fb47fca",
+      "voiceId": "artem",
+      "cueId": "clear-space.technique.a",
+      "kind": "voice",
+      "normalizationGain": 1.1668096170609625
+    },
+    "artem:clear-space.continue.a": {
+      "path": "audio/guided/voice/artem/clear-space.continue.a.m4a",
+      "durationMs": 2508,
+      "hash": "44a629b7da164f8f2e6c64dc7fd73b2a39be0cdcba30c3e0f2a122efc747e808",
+      "voiceId": "artem",
+      "cueId": "clear-space.continue.a",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "artem:clear-space.continue.b": {
+      "path": "audio/guided/voice/artem/clear-space.continue.b.m4a",
+      "durationMs": 3808,
+      "hash": "65fb678cfa7be5877a929e6d1a9bc2a0e8dfdc71a731e832b751e74acbef4ee2",
+      "voiceId": "artem",
+      "cueId": "clear-space.continue.b",
+      "kind": "voice",
+      "normalizationGain": 1.0889300933334334
+    },
+    "artem:clear-space.continue.c": {
+      "path": "audio/guided/voice/artem/clear-space.continue.c.m4a",
+      "durationMs": 3483,
+      "hash": "75b4b5370fc0ccc9b6bc05144731c14686b73d55fd90f03ece54178ce8dfb2e4",
+      "voiceId": "artem",
+      "cueId": "clear-space.continue.c",
+      "kind": "voice",
+      "normalizationGain": 1.0080916093642955
+    },
+    "artem:clear-space.last.a": {
+      "path": "audio/guided/voice/artem/clear-space.last.a.m4a",
+      "durationMs": 1765,
+      "hash": "833963402b4c0697fcba4d29583dbaa04474628b259e5ac6f00d26d5aa3c3387",
+      "voiceId": "artem",
+      "cueId": "clear-space.last.a",
+      "kind": "voice",
+      "normalizationGain": 0.9862794856312105
+    },
+    "artem:clear-space.natural.a": {
+      "path": "audio/guided/voice/artem/clear-space.natural.a.m4a",
+      "durationMs": 8824,
+      "hash": "ff5e6a4edcd0df3a092b030ab67843dce2c308017c83cd090e73f74af65d0f8a",
+      "voiceId": "artem",
+      "cueId": "clear-space.natural.a",
+      "kind": "voice",
+      "normalizationGain": 1.2430826358446223
+    },
+    "artem:clear-space.observe.a": {
+      "path": "audio/guided/voice/artem/clear-space.observe.a.m4a",
+      "durationMs": 14768,
+      "hash": "e8c0c5030a37cddaa5eeb85d2d88c5cdfabb59775a5ce8d56014dafe775aebfe",
+      "voiceId": "artem",
+      "cueId": "clear-space.observe.a",
+      "kind": "voice",
+      "normalizationGain": 1.2705741052085413
+    },
+    "artem:clear-space.notice-contact.a": {
+      "path": "audio/guided/voice/artem/clear-space.notice-contact.a.m4a",
+      "durationMs": 6687,
+      "hash": "b31a0bedb0a037240fd31e4a20fcb730ad30ff9114b7302b13578b12761d13f6",
+      "voiceId": "artem",
+      "cueId": "clear-space.notice-contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.2402236251188874
+    },
+    "artem:clear-space.notice-contact.b": {
+      "path": "audio/guided/voice/artem/clear-space.notice-contact.b.m4a",
+      "durationMs": 6362,
+      "hash": "0ee3f3d03ab670f2e2ad6da358f1b342bf4d992c3f7093a76dbdba7ff77bd1c2",
+      "voiceId": "artem",
+      "cueId": "clear-space.notice-contact.b",
+      "kind": "voice",
+      "normalizationGain": 1.069054879222658
+    },
+    "artem:clear-space.notice-contact.c": {
+      "path": "audio/guided/voice/artem/clear-space.notice-contact.c.m4a",
+      "durationMs": 5759,
+      "hash": "3abb3c3214d68c69a32082396a23919f177b2386959ab39aab283e248c31ec98",
+      "voiceId": "artem",
+      "cueId": "clear-space.notice-contact.c",
+      "kind": "voice",
+      "normalizationGain": 0.8540828474185445
+    },
+    "artem:clear-space.thoughts.a": {
+      "path": "audio/guided/voice/artem/clear-space.thoughts.a.m4a",
+      "durationMs": 10496,
+      "hash": "2f45a3fe10c41125e75eca719f585a49f8619ec91209c977f6b768d82bcf9929",
+      "voiceId": "artem",
+      "cueId": "clear-space.thoughts.a",
+      "kind": "voice",
+      "normalizationGain": 1.1066237839776663
+    },
+    "artem:clear-space.widen.a": {
+      "path": "audio/guided/voice/artem/clear-space.widen.a.m4a",
+      "durationMs": 6641,
+      "hash": "e0d46479dd3ce9e160d4dfcdd1eb10372084077053e0686d07c4a8399835a79d",
+      "voiceId": "artem",
+      "cueId": "clear-space.widen.a",
+      "kind": "voice",
+      "normalizationGain": 1.1246049739669264
+    },
+    "artem:clear-space.widen.b": {
+      "path": "audio/guided/voice/artem/clear-space.widen.b.m4a",
+      "durationMs": 7059,
+      "hash": "ed08f02be1084c4ea3df0dfa71fa2ece287b708267a84e1e7f3958fb8dd50ce5",
+      "voiceId": "artem",
+      "cueId": "clear-space.widen.b",
+      "kind": "voice",
+      "normalizationGain": 1.1871347010435989
+    },
+    "artem:clear-space.widen.c": {
+      "path": "audio/guided/voice/artem/clear-space.widen.c.m4a",
+      "durationMs": 6502,
+      "hash": "bdaca3a60e27037455ebab4637343cef94e87eb575c33e5d4e40c040274f1bd8",
+      "voiceId": "artem",
+      "cueId": "clear-space.widen.c",
+      "kind": "voice",
+      "normalizationGain": 1.2705741052085413
+    },
+    "artem:clear-space.allow.a": {
+      "path": "audio/guided/voice/artem/clear-space.allow.a.m4a",
+      "durationMs": 6130,
+      "hash": "b5acf9b69b3a7e895782773a44d5a55877b5d9da078ac70163410f82c7594b5a",
+      "voiceId": "artem",
+      "cueId": "clear-space.allow.a",
+      "kind": "voice",
+      "normalizationGain": 1.1271974561755105
+    },
+    "artem:clear-space.allow.b": {
+      "path": "audio/guided/voice/artem/clear-space.allow.b.m4a",
+      "durationMs": 6223,
+      "hash": "31ba47a5f4da074eaab266a19804dedb1f7de040cc2617fe123c73522d2ee80e",
+      "voiceId": "artem",
+      "cueId": "clear-space.allow.b",
+      "kind": "voice",
+      "normalizationGain": 1.169499391019871
+    },
+    "artem:clear-space.allow.c": {
+      "path": "audio/guided/voice/artem/clear-space.allow.c.m4a",
+      "durationMs": 6873,
+      "hash": "aec9da122241f3742f60980e61dbdc47db0fd764d43e489b11e17e91cfca81ba",
+      "voiceId": "artem",
+      "cueId": "clear-space.allow.c",
+      "kind": "voice",
+      "normalizationGain": 0.8443062419090123
+    },
+    "artem:clear-space.return.a": {
+      "path": "audio/guided/voice/artem/clear-space.return.a.m4a",
+      "durationMs": 10867,
+      "hash": "e34fb861cae4dade3c5581ad941a4fa2f93c20b6b588edd7410bee929cd4a591",
+      "voiceId": "artem",
+      "cueId": "clear-space.return.a",
+      "kind": "voice",
+      "normalizationGain": 1.1681537298613245
+    },
+    "artem:clear-space.meaning.a": {
+      "path": "audio/guided/voice/artem/clear-space.meaning.a.m4a",
+      "durationMs": 6548,
+      "hash": "e374f479479bc4f9364939b29ab53552122f61abe38c5d16ad7f7b75d73a7fb5",
+      "voiceId": "artem",
+      "cueId": "clear-space.meaning.a",
+      "kind": "voice",
+      "normalizationGain": 1.1857687481671602
+    },
+    "artem:clear-space.meaning.b": {
+      "path": "audio/guided/voice/artem/clear-space.meaning.b.m4a",
+      "durationMs": 6502,
+      "hash": "b31cb8e828e604eab11bd5774c3c7a5853a0e5c1a4725177a9b77f91cb8eb80a",
+      "voiceId": "artem",
+      "cueId": "clear-space.meaning.b",
+      "kind": "voice",
+      "normalizationGain": 1.216186000646368
+    },
+    "artem:clear-space.meaning.c": {
+      "path": "audio/guided/voice/artem/clear-space.meaning.c.m4a",
+      "durationMs": 6037,
+      "hash": "18780a08746a76dc37499b55b5f2fac28ccb9bd4c5fa15a9f3f14d28a94b6877",
+      "voiceId": "artem",
+      "cueId": "clear-space.meaning.c",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "artem:clear-space.finish.a": {
+      "path": "audio/guided/voice/artem/clear-space.finish.a.m4a",
+      "durationMs": 1672,
+      "hash": "395f4e4385c4d6f7c91131b8cbd012d543486313ed612af9924bdef4c37fd72c",
+      "voiceId": "artem",
+      "cueId": "clear-space.finish.a",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "artem:release-day.position.a": {
+      "path": "audio/guided/voice/artem/release-day.position.a.m4a",
+      "durationMs": 10635,
+      "hash": "72d9e4aff9ed023e3c8e2be4d9b3f0b4f88e7d70fbab0141091d63a2b045f105",
+      "voiceId": "artem",
+      "cueId": "release-day.position.a",
+      "kind": "voice",
+      "normalizationGain": 1.2560299636948749
+    },
+    "artem:release-day.support.a": {
+      "path": "audio/guided/voice/artem/release-day.support.a.m4a",
+      "durationMs": 5991,
+      "hash": "81766721eace2daacb77f8cb5215a85e19685d2ec88ac7f9d10c607a8a4d6e7a",
+      "voiceId": "artem",
+      "cueId": "release-day.support.a",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "artem:release-day.support.b": {
+      "path": "audio/guided/voice/artem/release-day.support.b.m4a",
+      "durationMs": 6966,
+      "hash": "af554f7766967639f6c275c86feb4760b9557e9ba95e808abd66ab597adcb673",
+      "voiceId": "artem",
+      "cueId": "release-day.support.b",
+      "kind": "voice",
+      "normalizationGain": 0.9538937428415449
+    },
+    "artem:release-day.support.c": {
+      "path": "audio/guided/voice/artem/release-day.support.c.m4a",
+      "durationMs": 6270,
+      "hash": "abe554c17d0d9e256a9c60b9987cc2aec034994e47baa2da69044e1962fb0a29",
+      "voiceId": "artem",
+      "cueId": "release-day.support.c",
+      "kind": "voice",
+      "normalizationGain": 1.1547819846894583
+    },
+    "artem:release-day.day.a": {
+      "path": "audio/guided/voice/artem/release-day.day.a.m4a",
+      "durationMs": 7941,
+      "hash": "4b619e242ffdbf95ae69be51781183f842a57489e60eef95fbdbc37ff48c1c6c",
+      "voiceId": "artem",
+      "cueId": "release-day.day.a",
+      "kind": "voice",
+      "normalizationGain": 1.2560299636948749
+    },
+    "artem:release-day.day.b": {
+      "path": "audio/guided/voice/artem/release-day.day.b.m4a",
+      "durationMs": 8870,
+      "hash": "4049c4e3124e91ce33a46b0326f6f1a6d62e0772999f69c939e0fc8c644404e0",
+      "voiceId": "artem",
+      "cueId": "release-day.day.b",
+      "kind": "voice",
+      "normalizationGain": 1.039920165829059
+    },
+    "artem:release-day.day.c": {
+      "path": "audio/guided/voice/artem/release-day.day.c.m4a",
+      "durationMs": 8313,
+      "hash": "72afaf2ae2c78081611186b1383dc86583a4f9a0b13e6c3c3af5f8be29f12fe2",
+      "voiceId": "artem",
+      "cueId": "release-day.day.c",
+      "kind": "voice",
+      "normalizationGain": 1.144194879816986
+    },
+    "artem:release-day.orientation.a": {
+      "path": "audio/guided/voice/artem/release-day.orientation.a.m4a",
+      "durationMs": 5341,
+      "hash": "48f154a2c04ceb01bcebba2ae1240141f823d47011e411f04d63bdbaa78e154f",
+      "voiceId": "artem",
+      "cueId": "release-day.orientation.a",
+      "kind": "voice",
+      "normalizationGain": 1.066596121230258
+    },
+    "artem:release-day.observe.a": {
+      "path": "audio/guided/voice/artem/release-day.observe.a.m4a",
+      "durationMs": 9938,
+      "hash": "3b5ef461a1586c1a8894e754de92aabef1cca76b5d200dd82e49275c3a756431",
+      "voiceId": "artem",
+      "cueId": "release-day.observe.a",
+      "kind": "voice",
+      "normalizationGain": 1.11429453359173
+    },
+    "artem:release-day.technique.a": {
+      "path": "audio/guided/voice/artem/release-day.technique.a.m4a",
+      "durationMs": 15697,
+      "hash": "e8d6efd016e0022c7444a3085a9ae4167c737d08316e0544ba8a81c42bc9b866",
+      "voiceId": "artem",
+      "cueId": "release-day.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.9364832198943208
+    },
+    "artem:release-day.demo-in.a": {
+      "path": "audio/guided/voice/artem/release-day.demo-in.a.m4a",
+      "durationMs": 4876,
+      "hash": "2c7daddab7adf6a9cd7bcd43d55a90a61027383b49e9c455c616b7e15e749d37",
+      "voiceId": "artem",
+      "cueId": "release-day.demo-in.a",
+      "kind": "voice",
+      "normalizationGain": 0.871966901287074
+    },
+    "artem:release-day.demo-out.a": {
+      "path": "audio/guided/voice/artem/release-day.demo-out.a.m4a",
+      "durationMs": 9753,
+      "hash": "322c7150aa5cc25211e87cd57cef9e553daea138d464e47798e05105344dad01",
+      "voiceId": "artem",
+      "cueId": "release-day.demo-out.a",
+      "kind": "voice",
+      "normalizationGain": 0.9026097074709752
+    },
+    "artem:release-day.handover.a": {
+      "path": "audio/guided/voice/artem/release-day.handover.a.m4a",
+      "durationMs": 2740,
+      "hash": "25ea1dfe888dcf59f5f3139e2ec4300fe1e4bd7006f28d6042cb3119f1e76268",
+      "voiceId": "artem",
+      "cueId": "release-day.handover.a",
+      "kind": "voice",
+      "normalizationGain": 1.2661932675109444
+    },
+    "artem:release-day.ease.a": {
+      "path": "audio/guided/voice/artem/release-day.ease.a.m4a",
+      "durationMs": 3205,
+      "hash": "93fa6900c2be69b1f890bd43580f760f57f333a1b7396f0726d2380e6cd45085",
+      "voiceId": "artem",
+      "cueId": "release-day.ease.a",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "artem:release-day.ease.b": {
+      "path": "audio/guided/voice/artem/release-day.ease.b.m4a",
+      "durationMs": 3251,
+      "hash": "cb56b04c2c4bd685f94c6420208e43542f427ab0e468f6079f102b9bed659d3a",
+      "voiceId": "artem",
+      "cueId": "release-day.ease.b",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "artem:release-day.ease.c": {
+      "path": "audio/guided/voice/artem/release-day.ease.c.m4a",
+      "durationMs": 4180,
+      "hash": "14c5162f1acc52c6ca37e5effe3b0d7d3fb09951784c61474653379a99d6b779",
+      "voiceId": "artem",
+      "cueId": "release-day.ease.c",
+      "kind": "voice",
+      "normalizationGain": 1.1574440320922368
+    },
+    "artem:release-day.steady.a": {
+      "path": "audio/guided/voice/artem/release-day.steady.a.m4a",
+      "durationMs": 2926,
+      "hash": "93768e68deb6231c22da48a7ef892a221cc4248d0f696ddb06348630a39d2991",
+      "voiceId": "artem",
+      "cueId": "release-day.steady.a",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "artem:release-day.steady.b": {
+      "path": "audio/guided/voice/artem/release-day.steady.b.m4a",
+      "durationMs": 2926,
+      "hash": "62d06d8e11310d22fcfd0aa57495b776c4d10a8a371a6422376d1a222e498b0f",
+      "voiceId": "artem",
+      "cueId": "release-day.steady.b",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "artem:release-day.steady.c": {
+      "path": "audio/guided/voice/artem/release-day.steady.c.m4a",
+      "durationMs": 2787,
+      "hash": "32f575d347209be2ad2ad17c08f48fc1d14682f4f233ad05d580539b07e66586",
+      "voiceId": "artem",
+      "cueId": "release-day.steady.c",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "artem:release-day.two-left.a": {
+      "path": "audio/guided/voice/artem/release-day.two-left.a.m4a",
+      "durationMs": 1533,
+      "hash": "df660ce82efdc5ca4b8d574b73f92462a6bd52f919a57ddf6d065b7c80fea233",
+      "voiceId": "artem",
+      "cueId": "release-day.two-left.a",
+      "kind": "voice",
+      "normalizationGain": 0.9761127824302128
+    },
+    "artem:release-day.one-left.a": {
+      "path": "audio/guided/voice/artem/release-day.one-left.a.m4a",
+      "durationMs": 1347,
+      "hash": "7da892a90985000c5765bb17ac6dda6d95b58433996b69c6a5053c31fd89da2a",
+      "voiceId": "artem",
+      "cueId": "release-day.one-left.a",
+      "kind": "voice",
+      "normalizationGain": 1.276438808811344
+    },
+    "artem:release-day.natural.a": {
+      "path": "audio/guided/voice/artem/release-day.natural.a.m4a",
+      "durationMs": 8638,
+      "hash": "9b94a2608e09373b53f4e4139b287e49b3ec9da4e7aa8798ed5eb6939841d804",
+      "voiceId": "artem",
+      "cueId": "release-day.natural.a",
+      "kind": "voice",
+      "normalizationGain": 1.070286382911385
+    },
+    "artem:release-day.body-explain.a": {
+      "path": "audio/guided/voice/artem/release-day.body-explain.a.m4a",
+      "durationMs": 14211,
+      "hash": "fc360ccfaca3afe2876410c1c580d63721bbf28b143a6a62eab0c91a08b67496",
+      "voiceId": "artem",
+      "cueId": "release-day.body-explain.a",
+      "kind": "voice",
+      "normalizationGain": 1.058034915996231
+    },
+    "artem:release-day.back.a": {
+      "path": "audio/guided/voice/artem/release-day.back.a.m4a",
+      "durationMs": 12632,
+      "hash": "68994354b973e7ee3a9430996585db2078fd447a3a146aca3af8bbe667b77116",
+      "voiceId": "artem",
+      "cueId": "release-day.back.a",
+      "kind": "voice",
+      "normalizationGain": 0.9616122783836647
+    },
+    "artem:release-day.face.a": {
+      "path": "audio/guided/voice/artem/release-day.face.a.m4a",
+      "durationMs": 14397,
+      "hash": "c200bf8a1a381829d195cd6645fe07164b5102f2059e3dfbfa35252631f773df",
+      "voiceId": "artem",
+      "cueId": "release-day.face.a",
+      "kind": "voice",
+      "normalizationGain": 1.0150793665726912
+    },
+    "artem:release-day.neck.a": {
+      "path": "audio/guided/voice/artem/release-day.neck.a.m4a",
+      "durationMs": 10496,
+      "hash": "c572e767d497f3459be2bff1aa9d28ff617d81c617f439a7b2b5708a76958b2a",
+      "voiceId": "artem",
+      "cueId": "release-day.neck.a",
+      "kind": "voice",
+      "normalizationGain": 0.9278974901273311
+    },
+    "artem:release-day.shoulders.a": {
+      "path": "audio/guided/voice/artem/release-day.shoulders.a.m4a",
+      "durationMs": 11239,
+      "hash": "1a3628d86d647ea181145645ba8c616414890f0feefe3bb136e8521706953790",
+      "voiceId": "artem",
+      "cueId": "release-day.shoulders.a",
+      "kind": "voice",
+      "normalizationGain": 0.8780110870965299
+    },
+    "artem:release-day.arms.a": {
+      "path": "audio/guided/voice/artem/release-day.arms.a.m4a",
+      "durationMs": 10124,
+      "hash": "f37b53ced474b881998e2a3527e2734fb3e3a772f346b6d17acc9c2fd13decb3",
+      "voiceId": "artem",
+      "cueId": "release-day.arms.a",
+      "kind": "voice",
+      "normalizationGain": 1.0939563662720937
+    },
+    "artem:release-day.hands.a": {
+      "path": "audio/guided/voice/artem/release-day.hands.a.m4a",
+      "durationMs": 12353,
+      "hash": "d9b0efae9cea7f95d7c7dc607a03fa3ac9c35beb4d667fab377d206ed9058388",
+      "voiceId": "artem",
+      "cueId": "release-day.hands.a",
+      "kind": "voice",
+      "normalizationGain": 0.9738677853286334
+    },
+    "artem:release-day.chest.a": {
+      "path": "audio/guided/voice/artem/release-day.chest.a.m4a",
+      "durationMs": 12585,
+      "hash": "1361c7b75ac0ca0f8eeb573296f2e5d8fcc4125ed19f38f9dd6ef706c65300eb",
+      "voiceId": "artem",
+      "cueId": "release-day.chest.a",
+      "kind": "voice",
+      "normalizationGain": 0.9977000638225533
+    },
+    "artem:release-day.torso.a": {
+      "path": "audio/guided/voice/artem/release-day.torso.a.m4a",
+      "durationMs": 12400,
+      "hash": "29d9f4ddc3a2709394db9c125b663f1988eda02768377b789eecf1b917aa0243",
+      "voiceId": "artem",
+      "cueId": "release-day.torso.a",
+      "kind": "voice",
+      "normalizationGain": 1.1926142658558214
+    },
+    "artem:release-day.autonomous-breath.a": {
+      "path": "audio/guided/voice/artem/release-day.autonomous-breath.a.m4a",
+      "durationMs": 6316,
+      "hash": "0134c802d044b10bb53e0ae3a7657cd66460f630ebe419118548f8fc607ff558",
+      "voiceId": "artem",
+      "cueId": "release-day.autonomous-breath.a",
+      "kind": "voice",
+      "normalizationGain": 1.2359474334445104
+    },
+    "artem:release-day.autonomous-breath.b": {
+      "path": "audio/guided/voice/artem/release-day.autonomous-breath.b.m4a",
+      "durationMs": 4551,
+      "hash": "0de7a5f48ef94e0eafb79c0110ee57881105cfb66bd67fbc6d9a6bc4daad471a",
+      "voiceId": "artem",
+      "cueId": "release-day.autonomous-breath.b",
+      "kind": "voice",
+      "normalizationGain": 1.0256519262514077
+    },
+    "artem:release-day.autonomous-breath.c": {
+      "path": "audio/guided/voice/artem/release-day.autonomous-breath.c.m4a",
+      "durationMs": 5527,
+      "hash": "979dddd98eb968e5c7010277c7c6bc380da7c78784d0e4eb0f0833a48823dc6c",
+      "voiceId": "artem",
+      "cueId": "release-day.autonomous-breath.c",
+      "kind": "voice",
+      "normalizationGain": 0.9375620069258802
+    },
+    "artem:release-day.pelvis.a": {
+      "path": "audio/guided/voice/artem/release-day.pelvis.a.m4a",
+      "durationMs": 9288,
+      "hash": "c15fe892f5a46bb41a683911cfdf1abc11dbf1c91c8a1bd75dc54338787a19bd",
+      "voiceId": "artem",
+      "cueId": "release-day.pelvis.a",
+      "kind": "voice",
+      "normalizationGain": 1.001151955538169
+    },
+    "artem:release-day.legs.a": {
+      "path": "audio/guided/voice/artem/release-day.legs.a.m4a",
+      "durationMs": 13328,
+      "hash": "b1504c3372d8e0ff9f6662f5da9fbf49a26c6610b71d94232f6cd312a2b44376",
+      "voiceId": "artem",
+      "cueId": "release-day.legs.a",
+      "kind": "voice",
+      "normalizationGain": 1.0447202192208
+    },
+    "artem:release-day.feet.a": {
+      "path": "audio/guided/voice/artem/release-day.feet.a.m4a",
+      "durationMs": 9613,
+      "hash": "5a7c381da1ac0999528ad6e150c404f9a94a202f72d3bf52a5357da5bb71882f",
+      "voiceId": "artem",
+      "cueId": "release-day.feet.a",
+      "kind": "voice",
+      "normalizationGain": 0.9141132414702502
+    },
+    "artem:release-day.whole.a": {
+      "path": "audio/guided/voice/artem/release-day.whole.a.m4a",
+      "durationMs": 13328,
+      "hash": "1c1920942d5498c7f57cf13925a3ac9909d2721253115d105abcded4aeca2e08",
+      "voiceId": "artem",
+      "cueId": "release-day.whole.a",
+      "kind": "voice",
+      "normalizationGain": 1.1898713291600405
+    },
+    "artem:release-day.release-effort.a": {
+      "path": "audio/guided/voice/artem/release-day.release-effort.a.m4a",
+      "durationMs": 7570,
+      "hash": "e2c1980f7296d00c00cc8da3a5cba8797d4a8d41db7f40f794626064b5457483",
+      "voiceId": "artem",
+      "cueId": "release-day.release-effort.a",
+      "kind": "voice",
+      "normalizationGain": 1.0826797151272995
+    },
+    "artem:release-day.release-effort.b": {
+      "path": "audio/guided/voice/artem/release-day.release-effort.b.m4a",
+      "durationMs": 6641,
+      "hash": "89ba7977b958e72b932559bd3645e25999cbb0815cb760e77a20f53b1b7c44b2",
+      "voiceId": "artem",
+      "cueId": "release-day.release-effort.b",
+      "kind": "voice",
+      "normalizationGain": 1.0423174293933042
+    },
+    "artem:release-day.release-effort.c": {
+      "path": "audio/guided/voice/artem/release-day.release-effort.c.m4a",
+      "durationMs": 7338,
+      "hash": "beab60773924fb28b76f857cc1944a32d79bfc4d7ea30612ca130f6ec9758ae3",
+      "voiceId": "artem",
+      "cueId": "release-day.release-effort.c",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073564
+    },
+    "artem:release-day.remain.a": {
+      "path": "audio/guided/voice/artem/release-day.remain.a.m4a",
+      "durationMs": 8870,
+      "hash": "9a3fee7a6c009dffd51acf6bbaf281582fbdbf6b91dc4a4552a3b629b4d8493e",
+      "voiceId": "artem",
+      "cueId": "release-day.remain.a",
+      "kind": "voice",
+      "normalizationGain": 1.1926142658558214
+    },
+    "artem:release-day.end.a": {
+      "path": "audio/guided/voice/artem/release-day.end.a.m4a",
+      "durationMs": 3297,
+      "hash": "6a38b6e0d2900c92ed9359c33a250e823aded0901e3bbc02ccd31e6d1c2d3dd7",
+      "voiceId": "artem",
+      "cueId": "release-day.end.a",
+      "kind": "voice",
+      "normalizationGain": 1.0268334316680865
+    },
+    "maxim:present-moment.purpose.a": {
+      "path": "audio/guided/voice/maxim/present-moment.purpose.a.m4a",
+      "durationMs": 10867,
+      "hash": "d313f45f51358332ac1427cb70133d570f328427e08ace5e0fa4f26c1ddfe05f",
+      "voiceId": "maxim",
+      "cueId": "present-moment.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1.0531736871297162
+    },
+    "maxim:present-moment.contact.a": {
+      "path": "audio/guided/voice/maxim/present-moment.contact.a.m4a",
+      "durationMs": 3994,
+      "hash": "9f7124d252b81b315d5d2a9105f335aa6fb0986a82c9288691d1970b9e8781b1",
+      "voiceId": "maxim",
+      "cueId": "present-moment.contact.a",
+      "kind": "voice",
+      "normalizationGain": 0.9246981739382225
+    },
+    "maxim:present-moment.contact.b": {
+      "path": "audio/guided/voice/maxim/present-moment.contact.b.m4a",
+      "durationMs": 5062,
+      "hash": "fafded961e5c9ab4197b646ea8008bc97deae85448aba38ceb7f341e4e543412",
+      "voiceId": "maxim",
+      "cueId": "present-moment.contact.b",
+      "kind": "voice",
+      "normalizationGain": 0.8709635899560807
+    },
+    "maxim:present-moment.contact.c": {
+      "path": "audio/guided/voice/maxim/present-moment.contact.c.m4a",
+      "durationMs": 4180,
+      "hash": "90205d5ec5b25507e05a6614c608f1602fe1be20abd87a34ce3858e891ddce9e",
+      "voiceId": "maxim",
+      "cueId": "present-moment.contact.c",
+      "kind": "voice",
+      "normalizationGain": 0.8902254380102108
+    },
+    "maxim:present-moment.technique.a": {
+      "path": "audio/guided/voice/maxim/present-moment.technique.a.m4a",
+      "durationMs": 7523,
+      "hash": "e649529e5f7eb40155c2eb65d411d6db2daf6304bdc96f95a8211a9a2835c4de",
+      "voiceId": "maxim",
+      "cueId": "present-moment.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.8100279416803505
+    },
+    "maxim:present-moment.continue.a": {
+      "path": "audio/guided/voice/maxim/present-moment.continue.a.m4a",
+      "durationMs": 2879,
+      "hash": "2768692aaa4b9507568e21a9ea108889ce08bd449bcd76367157f8110486d7cd",
+      "voiceId": "maxim",
+      "cueId": "present-moment.continue.a",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "maxim:present-moment.continue.b": {
+      "path": "audio/guided/voice/maxim/present-moment.continue.b.m4a",
+      "durationMs": 2694,
+      "hash": "e0e44af193092f0673a3827cd5ab11fefa3822417d566b426e903474b58ac2b7",
+      "voiceId": "maxim",
+      "cueId": "present-moment.continue.b",
+      "kind": "voice",
+      "normalizationGain": 1.2632811038073566
+    },
+    "maxim:present-moment.continue.c": {
+      "path": "audio/guided/voice/maxim/present-moment.continue.c.m4a",
+      "durationMs": 2694,
+      "hash": "b5868ef67e5c6568755f8abb929591d3bf16768a7543fd782d883de5a7adc7ef",
+      "voiceId": "maxim",
+      "cueId": "present-moment.continue.c",
+      "kind": "voice",
+      "normalizationGain": 1.001151955538169
+    },
+    "maxim:present-moment.last.a": {
+      "path": "audio/guided/voice/maxim/present-moment.last.a.m4a",
+      "durationMs": 1765,
+      "hash": "ceab1536265305e0ff0cdcaf11b6902374b7d8390f314d7d3767ab00e736dd3e",
+      "voiceId": "maxim",
+      "cueId": "present-moment.last.a",
+      "kind": "voice",
+      "normalizationGain": 0.9627200129733199
+    },
+    "maxim:present-moment.natural.a": {
+      "path": "audio/guided/voice/maxim/present-moment.natural.a.m4a",
+      "durationMs": 5944,
+      "hash": "aa87bd84ee9c6aee19ab48f7411dd2581eec0fde26be0d6e51dbf5a0d4062176",
+      "voiceId": "maxim",
+      "cueId": "present-moment.natural.a",
+      "kind": "voice",
+      "normalizationGain": 1.019764760044717
+    },
+    "maxim:present-moment.body-contact.a": {
+      "path": "audio/guided/voice/maxim/present-moment.body-contact.a.m4a",
+      "durationMs": 5294,
+      "hash": "1c449d09c994f26cf5209f2c0028e6211276e708e64fee026af3392dee5b87c4",
+      "voiceId": "maxim",
+      "cueId": "present-moment.body-contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.1654670508371974
+    },
+    "maxim:present-moment.body-contact.b": {
+      "path": "audio/guided/voice/maxim/present-moment.body-contact.b.m4a",
+      "durationMs": 5341,
+      "hash": "a77dd02bad24942d0e2ef1a0c8e05f6118f10258eb9d9858e0c1d0888c055294",
+      "voiceId": "maxim",
+      "cueId": "present-moment.body-contact.b",
+      "kind": "voice",
+      "normalizationGain": 1.099005839432521
+    },
+    "maxim:present-moment.body-contact.c": {
+      "path": "audio/guided/voice/maxim/present-moment.body-contact.c.m4a",
+      "durationMs": 6084,
+      "hash": "1dd8a240808ac081832c2533f5960e4e594cb3b42c8d61fcacc78b83ea7518c9",
+      "voiceId": "maxim",
+      "cueId": "present-moment.body-contact.c",
+      "kind": "voice",
+      "normalizationGain": 1.0327614057613974
+    },
+    "maxim:present-moment.open-attention.a": {
+      "path": "audio/guided/voice/maxim/present-moment.open-attention.a.m4a",
+      "durationMs": 7756,
+      "hash": "9ce0ac51bbad1b6e1b9f594f2928d8167d95ab5c652ae92b32548847eb12460e",
+      "voiceId": "maxim",
+      "cueId": "present-moment.open-attention.a",
+      "kind": "voice",
+      "normalizationGain": 0.9582967163063749
+    },
+    "maxim:present-moment.notice-state.a": {
+      "path": "audio/guided/voice/maxim/present-moment.notice-state.a.m4a",
+      "durationMs": 4133,
+      "hash": "e64353f699b8beb0c22b771f0623d37f3e679d733b57862d1b8f6ad65cf62c2a",
+      "voiceId": "maxim",
+      "cueId": "present-moment.notice-state.a",
+      "kind": "voice",
+      "normalizationGain": 0.9693932693002556
+    },
+    "maxim:present-moment.notice-state.b": {
+      "path": "audio/guided/voice/maxim/present-moment.notice-state.b.m4a",
+      "durationMs": 4226,
+      "hash": "f79142d0805fcace538027a71e5fae6e8de088969cda685562aa7a2215ec3e72",
+      "voiceId": "maxim",
+      "cueId": "present-moment.notice-state.b",
+      "kind": "voice",
+      "normalizationGain": 1.1455129414455356
+    },
+    "maxim:present-moment.notice-state.c": {
+      "path": "audio/guided/voice/maxim/present-moment.notice-state.c.m4a",
+      "durationMs": 4273,
+      "hash": "1fd109ac6dd4889bf717bc31849a3dbb17af94cffbdd1a4276f99a77a65a0e78",
+      "voiceId": "maxim",
+      "cueId": "present-moment.notice-state.c",
+      "kind": "voice",
+      "normalizationGain": 1.2147866204712228
+    },
+    "maxim:present-moment.return.a": {
+      "path": "audio/guided/voice/maxim/present-moment.return.a.m4a",
+      "durationMs": 6270,
+      "hash": "6f8a8841cb5ec4fc440e01c1e97fe1e4b57c80f1c137fb47b0343ae232db3725",
+      "voiceId": "maxim",
+      "cueId": "present-moment.return.a",
+      "kind": "voice",
+      "normalizationGain": 1.0678247925390985
+    },
+    "maxim:present-moment.finish.a": {
+      "path": "audio/guided/voice/maxim/present-moment.finish.a.m4a",
+      "durationMs": 3576,
+      "hash": "865564488eaff64c167ddcbac119afc75d451c24974222e9b6efbedf42a32f2b",
+      "voiceId": "maxim",
+      "cueId": "present-moment.finish.a",
+      "kind": "voice",
+      "normalizationGain": 0.9257633851208253
+    },
+    "maxim:release-day.position.a": {
+      "path": "audio/guided/voice/maxim/release-day.position.a.m4a",
+      "durationMs": 9102,
+      "hash": "517864c5e805cf5a4fb3e243c73b1ed910d94d563cbba1969bfca1cd2fe42d9e",
+      "voiceId": "maxim",
+      "cueId": "release-day.position.a",
+      "kind": "voice",
+      "normalizationGain": 0.9896918638691029
+    },
+    "maxim:release-day.support.a": {
+      "path": "audio/guided/voice/maxim/release-day.support.a.m4a",
+      "durationMs": 5573,
+      "hash": "346edd21f51dbcbccc1a5ba3948d784985bdf3e9904f4e506d7a09264f42ffb4",
+      "voiceId": "maxim",
+      "cueId": "release-day.support.a",
+      "kind": "voice",
+      "normalizationGain": 1.0327614057613974
+    },
+    "maxim:release-day.support.b": {
+      "path": "audio/guided/voice/maxim/release-day.support.b.m4a",
+      "durationMs": 6130,
+      "hash": "c51c4f64a29cf9b22215ca6cd6a79d34665fb88cf9840bea5599d34ebad1f971",
+      "voiceId": "maxim",
+      "cueId": "release-day.support.b",
+      "kind": "voice",
+      "normalizationGain": 0.985144642804035
+    },
+    "maxim:release-day.support.c": {
+      "path": "audio/guided/voice/maxim/release-day.support.c.m4a",
+      "durationMs": 6037,
+      "hash": "69c2b1086136becf4a5a5dedceaa784698d41c9b4f2b92b8d5712a4b8554d210",
+      "voiceId": "maxim",
+      "cueId": "release-day.support.c",
+      "kind": "voice",
+      "normalizationGain": 1.102808233849552
+    },
+    "maxim:release-day.day.a": {
+      "path": "audio/guided/voice/maxim/release-day.day.a.m4a",
+      "durationMs": 7802,
+      "hash": "65e11cdd158411b167564c654ba51d453c361a9fb4fa6589f99c19a25fe57047",
+      "voiceId": "maxim",
+      "cueId": "release-day.day.a",
+      "kind": "voice",
+      "normalizationGain": 0.9862794856312105
+    },
+    "maxim:release-day.day.b": {
+      "path": "audio/guided/voice/maxim/release-day.day.b.m4a",
+      "durationMs": 7198,
+      "hash": "841152021c11ca69d3b7cadbb0431a49caab45ea1e7c2182d065f918cb0cbe36",
+      "voiceId": "maxim",
+      "cueId": "release-day.day.b",
+      "kind": "voice",
+      "normalizationGain": 1.0568175092136585
+    },
+    "maxim:release-day.day.c": {
+      "path": "audio/guided/voice/maxim/release-day.day.c.m4a",
+      "durationMs": 7616,
+      "hash": "cd277ff5626ac6d73054ec625405ef90b734bd15a4f7765ffb664cb8cb9e1ef6",
+      "voiceId": "maxim",
+      "cueId": "release-day.day.c",
+      "kind": "voice",
+      "normalizationGain": 1.0339511009823714
+    },
+    "maxim:release-day.orientation.a": {
+      "path": "audio/guided/voice/maxim/release-day.orientation.a.m4a",
+      "durationMs": 5991,
+      "hash": "a57cd168f151ec175a91c384a2f68e639296a943a1e0f667df1bda76c5750fa0",
+      "voiceId": "maxim",
+      "cueId": "release-day.orientation.a",
+      "kind": "voice",
+      "normalizationGain": 1.2560299636948749
+    },
+    "maxim:release-day.observe.a": {
+      "path": "audio/guided/voice/maxim/release-day.observe.a.m4a",
+      "durationMs": 9288,
+      "hash": "bdb6dba4cdede44c586ece421bf974b16ef9324b55654f058ec043881caed89e",
+      "voiceId": "maxim",
+      "cueId": "release-day.observe.a",
+      "kind": "voice",
+      "normalizationGain": 1.1926142658558214
+    },
+    "maxim:release-day.technique.a": {
+      "path": "audio/guided/voice/maxim/release-day.technique.a.m4a",
+      "durationMs": 13096,
+      "hash": "bf6b45a5bbb0d214c052ea2297452cb3cc8ef468f8fe6c74124a05c684421f7b",
+      "voiceId": "maxim",
+      "cueId": "release-day.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.9005337627506482
+    },
+    "maxim:release-day.demo-in.a": {
+      "path": "audio/guided/voice/maxim/release-day.demo-in.a.m4a",
+      "durationMs": 4691,
+      "hash": "3efcfb47f0b020428e202425af6ef0abc9e2f8dd84d45f2e39368cd4b6ee77d2",
+      "voiceId": "maxim",
+      "cueId": "release-day.demo-in.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "maxim:release-day.demo-out.a": {
+      "path": "audio/guided/voice/maxim/release-day.demo-out.a.m4a",
+      "durationMs": 8035,
+      "hash": "1b394fc41632de089648f5b7402c86cdec1ab4d6c070f3f8b728e184ba2b8364",
+      "voiceId": "maxim",
+      "cueId": "release-day.demo-out.a",
+      "kind": "voice",
+      "normalizationGain": 0.9015711376059569
+    },
+    "maxim:release-day.handover.a": {
+      "path": "audio/guided/voice/maxim/release-day.handover.a.m4a",
+      "durationMs": 2740,
+      "hash": "74ce467b9fc852ba801837443ff76f21b0638cb1c6cb8f0e466b3c2be0049d56",
+      "voiceId": "maxim",
+      "cueId": "release-day.handover.a",
+      "kind": "voice",
+      "normalizationGain": 0.7979946872679766
+    },
+    "maxim:release-day.ease.a": {
+      "path": "audio/guided/voice/maxim/release-day.ease.a.m4a",
+      "durationMs": 2972,
+      "hash": "f7ce6b8fc59b4c6fb104b921fc755a67d53963bb28108eed30c87ddbf9c00913",
+      "voiceId": "maxim",
+      "cueId": "release-day.ease.a",
+      "kind": "voice",
+      "normalizationGain": 1.075226600392726
+    },
+    "maxim:release-day.ease.b": {
+      "path": "audio/guided/voice/maxim/release-day.ease.b.m4a",
+      "durationMs": 3158,
+      "hash": "000f8d236a3c2f38d2229436a92d818723a6dc25b565aef7a3f2b2d350968fca",
+      "voiceId": "maxim",
+      "cueId": "release-day.ease.b",
+      "kind": "voice",
+      "normalizationGain": 1.109174815262401
+    },
+    "maxim:release-day.ease.c": {
+      "path": "audio/guided/voice/maxim/release-day.ease.c.m4a",
+      "durationMs": 3762,
+      "hash": "ef9829eecebbb13e9991e80139d5e3597156276ef44f2b2c960c7a35b99bbc69",
+      "voiceId": "maxim",
+      "cueId": "release-day.ease.c",
+      "kind": "voice",
+      "normalizationGain": 0.8472274141405964
+    },
+    "maxim:release-day.steady.a": {
+      "path": "audio/guided/voice/maxim/release-day.steady.a.m4a",
+      "durationMs": 2647,
+      "hash": "d95323781b87babd5d1287848d1decad9fb641bacaf7de0b08707e40b4645527",
+      "voiceId": "maxim",
+      "cueId": "release-day.steady.a",
+      "kind": "voice",
+      "normalizationGain": 1.0280162981264735
+    },
+    "maxim:release-day.steady.b": {
+      "path": "audio/guided/voice/maxim/release-day.steady.b.m4a",
+      "durationMs": 3158,
+      "hash": "68bdaa5515aba91a37d0d9f9608b5d10d5b22d8366b3da8209b359b531b60286",
+      "voiceId": "maxim",
+      "cueId": "release-day.steady.b",
+      "kind": "voice",
+      "normalizationGain": 0.9874156357468657
+    },
+    "maxim:release-day.steady.c": {
+      "path": "audio/guided/voice/maxim/release-day.steady.c.m4a",
+      "durationMs": 3019,
+      "hash": "ab9fcdc54de5fed8a1651a904699946990b79208e5181b9f427ca8712b829d97",
+      "voiceId": "maxim",
+      "cueId": "release-day.steady.c",
+      "kind": "voice",
+      "normalizationGain": 1.2735030810166619
+    },
+    "maxim:release-day.two-left.a": {
+      "path": "audio/guided/voice/maxim/release-day.two-left.a.m4a",
+      "durationMs": 1718,
+      "hash": "a1b9cdb83613fb0d955f2b46193a63d5398a10482994621228d3a8fd76067eac",
+      "voiceId": "maxim",
+      "cueId": "release-day.two-left.a",
+      "kind": "voice",
+      "normalizationGain": 1.217586992845256
+    },
+    "maxim:release-day.one-left.a": {
+      "path": "audio/guided/voice/maxim/release-day.one-left.a.m4a",
+      "durationMs": 1393,
+      "hash": "671aaf16bd45a394f27d584c06e1ee9bb751bba07dc61ced8efdcee3e72a102b",
+      "voiceId": "maxim",
+      "cueId": "release-day.one-left.a",
+      "kind": "voice",
+      "normalizationGain": 1.2647363474711513
+    },
+    "maxim:release-day.natural.a": {
+      "path": "audio/guided/voice/maxim/release-day.natural.a.m4a",
+      "durationMs": 7477,
+      "hash": "eb44e8d0aec2ed03b537a501356e75937ee19fea62b92675d070f7d74e64a7b4",
+      "voiceId": "maxim",
+      "cueId": "release-day.natural.a",
+      "kind": "voice",
+      "normalizationGain": 0.858025114722603
+    },
+    "maxim:release-day.body-explain.a": {
+      "path": "audio/guided/voice/maxim/release-day.body-explain.a.m4a",
+      "durationMs": 12214,
+      "hash": "03a236a2b3876a936fef6fe7fb907954ffa6e08b1ec9dfc326d51979b38ae299",
+      "voiceId": "maxim",
+      "cueId": "release-day.body-explain.a",
+      "kind": "voice",
+      "normalizationGain": 0.8780110870965299
+    },
+    "maxim:release-day.back.a": {
+      "path": "audio/guided/voice/maxim/release-day.back.a.m4a",
+      "durationMs": 10217,
+      "hash": "c3594e17616239ee89440b72f2c1699fad060967b13d912a2e6feb67c60e1c29",
+      "voiceId": "maxim",
+      "cueId": "release-day.back.a",
+      "kind": "voice",
+      "normalizationGain": 0.9278974901273311
+    },
+    "maxim:release-day.face.a": {
+      "path": "audio/guided/voice/maxim/release-day.face.a.m4a",
+      "durationMs": 11053,
+      "hash": "525321508586c2939ce1c4d8c6e60549072665a88ce1d85badd6760f198c50fd",
+      "voiceId": "maxim",
+      "cueId": "release-day.face.a",
+      "kind": "voice",
+      "normalizationGain": 0.9716279515771061
+    },
+    "maxim:release-day.neck.a": {
+      "path": "audio/guided/voice/maxim/release-day.neck.a.m4a",
+      "durationMs": 9845,
+      "hash": "05ac0cc18d9d82e2740c4d90a4c7ec46ce9d09ce3ff279ed1aadea45c6c8af27",
+      "voiceId": "maxim",
+      "cueId": "release-day.neck.a",
+      "kind": "voice",
+      "normalizationGain": 0.9727472237769651
+    },
+    "maxim:release-day.shoulders.a": {
+      "path": "audio/guided/voice/maxim/release-day.shoulders.a.m4a",
+      "durationMs": 8684,
+      "hash": "04272ffada062b458ce1af2291207e36111c9a98f32b2344fa51e7cbef328703",
+      "voiceId": "maxim",
+      "cueId": "release-day.shoulders.a",
+      "kind": "voice",
+      "normalizationGain": 1.0046157902783952
+    },
+    "maxim:release-day.arms.a": {
+      "path": "audio/guided/voice/maxim/release-day.arms.a.m4a",
+      "durationMs": 8777,
+      "hash": "39a4074a17f41c0b6514f3133717fab0b03d652b71be0fc91225077fab76f83d",
+      "voiceId": "maxim",
+      "cueId": "release-day.arms.a",
+      "kind": "voice",
+      "normalizationGain": 1.0150793665726912
+    },
+    "maxim:release-day.hands.a": {
+      "path": "audio/guided/voice/maxim/release-day.hands.a.m4a",
+      "durationMs": 9985,
+      "hash": "9760b73175a62d258377b06178c05515b90f3d6733d694a754406380943c8003",
+      "voiceId": "maxim",
+      "cueId": "release-day.hands.a",
+      "kind": "voice",
+      "normalizationGain": 1.0221155606000722
+    },
+    "maxim:release-day.chest.a": {
+      "path": "audio/guided/voice/maxim/release-day.chest.a.m4a",
+      "durationMs": 9938,
+      "hash": "df9a1fd70f5cb4dc042a406a185ecfd9da730870dab72d217207870c254ab237",
+      "voiceId": "maxim",
+      "cueId": "release-day.chest.a",
+      "kind": "voice",
+      "normalizationGain": 1.0543868963912588
+    },
+    "maxim:release-day.torso.a": {
+      "path": "audio/guided/voice/maxim/release-day.torso.a.m4a",
+      "durationMs": 10217,
+      "hash": "ee3df403fb969f9a6d20ff82687a4d825417f71dbd3e8aabbeb2fd9ca4fd3bab",
+      "voiceId": "maxim",
+      "cueId": "release-day.torso.a",
+      "kind": "voice",
+      "normalizationGain": 1.0423174293933042
+    },
+    "maxim:release-day.autonomous-breath.a": {
+      "path": "audio/guided/voice/maxim/release-day.autonomous-breath.a.m4a",
+      "durationMs": 5109,
+      "hash": "31c851fdfe2747a8f0667c277d70434c2cc893ab9163109c2cd9737d8890c113",
+      "voiceId": "maxim",
+      "cueId": "release-day.autonomous-breath.a",
+      "kind": "voice",
+      "normalizationGain": 1.0851755496327806
+    },
+    "maxim:release-day.autonomous-breath.b": {
+      "path": "audio/guided/voice/maxim/release-day.autonomous-breath.b.m4a",
+      "durationMs": 4412,
+      "hash": "82ad2335e125e21d8b6d6154d81f0f434212b39fdcfebd91afe43f21ef0a4143",
+      "voiceId": "maxim",
+      "cueId": "release-day.autonomous-breath.b",
+      "kind": "voice",
+      "normalizationGain": 1.1078985653742888
+    },
+    "maxim:release-day.autonomous-breath.c": {
+      "path": "audio/guided/voice/maxim/release-day.autonomous-breath.c.m4a",
+      "durationMs": 5619,
+      "hash": "2189bec246ba3d140c205ba01a04cfdebe6f5c442bf54a5c2c07de769794d5d7",
+      "voiceId": "maxim",
+      "cueId": "release-day.autonomous-breath.c",
+      "kind": "voice",
+      "normalizationGain": 0.9057326008982001
+    },
+    "maxim:release-day.pelvis.a": {
+      "path": "audio/guided/voice/maxim/release-day.pelvis.a.m4a",
+      "durationMs": 8499,
+      "hash": "3fbdbb81e1c2efcd12628a1419db3318433d2feb9e05faf2b19578be84404e37",
+      "voiceId": "maxim",
+      "cueId": "release-day.pelvis.a",
+      "kind": "voice",
+      "normalizationGain": 0.9151662592812754
+    },
+    "maxim:release-day.legs.a": {
+      "path": "audio/guided/voice/maxim/release-day.legs.a.m4a",
+      "durationMs": 10217,
+      "hash": "ae38e77db809c6d49ab5c0a243f2506177c7432a15715d0deaf11ea87576d392",
+      "voiceId": "maxim",
+      "cueId": "release-day.legs.a",
+      "kind": "voice",
+      "normalizationGain": 0.9193904748039812
+    },
+    "maxim:release-day.feet.a": {
+      "path": "audio/guided/voice/maxim/release-day.feet.a.m4a",
+      "durationMs": 7848,
+      "hash": "9672668e3f3cc8d9f31e17f911e765b2d07632d0c79eedea4767d1e9f7aa2bed",
+      "voiceId": "maxim",
+      "cueId": "release-day.feet.a",
+      "kind": "voice",
+      "normalizationGain": 1.1220184543019633
+    },
+    "maxim:release-day.whole.a": {
+      "path": "audio/guided/voice/maxim/release-day.whole.a.m4a",
+      "durationMs": 10310,
+      "hash": "c8a555c5c749dc327522664396385b0c5d9b1132e8c3fd15ba40f0d65b3196e5",
+      "voiceId": "maxim",
+      "cueId": "release-day.whole.a",
+      "kind": "voice",
+      "normalizationGain": 1.0435181327286236
+    },
+    "maxim:release-day.release-effort.a": {
+      "path": "audio/guided/voice/maxim/release-day.release-effort.a.m4a",
+      "durationMs": 6316,
+      "hash": "ed6340820810df57f2cc7d1c06387714105e2066ac41277a47a341e4870d5427",
+      "voiceId": "maxim",
+      "cueId": "release-day.release-effort.a",
+      "kind": "voice",
+      "normalizationGain": 0.832721925985241
+    },
+    "maxim:release-day.release-effort.b": {
+      "path": "audio/guided/voice/maxim/release-day.release-effort.b.m4a",
+      "durationMs": 6084,
+      "hash": "6d7983b1d808472c87ea4a68330e880f7cb068b6321b2d6c1af14aa67595e053",
+      "voiceId": "maxim",
+      "cueId": "release-day.release-effort.b",
+      "kind": "voice",
+      "normalizationGain": 0.8974287945007484
+    },
+    "maxim:release-day.release-effort.c": {
+      "path": "audio/guided/voice/maxim/release-day.release-effort.c.m4a",
+      "durationMs": 7152,
+      "hash": "07831d185ae27d00172e18b8bda0ecc818a0833ba63ec38d49d776174334c6a8",
+      "voiceId": "maxim",
+      "cueId": "release-day.release-effort.c",
+      "kind": "voice",
+      "normalizationGain": 1.1601122161480537
+    },
+    "maxim:release-day.remain.a": {
+      "path": "audio/guided/voice/maxim/release-day.remain.a.m4a",
+      "durationMs": 8313,
+      "hash": "6ce49994c8924b2927c17b54abaaa785c81f7bab181915d7cd23164718f16121",
+      "voiceId": "maxim",
+      "cueId": "release-day.remain.a",
+      "kind": "voice",
+      "normalizationGain": 0.8871560120379609
+    },
+    "maxim:release-day.end.a": {
+      "path": "audio/guided/voice/maxim/release-day.end.a.m4a",
+      "durationMs": 3112,
+      "hash": "42bfcfdb11f24100947f580819635429cb69148c9a4893ce98b449b020905efa",
+      "voiceId": "maxim",
+      "cueId": "release-day.end.a",
+      "kind": "voice",
+      "normalizationGain": 0.9495109992021982
+    },
+    "kate:present-moment.purpose.a": {
+      "path": "audio/guided/voice/kate/present-moment.purpose.a.m4a",
+      "durationMs": 9985,
+      "hash": "f328190f2344717a35663665100735db8a7c2c35c646376583bedcfa08a9d365",
+      "voiceId": "kate",
+      "cueId": "present-moment.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1.0459236904631686
+    },
+    "kate:present-moment.contact.a": {
+      "path": "audio/guided/voice/kate/present-moment.contact.a.m4a",
+      "durationMs": 3715,
+      "hash": "5a752dcf10ee1d3707a8783804f1e40e49047cc221c7418a5261c2dbded6841d",
+      "voiceId": "kate",
+      "cueId": "present-moment.contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.1641260294104914
+    },
+    "kate:present-moment.contact.b": {
+      "path": "audio/guided/voice/kate/present-moment.contact.b.m4a",
+      "durationMs": 4087,
+      "hash": "0a9a2a382d2f366df95c6b5651efb111d56c7dae815935805326c4634ece3da9",
+      "voiceId": "kate",
+      "cueId": "present-moment.contact.b",
+      "kind": "voice",
+      "normalizationGain": 1.0435181327286236
+    },
+    "kate:present-moment.contact.c": {
+      "path": "audio/guided/voice/kate/present-moment.contact.c.m4a",
+      "durationMs": 3994,
+      "hash": "af11d2987dc211a57cbf2f1629cbd003ea44a664350b6f7cb5043caf8e197bd9",
+      "voiceId": "kate",
+      "cueId": "present-moment.contact.c",
+      "kind": "voice",
+      "normalizationGain": 0.9057326008982001
+    },
+    "kate:present-moment.technique.a": {
+      "path": "audio/guided/voice/kate/present-moment.technique.a.m4a",
+      "durationMs": 7152,
+      "hash": "0b4fe024060eaf237bb135c1a2daed895ed146f5e8ea833b183ec519e80d0656",
+      "voiceId": "kate",
+      "cueId": "present-moment.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.7961593504173188
+    },
+    "kate:present-moment.demo-in.a": {
+      "path": "audio/guided/voice/kate/present-moment.demo-in.a.m4a",
+      "durationMs": 4598,
+      "hash": "ef2ed8c94c59560a600cc836f8ac37ca51d1de54366886eec4c772030a3bc87e",
+      "voiceId": "kate",
+      "cueId": "present-moment.demo-in.a",
+      "kind": "voice",
+      "normalizationGain": 1.1053504693828433
+    },
+    "kate:present-moment.demo-out.a": {
+      "path": "audio/guided/voice/kate/present-moment.demo-out.a.m4a",
+      "durationMs": 2415,
+      "hash": "4a6eb6ee0e9605a1b4ba712db25d257f43a1dfed4960ded765b4296020b9ccb4",
+      "voiceId": "kate",
+      "cueId": "present-moment.demo-out.a",
+      "kind": "voice",
+      "normalizationGain": 1.1181498245842192
+    },
+    "kate:present-moment.continue.a": {
+      "path": "audio/guided/voice/kate/present-moment.continue.a.m4a",
+      "durationMs": 2647,
+      "hash": "bf8785a8f4a1237faafb2c52a8f4bb3d8645ed95167030160b69668103977ea0",
+      "voiceId": "kate",
+      "cueId": "present-moment.continue.a",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "kate:present-moment.continue.b": {
+      "path": "audio/guided/voice/kate/present-moment.continue.b.m4a",
+      "durationMs": 2415,
+      "hash": "c0c80a7b47a22a10e2b9023072d484e8f47ca7f360d5608fdc32a3c5d5853380",
+      "voiceId": "kate",
+      "cueId": "present-moment.continue.b",
+      "kind": "voice",
+      "normalizationGain": 1.169499391019871
+    },
+    "kate:present-moment.continue.c": {
+      "path": "audio/guided/voice/kate/present-moment.continue.c.m4a",
+      "durationMs": 2461,
+      "hash": "718344b2c1fd34828e66794bf1c046c32174b7e54d3a5022fba722d4c8eeed5b",
+      "voiceId": "kate",
+      "cueId": "present-moment.continue.c",
+      "kind": "voice",
+      "normalizationGain": 1.101539309541415
+    },
+    "kate:present-moment.last.a": {
+      "path": "audio/guided/voice/kate/present-moment.last.a.m4a",
+      "durationMs": 1718,
+      "hash": "13dc3cb4c147c921272f56f855acf72b6bea6c8324fa36a507f7a181392f1320",
+      "voiceId": "kate",
+      "cueId": "present-moment.last.a",
+      "kind": "voice",
+      "normalizationGain": 1.2574768543676589
+    },
+    "kate:present-moment.natural.a": {
+      "path": "audio/guided/voice/kate/present-moment.natural.a.m4a",
+      "durationMs": 5898,
+      "hash": "8179e83abc2824f31eb0e04075017ab8d5371db7b7bc0265094dde8865b45c88",
+      "voiceId": "kate",
+      "cueId": "present-moment.natural.a",
+      "kind": "voice",
+      "normalizationGain": 0.9627200129733199
+    },
+    "kate:present-moment.body-contact.a": {
+      "path": "audio/guided/voice/kate/present-moment.body-contact.a.m4a",
+      "durationMs": 4366,
+      "hash": "aba066d5e218516904928da082956c332b7e2298cc18d99b911d787f4444bf13",
+      "voiceId": "kate",
+      "cueId": "present-moment.body-contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.2560299636948749
+    },
+    "kate:present-moment.body-contact.b": {
+      "path": "audio/guided/voice/kate/present-moment.body-contact.b.m4a",
+      "durationMs": 4412,
+      "hash": "48cdc3e102e2c4f1fbc6e00debfb6181ba542ac808b1fed0e3e1afa00f552761",
+      "voiceId": "kate",
+      "cueId": "present-moment.body-contact.b",
+      "kind": "voice",
+      "normalizationGain": 0.8404270070999397
+    },
+    "kate:present-moment.body-contact.c": {
+      "path": "audio/guided/voice/kate/present-moment.body-contact.c.m4a",
+      "durationMs": 5248,
+      "hash": "e4f8ae7b6412b8398e25a88e12cd24efb24283cd2e5e65a19814a4fda50587af",
+      "voiceId": "kate",
+      "cueId": "present-moment.body-contact.c",
+      "kind": "voice",
+      "normalizationGain": 1.0423174293933042
+    },
+    "kate:present-moment.open-attention.a": {
+      "path": "audio/guided/voice/kate/present-moment.open-attention.a.m4a",
+      "durationMs": 6827,
+      "hash": "1a7323591260ce92bea7ed1ee35e76bdd94231451ef9c99ed5e8ae9547995c2c",
+      "voiceId": "kate",
+      "cueId": "present-moment.open-attention.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "kate:present-moment.notice-state.a": {
+      "path": "audio/guided/voice/kate/present-moment.notice-state.a.m4a",
+      "durationMs": 3948,
+      "hash": "2e14068163dbe85658a0445c349e615b9a4fa724894eee0bf733c583f910f5cc",
+      "voiceId": "kate",
+      "cueId": "present-moment.notice-state.a",
+      "kind": "voice",
+      "normalizationGain": 0.9931160484209338
+    },
+    "kate:present-moment.notice-state.b": {
+      "path": "audio/guided/voice/kate/present-moment.notice-state.b.m4a",
+      "durationMs": 3901,
+      "hash": "37adaf4b3e1374eec9b6f418598cc9cb6808c32ba7947c61dcabd7ab6d508673",
+      "voiceId": "kate",
+      "cueId": "present-moment.notice-state.b",
+      "kind": "voice",
+      "normalizationGain": 1.1681537298613245
+    },
+    "kate:present-moment.notice-state.c": {
+      "path": "audio/guided/voice/kate/present-moment.notice-state.c.m4a",
+      "durationMs": 3994,
+      "hash": "18d9d80cef987dec200b9df34a478a2e50eda32b81cc08e5c79f4feb2316b19e",
+      "voiceId": "kate",
+      "cueId": "present-moment.notice-state.c",
+      "kind": "voice",
+      "normalizationGain": 1.0839269140212036
+    },
+    "kate:present-moment.return.a": {
+      "path": "audio/guided/voice/kate/present-moment.return.a.m4a",
+      "durationMs": 6084,
+      "hash": "bc0b2d23018e2301962ea41388ac78c10b0d368b129e16042c6d24ff7208ec2a",
+      "voiceId": "kate",
+      "cueId": "present-moment.return.a",
+      "kind": "voice",
+      "normalizationGain": 0.8689604292863018
+    },
+    "kate:present-moment.finish.a": {
+      "path": "audio/guided/voice/kate/present-moment.finish.a.m4a",
+      "durationMs": 3158,
+      "hash": "1b58a964eb254d6e6a4ae382247d2bec1d14d6cee642e734637f529a6b4a597b",
+      "voiceId": "kate",
+      "cueId": "present-moment.finish.a",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "kate:clear-space.purpose.a": {
+      "path": "audio/guided/voice/kate/clear-space.purpose.a.m4a",
+      "durationMs": 12353,
+      "hash": "d8de00883616579c42d6cf6419def25ef1728efeaff65010de24ec3f8a07b8ac",
+      "voiceId": "kate",
+      "cueId": "clear-space.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "kate:clear-space.orientation.a": {
+      "path": "audio/guided/voice/kate/clear-space.orientation.a.m4a",
+      "durationMs": 4644,
+      "hash": "a937483af6121d44bc9a048a6bf7809b60c1fc5de6d507d95e2c6c33758daf1a",
+      "voiceId": "kate",
+      "cueId": "clear-space.orientation.a",
+      "kind": "voice",
+      "normalizationGain": 1.1721953655481305
+    },
+    "kate:clear-space.contact.a": {
+      "path": "audio/guided/voice/kate/clear-space.contact.a.m4a",
+      "durationMs": 4598,
+      "hash": "236540f5b63940a14ff5235a3ee19756fd9eff5ae48f500b1d65d1527cd9ce36",
+      "voiceId": "kate",
+      "cueId": "clear-space.contact.a",
+      "kind": "voice",
+      "normalizationGain": 1.0221155606000722
+    },
+    "kate:clear-space.contact.b": {
+      "path": "audio/guided/voice/kate/clear-space.contact.b.m4a",
+      "durationMs": 4598,
+      "hash": "b63b1169429b2a5779ce9cd4eb46a266ff9ba80d4687247e311a081005e98e50",
+      "voiceId": "kate",
+      "cueId": "clear-space.contact.b",
+      "kind": "voice",
+      "normalizationGain": 1.0256519262514077
+    },
+    "kate:clear-space.contact.c": {
+      "path": "audio/guided/voice/kate/clear-space.contact.c.m4a",
+      "durationMs": 5016,
+      "hash": "3c3d949f71584c459cd8ea632e151ab7bab0ed839796bfb6e39f04ab4bfa33ac",
+      "voiceId": "kate",
+      "cueId": "clear-space.contact.c",
+      "kind": "voice",
+      "normalizationGain": 1.1681537298613245
+    },
+    "kate:clear-space.technique.a": {
+      "path": "audio/guided/voice/kate/clear-space.technique.a.m4a",
+      "durationMs": 12075,
+      "hash": "cf6e71a9757d8b8f052e24309c9fbef699f3b56bfc4f49b0d3437e6225ee9693",
+      "voiceId": "kate",
+      "cueId": "clear-space.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.8994975815300352
+    },
+    "kate:clear-space.continue.a": {
+      "path": "audio/guided/voice/kate/clear-space.continue.a.m4a",
+      "durationMs": 2369,
+      "hash": "b396126aa68c7493f5b74ac67ce4b3c69b9b3249d8ad17e006db24bcb90589da",
+      "voiceId": "kate",
+      "cueId": "clear-space.continue.a",
+      "kind": "voice",
+      "normalizationGain": 1.2246161992650486
+    },
+    "kate:clear-space.continue.b": {
+      "path": "audio/guided/voice/kate/clear-space.continue.b.m4a",
+      "durationMs": 3019,
+      "hash": "ce4c68bc021a66bca3055826b2deb199c2e42c3a97452b668cf9020a41ba0676",
+      "voiceId": "kate",
+      "cueId": "clear-space.continue.b",
+      "kind": "voice",
+      "normalizationGain": 1.2603756378944253
+    },
+    "kate:clear-space.continue.c": {
+      "path": "audio/guided/voice/kate/clear-space.continue.c.m4a",
+      "durationMs": 2833,
+      "hash": "abd7d005b066d748d7c45dd0624f61067759a2bdf5bf98619fcc28315370bcfc",
+      "voiceId": "kate",
+      "cueId": "clear-space.continue.c",
+      "kind": "voice",
+      "normalizationGain": 1.1912420080273747
+    },
+    "kate:clear-space.last.a": {
+      "path": "audio/guided/voice/kate/clear-space.last.a.m4a",
+      "durationMs": 1579,
+      "hash": "047d285cd13c6227b80459d2640d4242da490e4fbd1a80b49078a12315a6e44a",
+      "voiceId": "kate",
+      "cueId": "clear-space.last.a",
+      "kind": "voice",
+      "normalizationGain": 1.0139113857366795
+    },
+    "kate:clear-space.natural.a": {
+      "path": "audio/guided/voice/kate/clear-space.natural.a.m4a",
+      "durationMs": 7338,
+      "hash": "0f50e2503f32a4e55dfa1a40529a32720d3529852c64150f40b1a8d7b8ba7d6e",
+      "voiceId": "kate",
+      "cueId": "clear-space.natural.a",
+      "kind": "voice",
+      "normalizationGain": 1.1668096170609625
+    },
+    "kate:clear-space.observe.a": {
+      "path": "audio/guided/voice/kate/clear-space.observe.a.m4a",
+      "durationMs": 10681,
+      "hash": "b61834b0e9800c7fa2407fd7cb1ba542daa6817768e3267e0a5ce0f1d48ecd73",
+      "voiceId": "kate",
+      "cueId": "clear-space.observe.a",
+      "kind": "voice",
+      "normalizationGain": 1.0327614057613974
+    },
+    "kate:clear-space.notice-contact.a": {
+      "path": "audio/guided/voice/kate/clear-space.notice-contact.a.m4a",
+      "durationMs": 5619,
+      "hash": "84d33f0a44897f5ee038e2723ff423b5858ec5cec94c35e924da3b076480217e",
+      "voiceId": "kate",
+      "cueId": "clear-space.notice-contact.a",
+      "kind": "voice",
+      "normalizationGain": 0.9783629547845955
+    },
+    "kate:clear-space.notice-contact.b": {
+      "path": "audio/guided/voice/kate/clear-space.notice-contact.b.m4a",
+      "durationMs": 5248,
+      "hash": "71da93a15dba3be1557da3922c730056c74247dedbafbabacc3b881e2ed8418b",
+      "voiceId": "kate",
+      "cueId": "clear-space.notice-contact.b",
+      "kind": "voice",
+      "normalizationGain": 0.934329368257314
+    },
+    "kate:clear-space.notice-contact.c": {
+      "path": "audio/guided/voice/kate/clear-space.notice-contact.c.m4a",
+      "durationMs": 5062,
+      "hash": "e880c8720119c9f9a41c2f152971a08cd67d673400073194df700deeab2086d4",
+      "voiceId": "kate",
+      "cueId": "clear-space.notice-contact.c",
+      "kind": "voice",
+      "normalizationGain": 1.253141174941416
+    },
+    "kate:clear-space.thoughts.a": {
+      "path": "audio/guided/voice/kate/clear-space.thoughts.a.m4a",
+      "durationMs": 10449,
+      "hash": "5516e235e7f2a62b205c573ae308add4a5df097467f69f3305cefbfd9aa30520",
+      "voiceId": "kate",
+      "cueId": "clear-space.thoughts.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "kate:clear-space.widen.a": {
+      "path": "audio/guided/voice/kate/clear-space.widen.a.m4a",
+      "durationMs": 5434,
+      "hash": "512990223fd38233480d097c7fee42255d7a3c420a1e8a58e209f209a3f6bc49",
+      "voiceId": "kate",
+      "cueId": "clear-space.widen.a",
+      "kind": "voice",
+      "normalizationGain": 1.0739894123412448
+    },
+    "kate:clear-space.widen.b": {
+      "path": "audio/guided/voice/kate/clear-space.widen.b.m4a",
+      "durationMs": 6177,
+      "hash": "f07c22df55295e80e1d1d6825d866b34f01aa2e3ef324f90f13c79ce74d5730b",
+      "voiceId": "kate",
+      "cueId": "clear-space.widen.b",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "kate:clear-space.widen.c": {
+      "path": "audio/guided/voice/kate/clear-space.widen.c.m4a",
+      "durationMs": 5712,
+      "hash": "eca6eeca52af859b7f000dad910edb297ac7bc52858a5255ab3d263acfd11d3d",
+      "voiceId": "kate",
+      "cueId": "clear-space.widen.c",
+      "kind": "voice",
+      "normalizationGain": 0.9375620069258802
+    },
+    "kate:clear-space.allow.a": {
+      "path": "audio/guided/voice/kate/clear-space.allow.a.m4a",
+      "durationMs": 5155,
+      "hash": "383014e87dff5c3f29fb3676cc4e676ca6bc7bc36adcdfc8afabe5c67a0989ac",
+      "voiceId": "kate",
+      "cueId": "clear-space.allow.a",
+      "kind": "voice",
+      "normalizationGain": 1.1627865510033546
+    },
+    "kate:clear-space.allow.b": {
+      "path": "audio/guided/voice/kate/clear-space.allow.b.m4a",
+      "durationMs": 4876,
+      "hash": "98205c86f986653540029cf3a70a8a84b335f3edcd2a9245a70f1120b84f2ae1",
+      "voiceId": "kate",
+      "cueId": "clear-space.allow.b",
+      "kind": "voice",
+      "normalizationGain": 1.2661932675109444
+    },
+    "kate:clear-space.allow.c": {
+      "path": "audio/guided/voice/kate/clear-space.allow.c.m4a",
+      "durationMs": 5573,
+      "hash": "2682192ad601cd2b7cfabaebf92df971e566b136fe9298d81d29282a9f5c8fd1",
+      "voiceId": "kate",
+      "cueId": "clear-space.allow.c",
+      "kind": "voice",
+      "normalizationGain": 0.8609937521846006
+    },
+    "kate:clear-space.return.a": {
+      "path": "audio/guided/voice/kate/clear-space.return.a.m4a",
+      "durationMs": 7709,
+      "hash": "040f8a775748c848690f7ac8864e5bfa104cea46ec6cd6ceff4cb2ba20498fa5",
+      "voiceId": "kate",
+      "cueId": "clear-space.return.a",
+      "kind": "voice",
+      "normalizationGain": 1.2232071190499316
+    },
+    "kate:clear-space.meaning.a": {
+      "path": "audio/guided/voice/kate/clear-space.meaning.a.m4a",
+      "durationMs": 6270,
+      "hash": "b7cc2e75c2935ba4e8674fddd8ff4510186e9f4e81ca826ee7ed89b4b816153e",
+      "voiceId": "kate",
+      "cueId": "clear-space.meaning.a",
+      "kind": "voice",
+      "normalizationGain": 1.101539309541415
+    },
+    "kate:clear-space.meaning.b": {
+      "path": "audio/guided/voice/kate/clear-space.meaning.b.m4a",
+      "durationMs": 5248,
+      "hash": "3d69703c8e2a8b8fe2a7af46f762b5a490fdd30fdc8fc17aabd513aefe9aa213",
+      "voiceId": "kate",
+      "cueId": "clear-space.meaning.b",
+      "kind": "voice",
+      "normalizationGain": 0.8912509381337456
+    },
+    "kate:clear-space.meaning.c": {
+      "path": "audio/guided/voice/kate/clear-space.meaning.c.m4a",
+      "durationMs": 5712,
+      "hash": "969af29ff201c147fe1a70642d9124014222f4b94b035bbe793b1923b77bead8",
+      "voiceId": "kate",
+      "cueId": "clear-space.meaning.c",
+      "kind": "voice",
+      "normalizationGain": 1.030386120441616
+    },
+    "kate:clear-space.finish.a": {
+      "path": "audio/guided/voice/kate/clear-space.finish.a.m4a",
+      "durationMs": 1533,
+      "hash": "d9587ac7ed918052a31e06905d138823ffba8cbe06c0f86ad64af8d85fb592fd",
+      "voiceId": "kate",
+      "cueId": "clear-space.finish.a",
+      "kind": "voice",
+      "normalizationGain": 1.2589254117941673
+    },
+    "artem:training.intro.in.a": {
+      "path": "audio/guided/voice/artem/training.intro.in.a.m4a",
+      "durationMs": 9520,
+      "hash": "a6ebf71ebb4d64e25fb870cdd22c9bafa778960fd48120b7e7c23971ab48cdf6",
+      "voiceId": "artem",
+      "cueId": "training.intro.in.a",
+      "kind": "voice",
+      "normalizationGain": 0.8629785477669702
+    },
+    "artem:training.intro.out.a": {
+      "path": "audio/guided/voice/artem/training.intro.out.a.m4a",
+      "durationMs": 9474,
+      "hash": "28c0260efafacebfc2fe4efcbb8e6e57eaf52fd0d0365306bed9d7c83ecdb5d8",
+      "voiceId": "artem",
+      "cueId": "training.intro.out.a",
+      "kind": "voice",
+      "normalizationGain": 1.0889300933334334
+    },
+    "artem:training.safety.a": {
+      "path": "audio/guided/voice/artem/training.safety.a.m4a",
+      "durationMs": 9845,
+      "hash": "1c7babbe64486768bbbeb5dfc47359c8d0b7c2672abde63eb891cdc8c99fbe85",
+      "voiceId": "artem",
+      "cueId": "training.safety.a",
+      "kind": "voice",
+      "normalizationGain": 1.2430826358446223
+    },
+    "artem:training.method.in.a": {
+      "path": "audio/guided/voice/artem/training.method.in.a.m4a",
+      "durationMs": 7848,
+      "hash": "09165cc4c3902055cd24a71687e4fbb304052bc50b46fce7ef29c10e8f037917",
+      "voiceId": "artem",
+      "cueId": "training.method.in.a",
+      "kind": "voice",
+      "normalizationGain": 1.101539309541415
+    },
+    "artem:training.method.out.a": {
+      "path": "audio/guided/voice/artem/training.method.out.a.m4a",
+      "durationMs": 9102,
+      "hash": "a74b0b1d46b3a2d5c1ba8b9510be925c3bedb31d720a4d8e7363a8c081a311a3",
+      "voiceId": "artem",
+      "cueId": "training.method.out.a",
+      "kind": "voice",
+      "normalizationGain": 0.7961593504173188
+    },
+    "artem:training.inhale.a": {
+      "path": "audio/guided/voice/artem/training.inhale.a.m4a",
+      "durationMs": 929,
+      "hash": "7afd3b28c77642e7f49d6bbaad18e322c8398feae43994e731ef8701e7d8ad03",
+      "voiceId": "artem",
+      "cueId": "training.inhale.a",
+      "kind": "voice",
+      "normalizationGain": 0.8790225168308843
+    },
+    "artem:training.hold.a": {
+      "path": "audio/guided/voice/artem/training.hold.a.m4a",
+      "durationMs": 1022,
+      "hash": "8669a9f50d7df83ee8645c07f0d6d87a4cb0f3775a8e1073e81fb2e520753aff",
+      "voiceId": "artem",
+      "cueId": "training.hold.a",
+      "kind": "voice",
+      "normalizationGain": 0.9130614352931758
+    },
+    "artem:training.exhale.a": {
+      "path": "audio/guided/voice/artem/training.exhale.a.m4a",
+      "durationMs": 1022,
+      "hash": "d14e99ce52c2083cda9db220d5776ebbb40544cf49fb70e97d3054a07dca99e1",
+      "voiceId": "artem",
+      "cueId": "training.exhale.a",
+      "kind": "voice",
+      "normalizationGain": 1.0115794542598986
+    },
+    "artem:training.recovery.a": {
+      "path": "audio/guided/voice/artem/training.recovery.a.m4a",
+      "durationMs": 1579,
+      "hash": "9bae544818ab3070a1f8e45758b74be6becbb0feb8a9a0577daca122677a3430",
+      "voiceId": "artem",
+      "cueId": "training.recovery.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "artem:training.break.a": {
+      "path": "audio/guided/voice/artem/training.break.a.m4a",
+      "durationMs": 4830,
+      "hash": "91417ac5535607f087e462f09d9b43942cedf2a1addf7d9a50f95cc3de3b3636",
+      "voiceId": "artem",
+      "cueId": "training.break.a",
+      "kind": "voice",
+      "normalizationGain": 1.2260269026779234
+    },
+    "artem:training.break.b": {
+      "path": "audio/guided/voice/artem/training.break.b.m4a",
+      "durationMs": 4691,
+      "hash": "27212125491c2d0c8513aed5e268bfca339dd7b6d3568ed1d9e4cbbad633a667",
+      "voiceId": "artem",
+      "cueId": "training.break.b",
+      "kind": "voice",
+      "normalizationGain": 1.1402497875611686
+    },
+    "artem:training.break.c": {
+      "path": "audio/guided/voice/artem/training.break.c.m4a",
+      "durationMs": 5294,
+      "hash": "f1744da0965d908cc209f59ce9338aef968d6781c69a38cfcc5e7c70bd801e12",
+      "voiceId": "artem",
+      "cueId": "training.break.c",
+      "kind": "voice",
+      "normalizationGain": 1.1271974561755105
+    },
+    "artem:training.outro.a": {
+      "path": "audio/guided/voice/artem/training.outro.a.m4a",
+      "durationMs": 3622,
+      "hash": "cbd90e63ccf3f74d8005165b28266bd259c80c5eb002d45f0466fab9694ee8d8",
+      "voiceId": "artem",
+      "cueId": "training.outro.a",
+      "kind": "voice",
+      "normalizationGain": 0.9311078754678304
+    },
+    "artem:training.outro.b": {
+      "path": "audio/guided/voice/artem/training.outro.b.m4a",
+      "durationMs": 4087,
+      "hash": "42cca34aad0e941e3f93a4ef2de0627e143450b3c2d1a8acb128b301a3bd9837",
+      "voiceId": "artem",
+      "cueId": "training.outro.b",
+      "kind": "voice",
+      "normalizationGain": 0.8953647655495938
+    },
+    "artem:training.outro.c": {
+      "path": "audio/guided/voice/artem/training.outro.c.m4a",
+      "durationMs": 5016,
+      "hash": "3414fc50da456d587592db1c472a4107d657fc8d08659af888729c82178c8c13",
+      "voiceId": "artem",
+      "cueId": "training.outro.c",
+      "kind": "voice",
+      "normalizationGain": 1.2618275345906707
+    },
+    "artem:training.finish.a": {
+      "path": "audio/guided/voice/artem/training.finish.a.m4a",
+      "durationMs": 5155,
+      "hash": "83a4e94d7c0715489f0368e973200e789f5af123e144fd2e913bff2a356483d3",
+      "voiceId": "artem",
+      "cueId": "training.finish.a",
+      "kind": "voice",
+      "normalizationGain": 0.9885530946569389
+    },
+    "maxim:training.intro.in.a": {
+      "path": "audio/guided/voice/maxim/training.intro.in.a.m4a",
+      "durationMs": 7802,
+      "hash": "8a607cb208e7f54c740b75d4bf270f8a039d817d85516024ad7682b54a42ecb4",
+      "voiceId": "maxim",
+      "cueId": "training.intro.in.a",
+      "kind": "voice",
+      "normalizationGain": 1.060473938372333
+    },
+    "maxim:training.intro.out.a": {
+      "path": "audio/guided/voice/maxim/training.intro.out.a.m4a",
+      "durationMs": 8035,
+      "hash": "f7c8460facbf88c52d01ea45f0a446c95b1c2ef01e87ac920f0847305e5e60dc",
+      "voiceId": "maxim",
+      "cueId": "training.intro.out.a",
+      "kind": "voice",
+      "normalizationGain": 0.8511380382023764
+    },
+    "maxim:training.safety.a": {
+      "path": "audio/guided/voice/maxim/training.safety.a.m4a",
+      "durationMs": 9009,
+      "hash": "1b419f1bae0cbb772f6ec516c8ee8d6ec655062013ff3d95d6151a6d76e9de0f",
+      "voiceId": "maxim",
+      "cueId": "training.safety.a",
+      "kind": "voice",
+      "normalizationGain": 0.9840111057611337
+    },
+    "maxim:training.method.in.a": {
+      "path": "audio/guided/voice/maxim/training.method.in.a.m4a",
+      "durationMs": 6316,
+      "hash": "23940ddc685e2f70fbc9eefa9506ad3044e9d8dec682b4017c36709937168447",
+      "voiceId": "maxim",
+      "cueId": "training.method.in.a",
+      "kind": "voice",
+      "normalizationGain": 0.8639726606843914
+    },
+    "maxim:training.method.out.a": {
+      "path": "audio/guided/voice/maxim/training.method.out.a.m4a",
+      "durationMs": 6455,
+      "hash": "809f570ce1cc5e19bea7cf9a9302bacef8b7aa8d77f5915fecf766677ea04228",
+      "voiceId": "maxim",
+      "cueId": "training.method.out.a",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "maxim:training.inhale.a": {
+      "path": "audio/guided/voice/maxim/training.inhale.a.m4a",
+      "durationMs": 1022,
+      "hash": "7d2174fe75aa630ea7235186e437e43347fb739dc725151bcb3c287be546bd6b",
+      "voiceId": "maxim",
+      "cueId": "training.inhale.a",
+      "kind": "voice",
+      "normalizationGain": 1.1654670508371974
+    },
+    "maxim:training.hold.a": {
+      "path": "audio/guided/voice/maxim/training.hold.a.m4a",
+      "durationMs": 1161,
+      "hash": "f843cc8a838e0b136f0b2666b413be8ed86caeb4879429d1d3b42e6cd2a5ec27",
+      "voiceId": "maxim",
+      "cueId": "training.hold.a",
+      "kind": "voice",
+      "normalizationGain": 1.2589254117941673
+    },
+    "maxim:training.exhale.a": {
+      "path": "audio/guided/voice/maxim/training.exhale.a.m4a",
+      "durationMs": 929,
+      "hash": "8da62cae59e697609eeac4b59e0c02981e5ba97252ce875f9cc4377a9bb29fc1",
+      "voiceId": "maxim",
+      "cueId": "training.exhale.a",
+      "kind": "voice",
+      "normalizationGain": 0.9817479430199844
+    },
+    "maxim:training.recovery.a": {
+      "path": "audio/guided/voice/maxim/training.recovery.a.m4a",
+      "durationMs": 1486,
+      "hash": "35d91f2b8ba08a374e45998c12c8f2c7ee20a47399a0cb9c35bf8d26d9a4b144",
+      "voiceId": "maxim",
+      "cueId": "training.recovery.a",
+      "kind": "voice",
+      "normalizationGain": 1.2793813041575248
+    },
+    "maxim:training.break.a": {
+      "path": "audio/guided/voice/maxim/training.break.a.m4a",
+      "durationMs": 3948,
+      "hash": "2511b1108e93b8c029a470516facb8be3f02b1a7d71562991f5ed42da6056dc3",
+      "voiceId": "maxim",
+      "cueId": "training.break.a",
+      "kind": "voice",
+      "normalizationGain": 0.9885530946569389
+    },
+    "maxim:training.break.b": {
+      "path": "audio/guided/voice/maxim/training.break.b.m4a",
+      "durationMs": 4180,
+      "hash": "881ea63f37558ade45b2b66634bf0b6d9f5fa58bb3d67d44029a545b96b38d5d",
+      "voiceId": "maxim",
+      "cueId": "training.break.b",
+      "kind": "voice",
+      "normalizationGain": 1.1002718452957352
+    },
+    "maxim:training.break.c": {
+      "path": "audio/guided/voice/maxim/training.break.c.m4a",
+      "durationMs": 5062,
+      "hash": "2b7b507bd08bd2251ea518747fe2a55e53f2b5895fc2eee2fb87f872ce6e36a9",
+      "voiceId": "maxim",
+      "cueId": "training.break.c",
+      "kind": "voice",
+      "normalizationGain": 0.7943282347242815
+    },
+    "maxim:training.outro.a": {
+      "path": "audio/guided/voice/maxim/training.outro.a.m4a",
+      "durationMs": 4087,
+      "hash": "27cd738d05847b7a54a8440dbb07a4367a185adc125de760f73e559ee74e6482",
+      "voiceId": "maxim",
+      "cueId": "training.outro.a",
+      "kind": "voice",
+      "normalizationGain": 1.11045253533364
+    },
+    "maxim:training.outro.b": {
+      "path": "audio/guided/voice/maxim/training.outro.b.m4a",
+      "durationMs": 3576,
+      "hash": "e73b00f24d0f0c1a43b254431ccd3901639e3ea427b32c954ee8db4a605bbde7",
+      "voiceId": "maxim",
+      "cueId": "training.outro.b",
+      "kind": "voice",
+      "normalizationGain": 0.881048873008014
+    },
+    "maxim:training.outro.c": {
+      "path": "audio/guided/voice/maxim/training.outro.c.m4a",
+      "durationMs": 4923,
+      "hash": "0e95873a2db25562bd4b526cfd78e2af12796361ca83c3822d4c01f4ca1cc9eb",
+      "voiceId": "maxim",
+      "cueId": "training.outro.c",
+      "kind": "voice",
+      "normalizationGain": 1.2387965865303692
+    },
+    "maxim:training.finish.a": {
+      "path": "audio/guided/voice/maxim/training.finish.a.m4a",
+      "durationMs": 4226,
+      "hash": "de58e32763a976a738af1f2e4372aef648999f0cfce7232be4f9de00cef4c2de",
+      "voiceId": "maxim",
+      "cueId": "training.finish.a",
+      "kind": "voice",
+      "normalizationGain": 0.9473271845042496
+    },
+    "kate:training.intro.in.a": {
+      "path": "audio/guided/voice/kate/training.intro.in.a.m4a",
+      "durationMs": 7384,
+      "hash": "f6115e09c03d6dc1b956bc0769e357ec16e5e6f0c2f1bc4214801ee346828be2",
+      "voiceId": "kate",
+      "cueId": "training.intro.in.a",
+      "kind": "voice",
+      "normalizationGain": 1.253141174941416
+    },
+    "kate:training.intro.out.a": {
+      "path": "audio/guided/voice/kate/training.intro.out.a.m4a",
+      "durationMs": 7431,
+      "hash": "4dec5dd39071421b3e48464e06c017f747e6304f069b694aac25c179cb52b2fe",
+      "voiceId": "kate",
+      "cueId": "training.intro.out.a",
+      "kind": "voice",
+      "normalizationGain": 1.1574440320922368
+    },
+    "kate:training.safety.a": {
+      "path": "audio/guided/voice/kate/training.safety.a.m4a",
+      "durationMs": 7477,
+      "hash": "1cb7ede346881273a1e0a10d9879e65dc1d50c111538f3003d6d697bcfcb7799",
+      "voiceId": "kate",
+      "cueId": "training.safety.a",
+      "kind": "voice",
+      "normalizationGain": 1.0678247925390985
+    },
+    "kate:training.method.in.a": {
+      "path": "audio/guided/voice/kate/training.method.in.a.m4a",
+      "durationMs": 5341,
+      "hash": "490e52867e174b69d957ed4dabcd759b75206b90576a21476657314948975b8a",
+      "voiceId": "kate",
+      "cueId": "training.method.in.a",
+      "kind": "voice",
+      "normalizationGain": 0.9005337627506482
+    },
+    "kate:training.method.out.a": {
+      "path": "audio/guided/voice/kate/training.method.out.a.m4a",
+      "durationMs": 5248,
+      "hash": "db4957a94e259ba925405aac5814a35f3b87ca2f7d6b2d3aa5c35d4b2224547b",
+      "voiceId": "kate",
+      "cueId": "training.method.out.a",
+      "kind": "voice",
+      "normalizationGain": 0.7952432655333961
+    },
+    "kate:training.inhale.a": {
+      "path": "audio/guided/voice/kate/training.inhale.a.m4a",
+      "durationMs": 1022,
+      "hash": "6481edbf099c34ca979a99192f59687e93a2b0380ab777996e3de269a4305ec9",
+      "voiceId": "kate",
+      "cueId": "training.inhale.a",
+      "kind": "voice",
+      "normalizationGain": 1.2589254117941673
+    },
+    "kate:training.hold.a": {
+      "path": "audio/guided/voice/kate/training.hold.a.m4a",
+      "durationMs": 1068,
+      "hash": "c0b01871ceb7da5a3abaf847c160d398a4e3b50c7867d6aec68fdfb9f65bba6e",
+      "voiceId": "kate",
+      "cueId": "training.hold.a",
+      "kind": "voice",
+      "normalizationGain": 1.2560299636948749
+    },
+    "kate:training.exhale.a": {
+      "path": "audio/guided/voice/kate/training.exhale.a.m4a",
+      "durationMs": 1022,
+      "hash": "bce6ee9f4acbbed4470c23f819d874ea94ebb7511de8e89f9bc322011d838b4f",
+      "voiceId": "kate",
+      "cueId": "training.exhale.a",
+      "kind": "voice",
+      "normalizationGain": 1.2589254117941673
+    },
+    "kate:training.recovery.a": {
+      "path": "audio/guided/voice/kate/training.recovery.a.m4a",
+      "durationMs": 1393,
+      "hash": "84c7d716707837820656253918c8f1663282f705a68b0410bfb03703bd60468c",
+      "voiceId": "kate",
+      "cueId": "training.recovery.a",
+      "kind": "voice",
+      "normalizationGain": 1.0471285480508996
+    },
+    "kate:training.break.a": {
+      "path": "audio/guided/voice/kate/training.break.a.m4a",
+      "durationMs": 3483,
+      "hash": "4c14690484bb64e9ea84cf4f4b362fe459187ef32f3425f79f818ba6e9444937",
+      "voiceId": "kate",
+      "cueId": "training.break.a",
+      "kind": "voice",
+      "normalizationGain": 1.001151955538169
+    },
+    "kate:training.break.b": {
+      "path": "audio/guided/voice/kate/training.break.b.m4a",
+      "durationMs": 3948,
+      "hash": "759795f27709d911127596f28f14fdc1984d944b85178b5d2de751a11e68c8b7",
+      "voiceId": "kate",
+      "cueId": "training.break.b",
+      "kind": "voice",
+      "normalizationGain": 1.1297959146727978
+    },
+    "kate:training.break.c": {
+      "path": "audio/guided/voice/kate/training.break.c.m4a",
+      "durationMs": 4458,
+      "hash": "dac3a675b8f66187e302fc83d6fcf17ab3376bf13a175c23bbc95ceb820b04ec",
+      "voiceId": "kate",
+      "cueId": "training.break.c",
+      "kind": "voice",
+      "normalizationGain": 0.9364832198943208
+    },
+    "kate:training.outro.a": {
+      "path": "audio/guided/voice/kate/training.outro.a.m4a",
+      "durationMs": 3994,
+      "hash": "d344ac8aafc61c31d66de118371d3a0c8571f3fd4533c6cd3392664d1242369f",
+      "voiceId": "kate",
+      "cueId": "training.outro.a",
+      "kind": "voice",
+      "normalizationGain": 0.9965520801347684
+    },
+    "kate:training.outro.b": {
+      "path": "audio/guided/voice/kate/training.outro.b.m4a",
+      "durationMs": 3437,
+      "hash": "59fb1e2e1dd749b8ed37d9ddba780e46a2ef7467edded61dcdad70f705b3f792",
+      "voiceId": "kate",
+      "cueId": "training.outro.b",
+      "kind": "voice",
+      "normalizationGain": 0.9088662990655879
+    },
+    "kate:training.outro.c": {
+      "path": "audio/guided/voice/kate/training.outro.c.m4a",
+      "durationMs": 4087,
+      "hash": "6fb16fd2512fe6258f40040b25fd1f1d99f0f3fea8ef653c5cb6bb7a7b4c2ecd",
+      "voiceId": "kate",
+      "cueId": "training.outro.c",
+      "kind": "voice",
+      "normalizationGain": 0.8072350302488381
+    },
+    "kate:training.finish.a": {
+      "path": "audio/guided/voice/kate/training.finish.a.m4a",
+      "durationMs": 4226,
+      "hash": "c28920ade2a733882d563fd6e71ddbd6e41027764def67bdd59fef8f05585bf4",
+      "voiceId": "kate",
+      "cueId": "training.finish.a",
+      "kind": "voice",
+      "normalizationGain": 1.1455129414455356
     }
   }
 }
