@@ -19,6 +19,10 @@
             {
               "id": "a",
               "cueId": "present-moment.purpose.a"
+            },
+            {
+              "id": "b",
+              "cueId": "present-moment.opening.b"
             }
           ]
         },
@@ -219,6 +223,10 @@
             {
               "id": "a",
               "cueId": "present-moment.finish.a"
+            },
+            {
+              "id": "b",
+              "cueId": "present-moment.closing.b"
             }
           ]
         }
@@ -310,17 +318,9 @@
         }
       ],
       "endBehavior": "daytime",
-      "resumeCheckpointsMs": [
-        0,
-        34000,
-        45000,
-        75000,
-        120000,
-        150000,
-        200000,
-        275000
-      ],
+      "resumeCheckpointsMs": [0, 34000, 45000, 75000, 120000, 150000, 200000, 275000],
       "categoryId": "quick",
+      "kind": "breathing",
       "shortDescription": "Пауза среди дел и возвращение к ощущениям",
       "tags": [],
       "artwork": "images/practices/abstract-present.webp",
@@ -388,6 +388,25 @@
           "endMs": 120000,
           "label": "Плавный выдох"
         }
+      ],
+      "guidancePools": [
+        {
+          "id": "breathing",
+          "startMs": 45000,
+          "endMs": 120000,
+          "cueIds": ["present-moment.support-breathing.1", "present-moment.support-breathing.2"]
+        },
+        {
+          "id": "attention",
+          "startMs": 120000,
+          "endMs": 292000,
+          "cueIds": [
+            "present-moment.support-attention.1",
+            "present-moment.support-attention.2",
+            "present-moment.support-attention.3",
+            "present-moment.support-attention.4"
+          ]
+        }
       ]
     },
     {
@@ -407,6 +426,10 @@
             {
               "id": "a",
               "cueId": "clear-space.purpose.a"
+            },
+            {
+              "id": "b",
+              "cueId": "clear-space.opening.b"
             }
           ]
         },
@@ -671,6 +694,10 @@
             {
               "id": "a",
               "cueId": "clear-space.finish.a"
+            },
+            {
+              "id": "b",
+              "cueId": "clear-space.closing.b"
             }
           ]
         }
@@ -785,19 +812,10 @@
       "background": [],
       "endBehavior": "daytime",
       "resumeCheckpointsMs": [
-        0,
-        45000,
-        75000,
-        105000,
-        180000,
-        220000,
-        255000,
-        315000,
-        375000,
-        435000,
-        495000
+        0, 45000, 75000, 105000, 180000, 220000, 255000, 315000, 375000, 435000, 495000
       ],
       "categoryId": "focus",
+      "kind": "breathing",
       "shortDescription": "Дыхание, открытое внимание и пространство тишины",
       "tags": [],
       "artwork": "images/practices/abstract-focus.webp",
@@ -889,6 +907,25 @@
           "endMs": 180000,
           "label": "Плавный выдох"
         }
+      ],
+      "guidancePools": [
+        {
+          "id": "breathing",
+          "startMs": 75000,
+          "endMs": 180000,
+          "cueIds": ["clear-space.support-breathing.1", "clear-space.support-breathing.2"]
+        },
+        {
+          "id": "attention",
+          "startMs": 180000,
+          "endMs": 535000,
+          "cueIds": [
+            "clear-space.support-attention.1",
+            "clear-space.support-attention.2",
+            "clear-space.support-attention.3",
+            "clear-space.support-attention.4"
+          ]
+        }
       ]
     },
     {
@@ -908,6 +945,10 @@
             {
               "id": "a",
               "cueId": "release-day.position.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-day.opening.b"
             }
           ]
         },
@@ -1340,6 +1381,10 @@
             {
               "id": "a",
               "cueId": "release-day.end.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-day.closing.b"
             }
           ]
         }
@@ -1477,20 +1522,10 @@
       ],
       "endBehavior": "quiet",
       "resumeCheckpointsMs": [
-        0,
-        90000,
-        150000,
-        190000,
-        330000,
-        370000,
-        405000,
-        480000,
-        555000,
-        630000,
-        705000,
-        760000
+        0, 90000, 150000, 190000, 330000, 370000, 405000, 480000, 555000, 630000, 705000, 760000
       ],
       "categoryId": "sleep",
+      "kind": "breathing",
       "shortDescription": "Спокойное дыхание и отдых перед сном",
       "tags": [],
       "artwork": "images/practices/abstract-sleep.webp",
@@ -1642,21 +1677,38 @@
           "endMs": 330000,
           "label": "Плавный выдох"
         }
+      ],
+      "guidancePools": [
+        {
+          "id": "breathing",
+          "startMs": 140000,
+          "endMs": 330000,
+          "cueIds": ["release-day.support-breathing.1", "release-day.support-breathing.2"]
+        },
+        {
+          "id": "attention",
+          "startMs": 330000,
+          "endMs": 785000,
+          "cueIds": [
+            "release-day.support-attention.1",
+            "release-day.support-attention.2",
+            "release-day.support-attention.3",
+            "release-day.support-attention.4"
+          ]
+        }
       ]
     },
     {
-      "id": "hold-after-inhale",
-      "revision": 2,
-      "title": "Пауза после вдоха",
-      "subtitle": "Четыре мягкие серии с длительным восстановлением",
+      "id": "balanced-breath-training",
+      "revision": 3,
+      "title": "Тренировка дыхания",
+      "subtitle": "Мягкий вдох, плавный выдох и две короткие паузы",
       "intent": "breath-training",
       "categoryId": "breath-training",
+      "kind": "training",
       "artwork": "images/practices/pause-after-inhale.webp",
-      "shortDescription": "Двенадцать коротких пауз, разделённых свободным дыханием.",
-      "tags": [
-        "10 минут",
-        "мягкие паузы"
-      ],
+      "shortDescription": "Четыре серии для ровного дыхательного ритма: вдох 4 с, пауза 2 с, выдох 6 с, пауза 2 с.",
+      "tags": ["10 минут", "вдох и выдох", "паузы по 2 секунды"],
       "backgroundProfile": "ambient-library",
       "guidanceMode": "sparse",
       "reviewStatus": "owner-specialist-review",
@@ -1671,18 +1723,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 49000,
-          "endMs": 52000,
-          "label": "Пауза"
+          "endMs": 51000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 52000,
-          "endMs": 58000,
-          "label": "Спокойный выдох"
+          "startMs": 51000,
+          "endMs": 57000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 57000,
+          "endMs": 59000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 58000,
+          "startMs": 59000,
           "endMs": 65000,
           "label": "Дышите свободно"
         },
@@ -1695,18 +1753,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 69000,
-          "endMs": 72000,
-          "label": "Пауза"
+          "endMs": 71000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 72000,
-          "endMs": 78000,
-          "label": "Спокойный выдох"
+          "startMs": 71000,
+          "endMs": 77000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 77000,
+          "endMs": 79000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 78000,
+          "startMs": 79000,
           "endMs": 85000,
           "label": "Дышите свободно"
         },
@@ -1719,20 +1783,32 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 89000,
-          "endMs": 92000,
-          "label": "Пауза"
+          "endMs": 91000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 92000,
-          "endMs": 98000,
-          "label": "Спокойный выдох"
+          "startMs": 91000,
+          "endMs": 97000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 97000,
+          "endMs": 99000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 98000,
+          "startMs": 99000,
           "endMs": 105000,
           "label": "Дышите свободно"
+        },
+        {
+          "phase": "free",
+          "startMs": 105000,
+          "endMs": 180000,
+          "label": "Дышите естественно"
         },
         {
           "phase": "inhale",
@@ -1743,18 +1819,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 184000,
-          "endMs": 187000,
-          "label": "Пауза"
+          "endMs": 186000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 187000,
-          "endMs": 193000,
-          "label": "Спокойный выдох"
+          "startMs": 186000,
+          "endMs": 192000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 192000,
+          "endMs": 194000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 193000,
+          "startMs": 194000,
           "endMs": 200000,
           "label": "Дышите свободно"
         },
@@ -1767,18 +1849,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 204000,
-          "endMs": 207000,
-          "label": "Пауза"
+          "endMs": 206000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 207000,
-          "endMs": 213000,
-          "label": "Спокойный выдох"
+          "startMs": 206000,
+          "endMs": 212000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 212000,
+          "endMs": 214000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 213000,
+          "startMs": 214000,
           "endMs": 220000,
           "label": "Дышите свободно"
         },
@@ -1791,20 +1879,32 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 224000,
-          "endMs": 227000,
-          "label": "Пауза"
+          "endMs": 226000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 227000,
-          "endMs": 233000,
-          "label": "Спокойный выдох"
+          "startMs": 226000,
+          "endMs": 232000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 232000,
+          "endMs": 234000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 233000,
+          "startMs": 234000,
           "endMs": 240000,
           "label": "Дышите свободно"
+        },
+        {
+          "phase": "free",
+          "startMs": 240000,
+          "endMs": 315000,
+          "label": "Дышите естественно"
         },
         {
           "phase": "inhale",
@@ -1815,18 +1915,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 319000,
-          "endMs": 322000,
-          "label": "Пауза"
+          "endMs": 321000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 322000,
-          "endMs": 328000,
-          "label": "Спокойный выдох"
+          "startMs": 321000,
+          "endMs": 327000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 327000,
+          "endMs": 329000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 328000,
+          "startMs": 329000,
           "endMs": 335000,
           "label": "Дышите свободно"
         },
@@ -1839,18 +1945,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 339000,
-          "endMs": 342000,
-          "label": "Пауза"
+          "endMs": 341000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 342000,
-          "endMs": 348000,
-          "label": "Спокойный выдох"
+          "startMs": 341000,
+          "endMs": 347000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 347000,
+          "endMs": 349000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 348000,
+          "startMs": 349000,
           "endMs": 355000,
           "label": "Дышите свободно"
         },
@@ -1863,20 +1975,32 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 359000,
-          "endMs": 362000,
-          "label": "Пауза"
+          "endMs": 361000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 362000,
-          "endMs": 368000,
-          "label": "Спокойный выдох"
+          "startMs": 361000,
+          "endMs": 367000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 367000,
+          "endMs": 369000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 368000,
+          "startMs": 369000,
           "endMs": 375000,
           "label": "Дышите свободно"
+        },
+        {
+          "phase": "free",
+          "startMs": 375000,
+          "endMs": 450000,
+          "label": "Дышите естественно"
         },
         {
           "phase": "inhale",
@@ -1887,18 +2011,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 454000,
-          "endMs": 457000,
-          "label": "Пауза"
+          "endMs": 456000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 457000,
-          "endMs": 463000,
-          "label": "Спокойный выдох"
+          "startMs": 456000,
+          "endMs": 462000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 462000,
+          "endMs": 464000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 463000,
+          "startMs": 464000,
           "endMs": 470000,
           "label": "Дышите свободно"
         },
@@ -1911,18 +2041,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 474000,
-          "endMs": 477000,
-          "label": "Пауза"
+          "endMs": 476000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 477000,
-          "endMs": 483000,
-          "label": "Спокойный выдох"
+          "startMs": 476000,
+          "endMs": 482000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 482000,
+          "endMs": 484000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 483000,
+          "startMs": 484000,
           "endMs": 490000,
           "label": "Дышите свободно"
         },
@@ -1935,18 +2071,24 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 494000,
-          "endMs": 497000,
-          "label": "Пауза"
+          "endMs": 496000,
+          "label": "Пауза после вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 497000,
-          "endMs": 503000,
-          "label": "Спокойный выдох"
+          "startMs": 496000,
+          "endMs": 502000,
+          "label": "Плавный выдох"
+        },
+        {
+          "phase": "hold-after-exhale",
+          "startMs": 502000,
+          "endMs": 504000,
+          "label": "Пауза после выдоха"
         },
         {
           "phase": "recovery",
-          "startMs": 503000,
+          "startMs": 504000,
           "endMs": 510000,
           "label": "Дышите свободно"
         },
@@ -1966,7 +2108,11 @@
           "variants": [
             {
               "id": "a",
-              "cueId": "training.intro.in.a"
+              "cueId": "training.intro.balanced.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.intro.balanced.b"
             }
           ]
         },
@@ -1985,12 +2131,16 @@
         {
           "id": "method",
           "atMs": 33000,
-          "windowEndMs": 44000,
+          "windowEndMs": 45000,
           "meaning": "method",
           "variants": [
             {
               "id": "a",
-              "cueId": "training.method.in.a"
+              "cueId": "training.method.balanced.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.method.balanced.b"
             }
           ]
         },
@@ -2003,13 +2153,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-1-cycle-1-hold-after-inhale",
           "atMs": 49000,
-          "windowEndMs": 52000,
+          "windowEndMs": 51000,
           "meaning": "hold",
           "variants": [
             {
@@ -2020,19 +2174,35 @@
         },
         {
           "id": "round-1-cycle-1-exhale",
-          "atMs": 52000,
-          "windowEndMs": 58000,
+          "atMs": 51000,
+          "windowEndMs": 57000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-1-cycle-1-hold-after-exhale",
+          "atMs": 57000,
+          "windowEndMs": 59000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-1-cycle-1-recovery",
-          "atMs": 58000,
+          "atMs": 59000,
           "windowEndMs": 65000,
           "meaning": "recovery",
           "variants": [
@@ -2051,13 +2221,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-1-cycle-2-hold-after-inhale",
           "atMs": 69000,
-          "windowEndMs": 72000,
+          "windowEndMs": 71000,
           "meaning": "hold",
           "variants": [
             {
@@ -2068,19 +2242,35 @@
         },
         {
           "id": "round-1-cycle-2-exhale",
-          "atMs": 72000,
-          "windowEndMs": 78000,
+          "atMs": 71000,
+          "windowEndMs": 77000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-1-cycle-2-hold-after-exhale",
+          "atMs": 77000,
+          "windowEndMs": 79000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-1-cycle-2-recovery",
-          "atMs": 78000,
+          "atMs": 79000,
           "windowEndMs": 85000,
           "meaning": "recovery",
           "variants": [
@@ -2099,13 +2289,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-1-cycle-3-hold-after-inhale",
           "atMs": 89000,
-          "windowEndMs": 92000,
+          "windowEndMs": 91000,
           "meaning": "hold",
           "variants": [
             {
@@ -2116,19 +2310,35 @@
         },
         {
           "id": "round-1-cycle-3-exhale",
-          "atMs": 92000,
-          "windowEndMs": 98000,
+          "atMs": 91000,
+          "windowEndMs": 97000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-1-cycle-3-hold-after-exhale",
+          "atMs": 97000,
+          "windowEndMs": 99000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-1-cycle-3-recovery",
-          "atMs": 98000,
+          "atMs": 99000,
           "windowEndMs": 105000,
           "meaning": "recovery",
           "variants": [
@@ -2183,13 +2393,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-2-cycle-1-hold-after-inhale",
           "atMs": 184000,
-          "windowEndMs": 187000,
+          "windowEndMs": 186000,
           "meaning": "hold",
           "variants": [
             {
@@ -2200,19 +2414,35 @@
         },
         {
           "id": "round-2-cycle-1-exhale",
-          "atMs": 187000,
-          "windowEndMs": 193000,
+          "atMs": 186000,
+          "windowEndMs": 192000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-2-cycle-1-hold-after-exhale",
+          "atMs": 192000,
+          "windowEndMs": 194000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-2-cycle-1-recovery",
-          "atMs": 193000,
+          "atMs": 194000,
           "windowEndMs": 200000,
           "meaning": "recovery",
           "variants": [
@@ -2231,13 +2461,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-2-cycle-2-hold-after-inhale",
           "atMs": 204000,
-          "windowEndMs": 207000,
+          "windowEndMs": 206000,
           "meaning": "hold",
           "variants": [
             {
@@ -2248,19 +2482,35 @@
         },
         {
           "id": "round-2-cycle-2-exhale",
-          "atMs": 207000,
-          "windowEndMs": 213000,
+          "atMs": 206000,
+          "windowEndMs": 212000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-2-cycle-2-hold-after-exhale",
+          "atMs": 212000,
+          "windowEndMs": 214000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-2-cycle-2-recovery",
-          "atMs": 213000,
+          "atMs": 214000,
           "windowEndMs": 220000,
           "meaning": "recovery",
           "variants": [
@@ -2279,13 +2529,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-2-cycle-3-hold-after-inhale",
           "atMs": 224000,
-          "windowEndMs": 227000,
+          "windowEndMs": 226000,
           "meaning": "hold",
           "variants": [
             {
@@ -2296,19 +2550,35 @@
         },
         {
           "id": "round-2-cycle-3-exhale",
-          "atMs": 227000,
-          "windowEndMs": 233000,
+          "atMs": 226000,
+          "windowEndMs": 232000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-2-cycle-3-hold-after-exhale",
+          "atMs": 232000,
+          "windowEndMs": 234000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-2-cycle-3-recovery",
-          "atMs": 233000,
+          "atMs": 234000,
           "windowEndMs": 240000,
           "meaning": "recovery",
           "variants": [
@@ -2363,13 +2633,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-3-cycle-1-hold-after-inhale",
           "atMs": 319000,
-          "windowEndMs": 322000,
+          "windowEndMs": 321000,
           "meaning": "hold",
           "variants": [
             {
@@ -2380,19 +2654,35 @@
         },
         {
           "id": "round-3-cycle-1-exhale",
-          "atMs": 322000,
-          "windowEndMs": 328000,
+          "atMs": 321000,
+          "windowEndMs": 327000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-3-cycle-1-hold-after-exhale",
+          "atMs": 327000,
+          "windowEndMs": 329000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-3-cycle-1-recovery",
-          "atMs": 328000,
+          "atMs": 329000,
           "windowEndMs": 335000,
           "meaning": "recovery",
           "variants": [
@@ -2411,13 +2701,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-3-cycle-2-hold-after-inhale",
           "atMs": 339000,
-          "windowEndMs": 342000,
+          "windowEndMs": 341000,
           "meaning": "hold",
           "variants": [
             {
@@ -2428,19 +2722,35 @@
         },
         {
           "id": "round-3-cycle-2-exhale",
-          "atMs": 342000,
-          "windowEndMs": 348000,
+          "atMs": 341000,
+          "windowEndMs": 347000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-3-cycle-2-hold-after-exhale",
+          "atMs": 347000,
+          "windowEndMs": 349000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-3-cycle-2-recovery",
-          "atMs": 348000,
+          "atMs": 349000,
           "windowEndMs": 355000,
           "meaning": "recovery",
           "variants": [
@@ -2459,13 +2769,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-3-cycle-3-hold-after-inhale",
           "atMs": 359000,
-          "windowEndMs": 362000,
+          "windowEndMs": 361000,
           "meaning": "hold",
           "variants": [
             {
@@ -2476,19 +2790,35 @@
         },
         {
           "id": "round-3-cycle-3-exhale",
-          "atMs": 362000,
-          "windowEndMs": 368000,
+          "atMs": 361000,
+          "windowEndMs": 367000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-3-cycle-3-hold-after-exhale",
+          "atMs": 367000,
+          "windowEndMs": 369000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-3-cycle-3-recovery",
-          "atMs": 368000,
+          "atMs": 369000,
           "windowEndMs": 375000,
           "meaning": "recovery",
           "variants": [
@@ -2543,13 +2873,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-4-cycle-1-hold-after-inhale",
           "atMs": 454000,
-          "windowEndMs": 457000,
+          "windowEndMs": 456000,
           "meaning": "hold",
           "variants": [
             {
@@ -2560,19 +2894,35 @@
         },
         {
           "id": "round-4-cycle-1-exhale",
-          "atMs": 457000,
-          "windowEndMs": 463000,
+          "atMs": 456000,
+          "windowEndMs": 462000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-4-cycle-1-hold-after-exhale",
+          "atMs": 462000,
+          "windowEndMs": 464000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-4-cycle-1-recovery",
-          "atMs": 463000,
+          "atMs": 464000,
           "windowEndMs": 470000,
           "meaning": "recovery",
           "variants": [
@@ -2591,13 +2941,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-4-cycle-2-hold-after-inhale",
           "atMs": 474000,
-          "windowEndMs": 477000,
+          "windowEndMs": 476000,
           "meaning": "hold",
           "variants": [
             {
@@ -2608,19 +2962,35 @@
         },
         {
           "id": "round-4-cycle-2-exhale",
-          "atMs": 477000,
-          "windowEndMs": 483000,
+          "atMs": 476000,
+          "windowEndMs": 482000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.exhale.b"
+            }
+          ]
+        },
+        {
+          "id": "round-4-cycle-2-hold-after-exhale",
+          "atMs": 482000,
+          "windowEndMs": 484000,
+          "meaning": "hold",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "training.hold.a"
             }
           ]
         },
         {
           "id": "round-4-cycle-2-recovery",
-          "atMs": 483000,
+          "atMs": 484000,
           "windowEndMs": 490000,
           "meaning": "recovery",
           "variants": [
@@ -2639,13 +3009,17 @@
             {
               "id": "a",
               "cueId": "training.inhale.a"
+            },
+            {
+              "id": "b",
+              "cueId": "training.inhale.b"
             }
           ]
         },
         {
           "id": "round-4-cycle-3-hold-after-inhale",
           "atMs": 494000,
-          "windowEndMs": 497000,
+          "windowEndMs": 496000,
           "meaning": "hold",
           "variants": [
             {
@@ -2656,1223 +3030,24 @@
         },
         {
           "id": "round-4-cycle-3-exhale",
-          "atMs": 497000,
-          "windowEndMs": 503000,
+          "atMs": 496000,
+          "windowEndMs": 502000,
           "meaning": "exhale",
           "variants": [
             {
               "id": "a",
               "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-3-recovery",
-          "atMs": 503000,
-          "windowEndMs": 510000,
-          "meaning": "recovery",
-          "variants": [
+            },
             {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "outro-1",
-          "atMs": 514000,
-          "windowEndMs": 530000,
-          "meaning": "outro",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.outro.a"
-            }
-          ]
-        },
-        {
-          "id": "outro-2",
-          "atMs": 540000,
-          "windowEndMs": 555000,
-          "meaning": "outro",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.outro.b"
-            }
-          ]
-        },
-        {
-          "id": "outro-3",
-          "atMs": 562000,
-          "windowEndMs": 578000,
-          "meaning": "outro",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.outro.c"
-            }
-          ]
-        },
-        {
-          "id": "finish",
-          "atMs": 582000,
-          "windowEndMs": 599000,
-          "meaning": "finish",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.finish.a"
-            }
-          ]
-        }
-      ],
-      "breaths": [
-        {
-          "atMs": 45000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 52000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 65000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 72000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 85000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 92000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 180000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 187000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 200000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 207000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 220000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 227000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 315000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 322000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 335000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 342000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 355000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 362000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 450000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 457000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 470000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 477000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        },
-        {
-          "atMs": 490000,
-          "durationMs": 4000,
-          "assetId": "breath.inhale-long"
-        },
-        {
-          "atMs": 497000,
-          "durationMs": 6000,
-          "assetId": "breath.exhale"
-        }
-      ],
-      "background": [],
-      "endBehavior": "daytime",
-      "resumeCheckpointsMs": [
-        0,
-        105000,
-        240000,
-        375000,
-        510000
-      ]
-    },
-    {
-      "id": "hold-after-exhale",
-      "revision": 2,
-      "title": "Пауза после выдоха",
-      "subtitle": "Четыре мягкие серии с длительным восстановлением",
-      "intent": "breath-training",
-      "categoryId": "breath-training",
-      "artwork": "images/practices/pause-after-exhale.webp",
-      "shortDescription": "Двенадцать коротких пауз, разделённых свободным дыханием.",
-      "tags": [
-        "10 минут",
-        "мягкие паузы"
-      ],
-      "backgroundProfile": "ambient-library",
-      "guidanceMode": "sparse",
-      "reviewStatus": "owner-specialist-review",
-      "durationMs": 600000,
-      "breathingTimeline": [
-        {
-          "phase": "inhale",
-          "startMs": 45000,
-          "endMs": 49000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 49000,
-          "endMs": 55000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 55000,
-          "endMs": 58000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 58000,
-          "endMs": 65000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 65000,
-          "endMs": 69000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 69000,
-          "endMs": 75000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 75000,
-          "endMs": 78000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 78000,
-          "endMs": 85000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 85000,
-          "endMs": 89000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 89000,
-          "endMs": 95000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 95000,
-          "endMs": 98000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 98000,
-          "endMs": 105000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 180000,
-          "endMs": 184000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 184000,
-          "endMs": 190000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 190000,
-          "endMs": 193000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 193000,
-          "endMs": 200000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 200000,
-          "endMs": 204000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 204000,
-          "endMs": 210000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 210000,
-          "endMs": 213000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 213000,
-          "endMs": 220000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 220000,
-          "endMs": 224000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 224000,
-          "endMs": 230000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 230000,
-          "endMs": 233000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 233000,
-          "endMs": 240000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 315000,
-          "endMs": 319000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 319000,
-          "endMs": 325000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 325000,
-          "endMs": 328000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 328000,
-          "endMs": 335000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 335000,
-          "endMs": 339000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 339000,
-          "endMs": 345000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 345000,
-          "endMs": 348000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 348000,
-          "endMs": 355000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 355000,
-          "endMs": 359000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 359000,
-          "endMs": 365000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 365000,
-          "endMs": 368000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 368000,
-          "endMs": 375000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 450000,
-          "endMs": 454000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 454000,
-          "endMs": 460000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 460000,
-          "endMs": 463000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 463000,
-          "endMs": 470000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 470000,
-          "endMs": 474000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 474000,
-          "endMs": 480000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 480000,
-          "endMs": 483000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 483000,
-          "endMs": 490000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "inhale",
-          "startMs": 490000,
-          "endMs": 494000,
-          "label": "Мягкий вдох"
-        },
-        {
-          "phase": "exhale",
-          "startMs": 494000,
-          "endMs": 500000,
-          "label": "Спокойный выдох"
-        },
-        {
-          "phase": "hold-after-exhale",
-          "startMs": 500000,
-          "endMs": 503000,
-          "label": "Пауза"
-        },
-        {
-          "phase": "recovery",
-          "startMs": 503000,
-          "endMs": 510000,
-          "label": "Дышите свободно"
-        },
-        {
-          "phase": "free",
-          "startMs": 510000,
-          "endMs": 600000,
-          "label": "Дышите естественно"
-        }
-      ],
-      "voiceSlots": [
-        {
-          "id": "intro",
-          "atMs": 1000,
-          "windowEndMs": 16000,
-          "meaning": "intro",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.intro.out.a"
-            }
-          ]
-        },
-        {
-          "id": "safety",
-          "atMs": 17000,
-          "windowEndMs": 32000,
-          "meaning": "safety",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.safety.a"
-            }
-          ]
-        },
-        {
-          "id": "method",
-          "atMs": 33000,
-          "windowEndMs": 44000,
-          "meaning": "method",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.method.out.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-1-inhale",
-          "atMs": 45000,
-          "windowEndMs": 49000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-1-exhale",
-          "atMs": 49000,
-          "windowEndMs": 55000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-1-hold-after-exhale",
-          "atMs": 55000,
-          "windowEndMs": 58000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-1-recovery",
-          "atMs": 58000,
-          "windowEndMs": 65000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-2-inhale",
-          "atMs": 65000,
-          "windowEndMs": 69000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-2-exhale",
-          "atMs": 69000,
-          "windowEndMs": 75000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-2-hold-after-exhale",
-          "atMs": 75000,
-          "windowEndMs": 78000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-2-recovery",
-          "atMs": 78000,
-          "windowEndMs": 85000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-3-inhale",
-          "atMs": 85000,
-          "windowEndMs": 89000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-3-exhale",
-          "atMs": 89000,
-          "windowEndMs": 95000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-3-hold-after-exhale",
-          "atMs": 95000,
-          "windowEndMs": 98000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-1-cycle-3-recovery",
-          "atMs": 98000,
-          "windowEndMs": 105000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "break-1-1",
-          "atMs": 109000,
-          "windowEndMs": 121000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.a"
-            }
-          ]
-        },
-        {
-          "id": "break-1-2",
-          "atMs": 134000,
-          "windowEndMs": 146000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.b"
-            }
-          ]
-        },
-        {
-          "id": "break-1-3",
-          "atMs": 159000,
-          "windowEndMs": 171000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.c"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-1-inhale",
-          "atMs": 180000,
-          "windowEndMs": 184000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-1-exhale",
-          "atMs": 184000,
-          "windowEndMs": 190000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-1-hold-after-exhale",
-          "atMs": 190000,
-          "windowEndMs": 193000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-1-recovery",
-          "atMs": 193000,
-          "windowEndMs": 200000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-2-inhale",
-          "atMs": 200000,
-          "windowEndMs": 204000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-2-exhale",
-          "atMs": 204000,
-          "windowEndMs": 210000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-2-hold-after-exhale",
-          "atMs": 210000,
-          "windowEndMs": 213000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-2-recovery",
-          "atMs": 213000,
-          "windowEndMs": 220000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-3-inhale",
-          "atMs": 220000,
-          "windowEndMs": 224000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-3-exhale",
-          "atMs": 224000,
-          "windowEndMs": 230000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-3-hold-after-exhale",
-          "atMs": 230000,
-          "windowEndMs": 233000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-2-cycle-3-recovery",
-          "atMs": 233000,
-          "windowEndMs": 240000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "break-2-1",
-          "atMs": 244000,
-          "windowEndMs": 256000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.a"
-            }
-          ]
-        },
-        {
-          "id": "break-2-2",
-          "atMs": 269000,
-          "windowEndMs": 281000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.b"
-            }
-          ]
-        },
-        {
-          "id": "break-2-3",
-          "atMs": 294000,
-          "windowEndMs": 306000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.c"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-1-inhale",
-          "atMs": 315000,
-          "windowEndMs": 319000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-1-exhale",
-          "atMs": 319000,
-          "windowEndMs": 325000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-1-hold-after-exhale",
-          "atMs": 325000,
-          "windowEndMs": 328000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-1-recovery",
-          "atMs": 328000,
-          "windowEndMs": 335000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-2-inhale",
-          "atMs": 335000,
-          "windowEndMs": 339000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-2-exhale",
-          "atMs": 339000,
-          "windowEndMs": 345000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-2-hold-after-exhale",
-          "atMs": 345000,
-          "windowEndMs": 348000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-2-recovery",
-          "atMs": 348000,
-          "windowEndMs": 355000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-3-inhale",
-          "atMs": 355000,
-          "windowEndMs": 359000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-3-exhale",
-          "atMs": 359000,
-          "windowEndMs": 365000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-3-hold-after-exhale",
-          "atMs": 365000,
-          "windowEndMs": 368000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-3-cycle-3-recovery",
-          "atMs": 368000,
-          "windowEndMs": 375000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "break-3-1",
-          "atMs": 379000,
-          "windowEndMs": 391000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.a"
-            }
-          ]
-        },
-        {
-          "id": "break-3-2",
-          "atMs": 404000,
-          "windowEndMs": 416000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.b"
-            }
-          ]
-        },
-        {
-          "id": "break-3-3",
-          "atMs": 429000,
-          "windowEndMs": 441000,
-          "meaning": "break",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.break.c"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-1-inhale",
-          "atMs": 450000,
-          "windowEndMs": 454000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-1-exhale",
-          "atMs": 454000,
-          "windowEndMs": 460000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-1-hold-after-exhale",
-          "atMs": 460000,
-          "windowEndMs": 463000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-1-recovery",
-          "atMs": 463000,
-          "windowEndMs": 470000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-2-inhale",
-          "atMs": 470000,
-          "windowEndMs": 474000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-2-exhale",
-          "atMs": 474000,
-          "windowEndMs": 480000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-2-hold-after-exhale",
-          "atMs": 480000,
-          "windowEndMs": 483000,
-          "meaning": "hold",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.hold.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-2-recovery",
-          "atMs": 483000,
-          "windowEndMs": 490000,
-          "meaning": "recovery",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.recovery.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-3-inhale",
-          "atMs": 490000,
-          "windowEndMs": 494000,
-          "meaning": "inhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.inhale.a"
-            }
-          ]
-        },
-        {
-          "id": "round-4-cycle-3-exhale",
-          "atMs": 494000,
-          "windowEndMs": 500000,
-          "meaning": "exhale",
-          "variants": [
-            {
-              "id": "a",
-              "cueId": "training.exhale.a"
+              "id": "b",
+              "cueId": "training.exhale.b"
             }
           ]
         },
         {
           "id": "round-4-cycle-3-hold-after-exhale",
-          "atMs": 500000,
-          "windowEndMs": 503000,
+          "atMs": 502000,
+          "windowEndMs": 504000,
           "meaning": "hold",
           "variants": [
             {
@@ -3883,7 +3058,7 @@
         },
         {
           "id": "round-4-cycle-3-recovery",
-          "atMs": 503000,
+          "atMs": 504000,
           "windowEndMs": 510000,
           "meaning": "recovery",
           "variants": [
@@ -3949,7 +3124,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 49000,
+          "atMs": 51000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -3959,7 +3134,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 69000,
+          "atMs": 71000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -3969,7 +3144,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 89000,
+          "atMs": 91000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -3979,7 +3154,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 184000,
+          "atMs": 186000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -3989,7 +3164,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 204000,
+          "atMs": 206000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -3999,7 +3174,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 224000,
+          "atMs": 226000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4009,7 +3184,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 319000,
+          "atMs": 321000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4019,7 +3194,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 339000,
+          "atMs": 341000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4029,7 +3204,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 359000,
+          "atMs": 361000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4039,7 +3214,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 454000,
+          "atMs": 456000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4049,7 +3224,7 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 474000,
+          "atMs": 476000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         },
@@ -4059,19 +3234,796 @@
           "assetId": "breath.inhale-long"
         },
         {
-          "atMs": 494000,
+          "atMs": 496000,
           "durationMs": 6000,
           "assetId": "breath.exhale"
         }
       ],
       "background": [],
       "endBehavior": "daytime",
+      "resumeCheckpointsMs": [0, 105000, 240000, 375000, 510000]
+    },
+    {
+      "id": "after-conversation",
+      "revision": 2,
+      "title": "После напряжённого разговора",
+      "subtitle": "Переключиться с разговора на опору, дыхание и пространство вокруг.",
+      "shortDescription": "Переключиться с разговора на опору, дыхание и пространство вокруг.",
+      "categoryId": "quick",
+      "kind": "meditation",
+      "intent": "quick",
+      "tags": ["медитация", "после разговора"],
+      "artwork": "images/practices/abstract-after-conversation.webp",
+      "backgroundProfile": "ambient-library",
+      "guidanceMode": "sparse",
+      "reviewStatus": "owner-specialist-review",
+      "durationMs": 720000,
+      "breathingTimeline": [
+        {
+          "phase": "free",
+          "startMs": 0,
+          "endMs": 720000
+        }
+      ],
+      "voiceSlots": [
+        {
+          "id": "long-opening",
+          "atMs": 3000,
+          "windowEndMs": 45000,
+          "meaning": "opening",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.opening"
+            }
+          ]
+        },
+        {
+          "id": "purpose",
+          "atMs": 55000,
+          "windowEndMs": 77000,
+          "meaning": "purpose",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.purpose.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.purpose.b"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "atMs": 95000,
+          "windowEndMs": 117000,
+          "meaning": "contact",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.contact.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.contact.b"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "atMs": 140000,
+          "windowEndMs": 162000,
+          "meaning": "settle",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.settle.a"
+            }
+          ]
+        },
+        {
+          "id": "long-frame",
+          "atMs": 180000,
+          "windowEndMs": 220000,
+          "meaning": "frame",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.frame"
+            }
+          ]
+        },
+        {
+          "id": "notice",
+          "atMs": 240000,
+          "windowEndMs": 262000,
+          "meaning": "notice",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.notice.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.notice.b"
+            }
+          ]
+        },
+        {
+          "id": "long-process",
+          "atMs": 280000,
+          "windowEndMs": 318000,
+          "meaning": "process",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.process"
+            }
+          ]
+        },
+        {
+          "id": "allow",
+          "atMs": 330000,
+          "windowEndMs": 352000,
+          "meaning": "allow",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.allow.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.allow.b"
+            }
+          ]
+        },
+        {
+          "id": "sensations",
+          "atMs": 380000,
+          "windowEndMs": 402000,
+          "meaning": "sensations",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.sensations.a"
+            }
+          ]
+        },
+        {
+          "id": "long-values",
+          "atMs": 415000,
+          "windowEndMs": 455000,
+          "meaning": "values",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.values"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "atMs": 460000,
+          "windowEndMs": 482000,
+          "meaning": "return",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.return.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.return.b"
+            }
+          ]
+        },
+        {
+          "id": "space",
+          "atMs": 505000,
+          "windowEndMs": 527000,
+          "meaning": "space",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.space.a"
+            }
+          ]
+        },
+        {
+          "id": "widen",
+          "atMs": 550000,
+          "windowEndMs": 572000,
+          "meaning": "widen",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.widen.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.widen.b"
+            }
+          ]
+        },
+        {
+          "id": "long-integration",
+          "atMs": 590000,
+          "windowEndMs": 630000,
+          "meaning": "integration",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.integration"
+            }
+          ]
+        },
+        {
+          "id": "carry",
+          "atMs": 635000,
+          "windowEndMs": 657000,
+          "meaning": "carry",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.carry.a"
+            }
+          ]
+        },
+        {
+          "id": "long-closing",
+          "atMs": 670000,
+          "windowEndMs": 704000,
+          "meaning": "closing",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.long.closing"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "atMs": 709000,
+          "windowEndMs": 720000,
+          "meaning": "finish",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "after-conversation.finish.a"
+            },
+            {
+              "id": "b",
+              "cueId": "after-conversation.finish.b"
+            }
+          ]
+        }
+      ],
+      "guidancePools": [],
+      "breaths": [],
+      "background": [],
+      "endBehavior": "daytime",
       "resumeCheckpointsMs": [
-        0,
-        105000,
-        240000,
-        375000,
-        510000
+        3000, 55000, 95000, 140000, 180000, 240000, 280000, 330000, 380000, 415000, 460000, 505000,
+        550000, 590000, 635000, 670000, 709000
+      ]
+    },
+    {
+      "id": "release-thought",
+      "revision": 2,
+      "title": "Отпустить повторяющуюся мысль",
+      "subtitle": "Заметить внутренний диалог и вернуть внимание к текущим ощущениям.",
+      "shortDescription": "Заметить внутренний диалог и вернуть внимание к текущим ощущениям.",
+      "categoryId": "focus",
+      "kind": "meditation",
+      "intent": "focus",
+      "tags": ["медитация", "внутренний диалог"],
+      "artwork": "images/practices/abstract-release-thought.webp",
+      "backgroundProfile": "ambient-library",
+      "guidanceMode": "sparse",
+      "reviewStatus": "owner-specialist-review",
+      "durationMs": 840000,
+      "breathingTimeline": [
+        {
+          "phase": "free",
+          "startMs": 0,
+          "endMs": 840000
+        }
+      ],
+      "voiceSlots": [
+        {
+          "id": "long-opening",
+          "atMs": 3000,
+          "windowEndMs": 55000,
+          "meaning": "opening",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.opening"
+            }
+          ]
+        },
+        {
+          "id": "purpose",
+          "atMs": 65000,
+          "windowEndMs": 87000,
+          "meaning": "purpose",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.purpose.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.purpose.b"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "atMs": 110000,
+          "windowEndMs": 132000,
+          "meaning": "contact",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.contact.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.contact.b"
+            }
+          ]
+        },
+        {
+          "id": "settle",
+          "atMs": 160000,
+          "windowEndMs": 182000,
+          "meaning": "settle",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.settle.a"
+            }
+          ]
+        },
+        {
+          "id": "long-frame",
+          "atMs": 210000,
+          "windowEndMs": 255000,
+          "meaning": "frame",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.frame"
+            }
+          ]
+        },
+        {
+          "id": "notice",
+          "atMs": 280000,
+          "windowEndMs": 302000,
+          "meaning": "notice",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.notice.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.notice.b"
+            }
+          ]
+        },
+        {
+          "id": "long-process",
+          "atMs": 335000,
+          "windowEndMs": 378000,
+          "meaning": "process",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.process"
+            }
+          ]
+        },
+        {
+          "id": "allow",
+          "atMs": 390000,
+          "windowEndMs": 412000,
+          "meaning": "allow",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.allow.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.allow.b"
+            }
+          ]
+        },
+        {
+          "id": "sensations",
+          "atMs": 465000,
+          "windowEndMs": 487000,
+          "meaning": "sensations",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.sensations.a"
+            }
+          ]
+        },
+        {
+          "id": "long-observe",
+          "atMs": 500000,
+          "windowEndMs": 540000,
+          "meaning": "observe",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.observe"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "atMs": 550000,
+          "windowEndMs": 572000,
+          "meaning": "return",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.return.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.return.b"
+            }
+          ]
+        },
+        {
+          "id": "space",
+          "atMs": 615000,
+          "windowEndMs": 637000,
+          "meaning": "space",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.space.a"
+            }
+          ]
+        },
+        {
+          "id": "widen",
+          "atMs": 680000,
+          "windowEndMs": 702000,
+          "meaning": "widen",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.widen.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.widen.b"
+            }
+          ]
+        },
+        {
+          "id": "long-integration",
+          "atMs": 715000,
+          "windowEndMs": 750000,
+          "meaning": "integration",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.integration"
+            }
+          ]
+        },
+        {
+          "id": "carry",
+          "atMs": 755000,
+          "windowEndMs": 777000,
+          "meaning": "carry",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.carry.a"
+            }
+          ]
+        },
+        {
+          "id": "long-closing",
+          "atMs": 790000,
+          "windowEndMs": 823000,
+          "meaning": "closing",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.long.closing"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "atMs": 829000,
+          "windowEndMs": 840000,
+          "meaning": "finish",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.finish.a"
+            },
+            {
+              "id": "b",
+              "cueId": "release-thought.finish.b"
+            }
+          ]
+        }
+      ],
+      "guidancePools": [],
+      "breaths": [],
+      "background": [],
+      "endBehavior": "daytime",
+      "resumeCheckpointsMs": [
+        3000, 65000, 110000, 160000, 210000, 280000, 335000, 390000, 465000, 500000, 550000, 615000,
+        680000, 715000, 755000, 790000, 829000
+      ]
+    },
+    {
+      "id": "everyday-overload",
+      "revision": 1,
+      "title": "Когда всё навалилось",
+      "subtitle": "Собрать внимание среди сообщений, дел и повседневной спешки.",
+      "shortDescription": "Почувствовать опору, заметить спешку и выбрать один следующий шаг.",
+      "categoryId": "focus",
+      "kind": "meditation",
+      "intent": "focus",
+      "tags": ["медитация", "повседневная перегрузка", "внимание"],
+      "artwork": "images/practices/abstract-everyday-overload.webp",
+      "backgroundProfile": "ambient-library",
+      "guidanceMode": "sparse",
+      "reviewStatus": "owner-specialist-review",
+      "durationMs": 780000,
+      "breathingTimeline": [
+        {
+          "phase": "free",
+          "startMs": 0,
+          "endMs": 780000
+        }
+      ],
+      "voiceSlots": [
+        {
+          "id": "long-opening",
+          "atMs": 3000,
+          "windowEndMs": 50000,
+          "meaning": "opening",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.opening"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "atMs": 60000,
+          "windowEndMs": 84000,
+          "meaning": "contact",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "clear-space.contact.a"
+            },
+            {
+              "id": "b",
+              "cueId": "clear-space.contact.b"
+            },
+            {
+              "id": "c",
+              "cueId": "clear-space.contact.c"
+            }
+          ]
+        },
+        {
+          "id": "breath",
+          "atMs": 105000,
+          "windowEndMs": 129000,
+          "meaning": "breath",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "release-thought.settle.a"
+            }
+          ]
+        },
+        {
+          "id": "long-frame",
+          "atMs": 165000,
+          "windowEndMs": 205000,
+          "meaning": "frame",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.frame"
+            }
+          ]
+        },
+        {
+          "id": "body",
+          "atMs": 235000,
+          "windowEndMs": 259000,
+          "meaning": "body",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "present-moment.body-contact.a"
+            },
+            {
+              "id": "b",
+              "cueId": "present-moment.body-contact.b"
+            },
+            {
+              "id": "c",
+              "cueId": "present-moment.body-contact.c"
+            }
+          ]
+        },
+        {
+          "id": "notice",
+          "atMs": 275000,
+          "windowEndMs": 299000,
+          "meaning": "notice",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "present-moment.notice-state.a"
+            },
+            {
+              "id": "b",
+              "cueId": "present-moment.notice-state.b"
+            },
+            {
+              "id": "c",
+              "cueId": "present-moment.notice-state.c"
+            }
+          ]
+        },
+        {
+          "id": "long-values",
+          "atMs": 335000,
+          "windowEndMs": 375000,
+          "meaning": "values",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.values"
+            }
+          ]
+        },
+        {
+          "id": "thoughts",
+          "atMs": 405000,
+          "windowEndMs": 429000,
+          "meaning": "thoughts",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "clear-space.thoughts.a"
+            }
+          ]
+        },
+        {
+          "id": "long-process",
+          "atMs": 455000,
+          "windowEndMs": 495000,
+          "meaning": "process",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.process"
+            }
+          ]
+        },
+        {
+          "id": "attention",
+          "atMs": 510000,
+          "windowEndMs": 534000,
+          "meaning": "attention",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "present-moment.open-attention.a"
+            }
+          ]
+        },
+        {
+          "id": "allow",
+          "atMs": 565000,
+          "windowEndMs": 589000,
+          "meaning": "allow",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "clear-space.allow.a"
+            },
+            {
+              "id": "b",
+              "cueId": "clear-space.allow.b"
+            },
+            {
+              "id": "c",
+              "cueId": "clear-space.allow.c"
+            }
+          ]
+        },
+        {
+          "id": "state",
+          "atMs": 615000,
+          "windowEndMs": 639000,
+          "meaning": "state",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "present-moment.notice-state.a"
+            },
+            {
+              "id": "b",
+              "cueId": "present-moment.notice-state.b"
+            },
+            {
+              "id": "c",
+              "cueId": "present-moment.notice-state.c"
+            }
+          ]
+        },
+        {
+          "id": "long-integration",
+          "atMs": 660000,
+          "windowEndMs": 700000,
+          "meaning": "integration",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.integration"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "atMs": 710000,
+          "windowEndMs": 734000,
+          "meaning": "return",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "present-moment.return.a"
+            }
+          ]
+        },
+        {
+          "id": "long-closing",
+          "atMs": 745000,
+          "windowEndMs": 780000,
+          "meaning": "closing",
+          "variants": [
+            {
+              "id": "a",
+              "cueId": "everyday-overload.long.closing"
+            }
+          ]
+        }
+      ],
+      "guidancePools": [],
+      "breaths": [],
+      "background": [],
+      "endBehavior": "daytime",
+      "resumeCheckpointsMs": [
+        3000, 60000, 105000, 165000, 235000, 275000, 335000, 405000, 455000, 510000, 565000, 615000,
+        660000, 710000, 745000
       ]
     }
   ],
@@ -4100,537 +4052,1124 @@
     {
       "id": "present-moment.purpose.a",
       "text": "На несколько минут отложи дела. Мы немного подышим вместе и обратим внимание на ощущения. Если ритм неудобен, можно дышать в своём темпе.",
-      "role": "purpose"
+      "role": "purpose",
+      "displayText": "Побудь здесь"
     },
     {
       "id": "present-moment.contact.a",
       "text": "Почувствуй опору под телом. Пусть поза будет удобной.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "present-moment.contact.b",
       "text": "Заметь, где тело касается опоры. Устройся без лишнего усилия.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "present-moment.contact.c",
       "text": "Найди удобное положение и почувствуй поверхность под собой.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "present-moment.technique.a",
       "text": "Спокойно вдохни носом, добавь маленький вдох. Затем мягко выпусти воздух через рот. Без усилия.",
-      "role": "technique"
+      "role": "technique",
+      "displayText": "Следуй за дыханием"
     },
     {
       "id": "present-moment.demo-in.a",
       "text": "Спокойный вдох. И ещё немного.",
-      "role": "demo-in"
+      "role": "demo-in",
+      "displayText": "Вдох"
     },
     {
       "id": "present-moment.demo-out.a",
       "text": "Мягко выдохни. Отпусти воздух.",
-      "role": "demo-out"
+      "role": "demo-out",
+      "displayText": "Выдох"
     },
     {
       "id": "present-moment.continue.a",
       "text": "Продолжай мягко, без лишнего усилия.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "present-moment.continue.b",
       "text": "Сохраняй удобную глубину дыхания.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "present-moment.continue.c",
       "text": "Пусть дыхание остаётся свободным.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "present-moment.last.a",
       "text": "Ещё одно повторение.",
-      "role": "last"
+      "role": "last",
+      "displayText": "Последний цикл"
     },
     {
       "id": "present-moment.natural.a",
       "text": "Теперь оставь этот ритм. Дыши как обычно. Несколько мгновений просто замечай ощущения.",
-      "role": "natural"
+      "role": "natural",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "present-moment.body-contact.a",
       "text": "Почувствуй места, где тело касается опоры. Не нужно ничего менять.",
-      "role": "body-contact"
+      "role": "body-contact",
+      "displayText": "Почувствуй тело"
     },
     {
       "id": "present-moment.body-contact.b",
       "text": "Обрати внимание на прикосновение опоры к телу. Просто замечай его.",
-      "role": "body-contact"
+      "role": "body-contact",
+      "displayText": "Почувствуй тело"
     },
     {
       "id": "present-moment.body-contact.c",
       "text": "Заметь контакт тела с поверхностью. Позволь ощущениям быть такими, какие они есть.",
-      "role": "body-contact"
+      "role": "body-contact",
+      "displayText": "Почувствуй тело"
     },
     {
       "id": "present-moment.open-attention.a",
       "text": "Теперь замечай и тело, и звуки вокруг. Не нужно выбирать что-то одно. Пусть внимание остаётся открытым.",
-      "role": "open-attention"
+      "role": "open-attention",
+      "displayText": "Заметь звуки вокруг"
     },
     {
       "id": "present-moment.notice-state.a",
       "text": "Заметь, как ты сейчас себя чувствуешь. Любой ответ подходит.",
-      "role": "notice-state"
+      "role": "notice-state",
+      "displayText": "Заметь своё состояние"
     },
     {
       "id": "present-moment.notice-state.b",
       "text": "Посмотри, какое состояние сейчас. Его не нужно оценивать.",
-      "role": "notice-state"
+      "role": "notice-state",
+      "displayText": "Заметь своё состояние"
     },
     {
       "id": "present-moment.notice-state.c",
       "text": "Обрати внимание на своё состояние, не требуя от себя перемен.",
-      "role": "notice-state"
+      "role": "notice-state",
+      "displayText": "Заметь своё состояние"
     },
     {
       "id": "present-moment.return.a",
       "text": "Снова почувствуй комнату вокруг. Если глаза были закрыты, открой их, когда будет удобно.",
-      "role": "return"
+      "role": "return",
+      "displayText": "Вернись к ощущениям"
     },
     {
       "id": "present-moment.finish.a",
       "text": "Практика закончена. Можно возвращаться к делам.",
-      "role": "finish"
+      "role": "finish",
+      "displayText": "Возвращайся к делам"
     },
     {
       "id": "clear-space.purpose.a",
       "text": "Иногда мысли продолжают звучать, даже когда дело уже отложено. В этой практике мы не будем искать решение. Сначала немного подышим вместе, а затем заметим, что происходит без нашего вмешательства.",
-      "role": "purpose"
+      "role": "purpose",
+      "displayText": "Побудь здесь"
     },
     {
       "id": "clear-space.orientation.a",
       "text": "Не нужно добиваться пустоты в голове. Достаточно дать себе немного времени.",
-      "role": "orientation"
+      "role": "orientation",
+      "displayText": "Заметь ощущения"
     },
     {
       "id": "clear-space.contact.a",
       "text": "Почувствуй опору под собой. Позволь плечам занять удобное положение.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "clear-space.contact.b",
       "text": "Заметь контакт тела с поверхностью. Устройся так, чтобы было удобно.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "clear-space.contact.c",
       "text": "Найди устойчивую, удобную позу. Почувствуй, на что опирается тело.",
-      "role": "contact"
+      "role": "contact",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "clear-space.technique.a",
       "text": "Сделаем спокойный вдох через нос и добавим ещё немного воздуха. Затем мягко выдохнем через рот. Если такой способ неудобен, оставайся на обычном дыхании.",
-      "role": "technique"
+      "role": "technique",
+      "displayText": "Следуй за дыханием"
     },
     {
       "id": "clear-space.continue.a",
       "text": "Продолжай в том же спокойном ритме.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "clear-space.continue.b",
       "text": "Сохраняй мягкость каждого движения дыхания.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "clear-space.continue.c",
       "text": "Дыши без усилия, следуя знакомому звуку.",
-      "role": "continue"
+      "role": "continue",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "clear-space.last.a",
       "text": "Последнее повторение.",
-      "role": "last"
+      "role": "last",
+      "displayText": "Последний цикл"
     },
     {
       "id": "clear-space.natural.a",
       "text": "Теперь отпусти заданный ритм. Пусть дыхание происходит само. Больше не нужно делать его глубже или длиннее.",
-      "role": "natural"
+      "role": "natural",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "clear-space.observe.a",
       "text": "Можно перестать следить за каждым вдохом. Замечай то, что само появляется в поле внимания: ощущение в теле, звук, мысль. Не нужно удерживать что-то одно.",
-      "role": "observe"
+      "role": "observe",
+      "displayText": "Наблюдай дыхание"
     },
     {
       "id": "clear-space.notice-contact.a",
       "text": "Почувствуй, как тело соприкасается с опорой. Дыхание при этом может оставаться обычным.",
-      "role": "notice-contact"
+      "role": "notice-contact",
+      "displayText": "Почувствуй прикосновения"
     },
     {
       "id": "clear-space.notice-contact.b",
       "text": "Заметь места контакта тела с поверхностью. Позволь дыханию идти своим чередом.",
-      "role": "notice-contact"
+      "role": "notice-contact",
+      "displayText": "Почувствуй прикосновения"
     },
     {
       "id": "clear-space.notice-contact.c",
       "text": "Обрати внимание на прикосновение опоры к телу. Не меняй ради этого дыхание.",
-      "role": "notice-contact"
+      "role": "notice-contact",
+      "displayText": "Почувствуй прикосновения"
     },
     {
       "id": "clear-space.thoughts.a",
       "text": "Если появляется мысль, можно просто заметить её. Не обязательно продолжать внутренний разговор или отталкивать его. Посмотри, что возникает следом.",
-      "role": "thoughts"
+      "role": "thoughts",
+      "displayText": "Заметь мысль и отпусти"
     },
     {
       "id": "clear-space.widen.a",
       "text": "Позволь вниманию стать чуть шире. Не нужно искать единственное правильное ощущение.",
-      "role": "widen"
+      "role": "widen",
+      "displayText": "Расширь внимание"
     },
     {
       "id": "clear-space.widen.b",
       "text": "Замечай происходящее целиком, насколько получается. Здесь нет одного правильного объекта внимания.",
-      "role": "widen"
+      "role": "widen",
+      "displayText": "Расширь внимание"
     },
     {
       "id": "clear-space.widen.c",
       "text": "Можно замечать сразу несколько ощущений. Не старайся выбрать среди них самое важное.",
-      "role": "widen"
+      "role": "widen",
+      "displayText": "Расширь внимание"
     },
     {
       "id": "clear-space.allow.a",
       "text": "Пусть мысли и ощущения сменяют друг друга. Просто замечай это движение.",
-      "role": "allow"
+      "role": "allow",
+      "displayText": "Останься в тишине"
     },
     {
       "id": "clear-space.allow.b",
       "text": "Замечай, как одно ощущение уступает место другому. Не нужно вмешиваться.",
-      "role": "allow"
+      "role": "allow",
+      "displayText": "Останься в тишине"
     },
     {
       "id": "clear-space.allow.c",
       "text": "Позволь происходящему меняться. Оставайся внимательным к тому, что есть сейчас.",
-      "role": "allow"
+      "role": "allow",
+      "displayText": "Останься в тишине"
     },
     {
       "id": "clear-space.return.a",
       "text": "Почувствуй опору ещё раз. Заметь пространство вокруг и звуки комнаты. Если глаза закрыты, можно спокойно открыть их.",
-      "role": "return"
+      "role": "return",
+      "displayText": "Вернись к ощущениям"
     },
     {
       "id": "clear-space.meaning.a",
       "text": "Следующее действие можно выбрать без спешки. Для этого не обязательно разобраться со всеми мыслями.",
-      "role": "meaning"
+      "role": "meaning",
+      "displayText": "Побудь с этим ощущением"
     },
     {
       "id": "clear-space.meaning.b",
       "text": "Можно перейти к одному следующему делу, оставив остальные мысли пока без ответа.",
-      "role": "meaning"
+      "role": "meaning",
+      "displayText": "Побудь с этим ощущением"
     },
     {
       "id": "clear-space.meaning.c",
       "text": "Дай себе время выбрать следующий шаг. Не каждую мысль нужно превращать в действие.",
-      "role": "meaning"
+      "role": "meaning",
+      "displayText": "Побудь с этим ощущением"
     },
     {
       "id": "clear-space.finish.a",
       "text": "На этом закончим.",
-      "role": "finish"
+      "role": "finish",
+      "displayText": "Возвращайся к делам"
     },
     {
       "id": "release-day.position.a",
       "text": "Устройся лёжа. Найди удобное положение для головы и рук. Если хочется что-то поправить, сделай это сейчас, не торопясь.",
-      "role": "position"
+      "role": "position",
+      "displayText": "Устройся удобно"
     },
     {
       "id": "release-day.support.a",
       "text": "Почувствуй поверхность под спиной. Позволь телу опираться на неё чуть полнее.",
-      "role": "support"
+      "role": "support",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "release-day.support.b",
       "text": "Заметь, как спина соприкасается с постелью. Почувствуй эту спокойную опору.",
-      "role": "support"
+      "role": "support",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "release-day.support.c",
       "text": "Обрати внимание на вес тела и поверхность под ним. Можно устроиться немного свободнее.",
-      "role": "support"
+      "role": "support",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "release-day.day.a",
       "text": "На сегодня можно оставить незаконченные дела. Сейчас не нужно искать для них решение. Это время для отдыха.",
-      "role": "day"
+      "role": "day",
+      "displayText": "Отпусти прошедший день"
     },
     {
       "id": "release-day.day.b",
       "text": "Всё, что ещё требует внимания, может немного подождать. Сейчас можно отложить решения и побыть в покое.",
-      "role": "day"
+      "role": "day",
+      "displayText": "Отпусти прошедший день"
     },
     {
       "id": "release-day.day.c",
       "text": "Не обязательно заканчивать день с ответами на все вопросы. Позволь делам пока остаться за пределами этой практики.",
-      "role": "day"
+      "role": "day",
+      "displayText": "Отпусти прошедший день"
     },
     {
       "id": "release-day.orientation.a",
       "text": "Сначала мы немного подышим вместе, а затем спокойно пройдём вниманием по телу.",
-      "role": "orientation"
+      "role": "orientation",
+      "displayText": "Заметь ощущения"
     },
     {
       "id": "release-day.observe.a",
       "text": "Обрати внимание на дыхание. Заметь, где его движение ощущается яснее всего. Ничего не меняй, просто побудь с этим ощущением.",
-      "role": "observe"
+      "role": "observe",
+      "displayText": "Наблюдай дыхание"
     },
     {
       "id": "release-day.technique.a",
       "text": "Попробуем вдох на четыре счёта и более длинный выдох на восемь. Не нужно набирать много воздуха или тянуть выдох через усилие. Если неудобно, дыши как обычно. Я покажу ритм.",
-      "role": "technique"
+      "role": "technique",
+      "displayText": "Следуй за дыханием"
     },
     {
       "id": "release-day.demo-in.a",
       "text": "Вдох. Два. Три. Четыре.",
-      "role": "demo-in"
+      "role": "demo-in",
+      "displayText": "Вдох"
     },
     {
       "id": "release-day.demo-out.a",
       "text": "Выдох. Два. Три. Четыре. Пять. Шесть. Семь. Восемь.",
-      "role": "demo-out"
+      "role": "demo-out",
+      "displayText": "Выдох"
     },
     {
       "id": "release-day.handover.a",
       "text": "Теперь продолжай по звуку, без усилия.",
-      "role": "handover"
+      "role": "handover",
+      "displayText": "Продолжай в этом ритме"
     },
     {
       "id": "release-day.ease.a",
       "text": "Пусть дыхание остаётся мягким и удобным.",
-      "role": "ease"
+      "role": "ease",
+      "displayText": "Мягкий выдох"
     },
     {
       "id": "release-day.ease.b",
       "text": "Сохраняй комфортную глубину каждого вдоха.",
-      "role": "ease"
+      "role": "ease",
+      "displayText": "Мягкий выдох"
     },
     {
       "id": "release-day.ease.c",
       "text": "Дыши свободно, не стараясь набрать больше воздуха.",
-      "role": "ease"
+      "role": "ease",
+      "displayText": "Мягкий выдох"
     },
     {
       "id": "release-day.steady.a",
       "text": "Можно просто следовать знакомому ритму.",
-      "role": "steady"
+      "role": "steady",
+      "displayText": "Сохраняй ровный ритм"
     },
     {
       "id": "release-day.steady.b",
       "text": "Продолжай спокойно, в том же удобном ритме.",
-      "role": "steady"
+      "role": "steady",
+      "displayText": "Сохраняй ровный ритм"
     },
     {
       "id": "release-day.steady.c",
       "text": "Оставайся с этим мягким движением дыхания.",
-      "role": "steady"
+      "role": "steady",
+      "displayText": "Сохраняй ровный ритм"
     },
     {
       "id": "release-day.two-left.a",
       "text": "Ещё два повторения.",
-      "role": "two-left"
+      "role": "two-left",
+      "displayText": "Ещё два цикла"
     },
     {
       "id": "release-day.one-left.a",
       "text": "И последнее.",
-      "role": "one-left"
+      "role": "one-left",
+      "displayText": "Последний цикл"
     },
     {
       "id": "release-day.natural.a",
       "text": "Теперь вернись к обычному дыханию. Больше не нужно следовать счёту или звуку. Пусть тело дышит само.",
-      "role": "natural"
+      "role": "natural",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "release-day.body-explain.a",
       "text": "Дальше мы будем замечать ощущения в разных частях тела. Двигаться не нужно. Если в какой-то области ничего не чувствуется, это тоже нормально. Просто следуй за голосом.",
-      "role": "body-explain"
+      "role": "body-explain",
+      "displayText": "Перенеси внимание в тело"
     },
     {
       "id": "release-day.back.a",
       "text": "Почувствуй спину там, где она касается поверхности. Заметь вес затылка. Не нужно усиливать эти ощущения. Достаточно обратить на них внимание.",
-      "role": "back"
+      "role": "back",
+      "displayText": "Почувствуй спину"
     },
     {
       "id": "release-day.face.a",
       "text": "Переведи внимание к лицу. Лоб, область вокруг глаз, щёки. Заметь положение челюсти. Пусть лицо остаётся таким, каким ему удобно быть.",
-      "role": "face"
+      "role": "face",
+      "displayText": "Расслабь лицо"
     },
     {
       "id": "release-day.neck.a",
       "text": "Теперь область шеи. Передняя поверхность, боковые стороны, место, где шея переходит в плечи. Просто замечай доступные ощущения.",
-      "role": "neck"
+      "role": "neck",
+      "displayText": "Почувствуй шею"
     },
     {
       "id": "release-day.shoulders.a",
       "text": "Почувствуй оба плеча. Есть ли здесь тепло, тяжесть, напряжение или что-то другое? Не нужно искать особое ощущение.",
-      "role": "shoulders"
+      "role": "shoulders",
+      "displayText": "Расслабь плечи"
     },
     {
       "id": "release-day.arms.a",
       "text": "Перенеси внимание в руки. Верхняя часть рук, локти, предплечья. Заметь, как они лежат. Можно ничего не поправлять.",
-      "role": "arms"
+      "role": "arms",
+      "displayText": "Почувствуй руки"
     },
     {
       "id": "release-day.hands.a",
       "text": "Теперь обе ладони и пальцы. Почувствуй их положение, прикосновение ткани или воздуха. Позволь вниманию немного задержаться здесь.",
-      "role": "hands"
+      "role": "hands",
+      "displayText": "Почувствуй ладони"
     },
     {
       "id": "release-day.chest.a",
       "text": "Обрати внимание на грудную клетку. Возможно, здесь заметно небольшое движение дыхания. Достаточно замечать это движение, не меняя дыхание.",
-      "role": "chest"
+      "role": "chest",
+      "displayText": "Почувствуй грудную клетку"
     },
     {
       "id": "release-day.torso.a",
       "text": "Теперь средняя часть спины и живот. Замечай опору, прикосновения, движение. Не нужно придавать этим ощущениям какой-то смысл.",
-      "role": "torso"
+      "role": "torso",
+      "displayText": "Почувствуй живот"
     },
     {
       "id": "release-day.autonomous-breath.a",
       "text": "Дыхание продолжается само. Можно замечать его, ничего не регулируя.",
-      "role": "autonomous-breath"
+      "role": "autonomous-breath",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "release-day.autonomous-breath.b",
       "text": "Не нужно помогать дыханию. Позволь ему идти своим чередом.",
-      "role": "autonomous-breath"
+      "role": "autonomous-breath",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "release-day.autonomous-breath.c",
       "text": "Тело дышит без дополнительных усилий. Просто замечай это, если хочется.",
-      "role": "autonomous-breath"
+      "role": "autonomous-breath",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "release-day.pelvis.a",
       "text": "Переведи внимание к нижней части живота и области таза. Почувствуй вес тела в этом месте и поверхность под ним.",
-      "role": "pelvis"
+      "role": "pelvis",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "release-day.legs.a",
       "text": "Теперь обе ноги. Бёдра, колени, голени. Замечай ощущения по мере того, как внимание проходит вниз. Здесь тоже ничего не нужно менять.",
-      "role": "legs"
+      "role": "legs",
+      "displayText": "Почувствуй ноги"
     },
     {
       "id": "release-day.feet.a",
       "text": "Теперь почувствуй пятки и пальцы ног. Заметь, чего они касаются. Позволь ногам оставаться в удобном положении.",
-      "role": "feet"
+      "role": "feet",
+      "displayText": "Почувствуй стопы"
     },
     {
       "id": "release-day.whole.a",
       "text": "Теперь почувствуй тело целиком. От головы до стоп. Все эти ощущения могут быть здесь одновременно. Не нужно удерживать каждое из них.",
-      "role": "whole"
+      "role": "whole",
+      "displayText": "Почувствуй тело целиком"
     },
     {
       "id": "release-day.release-effort.a",
       "text": "Можно отпустить даже старание следовать практике. Пусть внимание отдыхает вместе с телом.",
-      "role": "release-effort"
+      "role": "release-effort",
+      "displayText": "Отпусти усилие"
     },
     {
       "id": "release-day.release-effort.b",
       "text": "Больше не нужно стараться делать что-то правильно. Позволь и телу, и вниманию отдохнуть.",
-      "role": "release-effort"
+      "role": "release-effort",
+      "displayText": "Отпусти усилие"
     },
     {
       "id": "release-day.release-effort.c",
       "text": "Если внимание становится рассеянным, не нужно его собирать. Можно просто оставаться в покое.",
-      "role": "release-effort"
+      "role": "release-effort",
+      "displayText": "Отпусти усилие"
     },
     {
       "id": "release-day.remain.a",
       "text": "Дальше можно никуда не направлять внимание. Пусть дыхание продолжается, а тело отдыхает так, как ему удобно.",
-      "role": "remain"
+      "role": "remain",
+      "displayText": "Останься в покое"
     },
     {
       "id": "release-day.end.a",
       "text": "На этом я закончу. Оставайся в покое.",
-      "role": "end"
-    },
-    {
-      "id": "training.intro.in.a",
-      "text": "Сядь удобно. Мы сделаем короткие паузы после мягкого вдоха. Между сериями будет время дышать свободно.",
-      "role": "intro"
-    },
-    {
-      "id": "training.intro.out.a",
-      "text": "Сядь удобно. Мы сделаем короткие паузы после спокойного выдоха. Между сериями будет время дышать свободно.",
-      "role": "intro"
+      "role": "end",
+      "displayText": "Отдыхай"
     },
     {
       "id": "training.safety.a",
       "text": "Не вдыхай и не выдыхай до предела. Если закружится голова или станет трудно дышать, остановись и дыши как обычно.",
-      "role": "safety"
-    },
-    {
-      "id": "training.method.in.a",
-      "text": "Вдох, короткая пауза, выдох и свободное дыхание. Пауза необязательна. Начнём.",
-      "role": "method"
-    },
-    {
-      "id": "training.method.out.a",
-      "text": "Вдох, выдох, короткая пауза и свободное дыхание. Пауза необязательна. Начнём.",
-      "role": "method"
+      "role": "safety",
+      "displayText": ""
     },
     {
       "id": "training.inhale.a",
       "text": "Вдох.",
-      "role": "inhale"
+      "role": "inhale",
+      "displayText": "Вдох"
     },
     {
       "id": "training.hold.a",
       "text": "Пауза.",
-      "role": "hold"
+      "role": "hold",
+      "displayText": "Пауза"
     },
     {
       "id": "training.exhale.a",
       "text": "Выдох.",
-      "role": "exhale"
+      "role": "exhale",
+      "displayText": "Выдох"
     },
     {
       "id": "training.recovery.a",
       "text": "Дыши свободно.",
-      "role": "recovery"
+      "role": "recovery",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "training.break.a",
       "text": "Серия завершена. Отпусти ритм и дыши как обычно.",
-      "role": "break"
+      "role": "break",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "training.break.b",
       "text": "Почувствуй опору под телом. Не нужно следить за секундами.",
-      "role": "break"
+      "role": "break",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "training.break.c",
       "text": "Скоро начнём следующую серию. Паузы по-прежнему можно пропускать.",
-      "role": "break"
+      "role": "break",
+      "displayText": "Почувствуй опору"
     },
     {
       "id": "training.outro.a",
       "text": "Все серии завершены. Теперь просто дыши естественно.",
-      "role": "outro"
+      "role": "outro",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "training.outro.b",
       "text": "Заметь, как воздух входит и выходит без команды.",
-      "role": "outro"
+      "role": "outro",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "training.outro.c",
       "text": "Позволь плечам расслабиться. Можно побыть в спокойном дыхании.",
-      "role": "outro"
+      "role": "outro",
+      "displayText": "Дышите естественно"
     },
     {
       "id": "training.finish.a",
       "text": "На этом практика завершена. Возвращайся к делам без спешки.",
+      "role": "finish",
+      "displayText": "Возвращайся к делам"
+    },
+    {
+      "id": "present-moment.support-breathing.1",
+      "text": "Пусть выдох проходит мягко и ровно.",
+      "displayText": "Мягкий выдох",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.support-breathing.2",
+      "text": "Замечай, как воздух движется с каждым вдохом.",
+      "displayText": "Заметь движение воздуха",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.support-attention.1",
+      "text": "Почувствуй вес ладоней. Просто побудь с этим ощущением.",
+      "displayText": "Почувствуй ладони",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.support-attention.2",
+      "text": "Заметь ближайший звук. Дай ему появиться и стихнуть.",
+      "displayText": "Прислушайся к звукам",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.support-attention.3",
+      "text": "Почувствуй стопы и поверхность под ними.",
+      "displayText": "Почувствуй стопы",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.support-attention.4",
+      "text": "Верни внимание к тому месту, где тело касается опоры.",
+      "displayText": "Почувствуй опору",
+      "role": "support"
+    },
+    {
+      "id": "present-moment.opening.b",
+      "text": "Удели эти несколько минут себе. Почувствуй опору и приготовься дышать вместе со мной.",
+      "displayText": "Побудь здесь",
+      "role": "purpose"
+    },
+    {
+      "id": "present-moment.closing.b",
+      "text": "Почувствуй себя здесь и возвращайся к делам.",
+      "displayText": "Возвращайся к делам",
       "role": "finish"
+    },
+    {
+      "id": "clear-space.support-breathing.1",
+      "text": "Замечай переход от вдоха к выдоху.",
+      "displayText": "Следуй за дыханием",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.support-breathing.2",
+      "text": "Отпусти воздух и дай начаться новому вдоху.",
+      "displayText": "Мягкий выдох",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.support-attention.1",
+      "text": "Заметь, где сейчас внимание. Мягко верни его к ощущениям.",
+      "displayText": "Вернись к ощущениям",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.support-attention.2",
+      "text": "Пусть мысль проходит, а внимание остаётся открытым.",
+      "displayText": "Отпусти мысль",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.support-attention.3",
+      "text": "Прислушайся к звукам за пределами комнаты.",
+      "displayText": "Расширь внимание",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.support-attention.4",
+      "text": "Почувствуй пространство вокруг тела, ничего не выбирая.",
+      "displayText": "Почувствуй пространство",
+      "role": "support"
+    },
+    {
+      "id": "clear-space.opening.b",
+      "text": "Оставь задачу на несколько минут. Мы подышим вместе и дадим вниманию немного пространства.",
+      "displayText": "Освободи внимание",
+      "role": "purpose"
+    },
+    {
+      "id": "clear-space.closing.b",
+      "text": "Возвращайся к делам.",
+      "displayText": "Возвращайся к делам",
+      "role": "finish"
+    },
+    {
+      "id": "release-day.support-breathing.1",
+      "text": "Пусть выдох будет плавным, а плечи тяжелеют.",
+      "displayText": "Мягкий выдох",
+      "role": "support"
+    },
+    {
+      "id": "release-day.support-breathing.2",
+      "text": "Следуй за дыханием, отпуская лишнее усилие.",
+      "displayText": "Отпусти усилие",
+      "role": "support"
+    },
+    {
+      "id": "release-day.support-attention.1",
+      "text": "Почувствуй, как опора принимает вес твоего тела.",
+      "displayText": "Почувствуй опору",
+      "role": "support"
+    },
+    {
+      "id": "release-day.support-attention.2",
+      "text": "Заметь тепло ладоней и дай пальцам отдохнуть.",
+      "displayText": "Расслабь ладони",
+      "role": "support"
+    },
+    {
+      "id": "release-day.support-attention.3",
+      "text": "Позволь звукам быть далеко. Сейчас можно просто отдыхать.",
+      "displayText": "Останься в покое",
+      "role": "support"
+    },
+    {
+      "id": "release-day.support-attention.4",
+      "text": "Почувствуй мягкость лица и тяжесть век.",
+      "displayText": "Расслабь лицо",
+      "role": "support"
+    },
+    {
+      "id": "release-day.opening.b",
+      "text": "Устройся для отдыха. Этот день уже позади. Сейчас побудем с дыханием и ощущениями тела.",
+      "displayText": "Устройся для отдыха",
+      "role": "purpose"
+    },
+    {
+      "id": "release-day.closing.b",
+      "text": "Оставь внимание в покое. Пусть ночь продолжается мягко, а тело отдыхает.",
+      "displayText": "Отдыхай",
+      "role": "finish"
+    },
+    {
+      "id": "after-conversation.purpose.a",
+      "text": "Разговор закончился. Эти несколько минут можно оставить себе. Почувствуй, где ты сейчас.",
+      "displayText": "Побудь здесь",
+      "role": "purpose"
+    },
+    {
+      "id": "after-conversation.purpose.b",
+      "text": "Оставь слова разговора на время. Сейчас внимание возвращается к тебе и к тому, что вокруг.",
+      "displayText": "Побудь здесь",
+      "role": "purpose"
+    },
+    {
+      "id": "after-conversation.contact.a",
+      "text": "Почувствуй стопы и вес тела. Заметь поверхность, которая тебя поддерживает.",
+      "displayText": "Почувствуй опору",
+      "role": "contact"
+    },
+    {
+      "id": "after-conversation.contact.b",
+      "text": "Заметь прикосновение одежды и опоры. Побудь с одним из этих простых ощущений.",
+      "displayText": "Почувствуй опору",
+      "role": "contact"
+    },
+    {
+      "id": "after-conversation.settle.a",
+      "text": "Понаблюдай за одним вдохом и выдохом. Дыхание движется само. Просто замечай это движение.",
+      "displayText": "Дышите естественно",
+      "role": "settle"
+    },
+    {
+      "id": "after-conversation.notice.a",
+      "text": "Возможно, разговор ещё отзывается в теле. Найди одно ощущение и побудь рядом с ним.",
+      "displayText": "Заметь ощущение",
+      "role": "notice"
+    },
+    {
+      "id": "after-conversation.notice.b",
+      "text": "Заметь, где внимание сейчас задерживается. Перенеси его к ладоням и почувствуй их вес.",
+      "displayText": "Заметь ощущение",
+      "role": "notice"
+    },
+    {
+      "id": "after-conversation.allow.a",
+      "text": "Пусть ощущения меняются в своём темпе. Сейчас не нужно продолжать разговор внутри.",
+      "displayText": "Останься с ощущениями",
+      "role": "allow"
+    },
+    {
+      "id": "after-conversation.allow.b",
+      "text": "Оставь желание подобрать новый ответ. На этот выдох вернись к ощущению опоры.",
+      "displayText": "Останься с ощущениями",
+      "role": "allow"
+    },
+    {
+      "id": "after-conversation.sensations.a",
+      "text": "Заметь обе ладони. Тепло, прохладу, прикосновение. Внимание может оставаться здесь.",
+      "displayText": "Почувствуй ладони",
+      "role": "sensations"
+    },
+    {
+      "id": "after-conversation.return.a",
+      "text": "Если вспоминаются слова, замечай их и возвращайся к ближайшему выдоху.",
+      "displayText": "Вернись к дыханию",
+      "role": "return"
+    },
+    {
+      "id": "after-conversation.return.b",
+      "text": "Мысль может снова прийти. Дай ей пройти и почувствуй стопы на опоре.",
+      "displayText": "Вернись к дыханию",
+      "role": "return"
+    },
+    {
+      "id": "after-conversation.space.a",
+      "text": "Прислушайся к звукам вокруг. Между тобой и прошедшим разговором появляется пространство.",
+      "displayText": "Прислушайся к звукам",
+      "role": "space"
+    },
+    {
+      "id": "after-conversation.widen.a",
+      "text": "Теперь почувствуй тело целиком. Опору под ним и воздух вокруг. Побудь здесь.",
+      "displayText": "Почувствуй тело целиком",
+      "role": "widen"
+    },
+    {
+      "id": "after-conversation.widen.b",
+      "text": "Соедини внимание к дыханию, ладоням и стопам. Пусть они остаются в одном поле внимания.",
+      "displayText": "Почувствуй тело целиком",
+      "role": "widen"
+    },
+    {
+      "id": "after-conversation.carry.a",
+      "text": "Заметь, как ты чувствуешь себя сейчас. Не нужно сравнивать с началом. Достаточно заметить.",
+      "displayText": "Заметь своё состояние",
+      "role": "carry"
+    },
+    {
+      "id": "after-conversation.finish.a",
+      "text": "Почувствуй опору ещё раз. Посмотри вокруг и возвращайся к своему дню.",
+      "displayText": "Возвращайся к делам",
+      "role": "finish"
+    },
+    {
+      "id": "after-conversation.finish.b",
+      "text": "Сделай обычный вдох и выдох. Сохрани внимание к себе и возвращайся к делам.",
+      "displayText": "Возвращайся к делам",
+      "role": "finish"
+    },
+    {
+      "id": "release-thought.purpose.a",
+      "text": "Иногда мысль возвращается снова и снова. Сейчас побудем с вниманием, не продолжая её историю.",
+      "displayText": "Побудь здесь",
+      "role": "purpose"
+    },
+    {
+      "id": "release-thought.purpose.b",
+      "text": "На несколько минут оставь поиск ответа. Заметь, что кроме мысли есть дыхание, тело и звуки.",
+      "displayText": "Побудь здесь",
+      "role": "purpose"
+    },
+    {
+      "id": "release-thought.contact.a",
+      "text": "Почувствуй, как тело касается опоры. Выбери одно место прикосновения и задержи там внимание.",
+      "displayText": "Почувствуй опору",
+      "role": "contact"
+    },
+    {
+      "id": "release-thought.contact.b",
+      "text": "Заметь вес тела и положение стоп. Эти ощущения остаются здесь, пока мысли меняются.",
+      "displayText": "Почувствуй опору",
+      "role": "contact"
+    },
+    {
+      "id": "release-thought.settle.a",
+      "text": "Проследи за обычным вдохом и выдохом. Заметь движение воздуха, не меняя его ритм.",
+      "displayText": "Наблюдай дыхание",
+      "role": "settle"
+    },
+    {
+      "id": "release-thought.notice.a",
+      "text": "Когда мысль появляется, просто отметь: это мысль. На мгновение оставь её содержание в стороне.",
+      "displayText": "Заметь мысль",
+      "role": "notice"
+    },
+    {
+      "id": "release-thought.notice.b",
+      "text": "Заметь начало внутренней фразы. Можно увидеть её появление, не подбирая продолжение.",
+      "displayText": "Заметь мысль",
+      "role": "notice"
+    },
+    {
+      "id": "release-thought.allow.a",
+      "text": "Представь, что мысль проходит, как звук. Она появилась и может постепенно стихнуть.",
+      "displayText": "Отпусти продолжение",
+      "role": "allow"
+    },
+    {
+      "id": "release-thought.allow.b",
+      "text": "Мысль не требует ответа прямо сейчас. Дай вниманию вернуться к прикосновению опоры.",
+      "displayText": "Отпусти продолжение",
+      "role": "allow"
+    },
+    {
+      "id": "release-thought.sensations.a",
+      "text": "Перенеси внимание к ладоням. Почувствуй тепло или прикосновение. Побудь с этим несколько дыханий.",
+      "displayText": "Почувствуй ладони",
+      "role": "sensations"
+    },
+    {
+      "id": "release-thought.return.a",
+      "text": "Внимание может снова уйти за мыслью. Заметь этот момент и вернись к одному ощущению тела.",
+      "displayText": "Вернись к ощущениям",
+      "role": "return"
+    },
+    {
+      "id": "release-thought.return.b",
+      "text": "Каждое возвращение — новое начало. Почувствуй опору и ближайший выдох.",
+      "displayText": "Вернись к ощущениям",
+      "role": "return"
+    },
+    {
+      "id": "release-thought.space.a",
+      "text": "Теперь прислушайся к звукам. Замечай их начало и конец, оставляя между ними пространство.",
+      "displayText": "Прислушайся к звукам",
+      "role": "space"
+    },
+    {
+      "id": "release-thought.widen.a",
+      "text": "Пусть в поле внимания будут и звуки, и тело, и дыхание. Мысль может быть одной из этих деталей.",
+      "displayText": "Расширь внимание",
+      "role": "widen"
+    },
+    {
+      "id": "release-thought.widen.b",
+      "text": "Почувствуй тело целиком. Заметь пространство вокруг и позволь вниманию стать шире.",
+      "displayText": "Расширь внимание",
+      "role": "widen"
+    },
+    {
+      "id": "release-thought.carry.a",
+      "text": "Побудь с этим открытым вниманием. Можно возвращаться к нему через одно простое ощущение.",
+      "displayText": "Побудь в тишине",
+      "role": "carry"
+    },
+    {
+      "id": "release-thought.finish.a",
+      "text": "Почувствуй стопы и посмотри вокруг. Возвращайся к делам, сохраняя немного этого пространства.",
+      "displayText": "Возвращайся к делам",
+      "role": "finish"
+    },
+    {
+      "id": "release-thought.finish.b",
+      "text": "Заметь, что здесь сейчас. Сделай обычный вдох и возвращайся к своему дню.",
+      "displayText": "Возвращайся к делам",
+      "role": "finish"
+    },
+    {
+      "id": "after-conversation.long.opening",
+      "text": "После сложного разговора слова могут ещё звучать внутри. Ум ищет ответ, тело сохраняет напряжение. В этой практике мы дадим себе время почувствовать опору и увидеть, что происходит сейчас.",
+      "displayText": "Побудь здесь",
+      "role": "opening"
+    },
+    {
+      "id": "after-conversation.long.frame",
+      "text": "Разговор уже закончился, а его переживание может продолжаться. Заметь, что осталось: образ, фраза, ощущение в теле. Дай этому место в поле внимания, рядом с дыханием и опорой.",
+      "displayText": "Заметь своё состояние",
+      "role": "frame"
+    },
+    {
+      "id": "after-conversation.long.process",
+      "text": "Когда приходит воспоминание, тихо отметь: вспоминаю. Когда подбираешь ответ: обдумываю. После этого почувствуй прикосновение опоры. Пусть мысль и ощущение существуют рядом.",
+      "displayText": "Заметь мысль",
+      "role": "process"
+    },
+    {
+      "id": "after-conversation.long.values",
+      "text": "Ощущение может меняться, пока ты наблюдаешь. У него есть место в теле, а вокруг остаётся пространство. Побудь с этим пространством. Дай следующему вдоху произойти в своём ритме.",
+      "displayText": "Почувствуй опору",
+      "role": "values"
+    },
+    {
+      "id": "after-conversation.long.integration",
+      "text": "Теперь заметь, что для тебя важно в этом разговоре. Достаточно одного слова или короткой фразы. Оставь её здесь и снова почувствуй стопы. К дальнейшему решению можно вернуться позже.",
+      "displayText": "Заметь, что важно",
+      "role": "integration"
+    },
+    {
+      "id": "after-conversation.long.closing",
+      "text": "Эта пауза оставляет место и для переживания, и для следующего шага. Заметь, с каким вниманием ты возвращаешься к своему дню. Сохрани ощущение опоры. Спасибо за это время с собой.",
+      "displayText": "Возвращайся к своему дню",
+      "role": "closing"
+    },
+    {
+      "id": "release-thought.long.opening",
+      "text": "Иногда ум возвращается к одному вопросу снова и снова. Мысль занимает всё внимание, хотя новых ответов пока нет. В этой практике мы будем замечать её появление и возвращаться к более широкому опыту.",
+      "displayText": "Побудь здесь",
+      "role": "opening"
+    },
+    {
+      "id": "release-thought.long.frame",
+      "text": "Понаблюдай, как возникает мысль. Она может быть фразой, картинкой или ожиданием. Назови её про себя: мысль. Затем почувствуй ближайший выдох. Побудь с тем, что доступно прямо сейчас.",
+      "displayText": "Заметь мысль",
+      "role": "frame"
+    },
+    {
+      "id": "release-thought.long.process",
+      "text": "У этой мысли может быть важная тема. Сейчас дай ей быть одной частью происходящего. Рядом есть звуки, прикосновение одежды, движение дыхания. Замечай, как внимание переходит между ними.",
+      "displayText": "Расширь внимание",
+      "role": "process"
+    },
+    {
+      "id": "release-thought.long.observe",
+      "text": "Ты можешь снова обнаружить себя внутри знакомой истории. Сам момент, когда ты это замечаешь, уже является возвращением. Почувствуй одно касание тела и задержись с ним на несколько дыханий.",
+      "displayText": "Вернись к ощущениям",
+      "role": "observe"
+    },
+    {
+      "id": "release-thought.long.integration",
+      "text": "Теперь заметь, есть ли у этого вопроса один конкретный следующий шаг. Если он появился, достаточно его запомнить. Остальное оставь на потом и ещё немного побудь с телом и звуками.",
+      "displayText": "Побудь с вниманием",
+      "role": "integration"
+    },
+    {
+      "id": "release-thought.long.closing",
+      "text": "Мысли могут возвращаться и после практики. Вместе с ними доступно ощущение опоры, дыхание, пространство вокруг. К этому опыту можно обращаться снова. Побудь здесь ещё один выдох. Спасибо.",
+      "displayText": "Возвращайся к своему дню",
+      "role": "closing"
+    },
+    {
+      "id": "everyday-overload.long.opening",
+      "text": "Сообщения, дела, просьбы. Иногда кажется, что всё требует внимания одновременно. Эти минуты можно посвятить себе. Мы почувствуем опору, понаблюдаем за дыханием и дадим вниманию собраться вокруг одного простого ощущения.",
+      "displayText": "Побудь здесь",
+      "role": "opening"
+    },
+    {
+      "id": "everyday-overload.long.frame",
+      "text": "Заметь, как сейчас ощущается спешка. Может быть, она слышна в мыслях или чувствуется в плечах, руках, животе. Выбери одно заметное ощущение и некоторое время просто побудь рядом с ним.",
+      "displayText": "Заметь ощущение",
+      "role": "frame"
+    },
+    {
+      "id": "everyday-overload.long.values",
+      "text": "Пусть дыхание движется самостоятельно. Один вдох, один выдох. В этот момент перед тобой только это движение. Почувствуй, как тело поддерживает себя без списка задач и напоминаний.",
+      "displayText": "Дыши естественно",
+      "role": "values"
+    },
+    {
+      "id": "everyday-overload.long.process",
+      "text": "Когда вспоминается дело, отметь: планирую. Затем почувствуй опору под стопами или ладонями. Так можно замечать задачи и оставаться в настоящем моменте. Побудь с этим несколько дыханий.",
+      "displayText": "Заметь мысли",
+      "role": "process"
+    },
+    {
+      "id": "everyday-overload.long.integration",
+      "text": "Из всего, что ждёт тебя сегодня, выбери один небольшой следующий шаг. Такой, который можно назвать простыми словами. Остальным делам пока оставь их очередь. Почувствуй опору и ближайший выдох.",
+      "displayText": "Один следующий шаг",
+      "role": "integration"
+    },
+    {
+      "id": "everyday-overload.long.closing",
+      "text": "Заметь пространство вокруг и положение тела. Возвращаясь к делам, сохрани этот простой ориентир: одно действие, затем следующее. Ты можешь снова сделать паузу и почувствовать опору. Спасибо за практику.",
+      "displayText": "Возвращайся к своему дню",
+      "role": "closing"
+    },
+    {
+      "id": "training.intro.balanced.a",
+      "text": "Сядь удобно. Потренируем плавный ритм дыхания с короткими паузами после вдоха и выдоха.",
+      "role": "intro",
+      "displayText": "Устройся удобно"
+    },
+    {
+      "id": "training.intro.balanced.b",
+      "text": "Устройся удобно. В каждой серии будут мягкий вдох, плавный выдох и две короткие паузы.",
+      "role": "intro",
+      "displayText": "Устройся удобно"
+    },
+    {
+      "id": "training.method.balanced.a",
+      "text": "Вдох четыре секунды. Пауза две секунды. Выдох шесть секунд. Ещё одна пауза на две секунды. Дыши свободно.",
+      "role": "method",
+      "displayText": "Следуй за дыханием"
+    },
+    {
+      "id": "training.method.balanced.b",
+      "text": "Четыре секунды на вдох. Две на паузу. Шесть на выдох. Ещё две на паузу. Затем свободное дыхание.",
+      "role": "method",
+      "displayText": "Следуй за дыханием"
+    },
+    {
+      "id": "training.inhale.b",
+      "text": "Мягкий вдох носом.",
+      "role": "inhale",
+      "displayText": "Мягкий вдох"
+    },
+    {
+      "id": "training.exhale.b",
+      "text": "Плавный выдох.",
+      "role": "exhale",
+      "displayText": "Плавный выдох"
     }
   ],
   "categories": [
@@ -4654,8 +5193,8 @@
     },
     {
       "id": "breath-training",
-      "title": "Паузы дыхания",
-      "subtitle": "Короткие паузы с длительным восстановлением",
+      "title": "Тренировать дыхание",
+      "subtitle": "Ровный ритм с короткими паузами",
       "artwork": "images/practices/abstract-present.webp"
     }
   ]
