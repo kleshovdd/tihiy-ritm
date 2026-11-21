@@ -28,6 +28,12 @@
       "displayName": "Антон",
       "status": "ready",
       "previewCueId": "sleep-478.heavy-soft.a"
+    },
+    {
+      "id": "viktoriya",
+      "displayName": "Виктория",
+      "status": "ready",
+      "previewCueId": "sleep-478.heavy-soft.a"
     }
   ],
   "cues": [
@@ -187,28 +193,8 @@
       "role": "inhale-nose"
     },
     {
-      "id": "common.inhale-nose.b",
-      "text": "Вдыхаем носом.",
-      "role": "inhale-nose"
-    },
-    {
-      "id": "common.inhale-nose.c",
-      "text": "Носом — вдох.",
-      "role": "inhale-nose"
-    },
-    {
-      "id": "common.exhale-mouth.a",
-      "text": "Выдох ртом.",
-      "role": "exhale-mouth"
-    },
-    {
       "id": "common.exhale-mouth.b",
       "text": "Выдыхаем ртом.",
-      "role": "exhale-mouth"
-    },
-    {
-      "id": "common.exhale-mouth.c",
-      "text": "Ртом — выдох.",
       "role": "exhale-mouth"
     },
     {
@@ -607,16 +593,6 @@
       "role": "deep-belly"
     },
     {
-      "id": "focus-vase.deep-belly.b",
-      "text": "Глубоко вдохните через нос, вниз, в живот.",
-      "role": "deep-belly"
-    },
-    {
-      "id": "focus-vase.deep-belly.c",
-      "text": "Вдохните носом глубоко, так, чтобы воздух дошёл до живота.",
-      "role": "deep-belly"
-    },
-    {
       "id": "focus-vase.tire.a",
       "text": "И выдохните легко, как будто из шарика выпускают воздух.",
       "role": "tire"
@@ -862,11 +838,6 @@
       "role": "sigh-up-2"
     },
     {
-      "id": "relax-sigh.sigh-up-2.b",
-      "text": "Ещё глоток воздуха… и выдохните.",
-      "role": "sigh-up-2"
-    },
-    {
       "id": "relax-sigh.sigh-up-2.c",
       "text": "Добавьте ещё… и выдох.",
       "role": "sigh-up-2"
@@ -1097,16 +1068,6 @@
       "role": "relax-wrists"
     },
     {
-      "id": "release-full-body.fill-up.a",
-      "text": "Глубокий вдох — наберите полные лёгкие.",
-      "role": "fill-up"
-    },
-    {
-      "id": "release-full-body.fill-up.b",
-      "text": "Вдохните полностью, до самого верха.",
-      "role": "fill-up"
-    },
-    {
       "id": "release-full-body.fill-up.c",
       "text": "Глубокий вдох до самого конца.",
       "role": "fill-up"
@@ -1271,7 +1232,7 @@
       "categoryId": "sleep",
       "kind": "breathing",
       "intent": "sleep",
-      "shortDescription": "Вдох на четыре, задержка на семь, выдох на восемь. Такой ритм успокаивает мысли и помогает телу расслабиться перед сном.",
+      "shortDescription": "Спокойное дыхание перед сном. Помогает отпустить прошедший день, успокоить мысли и мягко уснуть.",
       "tags": ["4-7-8", "сон"],
       "artwork": "images/practices/abstract-sleep.webp",
       "backgroundProfile": "ambient-library",
@@ -1541,7 +1502,7 @@
         {
           "id": "welcome",
           "atMs": 10000,
-          "windowEndMs": 16000,
+          "windowEndMs": 16427,
           "meaning": "Поприветствовать перед сном",
           "variants": [
             {
@@ -1561,7 +1522,7 @@
         {
           "id": "purpose",
           "atMs": 17000,
-          "windowEndMs": 27000,
+          "windowEndMs": 27642,
           "meaning": "Объяснить цель: тише мысли, мягче тело, ближе сон",
           "variants": [
             {
@@ -1641,7 +1602,7 @@
         {
           "id": "cleansing-1",
           "atMs": 57169,
-          "windowEndMs": 66000,
+          "windowEndMs": 67182,
           "meaning": "Первый очищающий вдох и полный выдох ртом",
           "variants": [
             {
@@ -1660,8 +1621,8 @@
         },
         {
           "id": "cleansing-2",
-          "atMs": 66000,
-          "windowEndMs": 76000,
+          "atMs": 67182,
+          "windowEndMs": 76910,
           "meaning": "Ещё два таких вдоха",
           "variants": [
             {
@@ -1680,8 +1641,8 @@
         },
         {
           "id": "cleansing-3",
-          "atMs": 76000,
-          "windowEndMs": 88000,
+          "atMs": 76910,
+          "windowEndMs": 88910,
           "meaning": "Последний очищающий вдох",
           "variants": [
             {
@@ -1707,14 +1668,6 @@
             {
               "id": "a",
               "cueId": "common.inhale-nose.a"
-            },
-            {
-              "id": "b",
-              "cueId": "common.inhale-nose.b"
-            },
-            {
-              "id": "c",
-              "cueId": "common.inhale-nose.c"
             }
           ]
         },
@@ -1753,10 +1706,6 @@
               "cueId": "common.hold.a"
             },
             {
-              "id": "b",
-              "cueId": "common.hold.b"
-            },
-            {
               "id": "c",
               "cueId": "common.hold.c"
             }
@@ -1777,7 +1726,7 @@
         {
           "id": "count-hold-0-1",
           "atMs": 101000,
-          "windowEndMs": 101977,
+          "windowEndMs": 102000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
             {
@@ -1825,26 +1774,18 @@
         {
           "id": "out-0",
           "atMs": 105000,
-          "windowEndMs": 107128,
+          "windowEndMs": 107000,
           "meaning": "Выдох ртом",
           "variants": [
             {
-              "id": "a",
-              "cueId": "common.exhale-mouth.a"
-            },
-            {
               "id": "b",
               "cueId": "common.exhale-mouth.b"
-            },
-            {
-              "id": "c",
-              "cueId": "common.exhale-mouth.c"
             }
           ]
         },
         {
           "id": "count-out-0-0",
-          "atMs": 107128,
+          "atMs": 107000,
           "windowEndMs": 108000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
@@ -1869,7 +1810,7 @@
         {
           "id": "count-out-0-2",
           "atMs": 109000,
-          "windowEndMs": 109977,
+          "windowEndMs": 110000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
             {
@@ -1969,10 +1910,6 @@
               "cueId": "common.hold.a"
             },
             {
-              "id": "b",
-              "cueId": "common.hold.b"
-            },
-            {
               "id": "c",
               "cueId": "common.hold.c"
             }
@@ -1993,7 +1930,7 @@
         {
           "id": "count-hold-1-1",
           "atMs": 120000,
-          "windowEndMs": 120977,
+          "windowEndMs": 121000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
             {
@@ -2061,7 +1998,7 @@
         {
           "id": "count-out-1-0",
           "atMs": 126000,
-          "windowEndMs": 126950,
+          "windowEndMs": 127000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
             {
@@ -2085,7 +2022,7 @@
         {
           "id": "count-out-1-2",
           "atMs": 128000,
-          "windowEndMs": 128977,
+          "windowEndMs": 129000,
           "meaning": "Обратный отсчёт секунд фазы",
           "variants": [
             {
@@ -2153,16 +2090,12 @@
         {
           "id": "hold-2",
           "atMs": 136000,
-          "windowEndMs": 138151,
+          "windowEndMs": 138000,
           "meaning": "Задержка",
           "variants": [
             {
               "id": "a",
               "cueId": "common.hold.a"
-            },
-            {
-              "id": "b",
-              "cueId": "common.hold.b"
             },
             {
               "id": "c",
@@ -2233,16 +2166,12 @@
         {
           "id": "hold-3",
           "atMs": 155000,
-          "windowEndMs": 157151,
+          "windowEndMs": 157000,
           "meaning": "Задержка",
           "variants": [
             {
               "id": "a",
               "cueId": "common.hold.a"
-            },
-            {
-              "id": "b",
-              "cueId": "common.hold.b"
             },
             {
               "id": "c",
@@ -2404,7 +2333,7 @@
       ],
       "endBehavior": "quiet",
       "resumeCheckpointsMs": [
-        0, 10000, 17000, 28000, 39000, 49000, 57169, 66000, 76000, 186000, 192000, 211000, 312000,
+        0, 10000, 17000, 28000, 39000, 49000, 57169, 67182, 76910, 186000, 192000, 211000, 312000,
         370000, 396000
       ]
     },
@@ -2416,7 +2345,7 @@
       "categoryId": "focus",
       "kind": "breathing",
       "intent": "focus",
-      "shortDescription": "Глубокий вдох в живот и поясницу, задержка на полном вдохе и свободный выдох. Помогает собраться и почувствовать опору перед делом.",
+      "shortDescription": "Пять минут, чтобы собраться перед важным делом, почувствовать опору и ясную голову.",
       "tags": ["дыхание вазы", "опора"],
       "artwork": "images/practices/abstract-focus.webp",
       "backgroundProfile": "ambient-library",
@@ -2669,14 +2598,6 @@
             {
               "id": "a",
               "cueId": "focus-vase.deep-belly.a"
-            },
-            {
-              "id": "b",
-              "cueId": "focus-vase.deep-belly.b"
-            },
-            {
-              "id": "c",
-              "cueId": "focus-vase.deep-belly.c"
             }
           ]
         },
@@ -2743,7 +2664,7 @@
         {
           "id": "count-80-0",
           "atMs": 80000,
-          "windowEndMs": 80900,
+          "windowEndMs": 80926,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2755,7 +2676,7 @@
         {
           "id": "count-80-1",
           "atMs": 81000,
-          "windowEndMs": 81977,
+          "windowEndMs": 82103,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2766,8 +2687,8 @@
         },
         {
           "id": "count-80-2",
-          "atMs": 82000,
-          "windowEndMs": 82900,
+          "atMs": 82103,
+          "windowEndMs": 83000,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2803,7 +2724,7 @@
         {
           "id": "release-1",
           "atMs": 85152,
-          "windowEndMs": 88152,
+          "windowEndMs": 88549,
           "meaning": "Выдох с закрытым ртом",
           "variants": [
             {
@@ -2843,7 +2764,7 @@
         {
           "id": "hold-top-2",
           "atMs": 99000,
-          "windowEndMs": 101151,
+          "windowEndMs": 101436,
           "meaning": "Задержка",
           "variants": [
             {
@@ -2862,8 +2783,8 @@
         },
         {
           "id": "count-101-0",
-          "atMs": 101151,
-          "windowEndMs": 102000,
+          "atMs": 101436,
+          "windowEndMs": 102362,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2874,8 +2795,8 @@
         },
         {
           "id": "count-101-1",
-          "atMs": 102000,
-          "windowEndMs": 102977,
+          "atMs": 102362,
+          "windowEndMs": 103465,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2886,8 +2807,8 @@
         },
         {
           "id": "count-101-2",
-          "atMs": 103000,
-          "windowEndMs": 103900,
+          "atMs": 103465,
+          "windowEndMs": 104340,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2898,8 +2819,8 @@
         },
         {
           "id": "count-101-3",
-          "atMs": 104000,
-          "windowEndMs": 104900,
+          "atMs": 104340,
+          "windowEndMs": 105236,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2910,8 +2831,8 @@
         },
         {
           "id": "count-101-4",
-          "atMs": 105000,
-          "windowEndMs": 106152,
+          "atMs": 105236,
+          "windowEndMs": 106388,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -2922,8 +2843,8 @@
         },
         {
           "id": "belly-back-draw",
-          "atMs": 106152,
-          "windowEndMs": 110152,
+          "atMs": 106388,
+          "windowEndMs": 110711,
           "meaning": "Подтянуть живот на выдохе",
           "variants": [
             {
@@ -2963,7 +2884,7 @@
         {
           "id": "cue-hold",
           "atMs": 118000,
-          "windowEndMs": 120151,
+          "windowEndMs": 120436,
           "meaning": "Задержка",
           "variants": [
             {
@@ -2983,7 +2904,7 @@
         {
           "id": "cue-out",
           "atMs": 122000,
-          "windowEndMs": 124693,
+          "windowEndMs": 124894,
           "meaning": "Отпустить",
           "variants": [
             {
@@ -3134,7 +3055,7 @@
       ],
       "endBehavior": "daytime",
       "resumeCheckpointsMs": [
-        0, 7000, 18000, 24000, 31000, 42000, 54000, 66000, 76000, 93000, 106152, 128000, 148000,
+        0, 7000, 18000, 24000, 31000, 42000, 54000, 66000, 76000, 93000, 106388, 128000, 148000,
         270000, 288000
       ]
     },
@@ -3146,7 +3067,7 @@
       "categoryId": "quick",
       "kind": "breathing",
       "intent": "quick",
-      "shortDescription": "Два вдоха подряд и долгий выдох со вздохом. Три таких вздоха снимают напряжение, а дальше остаётся спокойно дышать.",
+      "shortDescription": "Несколько глубоких вздохов, чтобы сбросить напряжение, а потом просто побыть в тишине.",
       "tags": ["вздох облегчения"],
       "artwork": "images/practices/abstract-present.webp",
       "backgroundProfile": "ambient-library",
@@ -3161,13 +3082,13 @@
         },
         {
           "phase": "inhale",
-          "startMs": 71370,
-          "endMs": 75000,
+          "startMs": 72109,
+          "endMs": 75925,
           "label": "Два вдоха"
         },
         {
           "phase": "exhale",
-          "startMs": 75000,
+          "startMs": 75925,
           "endMs": 80000,
           "label": "Вздох"
         },
@@ -3205,7 +3126,7 @@
         {
           "id": "posture",
           "atMs": 9000,
-          "windowEndMs": 13338,
+          "windowEndMs": 14127,
           "meaning": "Удобная поза",
           "variants": [
             {
@@ -3224,8 +3145,8 @@
         },
         {
           "id": "sit-or-lie",
-          "atMs": 14000,
-          "windowEndMs": 20000,
+          "atMs": 14127,
+          "windowEndMs": 20127,
           "meaning": "Можно сидеть или лечь",
           "variants": [
             {
@@ -3345,7 +3266,7 @@
         {
           "id": "sigh-detail",
           "atMs": 64000,
-          "windowEndMs": 70288,
+          "windowEndMs": 70930,
           "meaning": "Первый вдох полный, второй короткий",
           "variants": [
             {
@@ -3364,8 +3285,8 @@
         },
         {
           "id": "start",
-          "atMs": 70288,
-          "windowEndMs": 71370,
+          "atMs": 70930,
+          "windowEndMs": 72109,
           "meaning": "Старт",
           "variants": [
             {
@@ -3384,8 +3305,8 @@
         },
         {
           "id": "sigh-in-1",
-          "atMs": 71370,
-          "windowEndMs": 73000,
+          "atMs": 72109,
+          "windowEndMs": 73925,
           "meaning": "Первый вдох",
           "variants": [
             {
@@ -3404,8 +3325,8 @@
         },
         {
           "id": "sigh-up-1",
-          "atMs": 73000,
-          "windowEndMs": 77302,
+          "atMs": 73925,
+          "windowEndMs": 79764,
           "meaning": "Довдох и выдох-вздох",
           "variants": [
             {
@@ -3445,16 +3366,12 @@
         {
           "id": "sigh-up-2",
           "atMs": 84000,
-          "windowEndMs": 88985,
+          "windowEndMs": 89490,
           "meaning": "Довдох и выдох-вздох",
           "variants": [
             {
               "id": "a",
               "cueId": "relax-sigh.sigh-up-2.a"
-            },
-            {
-              "id": "b",
-              "cueId": "relax-sigh.sigh-up-2.b"
             },
             {
               "id": "c",
@@ -3485,7 +3402,7 @@
         {
           "id": "sigh-up-3",
           "atMs": 96000,
-          "windowEndMs": 100000,
+          "windowEndMs": 101468,
           "meaning": "Довдох и выдох",
           "variants": [
             {
@@ -3505,7 +3422,7 @@
         {
           "id": "settle",
           "atMs": 104000,
-          "windowEndMs": 108224,
+          "windowEndMs": 108371,
           "meaning": "Расслабиться в позе",
           "variants": [
             {
@@ -3676,7 +3593,7 @@
       ],
       "endBehavior": "daytime",
       "resumeCheckpointsMs": [
-        0, 9000, 14000, 21000, 27000, 40000, 52000, 57000, 64000, 73000, 84000, 91000, 96000,
+        0, 9000, 14127, 21000, 27000, 40000, 52000, 57000, 64000, 73925, 84000, 91000, 96000,
         104000, 114000, 128000, 148000, 190000, 236000, 300000
       ]
     },
@@ -3688,7 +3605,7 @@
       "categoryId": "quick",
       "kind": "breathing",
       "intent": "quick",
-      "shortDescription": "Тридцать, затем сорок кругов дыхания всем телом с паузой на выдохе. Энергичная практика, чтобы встряхнуться и сбросить напряжение.",
+      "shortDescription": "Дыхание всем телом под музыку, чтобы встряхнуться, выдохнуть всё лишнее и почувствовать лёгкость.",
       "tags": ["круговое дыхание", "музыка"],
       "artwork": "images/practices/abstract-release-thought.webp",
       "backgroundProfile": "ambient-library",
@@ -4077,312 +3994,312 @@
         {
           "phase": "hold-after-inhale",
           "startMs": 186000,
-          "endMs": 194417,
+          "endMs": 194683,
           "label": "Задержка"
         },
         {
           "phase": "exhale",
-          "startMs": 194417,
-          "endMs": 197110,
+          "startMs": 194683,
+          "endMs": 197577,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 203110,
-          "endMs": 204272,
+          "startMs": 203577,
+          "endMs": 204739,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 204272,
-          "endMs": 205435,
+          "startMs": 204739,
+          "endMs": 205902,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 205435,
-          "endMs": 206597,
+          "startMs": 205902,
+          "endMs": 207064,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 206597,
-          "endMs": 207760,
+          "startMs": 207064,
+          "endMs": 208227,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 207760,
-          "endMs": 208922,
+          "startMs": 208227,
+          "endMs": 209389,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 208922,
-          "endMs": 210085,
+          "startMs": 209389,
+          "endMs": 210552,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 210085,
-          "endMs": 211248,
+          "startMs": 210552,
+          "endMs": 211715,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 211248,
-          "endMs": 212410,
+          "startMs": 211715,
+          "endMs": 212877,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 212410,
-          "endMs": 213572,
+          "startMs": 212877,
+          "endMs": 214039,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 213572,
-          "endMs": 214735,
+          "startMs": 214039,
+          "endMs": 215202,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 214735,
-          "endMs": 215898,
+          "startMs": 215202,
+          "endMs": 216365,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 215898,
-          "endMs": 217060,
+          "startMs": 216365,
+          "endMs": 217527,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 217060,
-          "endMs": 218222,
+          "startMs": 217527,
+          "endMs": 218689,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 218222,
-          "endMs": 219385,
+          "startMs": 218689,
+          "endMs": 219852,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 219385,
-          "endMs": 220548,
+          "startMs": 219852,
+          "endMs": 221015,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 220548,
-          "endMs": 221710,
+          "startMs": 221015,
+          "endMs": 222177,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 221710,
-          "endMs": 222872,
+          "startMs": 222177,
+          "endMs": 223339,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 222872,
-          "endMs": 224035,
+          "startMs": 223339,
+          "endMs": 224502,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 224035,
-          "endMs": 225198,
+          "startMs": 224502,
+          "endMs": 225665,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 225198,
-          "endMs": 226360,
+          "startMs": 225665,
+          "endMs": 226827,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 226360,
-          "endMs": 227522,
+          "startMs": 226827,
+          "endMs": 227989,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 227522,
-          "endMs": 228685,
+          "startMs": 227989,
+          "endMs": 229152,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 228685,
-          "endMs": 229847,
+          "startMs": 229152,
+          "endMs": 230314,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 229847,
-          "endMs": 231010,
+          "startMs": 230314,
+          "endMs": 231477,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 231010,
-          "endMs": 232172,
+          "startMs": 231477,
+          "endMs": 232639,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 232172,
-          "endMs": 233335,
+          "startMs": 232639,
+          "endMs": 233802,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 233335,
-          "endMs": 234498,
+          "startMs": 233802,
+          "endMs": 234965,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 234498,
-          "endMs": 235660,
+          "startMs": 234965,
+          "endMs": 236127,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 235660,
-          "endMs": 236822,
+          "startMs": 236127,
+          "endMs": 237289,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 236822,
-          "endMs": 237985,
+          "startMs": 237289,
+          "endMs": 238452,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 237985,
-          "endMs": 239148,
+          "startMs": 238452,
+          "endMs": 239615,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 239148,
-          "endMs": 240310,
+          "startMs": 239615,
+          "endMs": 240777,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 240310,
-          "endMs": 241472,
+          "startMs": 240777,
+          "endMs": 241939,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 241472,
-          "endMs": 242635,
+          "startMs": 241939,
+          "endMs": 243102,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 242635,
-          "endMs": 243798,
+          "startMs": 243102,
+          "endMs": 244265,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 243798,
-          "endMs": 244960,
+          "startMs": 244265,
+          "endMs": 245427,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 244960,
-          "endMs": 246122,
+          "startMs": 245427,
+          "endMs": 246589,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 246122,
-          "endMs": 247285,
+          "startMs": 246589,
+          "endMs": 247752,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 247285,
-          "endMs": 248448,
+          "startMs": 247752,
+          "endMs": 248915,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 248448,
-          "endMs": 249610,
+          "startMs": 248915,
+          "endMs": 250077,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 249610,
-          "endMs": 250772,
+          "startMs": 250077,
+          "endMs": 251239,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 250772,
-          "endMs": 251935,
+          "startMs": 251239,
+          "endMs": 252402,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 251935,
-          "endMs": 253097,
+          "startMs": 252402,
+          "endMs": 253564,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 253097,
-          "endMs": 254260,
+          "startMs": 253564,
+          "endMs": 254727,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 254260,
-          "endMs": 255422,
+          "startMs": 254727,
+          "endMs": 255889,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 255422,
-          "endMs": 256585,
+          "startMs": 255889,
+          "endMs": 257052,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 256585,
-          "endMs": 257748,
+          "startMs": 257052,
+          "endMs": 258215,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 257748,
-          "endMs": 258910,
+          "startMs": 258215,
+          "endMs": 259377,
           "label": "Выдох"
         },
         {
           "phase": "inhale",
-          "startMs": 258910,
-          "endMs": 260073,
+          "startMs": 259377,
+          "endMs": 260540,
           "label": "Вдох"
         },
         {
           "phase": "exhale",
-          "startMs": 260288,
+          "startMs": 260540,
           "endMs": 261450,
           "label": "Выдох"
         },
@@ -4696,7 +4613,7 @@
         {
           "id": "ten-more",
           "atMs": 112000,
-          "windowEndMs": 115000,
+          "windowEndMs": 115042,
           "meaning": "Ещё десять вдохов",
           "variants": [
             {
@@ -4776,7 +4693,7 @@
         {
           "id": "relax-tongue",
           "atMs": 164929,
-          "windowEndMs": 167627,
+          "windowEndMs": 168163,
           "meaning": "Расслабить язык",
           "variants": [
             {
@@ -4795,8 +4712,8 @@
         },
         {
           "id": "relax-wrists",
-          "atMs": 167627,
-          "windowEndMs": 175627,
+          "atMs": 168163,
+          "windowEndMs": 176163,
           "meaning": "Расслабить запястья и плечи",
           "variants": [
             {
@@ -4819,14 +4736,6 @@
           "windowEndMs": 183000,
           "meaning": "Глубокий вдох до конца",
           "variants": [
-            {
-              "id": "a",
-              "cueId": "release-full-body.fill-up.a"
-            },
-            {
-              "id": "b",
-              "cueId": "release-full-body.fill-up.b"
-            },
             {
               "id": "c",
               "cueId": "release-full-body.fill-up.c"
@@ -4856,7 +4765,7 @@
         {
           "id": "count-190-0",
           "atMs": 191760,
-          "windowEndMs": 192436,
+          "windowEndMs": 192635,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -4867,8 +4776,8 @@
         },
         {
           "id": "count-190-1",
-          "atMs": 192436,
-          "windowEndMs": 193265,
+          "atMs": 192635,
+          "windowEndMs": 193531,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -4879,8 +4788,8 @@
         },
         {
           "id": "count-190-2",
-          "atMs": 193265,
-          "windowEndMs": 194417,
+          "atMs": 193531,
+          "windowEndMs": 194683,
           "meaning": "Счёт на такт",
           "variants": [
             {
@@ -4891,8 +4800,8 @@
         },
         {
           "id": "let-go-1",
-          "atMs": 194417,
-          "windowEndMs": 197110,
+          "atMs": 194683,
+          "windowEndMs": 197577,
           "meaning": "Отпустить",
           "variants": [
             {
@@ -4911,8 +4820,8 @@
         },
         {
           "id": "round-2",
-          "atMs": 197110,
-          "windowEndMs": 203110,
+          "atMs": 197577,
+          "windowEndMs": 203577,
           "meaning": "Второй раунд: сорок кругов",
           "variants": [
             {
@@ -5092,7 +5001,7 @@
         {
           "id": "quieten",
           "atMs": 409000,
-          "windowEndMs": 414618,
+          "windowEndMs": 416605,
           "meaning": "Сделать дыхание тише и заметить состояние",
           "variants": [
             {
@@ -5143,7 +5052,7 @@
       ],
       "endBehavior": "daytime",
       "resumeCheckpointsMs": [
-        0, 4000, 19000, 32000, 43000, 54000, 137000, 145000, 167627, 178000, 184000, 197110, 259000,
+        0, 4000, 19000, 32000, 43000, 54000, 137000, 145000, 168163, 178000, 184000, 197577, 259000,
         268000, 287000, 294000, 308000, 339000, 367000, 383000, 409000, 462000
       ]
     }
