@@ -1,0 +1,4417 @@
+{
+  "schemaVersion": 2,
+  "assets": {
+    "background.soft": {
+      "path": "audio/guided/sound/background.soft.wav",
+      "durationMs": 60000,
+      "hash": "0c3146eb9f628895ce5d72613c33467967c6265690ddaacc0a39ca5ab03d9883",
+      "kind": "background",
+      "normalizationGain": 2.97851642942919
+    },
+    "ambience.ambience-celestial-whispers": {
+      "path": "audio/ambience/ambience-celestial-whispers.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "7924aa90c1f506de58904e10be1f3dfb8bf4c0a4fd0ac4f7cb16c0ba6086bbe2",
+      "normalizationGain": 1.0011519555381692
+    },
+    "ambience.ambience-drifting-dreams": {
+      "path": "audio/ambience/ambience-drifting-dreams.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "2d3c6de4f7b189727bb1bcfe7594ef30da2c5b6af4396dba2ec33608bd0e26e3",
+      "normalizationGain": 1.0034598491478393
+    },
+    "ambience.ambience-gentle-ripples": {
+      "path": "audio/ambience/ambience-gentle-ripples.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "bffe91c7e11a24e87b15078df1e6c37badca9eee73a30d5bc20b3778a7868ce4",
+      "normalizationGain": 1.0023052380778996
+    },
+    "ambience.ambience-ice-meditation": {
+      "path": "audio/ambience/ambience-ice-meditation.m4a",
+      "durationMs": 144977,
+      "kind": "background",
+      "hash": "0f35b5ff613cefe2080c87e417ee3884809599113a342928e96e4b25ea668a1c",
+      "normalizationGain": 1.0221155606000725
+    },
+    "ambience.ambience-luminous-tranquility": {
+      "path": "audio/ambience/ambience-luminous-tranquility.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "06fae368496d00f2f88c9848895ebdd787b3335681c2d70646f283f3e4f183eb",
+      "normalizationGain": 1
+    },
+    "ambience.ambience-mystic-waters": {
+      "path": "audio/ambience/ambience-mystic-waters.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "d8774863022691f7117709b3c0c1c10015d57ee75d23fd10a80d85f4a95677f6",
+      "normalizationGain": 1.0092528860766843
+    },
+    "ambience.ambience-serene-reverie": {
+      "path": "audio/ambience/ambience-serene-reverie.m4a",
+      "durationMs": 120000,
+      "kind": "background",
+      "hash": "64c009c2268612ec8202c999d733c39f7f5aebf9faab3eae0bc15c51f5de88ce",
+      "normalizationGain": 1.0115794542598986
+    },
+    "anton:common.posture.a": {
+      "path": "audio/guided/voice/anton/common.posture.a.m4a",
+      "durationMs": 1363,
+      "hash": "afdd9b78aea7e5ec6015c3b6660b549ce95718a23d2e102d032b854d64dd03c0",
+      "voiceId": "anton",
+      "cueId": "common.posture.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.start.a": {
+      "path": "audio/guided/voice/anton/common.start.a.m4a",
+      "durationMs": 882,
+      "hash": "bdbca38574759409343b62faea38d01837f3e782cf4ad312356e653bd0b51531",
+      "voiceId": "anton",
+      "cueId": "common.start.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.start.b": {
+      "path": "audio/guided/voice/anton/common.start.b.m4a",
+      "durationMs": 653,
+      "hash": "32de45feb660c225900375c21dc766332297ffa7edb5dcf0439f07cfb94fcd17",
+      "voiceId": "anton",
+      "cueId": "common.start.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.start.c": {
+      "path": "audio/guided/voice/anton/common.start.c.m4a",
+      "durationMs": 813,
+      "hash": "6fd745581e051412999c58c274d284500602abd63fc84caa4d14e9ec8578c87f",
+      "voiceId": "anton",
+      "cueId": "common.start.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.keep-going.a": {
+      "path": "audio/guided/voice/anton/common.keep-going.a.m4a",
+      "durationMs": 1488,
+      "hash": "fa44abc3bece23748d12e6a961e6c5df456b651b4411a534ff9ce89e88eb4fed",
+      "voiceId": "anton",
+      "cueId": "common.keep-going.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.keep-going.c": {
+      "path": "audio/guided/voice/anton/common.keep-going.c.m4a",
+      "durationMs": 1237,
+      "hash": "6672aa34575bba7e15d3b0611a7aee3a63c9df074aa7af8d7b4a7afb309aac29",
+      "voiceId": "anton",
+      "cueId": "common.keep-going.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.good.a": {
+      "path": "audio/guided/voice/anton/common.good.a.m4a",
+      "durationMs": 682,
+      "hash": "f4f7770b3f574a5c8742f9e90b304b6ff855278fac4905cefcee7bbcfc0fd500",
+      "voiceId": "anton",
+      "cueId": "common.good.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.good.b": {
+      "path": "audio/guided/voice/anton/common.good.b.m4a",
+      "durationMs": 944,
+      "hash": "3c2faa3e51d177bba4f88ccb2afe4628c1367e707b02d1f5cb0019882557c50a",
+      "voiceId": "anton",
+      "cueId": "common.good.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.good.c": {
+      "path": "audio/guided/voice/anton/common.good.c.m4a",
+      "durationMs": 977,
+      "hash": "f6478cfd8656e3e1d7050ed00ad834bc492bb92928e2fb040d7f9a9319b1d78e",
+      "voiceId": "anton",
+      "cueId": "common.good.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.relax.a": {
+      "path": "audio/guided/voice/anton/common.relax.a.m4a",
+      "durationMs": 1230,
+      "hash": "2fe640634efe1c44942d2bab34e7e8e1c19a4b5b0ee42dd79f52a5d6dba06fcc",
+      "voiceId": "anton",
+      "cueId": "common.relax.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.relax.c": {
+      "path": "audio/guided/voice/anton/common.relax.c.m4a",
+      "durationMs": 1012,
+      "hash": "4c909e5aecb0689d8dcf8b0bfd898954b24c8507e62b4d13e950a37cfa267d7c",
+      "voiceId": "anton",
+      "cueId": "common.relax.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.three-more.a": {
+      "path": "audio/guided/voice/anton/common.three-more.a.m4a",
+      "durationMs": 1996,
+      "hash": "fa0f6dcba20e3c1a42190efdb0219fadc7392342223215e95e89fb4b8111ef10",
+      "voiceId": "anton",
+      "cueId": "common.three-more.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.three-more.b": {
+      "path": "audio/guided/voice/anton/common.three-more.b.m4a",
+      "durationMs": 1562,
+      "hash": "30976ee06ee74d94dabec0fd463486a3cec6072a1a39708286ed3b96544ea576",
+      "voiceId": "anton",
+      "cueId": "common.three-more.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.three-more.c": {
+      "path": "audio/guided/voice/anton/common.three-more.c.m4a",
+      "durationMs": 1093,
+      "hash": "de5ed662911f81bc07719870135f61856688e942fd34ecbfac044fc07672b906",
+      "voiceId": "anton",
+      "cueId": "common.three-more.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.ten-more-breaths.a": {
+      "path": "audio/guided/voice/anton/common.ten-more-breaths.a.m4a",
+      "durationMs": 2160,
+      "hash": "7b3d1d5e76172cba25994346b065b86968f1cf78ce791c907e2190fefb067725",
+      "voiceId": "anton",
+      "cueId": "common.ten-more-breaths.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.last-round.a": {
+      "path": "audio/guided/voice/anton/common.last-round.a.m4a",
+      "durationMs": 1540,
+      "hash": "f7409229b4d51ab75d206beb82b96482104d3c540c707aa6b3a43ddb526eb691",
+      "voiceId": "anton",
+      "cueId": "common.last-round.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.last-round.b": {
+      "path": "audio/guided/voice/anton/common.last-round.b.m4a",
+      "durationMs": 1725,
+      "hash": "2e3b1aa05a5df8bc78fd398260bdae772767c076cf8c2cdbcabdeb71458c4515",
+      "voiceId": "anton",
+      "cueId": "common.last-round.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.last-round.c": {
+      "path": "audio/guided/voice/anton/common.last-round.c.m4a",
+      "durationMs": 1407,
+      "hash": "bd68ac93f821bb267ed5e54f79b0fcbee0ba040249354d7483581a939d47b459",
+      "voiceId": "anton",
+      "cueId": "common.last-round.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.deep-in.a": {
+      "path": "audio/guided/voice/anton/common.deep-in.a.m4a",
+      "durationMs": 1997,
+      "hash": "10d5d134d0a1a22cb9d0c6f195e0fc7780e8932370d074d17728d7abaa45e051",
+      "voiceId": "anton",
+      "cueId": "common.deep-in.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.deep-in.c": {
+      "path": "audio/guided/voice/anton/common.deep-in.c.m4a",
+      "durationMs": 1874,
+      "hash": "325a03c15f3068018a6c612334e2144588b8f676d865982a95fa753c6c2656bc",
+      "voiceId": "anton",
+      "cueId": "common.deep-in.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.return-natural.b": {
+      "path": "audio/guided/voice/anton/common.return-natural.b.m4a",
+      "durationMs": 1882,
+      "hash": "cd8659e77ca3e66b8136ac5085388c5b39bb92300fda6bda495ef715f686a81e",
+      "voiceId": "anton",
+      "cueId": "common.return-natural.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.inhale.a": {
+      "path": "audio/guided/voice/anton/common.inhale.a.m4a",
+      "durationMs": 1351,
+      "hash": "2cbfd256245c7d0ac88040122a67c8e96f12a4887c38e6baa9693cf90b8efa4a",
+      "voiceId": "anton",
+      "cueId": "common.inhale.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.inhale.b": {
+      "path": "audio/guided/voice/anton/common.inhale.b.m4a",
+      "durationMs": 997,
+      "hash": "e1c08330ffbbefcc96a69750095c742191599e20e0f9235149c3b1d51ec73a2b",
+      "voiceId": "anton",
+      "cueId": "common.inhale.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.inhale.c": {
+      "path": "audio/guided/voice/anton/common.inhale.c.m4a",
+      "durationMs": 928,
+      "hash": "5a09e18067f66ed1936062426461c6aa7491c9061d3d7e910f26103617ce0c2f",
+      "voiceId": "anton",
+      "cueId": "common.inhale.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.exhale.a": {
+      "path": "audio/guided/voice/anton/common.exhale.a.m4a",
+      "durationMs": 1152,
+      "hash": "1fd6453348bde949f593b5a454c4dd7e0a50b8367963d81531b9fb5b2b3a7102",
+      "voiceId": "anton",
+      "cueId": "common.exhale.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.exhale.b": {
+      "path": "audio/guided/voice/anton/common.exhale.b.m4a",
+      "durationMs": 910,
+      "hash": "47d460388c07792c2f24d72f28cd7dfdf8510f377239f3b5c3a401b79350c1da",
+      "voiceId": "anton",
+      "cueId": "common.exhale.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.exhale.c": {
+      "path": "audio/guided/voice/anton/common.exhale.c.m4a",
+      "durationMs": 957,
+      "hash": "e2b549974da78669b75c4f5634fde2adc29d0d39d08ead0cd62cea4106be5ef8",
+      "voiceId": "anton",
+      "cueId": "common.exhale.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.hold.a": {
+      "path": "audio/guided/voice/anton/common.hold.a.m4a",
+      "durationMs": 1028,
+      "hash": "706374d633ecc269358ec1ce1a1c6872d91b34dbcd8eff9f96f3134db0b672ea",
+      "voiceId": "anton",
+      "cueId": "common.hold.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.hold.b": {
+      "path": "audio/guided/voice/anton/common.hold.b.m4a",
+      "durationMs": 1951,
+      "hash": "253fa07c02c7c144ae1c57c12d66babeb1eb8f6f0ff5d41120d811d19856f00f",
+      "voiceId": "anton",
+      "cueId": "common.hold.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.hold.c": {
+      "path": "audio/guided/voice/anton/common.hold.c.m4a",
+      "durationMs": 1186,
+      "hash": "0b2446e501fde0a6d86f6b915fdc52a9fc7ec63be9774aa1013983c436b3a2bb",
+      "voiceId": "anton",
+      "cueId": "common.hold.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.inhale-nose.a": {
+      "path": "audio/guided/voice/anton/common.inhale-nose.a.m4a",
+      "durationMs": 1435,
+      "hash": "d01b7cc78b3813e16b18a333583ecbb6b8b3b3e75aaef3aafe088f9285c48798",
+      "voiceId": "anton",
+      "cueId": "common.inhale-nose.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.exhale-mouth.b": {
+      "path": "audio/guided/voice/anton/common.exhale-mouth.b.m4a",
+      "durationMs": 1853,
+      "hash": "f4773f8745b5703372e2b5a927e468f5157696459337c3dbded7ab6efca347ea",
+      "voiceId": "anton",
+      "cueId": "common.exhale-mouth.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.let-go.a": {
+      "path": "audio/guided/voice/anton/common.let-go.a.m4a",
+      "durationMs": 1541,
+      "hash": "bd8b105adee0263d4a6bd28f27e374d5d557e4a2d74c4b6399a6ca29ca69e462",
+      "voiceId": "anton",
+      "cueId": "common.let-go.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.let-go.c": {
+      "path": "audio/guided/voice/anton/common.let-go.c.m4a",
+      "durationMs": 1388,
+      "hash": "b6792b21af397ef59ac16a217ba056d816fd385dc2aee42da01e9e0aae69e2a7",
+      "voiceId": "anton",
+      "cueId": "common.let-go.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.in-short.a": {
+      "path": "audio/guided/voice/anton/common.in-short.a.m4a",
+      "durationMs": 826,
+      "hash": "ce11cf7050d0baadbfa9df7cf00412c7a03b144c2ca117bfcfc7223273dcf57c",
+      "voiceId": "anton",
+      "cueId": "common.in-short.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.in-short.b": {
+      "path": "audio/guided/voice/anton/common.in-short.b.m4a",
+      "durationMs": 961,
+      "hash": "caa7c91ff46dc51351e2c1be2c5b5651b3dbe1b13202be344b47b7dfde254b1c",
+      "voiceId": "anton",
+      "cueId": "common.in-short.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.in-short.c": {
+      "path": "audio/guided/voice/anton/common.in-short.c.m4a",
+      "durationMs": 1282,
+      "hash": "ab37f80996db79bc84470c844999ae1938adf4cdffbc37672ca898ca9193ab6f",
+      "voiceId": "anton",
+      "cueId": "common.in-short.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-1.a": {
+      "path": "audio/guided/voice/anton/common.count-1.a.m4a",
+      "durationMs": 952,
+      "hash": "786ed1e26306aa6c6b28aaef2a10d9721f8b4ba2be09d7c2ae188b2677b7b86f",
+      "voiceId": "anton",
+      "cueId": "common.count-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-2.a": {
+      "path": "audio/guided/voice/anton/common.count-2.a.m4a",
+      "durationMs": 629,
+      "hash": "ee1d9a41babfd1d0a6fbbe5960eee758d9c5b6f53123749fd44a4835f642a322",
+      "voiceId": "anton",
+      "cueId": "common.count-2.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-3.a": {
+      "path": "audio/guided/voice/anton/common.count-3.a.m4a",
+      "durationMs": 476,
+      "hash": "e0330380c2937407a65379fbdb67beadb05adc93797ff25008ae04a5aeb1393b",
+      "voiceId": "anton",
+      "cueId": "common.count-3.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-4.a": {
+      "path": "audio/guided/voice/anton/common.count-4.a.m4a",
+      "durationMs": 777,
+      "hash": "a6f2fb2288c23c9e372aebd26d8c8fd1e23935526668cc45d521fa6f9e665364",
+      "voiceId": "anton",
+      "cueId": "common.count-4.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-5.a": {
+      "path": "audio/guided/voice/anton/common.count-5.a.m4a",
+      "durationMs": 487,
+      "hash": "5aa9c1c151485efe95f4605215c8dd7491b7c75746ab00bc326b41fc7ea70e6a",
+      "voiceId": "anton",
+      "cueId": "common.count-5.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.count-6.a": {
+      "path": "audio/guided/voice/anton/common.count-6.a.m4a",
+      "durationMs": 713,
+      "hash": "640f3b3b798fcc94f8e0fb054f3296780e588739e9aab4ccdbcaf79d931c989f",
+      "voiceId": "anton",
+      "cueId": "common.count-6.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.posture.b": {
+      "path": "audio/guided/voice/anton/common.posture.b.m4a",
+      "durationMs": 2446,
+      "hash": "65c157237a0bcf84127ef28b62d9d948dd9687e15ce5e2c58997c51d9e94bb7f",
+      "voiceId": "anton",
+      "cueId": "common.posture.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.posture.c": {
+      "path": "audio/guided/voice/anton/common.posture.c.m4a",
+      "durationMs": 4138,
+      "hash": "45d096a7b04f886a3efdbcc061c38f4d38c73d9c6273ffa7fda6cc06af7c5021",
+      "voiceId": "anton",
+      "cueId": "common.posture.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.continue.a": {
+      "path": "audio/guided/voice/anton/common.continue.a.m4a",
+      "durationMs": 2671,
+      "hash": "ffa61b5a82055b12da3d9506891e75b4eb9bd11a9033837185b50ec724e7db70",
+      "voiceId": "anton",
+      "cueId": "common.continue.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.continue.b": {
+      "path": "audio/guided/voice/anton/common.continue.b.m4a",
+      "durationMs": 2228,
+      "hash": "7f894cedac6697a7e304cc81a8a3916429eaba6f307c04c73ddce698d12c5b0d",
+      "voiceId": "anton",
+      "cueId": "common.continue.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.continue.c": {
+      "path": "audio/guided/voice/anton/common.continue.c.m4a",
+      "durationMs": 3037,
+      "hash": "248b3ddc15ff4c196f5e76016744035d4398bec9be400ad9457ce1c11f7cc8ed",
+      "voiceId": "anton",
+      "cueId": "common.continue.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.keep-going.b": {
+      "path": "audio/guided/voice/anton/common.keep-going.b.m4a",
+      "durationMs": 2181,
+      "hash": "aa8e59ab226c2f042d034f7b8370e300a8fd5f9ac960522ca38429c83b700ba6",
+      "voiceId": "anton",
+      "cueId": "common.keep-going.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.relax.b": {
+      "path": "audio/guided/voice/anton/common.relax.b.m4a",
+      "durationMs": 5760,
+      "hash": "86551575aa9509e47619a8423f477f2091a4815565080423e2012b3319c8d702",
+      "voiceId": "anton",
+      "cueId": "common.relax.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.ten-more-breaths.b": {
+      "path": "audio/guided/voice/anton/common.ten-more-breaths.b.m4a",
+      "durationMs": 2285,
+      "hash": "64f71657b97d499088a0860ee3e0e7bdd0519e6371eaafccedba5b7b4ac58469",
+      "voiceId": "anton",
+      "cueId": "common.ten-more-breaths.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.ten-more-breaths.c": {
+      "path": "audio/guided/voice/anton/common.ten-more-breaths.c.m4a",
+      "durationMs": 2278,
+      "hash": "85d3f024f0b861f8ed04ece34af5554075f2a69a0f0e2b547b158ad68287d9ef",
+      "voiceId": "anton",
+      "cueId": "common.ten-more-breaths.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.deep-in.b": {
+      "path": "audio/guided/voice/anton/common.deep-in.b.m4a",
+      "durationMs": 2134,
+      "hash": "b404b9426e23de6a1f67f009bfe6f2e2e3bd6b05481a3df4bf46a6fd7d7bad7f",
+      "voiceId": "anton",
+      "cueId": "common.deep-in.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.release-technique.a": {
+      "path": "audio/guided/voice/anton/common.release-technique.a.m4a",
+      "durationMs": 3449,
+      "hash": "31a3d5e16919bbd1626050dee0a1e41cef9956f1076898a2e4781a1107733e29",
+      "voiceId": "anton",
+      "cueId": "common.release-technique.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.release-technique.b": {
+      "path": "audio/guided/voice/anton/common.release-technique.b.m4a",
+      "durationMs": 3555,
+      "hash": "2827fba689777068ddc7e34fe724a58048a70be814138ae76d29795899267797",
+      "voiceId": "anton",
+      "cueId": "common.release-technique.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.release-technique.c": {
+      "path": "audio/guided/voice/anton/common.release-technique.c.m4a",
+      "durationMs": 4485,
+      "hash": "108fbe595a6796c6ea943dcb9dfcb42ff529c0e3623323f947a84ec7a35bb05f",
+      "voiceId": "anton",
+      "cueId": "common.release-technique.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.return-natural.a": {
+      "path": "audio/guided/voice/anton/common.return-natural.a.m4a",
+      "durationMs": 2310,
+      "hash": "cb8eafb3d9e3802d597520a1387303eea8beecc26687bb5c0acea21f7fb47cec",
+      "voiceId": "anton",
+      "cueId": "common.return-natural.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.return-natural.c": {
+      "path": "audio/guided/voice/anton/common.return-natural.c.m4a",
+      "durationMs": 1873,
+      "hash": "1b7c848552e727cd78e52cb3c213ab5ee7d0661d54b2c7531e68c50826e93bf5",
+      "voiceId": "anton",
+      "cueId": "common.return-natural.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.mind-wander.a": {
+      "path": "audio/guided/voice/anton/common.mind-wander.a.m4a",
+      "durationMs": 4110,
+      "hash": "2d74694bb10b97aeb810abbb6b572254bd6d6b9ecf77c55fdba402bd1c7eda14",
+      "voiceId": "anton",
+      "cueId": "common.mind-wander.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.mind-wander.b": {
+      "path": "audio/guided/voice/anton/common.mind-wander.b.m4a",
+      "durationMs": 5570,
+      "hash": "9e70242065babfe91e03d59589c19a4850cd7c4f28bb941ff75ccdbcb144af36",
+      "voiceId": "anton",
+      "cueId": "common.mind-wander.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.mind-wander.c": {
+      "path": "audio/guided/voice/anton/common.mind-wander.c.m4a",
+      "durationMs": 5475,
+      "hash": "f07e9cebc893534ba1304a251be65e6b777deb210c625e520ab07028b72b0ffc",
+      "voiceId": "anton",
+      "cueId": "common.mind-wander.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.closing.a": {
+      "path": "audio/guided/voice/anton/common.closing.a.m4a",
+      "durationMs": 2810,
+      "hash": "f278798f01ab1900c0f855bc866c86a9fea37996c5c2d3720e2348eeb7e0ad02",
+      "voiceId": "anton",
+      "cueId": "common.closing.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.closing.b": {
+      "path": "audio/guided/voice/anton/common.closing.b.m4a",
+      "durationMs": 2232,
+      "hash": "1098a38e01c3cc90d15645f9992949c02fdeefdfe0d696b04b79c4dc9284811f",
+      "voiceId": "anton",
+      "cueId": "common.closing.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.closing.c": {
+      "path": "audio/guided/voice/anton/common.closing.c.m4a",
+      "durationMs": 2563,
+      "hash": "8da13e9fd409084803da56a05afe40a900154298acd4d36f9ffebffef709be46",
+      "voiceId": "anton",
+      "cueId": "common.closing.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:common.let-go.b": {
+      "path": "audio/guided/voice/anton/common.let-go.b.m4a",
+      "durationMs": 2493,
+      "hash": "cab4fa5dd4d96af517d6abe8c204f0738126f33e29353f1f012a835be8b88fa6",
+      "voiceId": "anton",
+      "cueId": "common.let-go.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.welcome.a": {
+      "path": "audio/guided/voice/anton/sleep-478.welcome.a.m4a",
+      "durationMs": 4188,
+      "hash": "dd8203e7430e2475ad0a808a5abfd973429c807325578e80ea7e0c63b44e0e89",
+      "voiceId": "anton",
+      "cueId": "sleep-478.welcome.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.welcome.b": {
+      "path": "audio/guided/voice/anton/sleep-478.welcome.b.m4a",
+      "durationMs": 3397,
+      "hash": "fc97d4b688fe3c338c5266e6eea6ada0421f2a3ee5fd4c1ff3ade0cf3265101c",
+      "voiceId": "anton",
+      "cueId": "sleep-478.welcome.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.welcome.c": {
+      "path": "audio/guided/voice/anton/sleep-478.welcome.c.m4a",
+      "durationMs": 4113,
+      "hash": "8190200662e664b89aa71efbc104b5aba6e1de262e3f2222f9a404564bc592a9",
+      "voiceId": "anton",
+      "cueId": "sleep-478.welcome.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.purpose.a": {
+      "path": "audio/guided/voice/anton/sleep-478.purpose.a.m4a",
+      "durationMs": 8529,
+      "hash": "8e294fbe2d59250e59bc6bf1f15875002b10ffcabd465d8a6047a4a06597badd",
+      "voiceId": "anton",
+      "cueId": "sleep-478.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.purpose.b": {
+      "path": "audio/guided/voice/anton/sleep-478.purpose.b.m4a",
+      "durationMs": 6740,
+      "hash": "e55e9baaaa9d7446e43a9d6786b659d0ad82e8e60090b76cbc721d255fa4331b",
+      "voiceId": "anton",
+      "cueId": "sleep-478.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.purpose.c": {
+      "path": "audio/guided/voice/anton/sleep-478.purpose.c.m4a",
+      "durationMs": 5093,
+      "hash": "39926238e3fd5ae76f6d2741db31942593a54124ee251287776741b82ea82330",
+      "voiceId": "anton",
+      "cueId": "sleep-478.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.technique.a": {
+      "path": "audio/guided/voice/anton/sleep-478.technique.a.m4a",
+      "durationMs": 7457,
+      "hash": "5923fcfa189b5505902e8107287b67878ba494227a329d8c98dab74ad05b8ae7",
+      "voiceId": "anton",
+      "cueId": "sleep-478.technique.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.technique.b": {
+      "path": "audio/guided/voice/anton/sleep-478.technique.b.m4a",
+      "durationMs": 7582,
+      "hash": "211ef5281a213ce4e19f687f0f82808c2f8718a04d49502c74792f6bc30d0285",
+      "voiceId": "anton",
+      "cueId": "sleep-478.technique.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.technique.c": {
+      "path": "audio/guided/voice/anton/sleep-478.technique.c.m4a",
+      "durationMs": 7771,
+      "hash": "61b4503a8d7a3fb270e1d6e728e260bf81a824a1160480ccc2cd3d15814f27a7",
+      "voiceId": "anton",
+      "cueId": "sleep-478.technique.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.posture.a": {
+      "path": "audio/guided/voice/anton/sleep-478.posture.a.m4a",
+      "durationMs": 5139,
+      "hash": "300eaecabb62d7b34dceb523833085431176673beb6dd010a94f980efebd0469",
+      "voiceId": "anton",
+      "cueId": "sleep-478.posture.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.posture.b": {
+      "path": "audio/guided/voice/anton/sleep-478.posture.b.m4a",
+      "durationMs": 3987,
+      "hash": "ac1b2a7d3a290eac60b6e36e3bba05b213b720bc5a8887e947a4a03d9f0dde49",
+      "voiceId": "anton",
+      "cueId": "sleep-478.posture.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.posture.c": {
+      "path": "audio/guided/voice/anton/sleep-478.posture.c.m4a",
+      "durationMs": 4272,
+      "hash": "ae1e335bb3ca41576a89a8f2d30d2301ed7546ef3ab237338eff576058226ff0",
+      "voiceId": "anton",
+      "cueId": "sleep-478.posture.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-intro.a": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-intro.a.m4a",
+      "durationMs": 7969,
+      "hash": "2c4056c2285bf2a7dfe8768b5bd0e6085e8af103aa388f5c5db8caa1f04cb48d",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-intro.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-intro.b": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-intro.b.m4a",
+      "durationMs": 5751,
+      "hash": "37d9159f3e5dda26af0544f6dc49d4863078cae96affe408f1853eaa3ef728d5",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-intro.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-intro.c": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-intro.c.m4a",
+      "durationMs": 4516,
+      "hash": "f87c572a811da76144e5410bbdad8ffa86ea23ce8e734ab6867079f003ebd73b",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-intro.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-1.a": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-1.a.m4a",
+      "durationMs": 6324,
+      "hash": "4561c2974df9f584bbabf681d80074cf0287cf7ff240ef38786e0cb7d8172c5b",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-1.b": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-1.b.m4a",
+      "durationMs": 6814,
+      "hash": "ccc27f7db66c872881c36362b4322e960a2d0d27ef0df1a42e5f43d47613ffbe",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-1.c": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-1.c.m4a",
+      "durationMs": 7873,
+      "hash": "69cf6bd46ed32461d528f153cd276cd21944cc6d40bc904012a534e0d9826cfd",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-2.a": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-2.a.m4a",
+      "durationMs": 6234,
+      "hash": "c8ab1d0a53c36f48ee4e934b4dd8000a1c329fca0c90f2ff88a9e4c333efe330",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-2.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-2.b": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-2.b.m4a",
+      "durationMs": 6980,
+      "hash": "5663505c3b71ed45b160ddfe9725bc01641ff83fef26c1eb6499ebd7e496a073",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-2.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-2.c": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-2.c.m4a",
+      "durationMs": 6377,
+      "hash": "c8c2af3600c06df9eb62c7b3934b6c83ef063ae0b2e4c1d56fc72ac366b3c897",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-2.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-3.a": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-3.a.m4a",
+      "durationMs": 5502,
+      "hash": "81be665c86e797955e3a1ec42a7fe94ed0d9119bb58a05d8d11e511246011272",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-3.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-3.b": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-3.b.m4a",
+      "durationMs": 5715,
+      "hash": "cfeeafa13a89b64b720f8312a8b87e9804df8093e8ddec8f7dec206d682eab1c",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-3.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.cleansing-3.c": {
+      "path": "audio/guided/voice/anton/sleep-478.cleansing-3.c.m4a",
+      "durationMs": 9307,
+      "hash": "ca2edc6852aa040550b6dc428b1f15c372ddbb7eb831a6bfbe91eb4f362e694c",
+      "voiceId": "anton",
+      "cueId": "sleep-478.cleansing-3.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.heavy-soft.a": {
+      "path": "audio/guided/voice/anton/sleep-478.heavy-soft.a.m4a",
+      "durationMs": 6479,
+      "hash": "356217146887ebd0d97a8f71a1818b4c9d5386743ca8c3eaa2ababf46a7cc607",
+      "voiceId": "anton",
+      "cueId": "sleep-478.heavy-soft.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.heavy-soft.b": {
+      "path": "audio/guided/voice/anton/sleep-478.heavy-soft.b.m4a",
+      "durationMs": 4915,
+      "hash": "391baad680baa7a72f3422d1463d3732f0eb8eea378a4a2885843b7766d9da3b",
+      "voiceId": "anton",
+      "cueId": "sleep-478.heavy-soft.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.heavy-soft.c": {
+      "path": "audio/guided/voice/anton/sleep-478.heavy-soft.c.m4a",
+      "durationMs": 4802,
+      "hash": "1bd09f70ebe9c2f7638a957a394c186479df2f3c2f878b3ae70637f7beba83bb",
+      "voiceId": "anton",
+      "cueId": "sleep-478.heavy-soft.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.drift.a": {
+      "path": "audio/guided/voice/anton/sleep-478.drift.a.m4a",
+      "durationMs": 6032,
+      "hash": "f27b6130c03a642487aaf4ba2d35384c30acb09027ea5ab826c9f30b3473d700",
+      "voiceId": "anton",
+      "cueId": "sleep-478.drift.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.drift.b": {
+      "path": "audio/guided/voice/anton/sleep-478.drift.b.m4a",
+      "durationMs": 3683,
+      "hash": "b2ce5d853e177c9cf929591a747e4ee66d8fbbc6f92a438c1f3b0d5f267986ab",
+      "voiceId": "anton",
+      "cueId": "sleep-478.drift.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.drift.c": {
+      "path": "audio/guided/voice/anton/sleep-478.drift.c.m4a",
+      "durationMs": 8004,
+      "hash": "567bc744f267a7183bfb8c1fd24f4d14dae2ec13f3b4a0ada6db13ff5bc76611",
+      "voiceId": "anton",
+      "cueId": "sleep-478.drift.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.goodnight.a": {
+      "path": "audio/guided/voice/anton/sleep-478.goodnight.a.m4a",
+      "durationMs": 1332,
+      "hash": "fd2f2f2ea4255adb20addd1cf810d1e8b192bfe4d906c2a207eb0c1dc44bb860",
+      "voiceId": "anton",
+      "cueId": "sleep-478.goodnight.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.goodnight.b": {
+      "path": "audio/guided/voice/anton/sleep-478.goodnight.b.m4a",
+      "durationMs": 3658,
+      "hash": "6c39aac0dada0785d9e1473201877c8ea025bae649412043d00d612adfe60b1c",
+      "voiceId": "anton",
+      "cueId": "sleep-478.goodnight.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:sleep-478.goodnight.c": {
+      "path": "audio/guided/voice/anton/sleep-478.goodnight.c.m4a",
+      "durationMs": 2436,
+      "hash": "ebe94da91c00f3c5e0f5e51e74925c13755b7b45f9c900028b9315a2c70d5bfd",
+      "voiceId": "anton",
+      "cueId": "sleep-478.goodnight.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.purpose.a": {
+      "path": "audio/guided/voice/anton/focus-vase.purpose.a.m4a",
+      "durationMs": 7129,
+      "hash": "7fd15556a9ca6867759dba10487fc716436667afd4f224d0d460579086bed2c3",
+      "voiceId": "anton",
+      "cueId": "focus-vase.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.purpose.b": {
+      "path": "audio/guided/voice/anton/focus-vase.purpose.b.m4a",
+      "durationMs": 6406,
+      "hash": "22f69bfff7725609a7f8c2941688804a5dbd45d3c4cc9585fccf6edb6e388fef",
+      "voiceId": "anton",
+      "cueId": "focus-vase.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.purpose.c": {
+      "path": "audio/guided/voice/anton/focus-vase.purpose.c.m4a",
+      "durationMs": 4620,
+      "hash": "32350282e02925c25f5835a3b4f14be325338c5a30583078c767fe1f98c86410",
+      "voiceId": "anton",
+      "cueId": "focus-vase.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.posture.a": {
+      "path": "audio/guided/voice/anton/focus-vase.posture.a.m4a",
+      "durationMs": 1314,
+      "hash": "e9f3ca14de92868ab1de8f8421d365b562aaeb2072b9924c797acc35b5421906",
+      "voiceId": "anton",
+      "cueId": "focus-vase.posture.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.posture.b": {
+      "path": "audio/guided/voice/anton/focus-vase.posture.b.m4a",
+      "durationMs": 1809,
+      "hash": "304538f947d0d84ac5c68ed7a02e270f776cea46efdd7c07147669045327a59a",
+      "voiceId": "anton",
+      "cueId": "focus-vase.posture.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.posture.c": {
+      "path": "audio/guided/voice/anton/focus-vase.posture.c.m4a",
+      "durationMs": 2753,
+      "hash": "e279aeeeb654787beca20e703d3779c59da0ce91b613e30308e3020e9088f62f",
+      "voiceId": "anton",
+      "cueId": "focus-vase.posture.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.spine.a": {
+      "path": "audio/guided/voice/anton/focus-vase.spine.a.m4a",
+      "durationMs": 3021,
+      "hash": "004ee786cc95ef76c146458e69ed93019c197349a37738179d79b83964869ecc",
+      "voiceId": "anton",
+      "cueId": "focus-vase.spine.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.spine.b": {
+      "path": "audio/guided/voice/anton/focus-vase.spine.b.m4a",
+      "durationMs": 2578,
+      "hash": "43719ed14b66520f2c66c087067e068b5c015b9c08dc566d8c29950b4b11f825",
+      "voiceId": "anton",
+      "cueId": "focus-vase.spine.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.spine.c": {
+      "path": "audio/guided/voice/anton/focus-vase.spine.c.m4a",
+      "durationMs": 2950,
+      "hash": "6d939336a3e0bf5012d6d15b2fa9d882ad9b4441c65fd7d37b05e1c928031631",
+      "voiceId": "anton",
+      "cueId": "focus-vase.spine.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.weight.a": {
+      "path": "audio/guided/voice/anton/focus-vase.weight.a.m4a",
+      "durationMs": 4568,
+      "hash": "cb53b9460445feccc077cf4fdc93e1335983b6968de6bae71b160d7b6af54462",
+      "voiceId": "anton",
+      "cueId": "focus-vase.weight.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.weight.b": {
+      "path": "audio/guided/voice/anton/focus-vase.weight.b.m4a",
+      "durationMs": 4423,
+      "hash": "ab76c4f981a8cc50183d4cc3f510946cae0fa6df5e6d53b9b2b494c8c2b20fb1",
+      "voiceId": "anton",
+      "cueId": "focus-vase.weight.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.weight.c": {
+      "path": "audio/guided/voice/anton/focus-vase.weight.c.m4a",
+      "durationMs": 5272,
+      "hash": "c5bc66b0b2dc5858c3f1098c5dcc4fd99def5d89350b3e0034f9e6a1557abd9a",
+      "voiceId": "anton",
+      "cueId": "focus-vase.weight.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.deep-belly.a": {
+      "path": "audio/guided/voice/anton/focus-vase.deep-belly.a.m4a",
+      "durationMs": 4451,
+      "hash": "913d8812ec8de0d289eabc1e56251c30db70d78ba39eabe38a5e414c59810ff4",
+      "voiceId": "anton",
+      "cueId": "focus-vase.deep-belly.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.deep-belly.b": {
+      "path": "audio/guided/voice/anton/focus-vase.deep-belly.b.m4a",
+      "durationMs": 4714,
+      "hash": "d03c17b7bf0b44192ee12df5e721228c4145197c081c25b1e72ed2de14c634aa",
+      "voiceId": "anton",
+      "cueId": "focus-vase.deep-belly.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.deep-belly.c": {
+      "path": "audio/guided/voice/anton/focus-vase.deep-belly.c.m4a",
+      "durationMs": 5061,
+      "hash": "16df96a23d08d5611677836bbcfef82d9d246b6acce8e4de5be4fcb7005e715b",
+      "voiceId": "anton",
+      "cueId": "focus-vase.deep-belly.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.tire.a": {
+      "path": "audio/guided/voice/anton/focus-vase.tire.a.m4a",
+      "durationMs": 5226,
+      "hash": "61912f314b2616c6a0438569ab892a626289a0840359f477484b32b3f5157859",
+      "voiceId": "anton",
+      "cueId": "focus-vase.tire.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.tire.b": {
+      "path": "audio/guided/voice/anton/focus-vase.tire.b.m4a",
+      "durationMs": 3176,
+      "hash": "0681b4ef1b60e38b71833ecc04f07cf6740d845e303fdac962af5a7f500e098d",
+      "voiceId": "anton",
+      "cueId": "focus-vase.tire.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.tire.c": {
+      "path": "audio/guided/voice/anton/focus-vase.tire.c.m4a",
+      "durationMs": 2410,
+      "hash": "ebbe02c34bfff1c8e86706eb923dc0210260d38915bce58779b8b5d4f4f752e2",
+      "voiceId": "anton",
+      "cueId": "focus-vase.tire.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back.a": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back.a.m4a",
+      "durationMs": 5508,
+      "hash": "b2d5a1bd4e18ff0eb68f0fa14b76dcaffb4468bc99c49f03555e9bbd7275faaf",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back.b": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back.b.m4a",
+      "durationMs": 5951,
+      "hash": "391e095e1e57d4f4e5c9f59fca04328330578665dbc8a2a5342d65c8724183b9",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back.c": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back.c.m4a",
+      "durationMs": 5646,
+      "hash": "c2fcbef9225b0b62f3944fde99d605e297ef66172eb8e236bbf1b261055727b1",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.hold-top-1.a": {
+      "path": "audio/guided/voice/anton/focus-vase.hold-top-1.a.m4a",
+      "durationMs": 2842,
+      "hash": "c4db3c49fb94f2b1a59290b7915b1e08e9f52750d449eb09e0313c1a837d4604",
+      "voiceId": "anton",
+      "cueId": "focus-vase.hold-top-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.hold-top-1.b": {
+      "path": "audio/guided/voice/anton/focus-vase.hold-top-1.b.m4a",
+      "durationMs": 1948,
+      "hash": "0732aadca9ae885b30140ec8dea0c8d3fe033b8622784ffdea3c49a440748358",
+      "voiceId": "anton",
+      "cueId": "focus-vase.hold-top-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.hold-top-1.c": {
+      "path": "audio/guided/voice/anton/focus-vase.hold-top-1.c.m4a",
+      "durationMs": 1702,
+      "hash": "715c9c145e25b89d105dcbabcdd34b7e5c9a5e230dbce7486f018b5efd3e171f",
+      "voiceId": "anton",
+      "cueId": "focus-vase.hold-top-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.release-1.a": {
+      "path": "audio/guided/voice/anton/focus-vase.release-1.a.m4a",
+      "durationMs": 2764,
+      "hash": "86260a29d3eaaf8fcb919a130256e5dafd17101e13ccbd8329c65dc046b37863",
+      "voiceId": "anton",
+      "cueId": "focus-vase.release-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.release-1.b": {
+      "path": "audio/guided/voice/anton/focus-vase.release-1.b.m4a",
+      "durationMs": 1792,
+      "hash": "ba1e0202ebec4debcef1a8776b4f5e392fb919f90a06a685a79a98e376c606c5",
+      "voiceId": "anton",
+      "cueId": "focus-vase.release-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.release-1.c": {
+      "path": "audio/guided/voice/anton/focus-vase.release-1.c.m4a",
+      "durationMs": 2401,
+      "hash": "ff96d188a51106d31860e428824f227ae5e54797d8097fbbd3965d3d55ccb840",
+      "voiceId": "anton",
+      "cueId": "focus-vase.release-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.inhale-down.a": {
+      "path": "audio/guided/voice/anton/focus-vase.inhale-down.a.m4a",
+      "durationMs": 2586,
+      "hash": "cde78edc4dc891627c92ee6251d632ac3dc11a88cbcbedd97203b3f07c62b1db",
+      "voiceId": "anton",
+      "cueId": "focus-vase.inhale-down.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.inhale-down.b": {
+      "path": "audio/guided/voice/anton/focus-vase.inhale-down.b.m4a",
+      "durationMs": 2340,
+      "hash": "c0999e2cfff9e93a09b13ff02ede15912eaeaa789f50418799a76081ed6f2516",
+      "voiceId": "anton",
+      "cueId": "focus-vase.inhale-down.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.inhale-down.c": {
+      "path": "audio/guided/voice/anton/focus-vase.inhale-down.c.m4a",
+      "durationMs": 2054,
+      "hash": "15ad833918f5b52aea78420c1b526c2bf75d46f3ca878a046d8a52a7346b128e",
+      "voiceId": "anton",
+      "cueId": "focus-vase.inhale-down.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back-draw.a": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back-draw.a.m4a",
+      "durationMs": 1824,
+      "hash": "c2a2acad436efe5c8892e62c51465084cc85dcec723a5591980efa3272c33dc9",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back-draw.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back-draw.b": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back-draw.b.m4a",
+      "durationMs": 3155,
+      "hash": "5c56740f6310c3be8a627e348802340cd88e582e3351297e461f1ea7ab2afa4d",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back-draw.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.belly-back-draw.c": {
+      "path": "audio/guided/voice/anton/focus-vase.belly-back-draw.c.m4a",
+      "durationMs": 1468,
+      "hash": "d1765d9337f300292a03991f380f58ea1fcaa36530e7e5c6c64c4bdc58891f0f",
+      "voiceId": "anton",
+      "cueId": "focus-vase.belly-back-draw.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.quality.a": {
+      "path": "audio/guided/voice/anton/focus-vase.quality.a.m4a",
+      "durationMs": 5518,
+      "hash": "466fcfdd06fd9d888af3cf998a488d3efa7f6819aaf176ea075fbb05d610ee80",
+      "voiceId": "anton",
+      "cueId": "focus-vase.quality.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.quality.b": {
+      "path": "audio/guided/voice/anton/focus-vase.quality.b.m4a",
+      "durationMs": 4622,
+      "hash": "6b34f342a11b3455c6e75047380e0b1169ff62305249dfc00626a5609456e8d0",
+      "voiceId": "anton",
+      "cueId": "focus-vase.quality.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.quality.c": {
+      "path": "audio/guided/voice/anton/focus-vase.quality.c.m4a",
+      "durationMs": 4104,
+      "hash": "5bf8ff60b5b73d673309394310a5537b593e984bce7d4a37c8800af54bdb8dfb",
+      "voiceId": "anton",
+      "cueId": "focus-vase.quality.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.notice-body.a": {
+      "path": "audio/guided/voice/anton/focus-vase.notice-body.a.m4a",
+      "durationMs": 5525,
+      "hash": "bcf8cddca0b71b257b6644d773eff1a23b6585d71fe175446fff3c3d56227d46",
+      "voiceId": "anton",
+      "cueId": "focus-vase.notice-body.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.notice-body.b": {
+      "path": "audio/guided/voice/anton/focus-vase.notice-body.b.m4a",
+      "durationMs": 5862,
+      "hash": "cdbac9d98bd72e9fc3a30a370f3eecea3f8c6b3f7d49dea358d008f7324b1eaa",
+      "voiceId": "anton",
+      "cueId": "focus-vase.notice-body.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:focus-vase.notice-body.c": {
+      "path": "audio/guided/voice/anton/focus-vase.notice-body.c.m4a",
+      "durationMs": 3662,
+      "hash": "4ea0b1fb5cc9a6a290d7e88fc4182dd6139ca09031417d83393d9a7d2e30a551",
+      "voiceId": "anton",
+      "cueId": "focus-vase.notice-body.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sit-or-lie.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sit-or-lie.a.m4a",
+      "durationMs": 3197,
+      "hash": "a836be8a067d1953d2801ea906d730eae9a53d34b215ad5b02935027e58b67c9",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sit-or-lie.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sit-or-lie.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sit-or-lie.b.m4a",
+      "durationMs": 4161,
+      "hash": "620879de28ab383120b552289ebbf1d7ef36219daa799419af64beeac24d65e2",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sit-or-lie.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sit-or-lie.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sit-or-lie.c.m4a",
+      "durationMs": 2643,
+      "hash": "4c2ad5200537553a8eef072af09f87bbc07a80524a6b5f60d4ff644c538334ef",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sit-or-lie.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.shoulders-jaw.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.shoulders-jaw.a.m4a",
+      "durationMs": 3960,
+      "hash": "fed566c8a208731a62942ac5f1d6ff1046fd65b2a930388f8328363afc08a206",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.shoulders-jaw.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.shoulders-jaw.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.shoulders-jaw.b.m4a",
+      "durationMs": 3526,
+      "hash": "6f70ec293d2e4e7efec21b01b9dadb630e1f0e8cae27b4dd85620b5200d7b25f",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.shoulders-jaw.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.shoulders-jaw.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.shoulders-jaw.c.m4a",
+      "durationMs": 3267,
+      "hash": "aacf10be1cbbec2701119de570be53a3054334c0d9d06b6e5520ba1efbbd265c",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.shoulders-jaw.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-breath.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-breath.a.m4a",
+      "durationMs": 6893,
+      "hash": "6f4caf13745360a39c8cea46a43011c0897fcb02c09248daadc85fd0952216fa",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-breath.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-breath.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-breath.b.m4a",
+      "durationMs": 3712,
+      "hash": "5dd0c61306cb7d8664334e7482d3ae30ec9cdd0fda771f4fca41795513581ca3",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-breath.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-breath.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-breath.c.m4a",
+      "durationMs": 8013,
+      "hash": "82e91579f79dff026b775026b67b36d9e624c8d8f0b400cd717d28e95eb5abbe",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-breath.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-out.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-out.a.m4a",
+      "durationMs": 4197,
+      "hash": "e4570fbdc1001e459558ba81be1cd80368f3108bcc26e4d350373122dda686e1",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-out.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-out.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-out.b.m4a",
+      "durationMs": 3848,
+      "hash": "4e58c3882e15e12a9c5e7567355fa406379dc3efe698dc18dca9cdd7d8630f35",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-out.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.first-out.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.first-out.c.m4a",
+      "durationMs": 4052,
+      "hash": "491da42a568999a109b1f4966c71c7dc897f395a72b8d136061191367850fb8f",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.first-out.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-announce.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-announce.a.m4a",
+      "durationMs": 2854,
+      "hash": "d3386927d2136f4d518f858d734acf3896b0b3d8caab40931f65255f6506969e",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-announce.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-announce.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-announce.b.m4a",
+      "durationMs": 2850,
+      "hash": "b80461fad27a601df4edaa9ac2cb3176ecfc038712c6cb52f0a3ed8a2ed16b8f",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-announce.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-announce.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-announce.c.m4a",
+      "durationMs": 3016,
+      "hash": "3ad7ca3ba5aa8d3ed8695407ab459fb6a11f642ea2f8d94cd1b9c315b3a210f5",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-announce.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-explain.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-explain.a.m4a",
+      "durationMs": 4671,
+      "hash": "220bb9c3275866141019435b962ad4a9d74b496d56a338fed7726da148fcb7ac",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-explain.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-explain.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-explain.b.m4a",
+      "durationMs": 3898,
+      "hash": "9e8dff9711215da8ee98cbbc0c12759f494cc5a68b2c514d0e16db5b740353e9",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-explain.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-explain.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-explain.c.m4a",
+      "durationMs": 6325,
+      "hash": "197aa023a967cc3c6d79ba91fe164e04b133e4bf025ea4b8e6fdfd80028ce156",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-explain.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-detail.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-detail.a.m4a",
+      "durationMs": 5684,
+      "hash": "04a0903053278810fb6f963d3288ef67a3afee49f74e012db2f24b48ac7d811a",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-detail.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-detail.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-detail.b.m4a",
+      "durationMs": 4392,
+      "hash": "2ab7def1c3f75ca5026977f2d55e466a00dd5eb4ff1b209c326bbb5b4c9c60ec",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-detail.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-detail.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-detail.c.m4a",
+      "durationMs": 6088,
+      "hash": "e13c73c9029eeb65faafbed4a2e61763b310e1dc974bc6bb6bde775c5d908d27",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-detail.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-1.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-1.a.m4a",
+      "durationMs": 3742,
+      "hash": "451cfd2871c02d8ad7451966af76d575d60b9c1253b1467c941b701e1f237008",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-1.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-1.b.m4a",
+      "durationMs": 4064,
+      "hash": "8a4e0d0384b8552ca354d24f17125deb9d8dc5d9aefa0272927429990c5d190c",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-1.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-1.c.m4a",
+      "durationMs": 4102,
+      "hash": "00e5de74cf7398c365527f14cebcc13797e32ff66fe6bf51b0cf0a9fc3b2ed0d",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-2.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-2.a.m4a",
+      "durationMs": 3791,
+      "hash": "6b902fdf5508199bc3f6f7e10a734ce18debe44365ea7e66457237a196d17b18",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-2.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-2.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-2.b.m4a",
+      "durationMs": 4375,
+      "hash": "ae1340ab9f1c2c81561046a53c60eaf8eacec27899f8ecb8bb28737d60e93cb0",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-2.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-2.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-2.c.m4a",
+      "durationMs": 4785,
+      "hash": "a44b440e14cd32182e86aac9123badbe848b1c7c7c0b397c915ae7f8eb3ebc71",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-2.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-in-3.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-in-3.a.m4a",
+      "durationMs": 2060,
+      "hash": "10e41a93dd980a4b0500c8bbacd04da5214be66714ad9ca5865d688e5ed2e280",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-in-3.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-in-3.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-in-3.b.m4a",
+      "durationMs": 2030,
+      "hash": "6ac60a3b545de86cc2ea577cb9b912dba514b57e3a8b81e65335af27b527ac82",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-in-3.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-in-3.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-in-3.c.m4a",
+      "durationMs": 2430,
+      "hash": "5338bd61f4b58db6c5b7abd8fa494cd72a94ee2d014c07fed53db2b9ba68b7ff",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-in-3.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-3.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-3.a.m4a",
+      "durationMs": 2915,
+      "hash": "5f516a359077b715080d4316e88db0cae730064f61264da3410efe28ef08a724",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-3.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-3.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-3.b.m4a",
+      "durationMs": 3287,
+      "hash": "2aac0211f7991e14f9f437635f61b4d4775e0d64a98d1c1c6a414c365f72d543",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-3.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.sigh-up-3.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.sigh-up-3.c.m4a",
+      "durationMs": 3498,
+      "hash": "38ef926057e10e54c294871711d38375f7944040a5b8ffa7855bc4b136336d42",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.sigh-up-3.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.settle.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.settle.a.m4a",
+      "durationMs": 4024,
+      "hash": "e4330ffbbb38988c614e2bf1c28c9c58eb643dc8758b434a14c428e3e2300320",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.settle.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.settle.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.settle.b.m4a",
+      "durationMs": 3062,
+      "hash": "a52d9e306cbaf5bfb301ce86786db75dc7c305602dd1f2f5bc7e01280dc85200",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.settle.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.settle.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.settle.c.m4a",
+      "durationMs": 2384,
+      "hash": "23fb726833ba4beab5cf36629bc77b53c9c00a485ab4b5b89c4a81b78e8f977a",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.settle.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.clarity-in.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.clarity-in.a.m4a",
+      "durationMs": 2621,
+      "hash": "021c8ea3bac93ff04f19853f74818a93eab117b948efa49cb35efad9c0cf88ad",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.clarity-in.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.clarity-in.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.clarity-in.b.m4a",
+      "durationMs": 3763,
+      "hash": "26ad070d2e3e6e0111cbcafce28601b06964289769b6b9bfb2b9ad4695da1529",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.clarity-in.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.clarity-in.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.clarity-in.c.m4a",
+      "durationMs": 3165,
+      "hash": "6510d420ef9dd46743a9c42a71765caaa899951a261f92754cde61e2844a2c45",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.clarity-in.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.ease-out.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.ease-out.a.m4a",
+      "durationMs": 3865,
+      "hash": "4f6b196d743bc938fcbcc06798550d89961ad91298f268ef21beddafce104f98",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.ease-out.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.ease-out.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.ease-out.b.m4a",
+      "durationMs": 3209,
+      "hash": "01584008591411988ec38e10c41cfdcee46ae19771064b304e18f59c9e299763",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.ease-out.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.ease-out.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.ease-out.c.m4a",
+      "durationMs": 2725,
+      "hash": "db3ddc91ebea406badfdb6a2d4002debf10805a4252fd5d7366c883405c9ec6a",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.ease-out.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.no-force.a": {
+      "path": "audio/guided/voice/anton/relax-sigh.no-force.a.m4a",
+      "durationMs": 4972,
+      "hash": "d5382e7cd63402a35c23b34dd9246ac0edb9df95151a902e132feaca4f78bbd5",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.no-force.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.no-force.b": {
+      "path": "audio/guided/voice/anton/relax-sigh.no-force.b.m4a",
+      "durationMs": 5322,
+      "hash": "ceac84b911aa701ff196ef6240be12f3aba88bfe4c24bd3d3dc4320c9bee0206",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.no-force.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:relax-sigh.no-force.c": {
+      "path": "audio/guided/voice/anton/relax-sigh.no-force.c.m4a",
+      "durationMs": 3877,
+      "hash": "a1127d989d29f1843f50edba03dc1437d506eecf4227eb9f5f984c8cc18ccc2d",
+      "voiceId": "anton",
+      "cueId": "relax-sigh.no-force.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.purpose.a": {
+      "path": "audio/guided/voice/anton/release-full-body.purpose.a.m4a",
+      "durationMs": 8803,
+      "hash": "e760e7c1098c570016ff495da82cd4b72936744bd3287423ad69c1762fb70a72",
+      "voiceId": "anton",
+      "cueId": "release-full-body.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.purpose.b": {
+      "path": "audio/guided/voice/anton/release-full-body.purpose.b.m4a",
+      "durationMs": 6388,
+      "hash": "bee5de2e7d637cd8f0ad2eecdcf65d69b68314adcd90eb871a34c5207e001a37",
+      "voiceId": "anton",
+      "cueId": "release-full-body.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.purpose.c": {
+      "path": "audio/guided/voice/anton/release-full-body.purpose.c.m4a",
+      "durationMs": 4636,
+      "hash": "2f3298c92376cae58987a030045f51b08d185893fc727bf60442847522374975",
+      "voiceId": "anton",
+      "cueId": "release-full-body.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.plan.a": {
+      "path": "audio/guided/voice/anton/release-full-body.plan.a.m4a",
+      "durationMs": 9479,
+      "hash": "83687315b7dcdc63993f8834eb3e36cca5c203570b955821bf35240df522f5f8",
+      "voiceId": "anton",
+      "cueId": "release-full-body.plan.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.plan.b": {
+      "path": "audio/guided/voice/anton/release-full-body.plan.b.m4a",
+      "durationMs": 6548,
+      "hash": "5392959a454a9d29e678cde5c1d623739e57bd7796fbf34c0aa9b8da1c146c33",
+      "voiceId": "anton",
+      "cueId": "release-full-body.plan.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.plan.c": {
+      "path": "audio/guided/voice/anton/release-full-body.plan.c.m4a",
+      "durationMs": 9519,
+      "hash": "bdb9c97466170a8678b80bc81d1a3743937a783a18b98f5b2a777dd016e44d56",
+      "voiceId": "anton",
+      "cueId": "release-full-body.plan.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.flow.a": {
+      "path": "audio/guided/voice/anton/release-full-body.flow.a.m4a",
+      "durationMs": 5710,
+      "hash": "4dbd34782085c3e4b0d5567bedba02a35eee597b7ff17ea785229ed4da8aefdb",
+      "voiceId": "anton",
+      "cueId": "release-full-body.flow.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.flow.b": {
+      "path": "audio/guided/voice/anton/release-full-body.flow.b.m4a",
+      "durationMs": 4276,
+      "hash": "13bd9fad113401400765d21e3d4738cc8016951427551a1bdd6443a3c73312fa",
+      "voiceId": "anton",
+      "cueId": "release-full-body.flow.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.flow.c": {
+      "path": "audio/guided/voice/anton/release-full-body.flow.c.m4a",
+      "durationMs": 6289,
+      "hash": "ccc4d92621288d3ac65b9699e053bb1fe51a921902367bda9ab796aac950f059",
+      "voiceId": "anton",
+      "cueId": "release-full-body.flow.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.posture.a": {
+      "path": "audio/guided/voice/anton/release-full-body.posture.a.m4a",
+      "durationMs": 5250,
+      "hash": "e3dd03176fee3fcbd3d026170387a9c09c01076d932b427d7f9c2d13496eb677",
+      "voiceId": "anton",
+      "cueId": "release-full-body.posture.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.posture.b": {
+      "path": "audio/guided/voice/anton/release-full-body.posture.b.m4a",
+      "durationMs": 4681,
+      "hash": "597d7b18ae7f35a5451bf71267014afd6e8f0900d352d9a625f5cadba38267fa",
+      "voiceId": "anton",
+      "cueId": "release-full-body.posture.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.posture.c": {
+      "path": "audio/guided/voice/anton/release-full-body.posture.c.m4a",
+      "durationMs": 4533,
+      "hash": "555744aebbf86bcb0ed96b9a83466e388b7aa97be724705a0e179af9e3b50107",
+      "voiceId": "anton",
+      "cueId": "release-full-body.posture.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-1.a": {
+      "path": "audio/guided/voice/anton/release-full-body.round-1.a.m4a",
+      "durationMs": 2369,
+      "hash": "e87a1056e86a4b814e963b2fb514462633b90ca108727feb9a4e4fe0895808e2",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-1.b": {
+      "path": "audio/guided/voice/anton/release-full-body.round-1.b.m4a",
+      "durationMs": 2833,
+      "hash": "17653b2c14fdf004e6056d37cd189e0675431a11fbd369317e418652d3169787",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-1.c": {
+      "path": "audio/guided/voice/anton/release-full-body.round-1.c.m4a",
+      "durationMs": 2801,
+      "hash": "90e7d4b8ed873de384dca881edf41d6e4fa257bc49f636ab43b4b05fa88d2606",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-1.a": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-1.a.m4a",
+      "durationMs": 3248,
+      "hash": "9586bc8c4ea13701d85e73e5812776ddb1c23912f03adebbd11254310a3661b8",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-1.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-1.b": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-1.b.m4a",
+      "durationMs": 3827,
+      "hash": "4eef43fb7c2e943cd55c973a6d27b579ae74269557fe5be50ec96ef76f9bb42e",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-1.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-1.c": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-1.c.m4a",
+      "durationMs": 4501,
+      "hash": "ba7c12d6432f46e0af4f9d226e6a19e61db87a454a55c47b4d112c2b1535d068",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-1.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-jaw.a": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-jaw.a.m4a",
+      "durationMs": 1528,
+      "hash": "7d8a0324d8b5a6b634b73407667b0c37e9bd2eb8e108e2649f3d7986c2466237",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-jaw.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-jaw.b": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-jaw.b.m4a",
+      "durationMs": 1887,
+      "hash": "cf6b588f1c693ff93245f33fbcba8bcf4058354b602b3408684265fb249ec27f",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-jaw.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-jaw.c": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-jaw.c.m4a",
+      "durationMs": 3729,
+      "hash": "a825df1db8085045e599e709d8f541823bc5425088583f07f9a6b4b9548347b8",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-jaw.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-tongue.a": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-tongue.a.m4a",
+      "durationMs": 1624,
+      "hash": "4c2ea2e1f08c50280a7189419369b44dbfe74c9c394b7f08221e9b983eeafc89",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-tongue.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-tongue.b": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-tongue.b.m4a",
+      "durationMs": 1868,
+      "hash": "53ea9c0a2fb5a1b59ced40375545bec4ca8e3ae3bb07fe7649360b3667fb323e",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-tongue.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-tongue.c": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-tongue.c.m4a",
+      "durationMs": 2498,
+      "hash": "ce9f1236395d3a686bd4d147ab3833812e6e5254828c226a6acef8172592a07b",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-tongue.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-wrists.a": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-wrists.a.m4a",
+      "durationMs": 2589,
+      "hash": "1cd5fcf22137a29b0e5177afb5cb0e6962af717b0731dcd46a5f90015d38b810",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-wrists.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-wrists.b": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-wrists.b.m4a",
+      "durationMs": 4076,
+      "hash": "1324463fa1efba8ea8f03960a243d4190d40986637a9093919ccc52532483da7",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-wrists.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.relax-wrists.c": {
+      "path": "audio/guided/voice/anton/release-full-body.relax-wrists.c.m4a",
+      "durationMs": 2775,
+      "hash": "6f3b2858ce06efcbdd9fce00517f446a69895a0d81ac0522d4e8b392a0911954",
+      "voiceId": "anton",
+      "cueId": "release-full-body.relax-wrists.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.fill-up.a": {
+      "path": "audio/guided/voice/anton/release-full-body.fill-up.a.m4a",
+      "durationMs": 4076,
+      "hash": "59c7aa208cd37fb548ddc36af8b36cfbdc953e4a40cbebf34b36b414e1d851e3",
+      "voiceId": "anton",
+      "cueId": "release-full-body.fill-up.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.fill-up.b": {
+      "path": "audio/guided/voice/anton/release-full-body.fill-up.b.m4a",
+      "durationMs": 3250,
+      "hash": "d612cc9b3f8c3ea4dcb474a594d09dd18eba95c57ab6f4eefdb7c6a70073e3f2",
+      "voiceId": "anton",
+      "cueId": "release-full-body.fill-up.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.fill-up.c": {
+      "path": "audio/guided/voice/anton/release-full-body.fill-up.c.m4a",
+      "durationMs": 2847,
+      "hash": "b0040e558c103b5e27b04bc21ba30f001118ecc3b8feb2c1a9d9c301f075b716",
+      "voiceId": "anton",
+      "cueId": "release-full-body.fill-up.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.squeeze.a": {
+      "path": "audio/guided/voice/anton/release-full-body.squeeze.a.m4a",
+      "durationMs": 7175,
+      "hash": "0ad260fb4645fd3bfae7e7e3b0f4e9f072d0679df53c5cbc8c4c95eb2d719c1b",
+      "voiceId": "anton",
+      "cueId": "release-full-body.squeeze.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.squeeze.b": {
+      "path": "audio/guided/voice/anton/release-full-body.squeeze.b.m4a",
+      "durationMs": 6094,
+      "hash": "81175f2ba7835a27d2fcd7c31953fcc9102a1b73aef7281b598b8dbab65ae686",
+      "voiceId": "anton",
+      "cueId": "release-full-body.squeeze.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.squeeze.c": {
+      "path": "audio/guided/voice/anton/release-full-body.squeeze.c.m4a",
+      "durationMs": 7560,
+      "hash": "2095bf90a7941f939e11a737b9de1e74095783cd36e4787cd52be6f8cc5fe83c",
+      "voiceId": "anton",
+      "cueId": "release-full-body.squeeze.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-2.a": {
+      "path": "audio/guided/voice/anton/release-full-body.round-2.a.m4a",
+      "durationMs": 3355,
+      "hash": "155b90be5071e232bca783a30390fc3fc922c432a7eeb246dd894fc64d4b3b19",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-2.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-2.b": {
+      "path": "audio/guided/voice/anton/release-full-body.round-2.b.m4a",
+      "durationMs": 4091,
+      "hash": "db879a055ff3386534079e2ee31033a105f63837e05db5329ea2e9f506ca6520",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-2.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.round-2.c": {
+      "path": "audio/guided/voice/anton/release-full-body.round-2.c.m4a",
+      "durationMs": 3278,
+      "hash": "c9738afea906b843b1b455eb8d6ab0ef7a6feab2c67cd2904847da599e9987d9",
+      "voiceId": "anton",
+      "cueId": "release-full-body.round-2.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.whole-body.a": {
+      "path": "audio/guided/voice/anton/release-full-body.whole-body.a.m4a",
+      "durationMs": 1782,
+      "hash": "bab36c8edba94aab517968e3ff522b253e37277cd8596de5257e69fd008de0e5",
+      "voiceId": "anton",
+      "cueId": "release-full-body.whole-body.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.whole-body.b": {
+      "path": "audio/guided/voice/anton/release-full-body.whole-body.b.m4a",
+      "durationMs": 2320,
+      "hash": "2b9bb66ebeeaadb229f792d6602a45182b0d92da9431fd4d4a99f58c0b142143",
+      "voiceId": "anton",
+      "cueId": "release-full-body.whole-body.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.whole-body.c": {
+      "path": "audio/guided/voice/anton/release-full-body.whole-body.c.m4a",
+      "durationMs": 2700,
+      "hash": "65bc4e25bfc07092ad3885bc15c2f92ba22c8862376bd982756cef5a510cd0c5",
+      "voiceId": "anton",
+      "cueId": "release-full-body.whole-body.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.almost.a": {
+      "path": "audio/guided/voice/anton/release-full-body.almost.a.m4a",
+      "durationMs": 2878,
+      "hash": "228b5aedfd5125b6cccfa3b99ed32eda2f5b3287e11d374b0efc65eef7786480",
+      "voiceId": "anton",
+      "cueId": "release-full-body.almost.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.almost.b": {
+      "path": "audio/guided/voice/anton/release-full-body.almost.b.m4a",
+      "durationMs": 2941,
+      "hash": "07c1bb3912a873861d2b1fb79bbd6b85b8464329c51df1a52e5f7129eadc7df1",
+      "voiceId": "anton",
+      "cueId": "release-full-body.almost.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.almost.c": {
+      "path": "audio/guided/voice/anton/release-full-body.almost.c.m4a",
+      "durationMs": 4376,
+      "hash": "683f1acd7d94b65193e7977d38dbb86c93bc57a097b9a23cb6c433f5e90ad617",
+      "voiceId": "anton",
+      "cueId": "release-full-body.almost.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.five-more.a": {
+      "path": "audio/guided/voice/anton/release-full-body.five-more.a.m4a",
+      "durationMs": 3182,
+      "hash": "30b752adac03c954009088d4c819312da6dd4228da8fb3178277845e29c23a0a",
+      "voiceId": "anton",
+      "cueId": "release-full-body.five-more.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.five-more.b": {
+      "path": "audio/guided/voice/anton/release-full-body.five-more.b.m4a",
+      "durationMs": 2715,
+      "hash": "1ce5492320cc86b75ea5d38751176e5488c74ed49cff044b5ace384c5b6d8480",
+      "voiceId": "anton",
+      "cueId": "release-full-body.five-more.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.five-more.c": {
+      "path": "audio/guided/voice/anton/release-full-body.five-more.c.m4a",
+      "durationMs": 2919,
+      "hash": "f145c0ab696571fbbccb49e109fe831474ace6c85018f718a5f438da915f81a9",
+      "voiceId": "anton",
+      "cueId": "release-full-body.five-more.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-2.a": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-2.a.m4a",
+      "durationMs": 8069,
+      "hash": "e97c91f7b703da54209491cff10c43ab6b939a25876218ee359557b687f0008c",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-2.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-2.b": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-2.b.m4a",
+      "durationMs": 6621,
+      "hash": "b6ddd3c8b075fc1afd271f61b094aeb829de6a6f9ff3b8f804494a14f41eb78d",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-2.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.empty-hold-2.c": {
+      "path": "audio/guided/voice/anton/release-full-body.empty-hold-2.c.m4a",
+      "durationMs": 7232,
+      "hash": "9aeee261581ea69fa5f4c3f9af9d670080e8b802ab8fb4095315f1e28516268c",
+      "voiceId": "anton",
+      "cueId": "release-full-body.empty-hold-2.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.let-go-eyes.a": {
+      "path": "audio/guided/voice/anton/release-full-body.let-go-eyes.a.m4a",
+      "durationMs": 5408,
+      "hash": "b526250fe1dd279952a6a87b83c9fd543711e07d2301bc101cf0cbe3585b0483",
+      "voiceId": "anton",
+      "cueId": "release-full-body.let-go-eyes.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.let-go-eyes.b": {
+      "path": "audio/guided/voice/anton/release-full-body.let-go-eyes.b.m4a",
+      "durationMs": 5494,
+      "hash": "1e86c61bedafdc980438071d3ae25828cff10ccf582be4272d4394dcf046c9bd",
+      "voiceId": "anton",
+      "cueId": "release-full-body.let-go-eyes.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.let-go-eyes.c": {
+      "path": "audio/guided/voice/anton/release-full-body.let-go-eyes.c.m4a",
+      "durationMs": 3903,
+      "hash": "4ae92a95cd2a3e4a6c73364d7e1f55c7354458d6ff17b23a072ae304e9b1ef05",
+      "voiceId": "anton",
+      "cueId": "release-full-body.let-go-eyes.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.slow-nose.a": {
+      "path": "audio/guided/voice/anton/release-full-body.slow-nose.a.m4a",
+      "durationMs": 5847,
+      "hash": "1da457cce5f98ce566eb897bb4ad290fcbf5e6565d39f2df9e935628412c3488",
+      "voiceId": "anton",
+      "cueId": "release-full-body.slow-nose.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.slow-nose.b": {
+      "path": "audio/guided/voice/anton/release-full-body.slow-nose.b.m4a",
+      "durationMs": 4878,
+      "hash": "fab804df7ba64ba8fc50b720ae18fdc83c92927e34beedb8ee9fc184e7ab6c46",
+      "voiceId": "anton",
+      "cueId": "release-full-body.slow-nose.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.slow-nose.c": {
+      "path": "audio/guided/voice/anton/release-full-body.slow-nose.c.m4a",
+      "durationMs": 4475,
+      "hash": "1076b179bdcd8a88545d93b5e6cc76c82c2ba7aaa5afe5eeabe7fd77fb1fe205",
+      "voiceId": "anton",
+      "cueId": "release-full-body.slow-nose.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.nose-again.a": {
+      "path": "audio/guided/voice/anton/release-full-body.nose-again.a.m4a",
+      "durationMs": 3345,
+      "hash": "cbdc01de017e0ba5f82f669e14fce2cc5d75f6b3cfbce32704b28a61f7b44b1c",
+      "voiceId": "anton",
+      "cueId": "release-full-body.nose-again.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.nose-again.b": {
+      "path": "audio/guided/voice/anton/release-full-body.nose-again.b.m4a",
+      "durationMs": 3411,
+      "hash": "8957ce18b7dbcaeaebe1abd9b13d245e940b520c0d59e81762878cdd3708d78d",
+      "voiceId": "anton",
+      "cueId": "release-full-body.nose-again.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.nose-again.c": {
+      "path": "audio/guided/voice/anton/release-full-body.nose-again.c.m4a",
+      "durationMs": 3974,
+      "hash": "d7450dbbf5f2ef19d5b042ea5771e69ec2cdd50a30e763e5b2e5b8598ab2be57",
+      "voiceId": "anton",
+      "cueId": "release-full-body.nose-again.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.quieten.a": {
+      "path": "audio/guided/voice/anton/release-full-body.quieten.a.m4a",
+      "durationMs": 5418,
+      "hash": "bbc7c0be09aae49344f8468b34654ab1f8c8d22ed1875dbd236006220fbfc0e7",
+      "voiceId": "anton",
+      "cueId": "release-full-body.quieten.a",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.quieten.b": {
+      "path": "audio/guided/voice/anton/release-full-body.quieten.b.m4a",
+      "durationMs": 3897,
+      "hash": "2e3235db0057827b59500e5e533802f1426d6052d77d8799854774838625d757",
+      "voiceId": "anton",
+      "cueId": "release-full-body.quieten.b",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "anton:release-full-body.quieten.c": {
+      "path": "audio/guided/voice/anton/release-full-body.quieten.c.m4a",
+      "durationMs": 4150,
+      "hash": "290b89f3323d35fc691096948f9314bacce74d8011ca9ec393083cb8a234430d",
+      "voiceId": "anton",
+      "cueId": "release-full-body.quieten.c",
+      "kind": "voice",
+      "normalizationGain": 1
+    },
+    "viktoriya:common.posture.a": {
+      "path": "audio/guided/voice/viktoriya/common.posture.a.m4a",
+      "durationMs": 2128,
+      "hash": "51852930c1bc39fa50cca71dc9e753f1dc6b3b6fdf61d6ad888cb24d6c0a9d43",
+      "voiceId": "viktoriya",
+      "cueId": "common.posture.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.start.a": {
+      "path": "audio/guided/voice/viktoriya/common.start.a.m4a",
+      "durationMs": 943,
+      "hash": "2f4ac695cae93263e85ecff8ca4c9df39520a33a9977c1a926d046dc2f068f28",
+      "voiceId": "viktoriya",
+      "cueId": "common.start.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.start.b": {
+      "path": "audio/guided/voice/viktoriya/common.start.b.m4a",
+      "durationMs": 979,
+      "hash": "33aee2fb92e1021d4484af28207916b6594bb22be16a7916a6d237412649302b",
+      "voiceId": "viktoriya",
+      "cueId": "common.start.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.start.c": {
+      "path": "audio/guided/voice/viktoriya/common.start.c.m4a",
+      "durationMs": 893,
+      "hash": "e3e44784839e92a0e547861d834de7e30075c7e7eb42bd1821fbcd51dcfe39f3",
+      "voiceId": "viktoriya",
+      "cueId": "common.start.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.keep-going.a": {
+      "path": "audio/guided/voice/viktoriya/common.keep-going.a.m4a",
+      "durationMs": 1613,
+      "hash": "3f8b14a06659ca31f73912eed4f24b34dea631b2c451d713e650db3e4b8facbb",
+      "voiceId": "viktoriya",
+      "cueId": "common.keep-going.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.keep-going.c": {
+      "path": "audio/guided/voice/viktoriya/common.keep-going.c.m4a",
+      "durationMs": 1393,
+      "hash": "636b2f5f87e1e45d7217f4d27a7fc5928608d232f09ca05084a01278a564e624",
+      "voiceId": "viktoriya",
+      "cueId": "common.keep-going.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.good.a": {
+      "path": "audio/guided/voice/viktoriya/common.good.a.m4a",
+      "durationMs": 973,
+      "hash": "b1f3ca7dd9ddf698056517923b7c3011413b579e67fd62522ddbc1a15568b360",
+      "voiceId": "viktoriya",
+      "cueId": "common.good.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.good.b": {
+      "path": "audio/guided/voice/viktoriya/common.good.b.m4a",
+      "durationMs": 1126,
+      "hash": "9dbe4baf5d21247ac1bce01efe80d53bfc340b1434051e44058e8929380012dd",
+      "voiceId": "viktoriya",
+      "cueId": "common.good.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.good.c": {
+      "path": "audio/guided/voice/viktoriya/common.good.c.m4a",
+      "durationMs": 963,
+      "hash": "291686e497bf9913d7589c98feb8735a15fae2b695951397bf8d158095964c49",
+      "voiceId": "viktoriya",
+      "cueId": "common.good.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.relax.a": {
+      "path": "audio/guided/voice/viktoriya/common.relax.a.m4a",
+      "durationMs": 1567,
+      "hash": "a250683e4a693d5916180a6707abda1ee7da47e273c9fb1fc18beeae9338b25b",
+      "voiceId": "viktoriya",
+      "cueId": "common.relax.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.relax.c": {
+      "path": "audio/guided/voice/viktoriya/common.relax.c.m4a",
+      "durationMs": 959,
+      "hash": "f9d01b524e299e2ab81e0a3810efd65d0ead81a27aa070441d13dc3a3c6b93c3",
+      "voiceId": "viktoriya",
+      "cueId": "common.relax.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.three-more.a": {
+      "path": "audio/guided/voice/viktoriya/common.three-more.a.m4a",
+      "durationMs": 2143,
+      "hash": "05c2310e31866b10b9adf18b6f14f50f5d30b04a338108ddeb2a3661457392bf",
+      "voiceId": "viktoriya",
+      "cueId": "common.three-more.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.three-more.b": {
+      "path": "audio/guided/voice/viktoriya/common.three-more.b.m4a",
+      "durationMs": 2264,
+      "hash": "d76b4c310cc02ad2f94d446d935bbfa4737d3b45ec508213d38036addafa1385",
+      "voiceId": "viktoriya",
+      "cueId": "common.three-more.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.three-more.c": {
+      "path": "audio/guided/voice/viktoriya/common.three-more.c.m4a",
+      "durationMs": 1207,
+      "hash": "f7bfb35999ccddebe5863c68913d40e1932d040d26ef24903e21cd1d812f2e7f",
+      "voiceId": "viktoriya",
+      "cueId": "common.three-more.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.ten-more-breaths.a": {
+      "path": "audio/guided/voice/viktoriya/common.ten-more-breaths.a.m4a",
+      "durationMs": 2594,
+      "hash": "20281fcec19e4af8c1c733366ed314152bdad60ca52daf7f6596ea1738182f90",
+      "voiceId": "viktoriya",
+      "cueId": "common.ten-more-breaths.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.last-round.a": {
+      "path": "audio/guided/voice/viktoriya/common.last-round.a.m4a",
+      "durationMs": 1731,
+      "hash": "9ee30686a80d725164d74a365b97885ddcdc064d028344119da70c4d05a22a9c",
+      "voiceId": "viktoriya",
+      "cueId": "common.last-round.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.last-round.b": {
+      "path": "audio/guided/voice/viktoriya/common.last-round.b.m4a",
+      "durationMs": 2097,
+      "hash": "0c08be386dd8969890b8122db5dceea2b9408ec4b7a594420c4c2b1fc6c2737a",
+      "voiceId": "viktoriya",
+      "cueId": "common.last-round.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.last-round.c": {
+      "path": "audio/guided/voice/viktoriya/common.last-round.c.m4a",
+      "durationMs": 1766,
+      "hash": "18a19df65be01d0cc1f3c49fe3eefc5539234631772a440efb52895f3b2ccabd",
+      "voiceId": "viktoriya",
+      "cueId": "common.last-round.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.deep-in.a": {
+      "path": "audio/guided/voice/viktoriya/common.deep-in.a.m4a",
+      "durationMs": 2306,
+      "hash": "ea95d39efc727d0eff8ef9da36a38a2700799e2e79529caf320a7a6a61ef760f",
+      "voiceId": "viktoriya",
+      "cueId": "common.deep-in.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.deep-in.c": {
+      "path": "audio/guided/voice/viktoriya/common.deep-in.c.m4a",
+      "durationMs": 2135,
+      "hash": "1e9cf39c0b6c474feedfdcf1afd6e05a0be8123215c7953b42ab3d46d3b0902d",
+      "voiceId": "viktoriya",
+      "cueId": "common.deep-in.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.return-natural.b": {
+      "path": "audio/guided/voice/viktoriya/common.return-natural.b.m4a",
+      "durationMs": 2269,
+      "hash": "f81605da7597dc9cca642c8e1982972d3e16f232e341cf408e9ef83dd3e35fbb",
+      "voiceId": "viktoriya",
+      "cueId": "common.return-natural.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.inhale.a": {
+      "path": "audio/guided/voice/viktoriya/common.inhale.a.m4a",
+      "durationMs": 1365,
+      "hash": "cc0ec8c55afd462d0c75446a3a311c4a500c77a5b7da0fae21169e72512255b8",
+      "voiceId": "viktoriya",
+      "cueId": "common.inhale.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.inhale.b": {
+      "path": "audio/guided/voice/viktoriya/common.inhale.b.m4a",
+      "durationMs": 1446,
+      "hash": "bc418ef77c07f4d60d7f43b3d3496e57d2fe8e4d6e85f59e2e5ad384857fee62",
+      "voiceId": "viktoriya",
+      "cueId": "common.inhale.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.inhale.c": {
+      "path": "audio/guided/voice/viktoriya/common.inhale.c.m4a",
+      "durationMs": 1524,
+      "hash": "75ecff18988bf804446724725b9f169c0f44c40eae7a2b9dc32db9beb244c5a4",
+      "voiceId": "viktoriya",
+      "cueId": "common.inhale.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.exhale.a": {
+      "path": "audio/guided/voice/viktoriya/common.exhale.a.m4a",
+      "durationMs": 1346,
+      "hash": "9540d7abefa8a9c4704f949ff1634a813e7e1c443bfd836a93530a4d98f77eac",
+      "voiceId": "viktoriya",
+      "cueId": "common.exhale.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.exhale.b": {
+      "path": "audio/guided/voice/viktoriya/common.exhale.b.m4a",
+      "durationMs": 1308,
+      "hash": "a51d0475ae5f07f954b1db643c7674048c09cb342d9cc8e39f6ff0ac021a8efc",
+      "voiceId": "viktoriya",
+      "cueId": "common.exhale.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.exhale.c": {
+      "path": "audio/guided/voice/viktoriya/common.exhale.c.m4a",
+      "durationMs": 1445,
+      "hash": "7bc55e2560bae37ad7bd23926d61228e16c60bb55026625025b64143f3867380",
+      "voiceId": "viktoriya",
+      "cueId": "common.exhale.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.hold.a": {
+      "path": "audio/guided/voice/viktoriya/common.hold.a.m4a",
+      "durationMs": 1311,
+      "hash": "170bbb520af2e7d91c3d1c5b650e9e8bd0fbc832fd82a90328b43d0b419b861b",
+      "voiceId": "viktoriya",
+      "cueId": "common.hold.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.hold.b": {
+      "path": "audio/guided/voice/viktoriya/common.hold.b.m4a",
+      "durationMs": 2236,
+      "hash": "59684d680655b08d65604d36834f36b55662b04a55066f275b4de50e131dc9ea",
+      "voiceId": "viktoriya",
+      "cueId": "common.hold.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.hold.c": {
+      "path": "audio/guided/voice/viktoriya/common.hold.c.m4a",
+      "durationMs": 1059,
+      "hash": "475ac413f8aa00e1e4fae8cd8506d78b0268edbae8aa85ed37e8a48fb57755b9",
+      "voiceId": "viktoriya",
+      "cueId": "common.hold.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.inhale-nose.a": {
+      "path": "audio/guided/voice/viktoriya/common.inhale-nose.a.m4a",
+      "durationMs": 1753,
+      "hash": "fe2eabdbf038e6531ed53f146e55a46fd7d34cfa4c289b1a7cbb5e0e2ab6772a",
+      "voiceId": "viktoriya",
+      "cueId": "common.inhale-nose.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.exhale-mouth.b": {
+      "path": "audio/guided/voice/viktoriya/common.exhale-mouth.b.m4a",
+      "durationMs": 1876,
+      "hash": "13c24e13a779c21022e220c6af50e663f754e1fb04dc43b94ba794e680af524a",
+      "voiceId": "viktoriya",
+      "cueId": "common.exhale-mouth.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.let-go.a": {
+      "path": "audio/guided/voice/viktoriya/common.let-go.a.m4a",
+      "durationMs": 1901,
+      "hash": "2a5ae01a89fe81f07269a89c9d684e499f50e4fe95978ccd71f25e90575fa5d2",
+      "voiceId": "viktoriya",
+      "cueId": "common.let-go.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.let-go.c": {
+      "path": "audio/guided/voice/viktoriya/common.let-go.c.m4a",
+      "durationMs": 1885,
+      "hash": "8aa88a6622f2eca77de5d2fc717675343ce6b58d1f17ed8f955473e731a74e6b",
+      "voiceId": "viktoriya",
+      "cueId": "common.let-go.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.in-short.a": {
+      "path": "audio/guided/voice/viktoriya/common.in-short.a.m4a",
+      "durationMs": 1215,
+      "hash": "d8c7a38a8d305306844c7fbdb6ca7ecd3901979a3c81c607420cd0dfc65feada",
+      "voiceId": "viktoriya",
+      "cueId": "common.in-short.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.in-short.b": {
+      "path": "audio/guided/voice/viktoriya/common.in-short.b.m4a",
+      "durationMs": 1434,
+      "hash": "7fd7c7859a5afed7ad11b5ad71ff84bb01d3f417339cb36442a2ce6c166cced5",
+      "voiceId": "viktoriya",
+      "cueId": "common.in-short.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.in-short.c": {
+      "path": "audio/guided/voice/viktoriya/common.in-short.c.m4a",
+      "durationMs": 1616,
+      "hash": "084ce31a54fe87d7a759d5db381a8680a15189dd60dfc43c22b52f5a58bffe61",
+      "voiceId": "viktoriya",
+      "cueId": "common.in-short.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-1.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-1.a.m4a",
+      "durationMs": 875,
+      "hash": "58fb15574545135ca4707aad4c7368af5e90364fcd24a0214d1b97cc69baf2a3",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-2.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-2.a.m4a",
+      "durationMs": 696,
+      "hash": "bac7a26ff567f3ed0f69cc84ff7741f3bc6fda237a8c49294dc4b5c4b6955be2",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-2.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-3.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-3.a.m4a",
+      "durationMs": 675,
+      "hash": "de3a8f25b84ab60ab435785414386c07347d7e1dc5ecbd6e9de5f114fcd3b146",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-3.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-4.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-4.a.m4a",
+      "durationMs": 903,
+      "hash": "bc359d9ffec94cb4e1b546ef302fe7d835179bd6605081f4c7aa7c1fdc7b1eaf",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-4.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-5.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-5.a.m4a",
+      "durationMs": 726,
+      "hash": "594f7dc283b2725cde473bb5f3022e9ff8bc6bdb83e38c5d98e5de392a5badef",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-5.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.count-6.a": {
+      "path": "audio/guided/voice/viktoriya/common.count-6.a.m4a",
+      "durationMs": 909,
+      "hash": "497b3bfd5208fb231f605bed3a5331b528e4d5da6bf0a353b8ee299f17ef093a",
+      "voiceId": "viktoriya",
+      "cueId": "common.count-6.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.posture.b": {
+      "path": "audio/guided/voice/viktoriya/common.posture.b.m4a",
+      "durationMs": 3068,
+      "hash": "4a68b1eb17c3852c472965e96faf48a748d6c48fa2ac67ef571a57c0a2470b6f",
+      "voiceId": "viktoriya",
+      "cueId": "common.posture.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.posture.c": {
+      "path": "audio/guided/voice/viktoriya/common.posture.c.m4a",
+      "durationMs": 4927,
+      "hash": "8efb5eb24682ba9e53ae78f9896f37c0fb58ddf1120a47885b77d000e61053d5",
+      "voiceId": "viktoriya",
+      "cueId": "common.posture.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.continue.a": {
+      "path": "audio/guided/voice/viktoriya/common.continue.a.m4a",
+      "durationMs": 3110,
+      "hash": "9a4163071b79dc5876d837b9549804180a365dbca28d888565f7ccbc2a9f4a43",
+      "voiceId": "viktoriya",
+      "cueId": "common.continue.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.continue.b": {
+      "path": "audio/guided/voice/viktoriya/common.continue.b.m4a",
+      "durationMs": 2518,
+      "hash": "2ab1c5afe24ed05d92e7bf36ccd1236dc9682987f097da6d1b4653577d7ccebb",
+      "voiceId": "viktoriya",
+      "cueId": "common.continue.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.continue.c": {
+      "path": "audio/guided/voice/viktoriya/common.continue.c.m4a",
+      "durationMs": 3083,
+      "hash": "0274e876bd3c43f20f64a54ee20e8e4e124231277c891eb06bc93cad8346d015",
+      "voiceId": "viktoriya",
+      "cueId": "common.continue.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.keep-going.b": {
+      "path": "audio/guided/voice/viktoriya/common.keep-going.b.m4a",
+      "durationMs": 2625,
+      "hash": "c805a3342433191cc8fc8367ab2b9205aabfd62d7231e497b8228fe371e8a36c",
+      "voiceId": "viktoriya",
+      "cueId": "common.keep-going.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.relax.b": {
+      "path": "audio/guided/voice/viktoriya/common.relax.b.m4a",
+      "durationMs": 2251,
+      "hash": "a748e0026a8a5947ae0fd7f2dbe4b872b9978432788c7d26874107f617129c54",
+      "voiceId": "viktoriya",
+      "cueId": "common.relax.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.ten-more-breaths.b": {
+      "path": "audio/guided/voice/viktoriya/common.ten-more-breaths.b.m4a",
+      "durationMs": 2590,
+      "hash": "6cd09c50c3d976236b3e559d27b26b00d5c730f4f5b83cd22ae7f22b6782a5d2",
+      "voiceId": "viktoriya",
+      "cueId": "common.ten-more-breaths.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.ten-more-breaths.c": {
+      "path": "audio/guided/voice/viktoriya/common.ten-more-breaths.c.m4a",
+      "durationMs": 2842,
+      "hash": "b32eb123c19d226ccf89e6690aa5ee808614253646a79138797b65d640185164",
+      "voiceId": "viktoriya",
+      "cueId": "common.ten-more-breaths.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.deep-in.b": {
+      "path": "audio/guided/voice/viktoriya/common.deep-in.b.m4a",
+      "durationMs": 3174,
+      "hash": "4262a38c996c4297ca8fb789f9a4a83f990a22a1b02573a90f22779fb9353010",
+      "voiceId": "viktoriya",
+      "cueId": "common.deep-in.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.release-technique.a": {
+      "path": "audio/guided/voice/viktoriya/common.release-technique.a.m4a",
+      "durationMs": 4294,
+      "hash": "d0a6308b06e54f7d5a9ce26a3e22fc4e27b701b3312c3d487801ddf9ba8981f5",
+      "voiceId": "viktoriya",
+      "cueId": "common.release-technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.release-technique.b": {
+      "path": "audio/guided/voice/viktoriya/common.release-technique.b.m4a",
+      "durationMs": 3394,
+      "hash": "95601bfcdf00a0d425b26358866e9536ed0102f67f64b88a95171276d2e48559",
+      "voiceId": "viktoriya",
+      "cueId": "common.release-technique.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.release-technique.c": {
+      "path": "audio/guided/voice/viktoriya/common.release-technique.c.m4a",
+      "durationMs": 5095,
+      "hash": "5025dd09122b7a3bf0f50a88448fd75d83a7304964b296db8303ba91457a124f",
+      "voiceId": "viktoriya",
+      "cueId": "common.release-technique.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.return-natural.a": {
+      "path": "audio/guided/voice/viktoriya/common.return-natural.a.m4a",
+      "durationMs": 2516,
+      "hash": "9c3c638d902da79def9c90132c3032d9046f376bdfb5eaf645033a906fd97213",
+      "voiceId": "viktoriya",
+      "cueId": "common.return-natural.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.return-natural.c": {
+      "path": "audio/guided/voice/viktoriya/common.return-natural.c.m4a",
+      "durationMs": 2144,
+      "hash": "6e8416ec06439c5317d676d63642b9aacea7a6e203b7d780f1a50bf59a208789",
+      "voiceId": "viktoriya",
+      "cueId": "common.return-natural.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.mind-wander.a": {
+      "path": "audio/guided/voice/viktoriya/common.mind-wander.a.m4a",
+      "durationMs": 5716,
+      "hash": "c28fcfd7ce0e9595e9378d86de1ac715e9e2e8c04aedc88ba0b08a7c305b44a6",
+      "voiceId": "viktoriya",
+      "cueId": "common.mind-wander.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.mind-wander.b": {
+      "path": "audio/guided/voice/viktoriya/common.mind-wander.b.m4a",
+      "durationMs": 6969,
+      "hash": "68f0c8109c9fc90e1b369f1e39640df9150972eeb61abafb21d16983f5d68931",
+      "voiceId": "viktoriya",
+      "cueId": "common.mind-wander.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.mind-wander.c": {
+      "path": "audio/guided/voice/viktoriya/common.mind-wander.c.m4a",
+      "durationMs": 6656,
+      "hash": "5a2151d2ddf20c851ff7f98fd9677bc047ddb518f39c51e655efc58296e33ede",
+      "voiceId": "viktoriya",
+      "cueId": "common.mind-wander.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.closing.a": {
+      "path": "audio/guided/voice/viktoriya/common.closing.a.m4a",
+      "durationMs": 3077,
+      "hash": "f49b644866d3e65a9a510516955e07fc4730b40554a32f24ba8e088e61336310",
+      "voiceId": "viktoriya",
+      "cueId": "common.closing.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.closing.b": {
+      "path": "audio/guided/voice/viktoriya/common.closing.b.m4a",
+      "durationMs": 2430,
+      "hash": "c05d130162b54a65e971fe5e46cb483e509fd9b2a6d5798640ca0fe28f670cb3",
+      "voiceId": "viktoriya",
+      "cueId": "common.closing.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.closing.c": {
+      "path": "audio/guided/voice/viktoriya/common.closing.c.m4a",
+      "durationMs": 3127,
+      "hash": "1aface78592478f6e70dd97731ca923a999983d416c0112dbff81c9dbc02fb78",
+      "voiceId": "viktoriya",
+      "cueId": "common.closing.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:common.let-go.b": {
+      "path": "audio/guided/voice/viktoriya/common.let-go.b.m4a",
+      "durationMs": 2694,
+      "hash": "a4ffa5eb351b31c3948a81fe93b94690c7dcf488028a3c55b5f050c809f4fc59",
+      "voiceId": "viktoriya",
+      "cueId": "common.let-go.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.welcome.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.welcome.a.m4a",
+      "durationMs": 5310,
+      "hash": "e8d55d5f6e68b1279cd2c9aec094abca0922dfea508b8a7ac2e98c97e5f6ccff",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.welcome.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.welcome.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.welcome.b.m4a",
+      "durationMs": 4364,
+      "hash": "d52f6fb331a3b3e73fa92c02900eb9176e8180016180732e1027613b5d69487f",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.welcome.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.welcome.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.welcome.c.m4a",
+      "durationMs": 6227,
+      "hash": "e20bec16f3158918d77c3c4d7c79a4e23e76f4b4ed3e8143be9d00a53add026a",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.welcome.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.purpose.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.purpose.a.m4a",
+      "durationMs": 10442,
+      "hash": "002a4b0cb483bf81f03b6e7b678b0a8360688ad294a0340076fede432e1438dc",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.purpose.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.purpose.b.m4a",
+      "durationMs": 8734,
+      "hash": "67fac2a1b8352058cc8d276adb33ed6048763bb92b12735a72d8f5c0c3556943",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.purpose.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.purpose.c.m4a",
+      "durationMs": 6093,
+      "hash": "6fa9011d6203189abc476939fdcca2cf94f75894ca688dd609c9110ec5fdd632",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.technique.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.technique.a.m4a",
+      "durationMs": 9169,
+      "hash": "1eaadbcddb655860f6662e731a5b062c676d0a83eea06a44a678d4798275dc37",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.technique.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.technique.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.technique.b.m4a",
+      "durationMs": 8619,
+      "hash": "7e5bac795e7b6c7088bd336ec20c5c990396edb7714c133cd1e44418d39761a1",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.technique.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.technique.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.technique.c.m4a",
+      "durationMs": 8999,
+      "hash": "54a560b75ace5151b4021e53ed13c6f13f27f8ac081733536d3e94346185f74e",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.technique.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.posture.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.posture.a.m4a",
+      "durationMs": 5664,
+      "hash": "f8da9f19faa78d0147c58a07e8481e4af162cb8396a0e1d2cfdc1bd342dfafe1",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.posture.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.posture.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.posture.b.m4a",
+      "durationMs": 4573,
+      "hash": "96cfdfb58726d6e14f6004236c0a5c31aac179c16d3a5235b0163b84b38568bb",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.posture.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.posture.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.posture.c.m4a",
+      "durationMs": 4538,
+      "hash": "9ca4e512105af7e888420fd7dc0c5f82c27e9d0789e1c5471d513941e58368f5",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.posture.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-intro.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-intro.a.m4a",
+      "durationMs": 7963,
+      "hash": "bef5e49690be33e3cebcbed1348e1dd5b00f4ad0f1479def8f3a017f538329ce",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-intro.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-intro.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-intro.b.m4a",
+      "durationMs": 7330,
+      "hash": "ce8b1e38c006c2e3954dccd00426987baa25846d08ef5d31ed36c63c6ecbf3b2",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-intro.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-intro.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-intro.c.m4a",
+      "durationMs": 5758,
+      "hash": "22f9d8c0e643c126133aef38516bac1789bda1dc6bccfd31d966101e920154a5",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-intro.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-1.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-1.a.m4a",
+      "durationMs": 7689,
+      "hash": "63b7749f9e39959c7203dc7bc7185865922a91b6b75ea46e2e466c4d30fae657",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-1.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-1.b.m4a",
+      "durationMs": 9813,
+      "hash": "b8de071a1b70a18e3831cad1738dd2f4ac1cbfd0cc9d73b0d807bc6e18b57d66",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-1.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-1.c.m4a",
+      "durationMs": 9449,
+      "hash": "389dca962090a936f12205fab3157ffdd33fa7fe183512367090f664a2151806",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-2.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-2.a.m4a",
+      "durationMs": 8874,
+      "hash": "9a99e129f969e5744a9d4503111b2accfd5d373917aaca7581a1950e764a788c",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-2.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-2.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-2.b.m4a",
+      "durationMs": 8446,
+      "hash": "e0bde5965dfbc66c27081c247f789328d05c687bce62d16f793d9e0a0d687f6d",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-2.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-2.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-2.c.m4a",
+      "durationMs": 9528,
+      "hash": "4959faf1d66cbd66a009df3208b53536e54dc65028118270aa5cf5713c9b2ae7",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-2.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-3.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-3.a.m4a",
+      "durationMs": 7883,
+      "hash": "fe1f6f3120282a9dec7258963df168f1e5c1ec64117c134e9cf429e371c7f437",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-3.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-3.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-3.b.m4a",
+      "durationMs": 6342,
+      "hash": "6cdee8858019d73e41b663fb2defa1ef1e76be79c2041bd6f48c350b673c975d",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-3.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.cleansing-3.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.cleansing-3.c.m4a",
+      "durationMs": 8302,
+      "hash": "d7184372025b7aef9828ef550c886dcd05a66dabb3f38f39bb0eaea09423e1fb",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.cleansing-3.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.heavy-soft.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.heavy-soft.a.m4a",
+      "durationMs": 7402,
+      "hash": "b9ed7369c9682800283856f200c11c2cd76dc62ef04ae412582e8fb07988ce75",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.heavy-soft.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.heavy-soft.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.heavy-soft.b.m4a",
+      "durationMs": 6588,
+      "hash": "c52148b9446388dbb4ac6f1be74cfc8d14315095e732aa359820264b27f0c745",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.heavy-soft.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.heavy-soft.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.heavy-soft.c.m4a",
+      "durationMs": 6791,
+      "hash": "e552d182f834bc700e951b6d811a8545d333715078822e2d1c0cdb6e0d866d81",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.heavy-soft.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.drift.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.drift.a.m4a",
+      "durationMs": 7290,
+      "hash": "7161fd1f507dcfa3ca35f32fdc7c4ba2f33a806caa1e8f7fc7f695c93ca59a47",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.drift.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.drift.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.drift.b.m4a",
+      "durationMs": 4812,
+      "hash": "c2b526a69475e4d48f45112b4405ae06a5a151423c191c50287c3bc07b35175f",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.drift.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.drift.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.drift.c.m4a",
+      "durationMs": 5798,
+      "hash": "ed5ba7c5329380c28bd1c9bc5b124a50be9cd05dbcca5c6a769976b28f38c5e8",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.drift.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.goodnight.a": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.goodnight.a.m4a",
+      "durationMs": 2006,
+      "hash": "cec6323114657b6e5cd46187439375dc18d775096b267d76c5bf8369b69675a5",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.goodnight.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.goodnight.b": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.goodnight.b.m4a",
+      "durationMs": 3293,
+      "hash": "c7d56a1172c05dc580ca11971168934086e613afef6d8e74e470039c7db93b17",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.goodnight.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:sleep-478.goodnight.c": {
+      "path": "audio/guided/voice/viktoriya/sleep-478.goodnight.c.m4a",
+      "durationMs": 2864,
+      "hash": "8b8cc35db9239d1ad48f739884a6c835fbf65f706d710126f042592ff2bbc247",
+      "voiceId": "viktoriya",
+      "cueId": "sleep-478.goodnight.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.purpose.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.purpose.a.m4a",
+      "durationMs": 7819,
+      "hash": "58fa8400baaaaa43260af64c20ebe3752a66b6161f1a95cfbc56f951f50d0451",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.purpose.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.purpose.b.m4a",
+      "durationMs": 6969,
+      "hash": "7d03d24b27f3cb82bac237c726502094f1be9e7eb3af4d854675ffc98e3bd644",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.purpose.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.purpose.c.m4a",
+      "durationMs": 6008,
+      "hash": "b6492e9de6f903e567fb46906d1eba17d4b404d593533912447c764e4834d1c6",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.posture.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.posture.a.m4a",
+      "durationMs": 1833,
+      "hash": "9d4c5f3da05c53dd01775dd9f8eb21aa207700d847a9c34f0117e84855bffa0b",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.posture.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.posture.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.posture.b.m4a",
+      "durationMs": 1669,
+      "hash": "f624bba0d020e8ce3b696b2ac73b2de093791f8a31274de0365cc71dbbe01431",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.posture.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.posture.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.posture.c.m4a",
+      "durationMs": 3349,
+      "hash": "681952e9ab6b0d8d695473517d02cf1c436b36f9de6a791264c4a1a65a1365ff",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.posture.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.spine.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.spine.a.m4a",
+      "durationMs": 4328,
+      "hash": "915957a81b0b256a6a3143391e18909b002db6dcf832a286bb1e4bb0c5053caf",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.spine.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.spine.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.spine.b.m4a",
+      "durationMs": 4004,
+      "hash": "33f49df142c7784b2b47d5b36b5e20a1c1f1ac108aae6074d64e4694b7f699c3",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.spine.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.spine.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.spine.c.m4a",
+      "durationMs": 4117,
+      "hash": "090418c766b01a040f88d2703c414a2229b5a59169b557600d34577e4e004cdb",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.spine.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.weight.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.weight.a.m4a",
+      "durationMs": 5372,
+      "hash": "971ca129e713d8a47ed743dad47b4445c75e35bff9d4c3ca536e50deb4a6d6c6",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.weight.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.weight.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.weight.b.m4a",
+      "durationMs": 5345,
+      "hash": "f3aaf185ac474bcc7422f662b7728f8e930817ad08575a0b1905df1996aed23b",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.weight.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.weight.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.weight.c.m4a",
+      "durationMs": 6487,
+      "hash": "bf13478495b90cb6531b10cad11dfd05ff3e2d68e502e4aec276697e22a80cf3",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.weight.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.deep-belly.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.deep-belly.a.m4a",
+      "durationMs": 5953,
+      "hash": "e7dd5f6aa416f188c661718b764bf1b4df1598b88dbcb0ec76ba45d90e9a6538",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.deep-belly.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.deep-belly.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.deep-belly.b.m4a",
+      "durationMs": 5496,
+      "hash": "b796bf3dfb956adcb2171a00bdc1c0beb42fb3e3850b45afa84e52b80f28ffbc",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.deep-belly.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.deep-belly.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.deep-belly.c.m4a",
+      "durationMs": 6156,
+      "hash": "95a06824a29ce524b40f47821a0b0693e725a0ec935c14c39d03d66db52c9de7",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.deep-belly.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.tire.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.tire.a.m4a",
+      "durationMs": 6104,
+      "hash": "c01490ca77757e764fb67fcd2447a7b7e9dc099035c81429367907e9043ae909",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.tire.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.tire.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.tire.b.m4a",
+      "durationMs": 3932,
+      "hash": "2cfe86f9f462178b9564b7f65966989fec00df72cea3899ec680be706c75a4e5",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.tire.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.tire.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.tire.c.m4a",
+      "durationMs": 2634,
+      "hash": "708695a5c10a21e620cc2f1645f529fd4b7047880d8c8ed048fc7dc29b6c601c",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.tire.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back.a.m4a",
+      "durationMs": 7127,
+      "hash": "22babc63350242c9fb480b64374eff9a364ac359bbd29204a291192d41e1aa2b",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back.b.m4a",
+      "durationMs": 6543,
+      "hash": "71779618315a6a06027bc988a3c10a6647b71c535ea21f54a928198eb0c778d0",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back.c.m4a",
+      "durationMs": 7025,
+      "hash": "7240de877bdf3aa0b2c3a44fcb4a1dc4e180c0ccc215eeb542d207f3f0911e3a",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.hold-top-1.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.hold-top-1.a.m4a",
+      "durationMs": 3604,
+      "hash": "148f0c8df685321d476b470fb3fe4176ab257423b041ee9262b28ea9ef046937",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.hold-top-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.hold-top-1.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.hold-top-1.b.m4a",
+      "durationMs": 2683,
+      "hash": "4ed6eafd187c77446a14402004d598cf83c5e413ca65bae9e2d0a2f73d71fd82",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.hold-top-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.hold-top-1.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.hold-top-1.c.m4a",
+      "durationMs": 2113,
+      "hash": "eb0e5c5c01c9a6a8d366daab8e7a08136fbea8994e3e2c2aa86f8793b88288bc",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.hold-top-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.release-1.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.release-1.a.m4a",
+      "durationMs": 2912,
+      "hash": "ab2dc9560a840799209535cac7a0c3bec44f1aba8b32a80fee0837657eeb2c24",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.release-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.release-1.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.release-1.b.m4a",
+      "durationMs": 1824,
+      "hash": "c7303aea7e3291e6156ca9a7de54fa05dec6802e247138e4121c030fa2ca026e",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.release-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.release-1.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.release-1.c.m4a",
+      "durationMs": 3197,
+      "hash": "c3258705940e8013439575e3cb64eed045592805febd225e2bd3b20988eb86c8",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.release-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.inhale-down.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.inhale-down.a.m4a",
+      "durationMs": 3481,
+      "hash": "653300337f3047ee4b29dd8034c24cbd4a67c5c7bf98f43ca193658393d3b21d",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.inhale-down.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.inhale-down.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.inhale-down.b.m4a",
+      "durationMs": 2635,
+      "hash": "57404375aae583ab5c9a2fae6ecb62863b0f1f64f82d488ee5d5f9128d8bfd9d",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.inhale-down.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.inhale-down.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.inhale-down.c.m4a",
+      "durationMs": 2928,
+      "hash": "c14879d76248bb4cd1245489aea124a63a9b2765c5a0a3411c71621feee6fe66",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.inhale-down.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back-draw.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back-draw.a.m4a",
+      "durationMs": 1841,
+      "hash": "a047ef11b4529701fb320874901e8ba8dae6c88884ff724a52f7403c6bbe8bf7",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back-draw.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back-draw.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back-draw.b.m4a",
+      "durationMs": 4123,
+      "hash": "a5f0b92da0b9fcc5e56499671f28054f72b323cd46f1a7df63d6a7cdd440ea70",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back-draw.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.belly-back-draw.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.belly-back-draw.c.m4a",
+      "durationMs": 2121,
+      "hash": "7943fdf898d4404354f7f2ef4f714958a898374f5db335d12c45e8bdf0795b29",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.belly-back-draw.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.quality.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.quality.a.m4a",
+      "durationMs": 6764,
+      "hash": "0c38aa156945a5aab06ce7feaae12d2f695617739a39648c99afbc389d1a10a3",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.quality.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.quality.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.quality.b.m4a",
+      "durationMs": 5317,
+      "hash": "08e13771d697079dc8de065ebfa1f43e08e1b721b61a3ed7b90f55b8cf862542",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.quality.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.quality.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.quality.c.m4a",
+      "durationMs": 5055,
+      "hash": "b5527c99e72ad03f74b88ef6cc0f43cd4d7120e72cf874ad98793b35135b23a0",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.quality.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.notice-body.a": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.notice-body.a.m4a",
+      "durationMs": 6472,
+      "hash": "76267c98b6f2fc11a63fdcb9e558c9dfd3c0cca3dd7c1bb1c309275b8b3d3349",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.notice-body.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.notice-body.b": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.notice-body.b.m4a",
+      "durationMs": 6378,
+      "hash": "5faf723f8d7ad82d6feb8c21f646385137507ba645e12148f0b1b7a96398a869",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.notice-body.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:focus-vase.notice-body.c": {
+      "path": "audio/guided/voice/viktoriya/focus-vase.notice-body.c.m4a",
+      "durationMs": 4260,
+      "hash": "29d44eaa1b8c6acaf49d79ed68e4b3400ca060112a2b4b492cf814c85fd3c94d",
+      "voiceId": "viktoriya",
+      "cueId": "focus-vase.notice-body.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sit-or-lie.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sit-or-lie.a.m4a",
+      "durationMs": 3871,
+      "hash": "9150c94fb3ebfd836eacaef160c5e2fafd02b4e6a1b03a729883bbbcd88f9608",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sit-or-lie.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sit-or-lie.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sit-or-lie.b.m4a",
+      "durationMs": 4071,
+      "hash": "3ba7bc21762621abe5221843e2b270d8ffb2c9c915e8628d65d35a4122df77c1",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sit-or-lie.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sit-or-lie.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sit-or-lie.c.m4a",
+      "durationMs": 3194,
+      "hash": "30285454248c1f8dc19e78498428748ae74823918eb066529ca6ca1e3e630858",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sit-or-lie.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.shoulders-jaw.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.shoulders-jaw.a.m4a",
+      "durationMs": 4047,
+      "hash": "d600bcaa3f008e036a227d1ce1523b4e851b5af45d736d17b77d4f5306adca6d",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.shoulders-jaw.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.shoulders-jaw.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.shoulders-jaw.b.m4a",
+      "durationMs": 3915,
+      "hash": "9f3d0a7403a3e033b7eb99feb93a2255ce375b433a18ff3cfbb20bf5043f04fe",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.shoulders-jaw.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.shoulders-jaw.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.shoulders-jaw.c.m4a",
+      "durationMs": 4045,
+      "hash": "b957ba2bd98c885e750c210263d2778415555e5248e8f70da58e5bfb054ec2ad",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.shoulders-jaw.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-breath.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-breath.a.m4a",
+      "durationMs": 8200,
+      "hash": "f0374e37a25cbd8991cd73e4ada505cfd2c33550c592e0f20db17148c684608c",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-breath.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-breath.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-breath.b.m4a",
+      "durationMs": 5604,
+      "hash": "95fd448664b8c04eef68d9b4f36be028b1a583072a5cc4b6b2e5e746651ee51d",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-breath.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-breath.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-breath.c.m4a",
+      "durationMs": 8208,
+      "hash": "81154e8b8a68f8338bc722af05a140d321a425b1a35c6adf57b9b1d0c7abddd5",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-breath.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-out.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-out.a.m4a",
+      "durationMs": 6250,
+      "hash": "77980a2b00bb8e6a28d59c17aad28a6a979c8e46d575dc827bbcf809e91ce4b9",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-out.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-out.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-out.b.m4a",
+      "durationMs": 5606,
+      "hash": "2ba3ba80983cc4dce5b42dcf470546203442c9c38bc09d7351b1bc7a32071576",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-out.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.first-out.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.first-out.c.m4a",
+      "durationMs": 4933,
+      "hash": "aa5dae27f2564e8b10e5ce54527a1eb0c3838eaaf056d410d28041e52216f6fd",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.first-out.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-announce.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-announce.a.m4a",
+      "durationMs": 3542,
+      "hash": "df406e2d94d2b29c5d360bc42c2f4b845d805d3487d8fc40ea12d72f7f108d8d",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-announce.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-announce.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-announce.b.m4a",
+      "durationMs": 3451,
+      "hash": "c6a946c4776b74f565ee910f5bfbaa9e0d29ed26dd066784e178aee787ae447f",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-announce.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-announce.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-announce.c.m4a",
+      "durationMs": 3455,
+      "hash": "3cbab473f5cae302c086565e6b1cc8eff56a645f0c1520258b94ced59ff76527",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-announce.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-explain.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-explain.a.m4a",
+      "durationMs": 4558,
+      "hash": "e63c899a3ea1de442e45bb987f536fb3d4207eb2e6720465e75347839086df3e",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-explain.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-explain.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-explain.b.m4a",
+      "durationMs": 5265,
+      "hash": "30a027e1ea2d4dceb0f5659171c65dd04a059afd6f72ac2db462fabda669fea8",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-explain.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-explain.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-explain.c.m4a",
+      "durationMs": 6578,
+      "hash": "48e87bbc11aad1ade737b41432fa468624f684c86db7a90fd99ddfbce6555aeb",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-explain.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-detail.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-detail.a.m4a",
+      "durationMs": 6021,
+      "hash": "2ba13018ffd671c9f8eef643318dc39e004b4cbb327b4a73ca23197674fb4286",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-detail.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-detail.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-detail.b.m4a",
+      "durationMs": 5090,
+      "hash": "27a632f8614b8d17bdf512647201aa3eccb50a81b0526816dc83f902a073276a",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-detail.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-detail.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-detail.c.m4a",
+      "durationMs": 6730,
+      "hash": "667c8021af05e73aad403ebd4d86945398ea996275fa712040efaa67e3fb3c54",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-detail.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-1.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-1.a.m4a",
+      "durationMs": 4878,
+      "hash": "80c1d200adc85dc408a1f597bd440a32478f049bca40dae4e3979986a5b0f7d2",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-1.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-1.b.m4a",
+      "durationMs": 5639,
+      "hash": "924c31e890d1caf2169094e489aeed5f30adb7a5da1d68ce4523a4dd4e93aa9d",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-1.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-1.c.m4a",
+      "durationMs": 4930,
+      "hash": "a06f797660cc56a2cb7693ae49bb5430d86e030cd6474690f256d47f9c0d67b2",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-2.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-2.a.m4a",
+      "durationMs": 5290,
+      "hash": "26184311c18d52bd40b0f1081b4b29af60962cd49dd5cfc43408dfed75d39d25",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-2.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-2.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-2.b.m4a",
+      "durationMs": 5975,
+      "hash": "57e86075646d3b0b567d16ddfa5480413ac84c8267c83a11704312a464bc36d8",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-2.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-2.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-2.c.m4a",
+      "durationMs": 5187,
+      "hash": "b0a1af24ccab3ed73c4ac3d34c17e679054a04df435677ae54daaa2a335f15b6",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-2.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-in-3.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-in-3.a.m4a",
+      "durationMs": 2249,
+      "hash": "dcb4a087539b511851736f012ab46f5832d6bba395434e3e01f2337cea7bcd9b",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-in-3.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-in-3.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-in-3.b.m4a",
+      "durationMs": 3102,
+      "hash": "a1a71847a14fa8f394954bad03119f38504324309e8fab5a90f73d3f7696438e",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-in-3.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-in-3.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-in-3.c.m4a",
+      "durationMs": 3171,
+      "hash": "428c8f7a889fbe6a442496417c621d50f88801bffa638442890aae7263989b67",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-in-3.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-3.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-3.a.m4a",
+      "durationMs": 4630,
+      "hash": "09392082422ea4a4500c177b3ef7d93ae3768463116486e5f4da0a736436d69d",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-3.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-3.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-3.b.m4a",
+      "durationMs": 5251,
+      "hash": "c1667557554c99a011479f3e8ac32506e9b6c16f6b43e046da6e44ff6ecad6b0",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-3.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.sigh-up-3.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.sigh-up-3.c.m4a",
+      "durationMs": 5268,
+      "hash": "67d186abc807504c14dccf945629a8538cdefddace15de5d5cf2942f5cab7521",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.sigh-up-3.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.settle.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.settle.a.m4a",
+      "durationMs": 4171,
+      "hash": "1a1c9848e8f04b13892bb818870a99e7122ee982f2fa8485aa73641c12b63695",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.settle.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.settle.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.settle.b.m4a",
+      "durationMs": 3534,
+      "hash": "79c66cdda074b1ef2de4b9e2945b693110da2c79527494977552806e11d1d06c",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.settle.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.settle.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.settle.c.m4a",
+      "durationMs": 3556,
+      "hash": "527aedf51332befb5ea7224605aa30112ce98ab5a3fe7cfcc61b9437f3041ac4",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.settle.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.clarity-in.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.clarity-in.a.m4a",
+      "durationMs": 4350,
+      "hash": "4862579a56e4431a9c0b7bddd319c1110280de7f8053b8eb18a6df7a041d73b8",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.clarity-in.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.clarity-in.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.clarity-in.b.m4a",
+      "durationMs": 4257,
+      "hash": "359f1de4071178aeb3856ec8785a029b44dfdb8a84c338fa1dc75f5815099df2",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.clarity-in.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.clarity-in.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.clarity-in.c.m4a",
+      "durationMs": 3813,
+      "hash": "51fb408a3e501bf3d8c9b994b153c70e40046e5552d22580ff351c62b3ebebdf",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.clarity-in.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.ease-out.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.ease-out.a.m4a",
+      "durationMs": 3925,
+      "hash": "07550cc97e74573cb9fe510806ae12ad9eed8fd0a6902bbaebd242ae3a8cf1e3",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.ease-out.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.ease-out.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.ease-out.b.m4a",
+      "durationMs": 3993,
+      "hash": "d24f850c0f1ccc88da0b6f92bc74f5f2296eb9b57aa0f5d200771cff8c8e4ff5",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.ease-out.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.ease-out.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.ease-out.c.m4a",
+      "durationMs": 3258,
+      "hash": "776738fec000f398dcc8f048faf96afb5ec1b309ca562e0f70f910b65e2a348a",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.ease-out.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.no-force.a": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.no-force.a.m4a",
+      "durationMs": 6044,
+      "hash": "db2448004ed7f76a9d6f05902338a0af0c9b6dc3ab88d55b52106cbae1e205e7",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.no-force.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.no-force.b": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.no-force.b.m4a",
+      "durationMs": 6736,
+      "hash": "b7b85e023eb43f8b5ffba83c6f43c7042b43eb0370b5bc4cb67d6047ead4b73c",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.no-force.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:relax-sigh.no-force.c": {
+      "path": "audio/guided/voice/viktoriya/relax-sigh.no-force.c.m4a",
+      "durationMs": 4497,
+      "hash": "3326803c8782edb24f555ded53d248dd9e8f79bec1c5d1619eedd521a61ce009",
+      "voiceId": "viktoriya",
+      "cueId": "relax-sigh.no-force.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.purpose.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.purpose.a.m4a",
+      "durationMs": 8025,
+      "hash": "cee8b066ff297e035f3401acf5069c617a37db84fcb7ce5e9022078e3e5b5093",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.purpose.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.purpose.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.purpose.b.m4a",
+      "durationMs": 8055,
+      "hash": "3efe15b178c8f25f168df0bb8d7c62849705c68022a4af048862a02e62ce5282",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.purpose.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.purpose.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.purpose.c.m4a",
+      "durationMs": 5833,
+      "hash": "2d3c97de86e43775fb5fae59e82430d07854cb6584bdcf454fefe3c9f3d6eaab",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.purpose.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.plan.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.plan.a.m4a",
+      "durationMs": 11539,
+      "hash": "68f4bc84575130ec14784d22e39d3504bab0a06f933d34223ae42baeee1bf9c1",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.plan.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.plan.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.plan.b.m4a",
+      "durationMs": 8018,
+      "hash": "09b8c9592a301e1f11c28899f121584d41de3adbc2661688306cf097384c1e31",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.plan.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.plan.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.plan.c.m4a",
+      "durationMs": 9574,
+      "hash": "068e7b20179880efb01215a1c8fb8c671ae85981387cd1d823b4300a82d7fc88",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.plan.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.flow.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.flow.a.m4a",
+      "durationMs": 7320,
+      "hash": "6d409fd5a359bbe3fe4c8af29f1780bc15639565960b7c48755459414fd2e3c4",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.flow.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.flow.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.flow.b.m4a",
+      "durationMs": 5871,
+      "hash": "f1f162cccfeb7e4233d13e5f00725f99b6e7d5158c078f0df0ed80550ba7085e",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.flow.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.flow.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.flow.c.m4a",
+      "durationMs": 7831,
+      "hash": "a7de64ab7f8531de85f4d5313be5cc551ec4fbad4c7903e22f25d747d7b4e042",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.flow.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.posture.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.posture.a.m4a",
+      "durationMs": 5965,
+      "hash": "cc67a85ab9d5882f646761d0a53675e02e48373f920ccf13fa982d34b31212ff",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.posture.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.posture.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.posture.b.m4a",
+      "durationMs": 6002,
+      "hash": "2b765e9d9b800ec070c00e0afb4e68fe065ba272ea608144f2910cf59f7333ca",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.posture.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.posture.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.posture.c.m4a",
+      "durationMs": 6044,
+      "hash": "a95b27b1d5c231f50720c2029220317169e9a03d541c8f21dda1ebd39dcf1754",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.posture.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-1.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-1.a.m4a",
+      "durationMs": 2746,
+      "hash": "f1dfe2db5f7dcabf08e90809fffa277f219a5e54169a94f5d494ec333572e624",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-1.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-1.b.m4a",
+      "durationMs": 3274,
+      "hash": "24a7eda8d3e726428ac851eacf3a6717e1b600e40ac7523d4403a1582ac580c3",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-1.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-1.c.m4a",
+      "durationMs": 3752,
+      "hash": "e5bf1630933b80f3c27892aeabc1196fd2eecc89de7338448445743e2f294e2f",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-1.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-1.a.m4a",
+      "durationMs": 4451,
+      "hash": "5d8a2903299693b5d3b871396bab86908212aa3bd7b48ad36756d4b2f1fc1e6c",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-1.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-1.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-1.b.m4a",
+      "durationMs": 4709,
+      "hash": "095aa545d09df4ae7fd8acec571cf5f7201fe2d94bf14f7a366f3f988124ed8a",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-1.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-1.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-1.c.m4a",
+      "durationMs": 6085,
+      "hash": "9b9237ab1561f5d4b683fac835175843177bcb6b21b0e148a5e84d0dafac3009",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-1.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-jaw.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-jaw.a.m4a",
+      "durationMs": 2197,
+      "hash": "8e4e36636d461778d8c4679b344a61cda09af5f8db4b9b6f23e2d38af7e79e1b",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-jaw.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-jaw.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-jaw.b.m4a",
+      "durationMs": 2088,
+      "hash": "ce948a4ce3b0ffd66c0949ca36f7082ec03f5f191630c5a22559e6f33464a6ba",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-jaw.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-jaw.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-jaw.c.m4a",
+      "durationMs": 2333,
+      "hash": "4be918747cbf9b78855bd1feb9174d4262b624c40d2e07e39fd7d92ba988f0bc",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-jaw.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-tongue.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-tongue.a.m4a",
+      "durationMs": 2046,
+      "hash": "56fd48447b4ca3564bb9590f2cfedd9bbd9195fe53569801f57ad3e4fe06d5cf",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-tongue.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-tongue.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-tongue.b.m4a",
+      "durationMs": 2179,
+      "hash": "660d57dcd4ab1aeb6be9d8c1855e7fe5a3e921326aaefc16ecfb87af538f020c",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-tongue.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-tongue.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-tongue.c.m4a",
+      "durationMs": 3034,
+      "hash": "b0c8d70693965b9051f55fc9f3da304f94298baca86fa057871664f9703d6aa8",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-tongue.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-wrists.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-wrists.a.m4a",
+      "durationMs": 3719,
+      "hash": "8cc97222632c6862a16c7236f68468fbbf62cd73a4bb300f6321d3058c59161f",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-wrists.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-wrists.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-wrists.b.m4a",
+      "durationMs": 4307,
+      "hash": "94d94761b812e0a4776242ff134c0556b26f81dee20e51c99a504db1e324f837",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-wrists.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.relax-wrists.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.relax-wrists.c.m4a",
+      "durationMs": 3690,
+      "hash": "5e4a646b2fb9c611b1172163cd8b6fb1b13017d84de8a16f28f26bca94bc4413",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.relax-wrists.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.fill-up.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.fill-up.a.m4a",
+      "durationMs": 5839,
+      "hash": "5e098b3fe26ea8ee3daaedc1de83606591a8038655f1ffef4cc714d28ed74b37",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.fill-up.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.fill-up.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.fill-up.b.m4a",
+      "durationMs": 5476,
+      "hash": "f4645cf9819570d499a2b10bdd399d3ed15ef75c7618bd206e7157a2d24b2d5e",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.fill-up.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.fill-up.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.fill-up.c.m4a",
+      "durationMs": 3766,
+      "hash": "0eb582c3bd83cdce21325be5b93903e656c8f5cb5c24ce743e75e1c39fbce59a",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.fill-up.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.squeeze.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.squeeze.a.m4a",
+      "durationMs": 6657,
+      "hash": "ff64262f32efc4f3d2033fdfff5cae503148db44a9ba29c4552ab4b8c11e1009",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.squeeze.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.squeeze.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.squeeze.b.m4a",
+      "durationMs": 6381,
+      "hash": "59b7e7519ef9f5bf2fb0b358057e8536b76351ad86c0d7b871dd52f1fba22f39",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.squeeze.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.squeeze.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.squeeze.c.m4a",
+      "durationMs": 6480,
+      "hash": "1ff334f0c214f6cc0340e4d043ce693c6b13986e49d23a5ba71201206f20aa41",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.squeeze.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-2.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-2.a.m4a",
+      "durationMs": 3720,
+      "hash": "331c5cc21fb26c4c2a3593b8ae82b3a32c4e49c1a2472c7aef94652f7a871321",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-2.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-2.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-2.b.m4a",
+      "durationMs": 4657,
+      "hash": "2375c7e5982765f9bc0b25a323c31e1c81ae6b06349fa0b5f75b4e174b048b7e",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-2.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.round-2.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.round-2.c.m4a",
+      "durationMs": 3629,
+      "hash": "455ef16d3962fcbcde02fabfe9dfa3a1e8eb13912355eb29d569496358dbd678",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.round-2.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.whole-body.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.whole-body.a.m4a",
+      "durationMs": 2414,
+      "hash": "ff176c7c8172e8cda22cc5f8cc9f6a20f59b553c1b44df29ad1101eaefa69513",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.whole-body.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.whole-body.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.whole-body.b.m4a",
+      "durationMs": 2963,
+      "hash": "22cdb7e6ee2512c605f6931cf5a487f519691f9f054fed79b590c82c55302028",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.whole-body.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.whole-body.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.whole-body.c.m4a",
+      "durationMs": 3631,
+      "hash": "0f7c69bbb83e35c2fbb6212bf952cc945c585691d9ef52fe894db6e3aefc4b1d",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.whole-body.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.almost.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.almost.a.m4a",
+      "durationMs": 3301,
+      "hash": "4d8b3cdfb240e2bd2aea4eceddd3a4de0b699080a43667dbc860d27caea7a467",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.almost.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.almost.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.almost.b.m4a",
+      "durationMs": 3095,
+      "hash": "d46069ccf8d7ac6fcc8e40da5e1b9dbf935a650cc72a09785645604f3bec4fc5",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.almost.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.almost.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.almost.c.m4a",
+      "durationMs": 3668,
+      "hash": "c976b6356459bc757586f7f7c95c2312aa621f259446e1fc16ab2354da8808de",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.almost.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.five-more.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.five-more.a.m4a",
+      "durationMs": 3701,
+      "hash": "2ce70c4119db34c9e43ef50a3cdfb120c11e31ea52af71dd33ccc27b46245132",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.five-more.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.five-more.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.five-more.b.m4a",
+      "durationMs": 3278,
+      "hash": "7959c5d00f932c5ea3d136b23983185f5924ba4ff488d4c22a77b1968ffeafc4",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.five-more.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.five-more.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.five-more.c.m4a",
+      "durationMs": 3563,
+      "hash": "185831b05915e58c3af3d63cc8950fa521ad072bbebaee9d884d9f118c09bcd0",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.five-more.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-2.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-2.a.m4a",
+      "durationMs": 8644,
+      "hash": "ae284ed58d2db6601b1d3d023db78739fd6a55c2ce8eb408ee7ff6a9829acdb9",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-2.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-2.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-2.b.m4a",
+      "durationMs": 7768,
+      "hash": "06e578835aaa26d9fa67ec85225d246b0ad8b17e013dd75b01e67c2bcfa80835",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-2.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.empty-hold-2.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.empty-hold-2.c.m4a",
+      "durationMs": 9849,
+      "hash": "cc390b54b68a50d226ab18779510a37d39b0aac8eb8381f31d7a56f5c7955e99",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.empty-hold-2.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.let-go-eyes.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.let-go-eyes.a.m4a",
+      "durationMs": 6704,
+      "hash": "fe8f9754206a39cb6ae0f43a3a8acea85ae2c831a75569ffdbc8b47e58c07254",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.let-go-eyes.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.let-go-eyes.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.let-go-eyes.b.m4a",
+      "durationMs": 6969,
+      "hash": "d995b939c228ce3af07eac096d859d4145cd61ab2a0fc9dd06f7ff678949831b",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.let-go-eyes.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.let-go-eyes.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.let-go-eyes.c.m4a",
+      "durationMs": 5131,
+      "hash": "d0a384adc7ba4388426f2af940277a9764eb48bda0fa7592330fc2932a80bf44",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.let-go-eyes.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.slow-nose.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.slow-nose.a.m4a",
+      "durationMs": 7718,
+      "hash": "24ffcd9c3ca832fcc25576be382abc41bc7e0bcf4b779cc2d94d8478d8fb5823",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.slow-nose.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.slow-nose.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.slow-nose.b.m4a",
+      "durationMs": 7641,
+      "hash": "79c8ddd4faa8d514ce852ba7ee5cf2cced3c51dc4ad0ea01c19d280c167d797f",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.slow-nose.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.slow-nose.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.slow-nose.c.m4a",
+      "durationMs": 6692,
+      "hash": "a1daffe650484f6ddba760f1180e8361f26475f49a16615ae9d3fb593c8a3696",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.slow-nose.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.nose-again.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.nose-again.a.m4a",
+      "durationMs": 4920,
+      "hash": "62d760ec1dedae2da6503711c5e7130083c9d0b1fc423eebb0af15cda49fe1d6",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.nose-again.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.nose-again.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.nose-again.b.m4a",
+      "durationMs": 4891,
+      "hash": "fd9058b93b76baf2869a5bddb922a2f6c73b56c9b6a65b8e6e09f3bae8dd831b",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.nose-again.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.nose-again.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.nose-again.c.m4a",
+      "durationMs": 5211,
+      "hash": "046c95f66022c9730b7a8c35edc77cb7339a2ac7c3ad7768988639962db97a1d",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.nose-again.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.quieten.a": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.quieten.a.m4a",
+      "durationMs": 7405,
+      "hash": "82c669e8787bcc33a3c52476c349fdf14643e4681725c7fa83f7a4a008f06c4c",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.quieten.a",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.quieten.b": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.quieten.b.m4a",
+      "durationMs": 4748,
+      "hash": "ca66c70d6809115f0cf0e62407955edd3a37f2d967d666469219d6ba5301fadc",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.quieten.b",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    },
+    "viktoriya:release-full-body.quieten.c": {
+      "path": "audio/guided/voice/viktoriya/release-full-body.quieten.c.m4a",
+      "durationMs": 5220,
+      "hash": "853090ffc02a6cdd6f9419961731655c929ef3c8903632e5126021c7c14aae2d",
+      "voiceId": "viktoriya",
+      "cueId": "release-full-body.quieten.c",
+      "kind": "voice",
+      "normalizationGain": 0.92
+    }
+  }
+}
