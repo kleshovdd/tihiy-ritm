@@ -1697,12 +1697,12 @@
     },
     "anton:release-full-body.purpose.a": {
       "path": "audio/guided/voice/anton/release-full-body.purpose.a.m4a",
-      "durationMs": 8803,
-      "hash": "e760e7c1098c570016ff495da82cd4b72936744bd3287423ad69c1762fb70a72",
+      "durationMs": 5614,
+      "hash": "146ec00057b21bb1f8c7ca6e95c68e2f24f59177ab44e99ecb18fc23c0d77cb0",
       "voiceId": "anton",
       "cueId": "release-full-body.purpose.a",
       "kind": "voice",
-      "normalizationGain": 1
+      "normalizationGain": 0.7362070974947361
     },
     "anton:release-full-body.purpose.b": {
       "path": "audio/guided/voice/anton/release-full-body.purpose.b.m4a",
